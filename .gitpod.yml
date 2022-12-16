@@ -6,7 +6,7 @@ tasks:
   - command: . ${GITPOD_REPO_ROOT}/.vscode/uptime.sh &
   - name: Start web server
     init: python -m http.server 8000
-  ports:
+ports:
   - port: 8000
     onOpen: open-preview
 vscode:
