@@ -14,11 +14,9 @@ vscode:
     - ms-toolsai.jupyter
     - ms-toolsai.jupyter-keymap
     - ms-toolsai.jupyter-renderers
-
 tasks:
   - name: Start web server
     init: python -m http.server 8000
-
 ports:
   - port: 8000
     onOpen: open-preview
