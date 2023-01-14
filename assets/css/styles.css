@@ -9,6 +9,7 @@
     position:absolute;
     height:100vh;
     background: #ad6a6a;
+    box-sizing:border-box;
 }
 
 header {
