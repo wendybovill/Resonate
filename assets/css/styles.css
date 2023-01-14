@@ -7,8 +7,7 @@
     bottom:0;
     right:0;
     position:absolute;
-    min-height:calc(100vh - 50px);
-    height:auto;
+    height:100vh;
     background: #ad6a6a;
     box-sizing:border-box;
 }
@@ -111,6 +110,10 @@ footer {
     color: white;
     font-weight: 500;
     font-size: 0.75em;
+    width:100vw;
+    bottom:0;
+    left:0;
+    position: relative;
 }
 
 /* Contact us section */
