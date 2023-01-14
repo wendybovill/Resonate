@@ -16,6 +16,8 @@ header {
     height: 295px;
     background: linear-gradient(#c1e2ff 0%, #fff 11.33%, #fff 27.84%, #ffffd5 78.33%, #fdf991 83.25%, #f2d32a 84.24%, #cbbe73 88.67%, #a3dfff 96.06%, #007f9d 97.54%, #005226 100%);
     border: 1px solid #707070;
+    vertical-align: bottom;
+    position: relative;
 }
 
 body {
@@ -46,11 +48,20 @@ h2 {
 nav {
     min-width: 150px;
     width:75%;
+    right:0;
+    float:right;
+    vertical-align: bottom;
+    text-align: right;
+    align-items: baseline;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
 }
 
-nav ul li{
-    list-style: none;
-    padding: 0.25em 2em;
+nav a{
+    padding: 0 15px;
+    text-decoration:none;
+    color: #585858;
 }
 
 title {
