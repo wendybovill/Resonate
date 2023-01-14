@@ -1,4 +1,4 @@
-<h1 title="title">Index</h1>
+## Index
 
 In this folder you will find the following documents:
 

@@ -1,0 +1,116 @@
+/* This is the main section of the website styles */
+
+#main {
+    top:0;
+    left:0;
+    width:100vw;
+    bottom:0;
+    right:0;
+    position:absolute;
+    height:100vh;
+    background: #ad6a6a;
+}
+
+header {
+    color:red;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: expanded 1.2;
+}
+
+h1  {
+    color: darkslategray;
+}
+
+h2 {
+    color:dodgerblue;
+}
+
+.logo {
+    float:left;
+    height: 75px;
+    width: auto;
+}
+
+nav {
+    max-width: 150px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0.25em 2em;
+}
+
+title {
+    background-color: rgba(255,255,255,0);
+    color: navy;
+    font-size: 1.2em;
+}
+
+.hero {
+    height: 200px;
+    background-color: yellow;
+}
+
+.hero_image1 {
+    background: url(/images/heroimage1.png) center cover;
+}
+
+.hero_image2 {
+        background: url(/images/heroimage2.png) center cover;
+}
+
+.hero_image3 {
+        background: url(/images/heroimage3.png) center cover;
+}
+
+.hero_image4 {
+        background: url(/images/heroimage4.png) center cover;
+}
+
+.hero_image5 {
+        background: url(/images/heroimage5.png) center cover;
+}
+
+#index_one {
+    background-color: grey;
+}
+
+#index_two {
+    background-color: lightgrey;
+}
+
+#index_three {
+    background-color: greenyellow;
+
+}
+
+#index_four {
+    background-color: paleturquoise;
+}
+
+#index_five {
+    background-color: palegoldenrod;
+}
+
+footer {
+    height: 50px;
+    padding: 5px;
+    border-top: 1px solid black;
+    box-shadow: rgba(0,0,0,20) 2px 0px 3px;
+    background-color: darkcyan;
+    color: white;
+    font-weight: 500;
+    font-size: 0.75em;
+}
+
+/* Contact us section */
+
+/* This is the media query section */
