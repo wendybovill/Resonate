@@ -103,7 +103,7 @@ title {
 
 footer {
     height: 50px;
-    padding: 5px;
+    padding: 5px 0 0 0;
     border-top: 1px solid black;
     box-shadow: rgba(0,0,0,20) 2px 0px 3px;
     background-color: darkcyan;
