@@ -80,6 +80,20 @@ title {
         background: url(/images/heroimage5.png) center cover;
 }
 
+.intro-box {
+    height:80px;
+    width: 80px;
+}
+
+.content-box {
+    min-height: 150px;
+    max-height: 250px;
+    min-width: 150px;
+    max-width: 250px;
+    margin: 0;
+    padding: 25px;
+}
+
 #index_one {
     background-color: grey;
 }
