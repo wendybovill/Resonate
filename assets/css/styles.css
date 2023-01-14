@@ -55,13 +55,27 @@ nav {
     align-items: baseline;
     height: 50px;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
+    display: inline-block;
+    font-size:16pt;
 }
 
 nav a{
     padding: 0 15px;
     text-decoration:none;
     color: #585858;
+}
+
+nav a:hover{
+    padding: 0 15px;
+    text-decoration:none;
+    color: #00505c;
+}
+
+nav a:active {
+    padding: 0 15px;
+    text-decoration:none;
+    color: #00505c;
 }
 
 title {
