@@ -7,7 +7,8 @@
     bottom:0;
     right:0;
     position:absolute;
-    height:100vh;
+    min-height:calc(100vh - 50px);
+    height:auto;
     background: #ad6a6a;
     box-sizing:border-box;
 }
