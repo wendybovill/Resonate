@@ -1,109 +1,349 @@
 /* This is the main section of the website styles */
-
 *, ::after, ::before {
-    box-sizing: unset!important;
+  box-sizing: unset !important;
 }
 
 #main {
-    top:0;
-    left:0;
-    width:100%;
-    bottom:0;
-    right:0;
-    background: #ad6a6a;
-    box-sizing:border-box;
-    margin:0;
-    height: calc(100% - 60px);
-    display:block;
-    position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  margin: 0;
+  height: calc(100% - 60px);
+  display: block;
+  position: absolute;
 }
 
 .container {
-    width: 100%!important;
-    padding-right: unset!important;
-    padding-left: unset!important;
-    margin-right: unset!important;
-    margin-left: unset!important;
-    }
+  width: 100% !important;
+  padding-right: unset !important;
+  padding-left: unset !important;
+  margin-right: unset !important;
+  margin-left: unset !important;
+}
 
 .container-fluid {
-    width: 100%!important;
-    padding-right: unset!important;
-    padding-left: unset!important;
-    margin-right: unset!important;
-    margin-left: unset!important;
-    }
+  width: 100% !important;
+  padding-right: unset !important;
+  padding-left: unset !important;
+  margin-right: unset !important;
+  margin-left: unset !important;
+}
 
 html, body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin:0;
-    padding:0;
-    height:100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-
-h1,h2,h3,h4,h5 {
-    font-weight: 800;
-    font-style: italic;
-    font-stretch: expanded 1.2;
+h1, h2, h3, h4, h5 {
+  font-weight: 800;
+  font-style: italic;
+  font-stretch: expanded 1.2;
 }
 
-h1  {
-    color: darkslategray;
-    padding: 0;
-    margin: 0 5px;
+h1 {
+  color: #003f49;
+  padding: 0;
+  margin: 0 5px;
 }
 
 h2 {
-    color:dodgerblue;
-    margin: 0 5px;
-    padding: 0;
-    font-style: italic;
+  color: #444444;
+  margin: 0 5px;
+  padding: 0;
+  font-style: italic;
 }
 
 p {
-    text-align: justify;
-    font-size: 12;
-    font-weight: 400;
+  text-align: justify;
+  font-size: 12;
+  font-weight: 400;
 }
 
 a {
-    color: #00505c;
+  color: #00505c;
 }
 
 a:hover {
-    color: #585858;
+  color: #585858;
 }
 
 /* This is the header and navigation section of the website styles */
-
 header {
-    height: 295px;
-    background: linear-gradient(#c1e2ff 0%, #fff 11.33%, #fff 27.84%, #ffffd5 78.33%, #fdf991 83.25%, #f2d32a 84.24%, #cbbe73 88.67%, #a3dfff 96.06%, #007f9d 97.54%, #005226 100%);
-    border: 1px solid #707070;
-    vertical-align: bottom;
-    position: relative;
+  height: 295px;
+  background: linear-gradient(#c1e2ff 0%, #fff 11.33%, #fff 27.84%, #ffffd5 78.33%, #fdf991 83.25%, #f2d32a 84.24%, #cbbe73 88.67%, #a3dfff 96.06%, #007f9d 97.54%, #005226 100%);
+  border: 1px solid #707070;
+  vertical-align: bottom;
+  position: relative;
 }
 
-
 .logo {
-    float:left;
-    height: 75px;
-    width: auto;
-    padding: 5px;
+  float: left;
+  height: 75px;
+  width: auto;
+  padding: 5px;
 }
 
 .menu div {
-    float: right;
-    height: 40px;
-    vertical-align: bottom;
+  float: right;
+  height: 40px;
+  vertical-align: bottom;
 }
 
 .menu::after, .menu::before {
-    box-sizing: unset!important;
-    }
+  box-sizing: unset !important;
+}
 
 nav {
+  min-width: 70px;
+  width: auto;
+  right: 0;
+  vertical-align: bottom;
+  text-align: center;
+  align-items: baseline;
+  height: 16px;
+  position: absolute;
+  bottom: 0px;
+  display: inline-block;
+  font-size: 15pt;
+  padding: 21px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+nav a {
+  padding: 12px 15px;
+  text-decoration: none;
+  color: #585858;
+}
+
+nav::after, nav::before {
+  box-sizing: unset !important;
+}
+
+nav a:hover {
+  padding: 12px 15px;
+  text-decoration: none;
+  color: #00505c;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+nav a:active, .active {
+  padding: 12px 15px;
+  text-decoration: none;
+  color: #00505c;
+}
+
+nav a:active:hover, .active:hover {
+  padding: 12px 15px;
+  text-decoration: none;
+  color: #003f49;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+/* Hero Image Section */
+.hero {
+  height: 200px;
+  background-color: yellow;
+  display: block;
+  position: relative;
+}
+
+.hero-title {
+  width: 410px;
+  height: 47px;
+  background-color: rgba(255, 255, 255, 0);
+  color: navy;
+  font-size: 1.2em;
+}
+
+.hero_image1 {
+  background: url(/images/heroimage1.png) center cover;
+}
+
+.hero_image2 {
+  background: url(/images/heroimage2.png) center cover;
+}
+
+.hero_image3 {
+  background: url(/images/heroimage3.png) center cover;
+}
+
+.hero_image4 {
+  background: url(/images/heroimage4.png) center cover;
+}
+
+.hero_image5 {
+  background: url(/images/heroimage5.png) center cover;
+}
+
+/* _____________________ Main Content Section ___________________  */
+/* Home Page */
+.intro-box {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  padding: 7px;
+  margin: 7px;
+}
+
+.content-box {
+  min-height: 150px;
+  max-height: 250px;
+  min-width: 150px;
+  max-width: 250px;
+  margin: 0;
+  padding: 25px;
+}
+
+section {
+  min-height: 150px;
+  height: 15%;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#index_one {
+  background-color: #ffffff;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#index_two {
+  background-color: rgba(34, 85, 129, 0.49);
+  vertical-align: middle;
+  width: 100%;
+}
+
+#index_three {
+  background-color: rgba(129, 122, 34, 0.24);
+  width: 100%;
+}
+
+#index_four {
+  background-color: rgba(0, 80, 92, 0.5);
+  width: 100%;
+}
+
+/* _______ This is the footer section ________ */
+footer {
+  clear: both;
+  height: 60px;
+  padding: 5px 0 0 0;
+  border-top: 1px solid black;
+  box-shadow: rgb(0, 0, 0) 2px 0px 3px;
+  background-color: #b7af8c;
+  color: #363545;
+  font-weight: 700;
+  font-size: 0.75em;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
+
+/* Contact us section */
+/* ____________ This is the media query section ____________ */
+/* Extra large devices */
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .container {
+    width: 100%;
+    max-width: 1920px;
+  }
+  .hero_image1 {
+    background: url(/images/heroimage1-4800.png) center cover;
+  }
+  .hero_image2 {
+    background: url(/images/heroimage2-4800.png) center cover;
+  }
+  .hero_image3 {
+    background: url(/images/heroimage3-4800.png) center cover;
+  }
+  .hero_image4 {
+    background: url(/images/heroimage4-4800.png) center cover;
+  }
+  .hero_image5 {
+    background: url(/images/heroimage5-4800.png) center cover;
+  }
+}
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 1200px;
+  }
+  .hero_image1 {
+    background: url(/images/heroimage1-992.png) center cover;
+  }
+  .hero_image2 {
+    background: url(/images/heroimage2-992.png) center cover;
+  }
+  .hero_image3 {
+    background: url(/images/heroimage3-992.png) center cover;
+  }
+  .hero_image4 {
+    background: url(/images/heroimage4-992.png) center cover;
+  }
+  .hero_image5 {
+    background: url(/images/heroimage5-992.png) center cover;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+    max-width: 991px;
+  }
+  .hero_image1 {
+    background: url(/images/heroimage1-768.png) center cover;
+  }
+  .hero_image2 {
+    background: url(/images/heroimage2-768.png) center cover;
+  }
+  .hero_image3 {
+    background: url(/images/heroimage3-768.png) center cover;
+  }
+  .hero_image4 {
+    background: url(/images/heroimage4-768.png) center cover;
+  }
+  .hero_image5 {
+    background: url(/images/heroimage5-768.png) center cover;
+  }
+}
+/* Small devices */
+@media (min-width: 378px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+    max-width: 767px;
+  }
+  .hero_image1 {
+    background: url(/images/heroimage1-200.png) center cover;
+  }
+  .hero_image2 {
+    background: url(/images/heroimage2-200.png) center cover;
+  }
+  .hero_image3 {
+    background: url(/images/heroimage3-200.png) center cover;
+  }
+  .hero_image4 {
+    background: url(/images/heroimage4-200.png) center cover;
+  }
+  .hero_image5 {
+    background: url(/images/heroimage5-200.png) center cover;
+  }
+}
+/* Extra Small devices */
+@media (min-width: 150px) and (max-width: 377px) {
+  nav {
     min-width: 70px;
     width: auto;
     right: 0;
@@ -118,311 +358,26 @@ nav {
     padding: 21px;
     white-space: nowrap;
     text-overflow: ellipsis;
+  }
+  .container {
+    width: 100%;
+    max-width: 377px;
+  }
+  .hero_image1 {
+    background: url(/images/heroimage1-200.png) center cover;
+  }
+  .hero_image2 {
+    background: url(/images/heroimage2-200.png) center cover;
+  }
+  .hero_image3 {
+    background: url(/images/heroimage3-200.png) center cover;
+  }
+  .hero_image4 {
+    background: url(/images/heroimage4-200.png) center cover;
+  }
+  .hero_image5 {
+    background: url(/images/heroimage5-200.png) center cover;
+  }
 }
 
-nav a{
-    padding: 12px 15px;
-    text-decoration:none;
-    color: #585858;
-}
-
-nav::after, nav::before {
-    box-sizing: unset!important;
-    }
-
-nav a:hover{
-    padding: 12px 15px;
-    text-decoration:none;
-    color: #00505c;
-    background-color:#ffffff25;
-}
-
-nav a:active, .active {
-    padding: 12px 15px;
-    text-decoration:none;
-    color: #00505c;
-}
-
-nav a:active:hover, .active:hover {
-    padding: 12px 15px;
-    text-decoration:none;
-    color: #003f49;
-    background-color:#ffffff25;
-}
-
-/* Hero Image Section */
-
-.hero {
-    height: 200px;
-    background-color: yellow;
-    display:block;
-    position: relative;
-}
-
-.hero-title {
-    width: 410px;
-    height: 47px;
-    background-color: rgba(255,255,255,0);
-    color: navy;
-    font-size: 1.2em;
-}
-
-.hero_image1 {
-    background: url(/images/heroimage1.png) center cover;
-}
-
-.hero_image2 {
-        background: url(/images/heroimage2.png) center cover;
-}
-
-.hero_image3 {
-        background: url(/images/heroimage3.png) center cover;
-}
-
-.hero_image4 {
-        background: url(/images/heroimage4.png) center cover;
-}
-
-.hero_image5 {
-        background: url(/images/heroimage5.png) center cover;
-}
-
-/* _____________________ Main Content Section ___________________  */
-
-/* Home Page */
-
-.intro-box {
-    height:80px;
-    width: 80px;
-}
-
-.content-box {
-    min-height: 150px;
-    max-height: 250px;
-    min-width: 150px;
-    max-width: 250px;
-    margin: 0;
-    padding: 25px;
-}
-
-section {
-    min-height: 150px;
-    height: 15%;
-    padding: 0;
-    margin: 0;
-    width:100%;
-}
-
-#index_one {
-    background-color: grey;
-    vertical-align: middle;
-    width:100%;
-}
-
-#index_two {
-    background-color: lightgrey;
-    vertical-align: middle;
-    width:100%;
-}
-
-#index_three {
-    background-color: greenyellow;
-
-}
-
-#index_four {
-    background-color: paleturquoise;
-}
-
-#index_five {
-    background-color: palegoldenrod;
-}
-
-/* _______ This is the footer section ________ */
-
-footer {
-    clear: both;
-    height: 60px;
-    padding: 5px 0 0 0;
-    border-top: 1px solid black;
-    box-shadow: rgba(0,0,0,20) 2px 0px 3px;
-    background-color: #b7af8c;
-    color: #363545;
-    font-weight: 700;
-    font-size: 0.75em;
-    width:100%;
-    left:0;
-    position:absolute;
-    bottom:0;
-    display:block;
-}
-
-/* Contact us section */
-
-
-
-/* ____________ This is the media query section ____________ */
-
-/* Extra large devices */
-@media (min-width: 1200px) and (max-width: 1920px) { 
-    .container {
-        width:100%;
-        max-width: 1920px;
-    }
-    .hero_image1 {
-        background: url(/images/heroimage1-4800.png) center cover;
-    }
-    
-    .hero_image2 {
-            background: url(/images/heroimage2-4800.png) center cover;
-    }
-    
-    .hero_image3 {
-            background: url(/images/heroimage3-4800.png) center cover;
-    }
-    
-    .hero_image4 {
-            background: url(/images/heroimage4-4800.png) center cover;
-    }
-    
-    .hero_image5 {
-            background: url(/images/heroimage5-4800.png) center cover;
-    }
- }
-
- /* Large devices */
-@media (min-width:992px) and (max-width: 1200px) {    
-
-    .container {
-        width:100%;
-        max-width: 1200px;
-    }
-     
-    .hero_image1 {
-    background: url(/images/heroimage1-992.png) center cover;
-}
-
-    .hero_image2 {
-            background: url(/images/heroimage2-992.png) center cover;
-    }
-
-    .hero_image3 {
-            background: url(/images/heroimage3-992.png) center cover;
-    }
-
-    .hero_image4 {
-            background: url(/images/heroimage4-992.png) center cover;
-    }
-
-    .hero_image5 {
-            background: url(/images/heroimage5-992.png) center cover;
-    }
-
-    p {
-        font-size: 1rem;
-    }
- }
-
-/* Medium devices */
-@media (min-width: 768px) and (max-width: 991px) { 
-
-    .container {
-        width:100%;
-        max-width: 991px;
-    }
-
-    .hero_image1 {
-        background: url(/images/heroimage1-768.png) center cover;
-    }
-    
-    .hero_image2 {
-            background: url(/images/heroimage2-768.png) center cover;
-    }
-    
-    .hero_image3 {
-            background: url(/images/heroimage3-768.png) center cover;
-    }
-    
-    .hero_image4 {
-            background: url(/images/heroimage4-768.png) center cover;
-    }
-    
-    .hero_image5 {
-            background: url(/images/heroimage5-768.png) center cover;
-    }
- }
-
-/* Small devices */
-@media (min-width: 378px) and (max-width: 767px){
-
-    .container {
-        width:100%;
-        max-width: 767px;
-    }
-
-    .hero_image1 {
-        background: url(/images/heroimage1-200.png) center cover;
-    }
-    
-    .hero_image2 {
-            background: url(/images/heroimage2-200.png) center cover;
-    }
-    
-    .hero_image3 {
-            background: url(/images/heroimage3-200.png) center cover;
-    }
-    
-    .hero_image4 {
-            background: url(/images/heroimage4-200.png) center cover;
-    }
-    
-    .hero_image5 {
-            background: url(/images/heroimage5-200.png) center cover;
-    }
-}
-
-/* Extra Small devices */
-@media (min-width: 150px)and(max-width: 377px){
-
-    nav {
-        min-width: 70px;
-        width: auto;
-        right: 0;
-        vertical-align: bottom;
-        text-align: center;
-        align-items: baseline;
-        height: 16px;
-        position: absolute;
-        bottom: 0px;
-        display: inline-block;
-        font-size: 15pt;
-        padding: 21px;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-    }
-
-    .container {
-        width:100%;
-        max-width: 377px;
-    }
-
-    .hero_image1 {
-        background: url(/images/heroimage1-200.png) center cover;
-    }
-    
-    .hero_image2 {
-            background: url(/images/heroimage2-200.png) center cover;
-    }
-    
-    .hero_image3 {
-            background: url(/images/heroimage3-200.png) center cover;
-    }
-    
-    .hero_image4 {
-            background: url(/images/heroimage4-200.png) center cover;
-    }
-    
-    .hero_image5 {
-            background: url(/images/heroimage5-200.png) center cover;
-    }
-}
+/*# sourceMappingURL=styles.css.map */

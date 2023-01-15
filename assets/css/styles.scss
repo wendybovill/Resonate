@@ -3,7 +3,7 @@
 $grey: #585858;
 $teal: #00505c;
 $darkteal: #003f49;
-$transparent-bk: rgba(255,255,255,35);
+$transparent-bk: rgba(255,255,255,0.35);
 $bright: #ffffff;
 $gold: #b7af8c;
 $lightgrey: rgba(183,175,140,255);
@@ -435,7 +435,7 @@ footer {
 }
 
 /* Extra Small devices */
-@media (min-width: 150px)and(max-width: 377px){
+@media (min-width: 150px) and (max-width: 377px){
 
     nav {
         min-width: 70px;
