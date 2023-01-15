@@ -242,27 +242,27 @@ nav a:active:hover, .active:hover {
 }
 
 .hero_image1 {
-    background: url(/images/heroimage1.png);
+    background: url(/assets/images/hero-image1.jpg);
     @include hero-large();
 }
 
 .hero_image2 {
-        background: url(/images/heroimage2.png);
+        background: url(/assets/images/hero-image2.jpg);
         @include hero-large();
 }
 
 .hero_image3 {
-        background: url(/images/heroimage3.png);
+        background: url(/assets/images/hero-image3.jpg);
         @include hero-large();
 }
 
 .hero_image4 {
-        background: url(/images/heroimage4.png);
+        background: url(/assets/images/hero-image4.jpg);
         @include hero-large();
 }
 
 .hero_image5 {
-        background: url(/images/heroimage5.png);
+        background: url(/assets/images/hero-image5.jpg);
         @include hero-large();
 }
 
@@ -347,27 +347,27 @@ footer {
         max-width: 1920px;
     }
     .hero_image1 {
-        background: url(/images/heroimage1-4800.png);
+        background: url(/assets/images/hero-image1.jpg);
         @include hero-large();
     }
     
     .hero_image2 {
-        background: url(/images/heroimage2-4800.png);
+        background: url(/assets/images/hero-image2.jpg);
         @include hero-large();
     }
     
     .hero_image3 {
-        background: url(/images/heroimage3-4800.png);
+         background: url(/assets/images/hero-image3.jpg);
         @include hero-large();
     }
     
     .hero_image4 {
-        background: url(/images/heroimage4-4800.png);
+        background: url(/assets/images/hero-image4.jpg);
         @include hero-large();
     }
     
     .hero_image5 {
-        background: url(/images/heroimage5-4800.png);
+        background: url(/assets/images/hero-image5.jpg);
         @include hero-large();
     }
  }
@@ -381,27 +381,27 @@ footer {
     }
      
     .hero_image1 {
-    background: url(/images/heroimage1-992.png);
-    @include hero-large();
+        background: url(/assets/images/hero-image1.jpg);
+        @include hero-large();
 }
 
     .hero_image2 {
-        background: url(/images/heroimage2-992.png);
+        background: url(/assets/images/hero-image2.jpg);
         @include hero-large();
     }
 
     .hero_image3 {
-        background: url(/images/heroimage3-992.png);
+        background: url(/assets/images/hero-image3.jpg);
         @include hero-large();
     }
 
     .hero_image4 {
-        background: url(/images/heroimage4-992.png);
+        background: url(/assets/images/hero-image4.jpg);
         @include hero-large();
     }
 
     .hero_image5 {
-        background: url(/images/heroimage5-992.png);
+        background: url(/assets/images/hero-image5.jpg);
         @include hero-large();
     }
 
@@ -419,27 +419,27 @@ footer {
     }
 
     .hero_image1 {
-        background: url(/images/heroimage1-768.png);
+        background: url(/assets/images/hero-image1.jpg);
         @include hero-medium();
     }
     
     .hero_image2 {
-        background: url(/images/heroimage2-768.png);
+        background: url(/assets/images/hero-image2.jpg);
         @include hero-medium();
     }
     
     .hero_image3 {
-        background: url(/images/heroimage3-768.png);
+        background: url(/assets/images/hero-image3.jpg);
         @include hero-medium();
     }
     
     .hero_image4 {
-        background: url(/images/heroimage4-768.png);
+        background: url(/assets/images/hero-image4.jpg);
         @include hero-medium();
     }
     
     .hero_image5 {
-        background: url(/images/heroimage5-768.png);
+        background: url(/assets/images/hero-image5.jpg);
         @include hero-medium();
     }
  }
@@ -453,27 +453,27 @@ footer {
     }
 
     .hero_image1 {
-        background: url(/images/heroimage1-200.png);
+        background: url(/assets/images/hero-image1.jpg);
         @include hero-medium();
     }
     
     .hero_image2 {
-        background: url(/images/heroimage2-200.png);
+        background: url(/assets/images/hero-image2.jpg);
         @include hero-medium();
     }
     
     .hero_image3 {
-        background: url(/images/heroimage3-200.png);
+        background: url(/assets/images/hero-image3.jpg);
         @include hero-medium();
     }
     
     .hero_image4 {
-        background: url(/images/heroimage4-200.png);
+        background: url(/assets/images/hero-image4.jpg);
         @include hero-medium();
     }
     
     .hero_image5 {
-        background: url(/images/heroimage5-200.png);
+        background: url(/assets/images/hero-image5.jpg);
         @include hero-medium();
     }
 }
@@ -504,27 +504,27 @@ footer {
     }
 
     .hero_image1 {
-        background: url(/images/heroimage1-200.png);
-        @include hero-medium();
+        background: url(/assets/images/hero-image1.jpg);
+        @include hero-small();
     }
     
     .hero_image2 {
-        background: url(/images/heroimage2-200.png);
-        @include hero-medium();
+        background: url(/assets/images/hero-image2.jpg);
+        @include hero-small();
     }
     
     .hero_image3 {
-        background: url(/images/heroimage3-200.png);
-        @include hero-medium();
+        background: url(/assets/images/hero-image3.jpg);
+        @include hero-small();
     }
     
     .hero_image4 {
-        background: url(/images/heroimage4-200.png);
-        @include hero-medium();
+        background: url(/assets/images/hero-image4.jpg);
+        @include hero-small();
     }
     
     .hero_image5 {
-        background: url(/images/heroimage5-200.png);
-        @include hero-medium();
+        background: url(/assets/images/hero-image5.jpg);
+        @include hero-small();
     }
 }
