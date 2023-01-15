@@ -12,20 +12,13 @@
     box-sizing:border-box;
 }
 
-header {
-    height: 295px;
-    background: linear-gradient(#c1e2ff 0%, #fff 11.33%, #fff 27.84%, #ffffd5 78.33%, #fdf991 83.25%, #f2d32a 84.24%, #cbbe73 88.67%, #a3dfff 96.06%, #007f9d 97.54%, #005226 100%);
-    border: 1px solid #707070;
-    vertical-align: bottom;
-    position: relative;
-}
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 h1,h2,h3,h4,h5 {
-    font-weight: 700;
+    font-weight: 800;
     font-style: italic;
     font-stretch: expanded 1.2;
 }
@@ -38,6 +31,32 @@ h2 {
     color:dodgerblue;
 }
 
+p {
+    text-align: justify;
+    padding: 0 5px;
+    font-size: 12;
+    font-weight: 400;
+}
+
+a {
+    color: #00505c;
+}
+
+a:hover {
+    color: #585858;
+}
+
+/* This is the header and navigation section of the website styles */
+
+header {
+    height: 295px;
+    background: linear-gradient(#c1e2ff 0%, #fff 11.33%, #fff 27.84%, #ffffd5 78.33%, #fdf991 83.25%, #f2d32a 84.24%, #cbbe73 88.67%, #a3dfff 96.06%, #007f9d 97.54%, #005226 100%);
+    border: 1px solid #707070;
+    vertical-align: bottom;
+    position: relative;
+}
+
+
 .logo {
     float:left;
     height: 75px;
@@ -45,49 +64,68 @@ h2 {
     padding: 5px;
 }
 
-nav {
-    min-width: 150px;
-    width:75%;
-    right:0;
-    float:right;
+.menu div {
+    float: right;
+    height: 40px;
     vertical-align: bottom;
-    text-align: right;
+}
+
+nav {
+    min-width: 70px;
+    width: auto;
+    right: 0;
+    vertical-align: bottom;
+    text-align: center;
     align-items: baseline;
-    height: 50px;
+    height: 16px;
     position: absolute;
     bottom: 0px;
     display: inline-block;
-    font-size:16pt;
+    font-size: 15pt;
+    padding: 21px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 nav a{
-    padding: 0 15px;
+    padding: 12px 15px;
     text-decoration:none;
     color: #585858;
 }
 
 nav a:hover{
-    padding: 0 15px;
+    padding: 12px 15px;
+    text-decoration:none;
+    color: #00505c;
+    background-color:#ffffff25;
+}
+
+nav a:active, .active {
+    padding: 12px 15px;
     text-decoration:none;
     color: #00505c;
 }
 
-.active a {
-    padding: 0 15px;
+nav a:active:hover, .active:hover {
+    padding: 12px 15px;
     text-decoration:none;
-    color: #00505c;
-    background-color: rgba(255,255,255,35);
+    color: #003f49;
+    background-color:#ffffff25;
 }
 
-title {
-    background-color: rgba(255,255,255,0);
-    color: navy;
-    font-size: 1.2em;
-}
+/* Hero Image Section */
 
 .hero {
     height: 200px;
     background-color: yellow;
+}
+
+.hero-title {
+    width: 410px;
+    height: 47px;
+    background-color: rgba(255,255,255,0);
+    color: navy;
+    font-size: 1.2em;
 }
 
 .hero_image1 {
@@ -109,6 +147,10 @@ title {
 .hero_image5 {
         background: url(/images/heroimage5.png) center cover;
 }
+
+/* _____________________ Main Content Section ___________________  */
+
+/* Home Page */
 
 .intro-box {
     height:80px;
@@ -145,21 +187,38 @@ title {
     background-color: palegoldenrod;
 }
 
+/* _______ This is the footer section ________ */
+
 footer {
     height: 50px;
     padding: 5px 0 0 0;
     border-top: 1px solid black;
     box-shadow: rgba(0,0,0,20) 2px 0px 3px;
-    background-color: darkcyan;
-    color: white;
-    font-weight: 500;
+    background-color: #b7af8c;
+    color: #363545;
+    font-weight: 700;
     font-size: 0.75em;
     width:100vw;
-    bottom:0;
-    left:0;
-    position: absolute;
+    bottom:0px;
+    left:0px;
+    margin:0;
 }
 
 /* Contact us section */
 
-/* This is the media query section */
+
+
+/* ____________ This is the media query section ____________ */
+
+/* Extra large devices */
+@media (min-width: 1200px) { ... }
+
+/* Medium devices */
+@media (min-width: 768px) { ... }
+
+/* Large devices */
+@media (min-width: 992px) { ... }
+
+/* Small devices */
+@media (min-width: 200px){
+}
