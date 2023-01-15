@@ -434,6 +434,9 @@ footer {
     vertical-align: bottom;
     text-align: center;
   }
+  #menu_section {
+    text-align: center;
+  }
   .container {
     width: 100%;
     max-width: 767px;
@@ -541,6 +544,9 @@ footer {
     clear: both;
     height: 40px;
     vertical-align: bottom;
+    text-align: center;
+  }
+  #menu_section {
     text-align: center;
   }
   nav {
