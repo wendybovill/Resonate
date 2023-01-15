@@ -14,7 +14,9 @@
 
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1,h2,h3,h4,h5 {
@@ -25,10 +27,15 @@ h1,h2,h3,h4,h5 {
 
 h1  {
     color: darkslategray;
+    padding: 0;
+    margin: 0 5px;
 }
 
 h2 {
     color:dodgerblue;
+    margin: 0 5px;
+    padding: 0;
+    font-style: italic;
 }
 
 p {
@@ -118,6 +125,8 @@ nav a:active:hover, .active:hover {
 .hero {
     height: 200px;
     background-color: yellow;
+    display:block;
+    position: relative;
 }
 
 .hero-title {
@@ -166,12 +175,24 @@ nav a:active:hover, .active:hover {
     padding: 25px;
 }
 
+section {
+    min-height: 150px;
+    height: 15%;
+    padding: 0;
+    margin: 0;
+    display: table-row;
+}
+
 #index_one {
     background-color: grey;
+    vertical-align: middle;
+    width:100%;
 }
 
 #index_two {
     background-color: lightgrey;
+    vertical-align: middle;
+    width:100%;
 }
 
 #index_three {
@@ -211,14 +232,94 @@ footer {
 /* ____________ This is the media query section ____________ */
 
 /* Extra large devices */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { 
+    .hero_image1 {
+        background: url(/images/heroimage1-1200.png) center cover;
+    }
+    
+    .hero_image2 {
+            background: url(/images/heroimage2-1200.png) center cover;
+    }
+    
+    .hero_image3 {
+            background: url(/images/heroimage3-1200.png) center cover;
+    }
+    
+    .hero_image4 {
+            background: url(/images/heroimage4-1200.png) center cover;
+    }
+    
+    .hero_image5 {
+            background: url(/images/heroimage5-1200.png) center cover;
+    }
+ }
+
+ /* Large devices */
+@media (min-width: 992px) {     
+    .hero_image1 {
+    background: url(/images/heroimage1-992.png) center cover;
+}
+
+    .hero_image2 {
+            background: url(/images/heroimage2-992.png) center cover;
+    }
+
+    .hero_image3 {
+            background: url(/images/heroimage3-992.png) center cover;
+    }
+
+    .hero_image4 {
+            background: url(/images/heroimage4-992.png) center cover;
+    }
+
+    .hero_image5 {
+            background: url(/images/heroimage5-992.png) center cover;
+    }
+ }
 
 /* Medium devices */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+    .hero_image1 {
+        background: url(/images/heroimage1-768.png) center cover;
+    }
+    
+    .hero_image2 {
+            background: url(/images/heroimage2-768.png) center cover;
+    }
+    
+    .hero_image3 {
+            background: url(/images/heroimage3-768.png) center cover;
+    }
+    
+    .hero_image4 {
+            background: url(/images/heroimage4-768.png) center cover;
+    }
+    
+    .hero_image5 {
+            background: url(/images/heroimage5-768.png) center cover;
+    }
+ }
 
-/* Large devices */
-@media (min-width: 992px) { ... }
 
 /* Small devices */
 @media (min-width: 200px){
+    .hero_image1 {
+        background: url(/images/heroimage1-200.png) center cover;
+    }
+    
+    .hero_image2 {
+            background: url(/images/heroimage2-200.png) center cover;
+    }
+    
+    .hero_image3 {
+            background: url(/images/heroimage3-200.png) center cover;
+    }
+    
+    .hero_image4 {
+            background: url(/images/heroimage4-200.png) center cover;
+    }
+    
+    .hero_image5 {
+            background: url(/images/heroimage5-200.png) center cover;
+    }
 }
