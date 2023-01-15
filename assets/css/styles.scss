@@ -475,6 +475,13 @@ footer {
 /* Small devices */
 @media (min-width: 378px) and (max-width: 767px){
 
+    .menu div {
+        float: none;
+        clear: both;
+        height: 40px;
+        vertical-align: bottom;
+    }
+
     .container {
         width:100%;
         max-width: 767px;
