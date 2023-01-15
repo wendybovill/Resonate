@@ -67,21 +67,21 @@ h4 {
   color: #003f49;
   margin: 0 5px;
   padding: 0;
-  font-size: 0.9rem;
+  font-size: 0.9em;
 }
 
 h5 {
   color: #ffffff;
   margin: 0 5px;
   padding: 0;
-  font-size: 0.9rem;
+  font-size: 0.9em;
 }
 
 h6 {
   color: #444444;
   margin: 0 5px;
   padding: 0;
-  font-size: 0.9rem;
+  font-size: 0.9em;
 }
 
 p {
@@ -136,13 +136,13 @@ nav {
   bottom: 0px;
   display: inline-block;
   font-size: 15pt;
-  padding: 22px;
+  padding: 21px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
 nav a {
-  padding: 11px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   color: #585858;
 }
@@ -152,20 +152,20 @@ nav::after, nav::before {
 }
 
 nav a:hover {
-  padding: 11px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   color: #00505c;
   background-color: rgba(255, 255, 255, 0.35);
 }
 
 nav a:active, .active {
-  padding: 11px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   color: #00505c;
 }
 
 nav a:active:hover, .active:hover {
-  padding: 11px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   color: #003f49;
   background-color: rgba(255, 255, 255, 0.35);
@@ -488,7 +488,7 @@ footer {
     bottom: 0px;
     display: inline-block;
     font-size: 12pt;
-    padding: 21px;
+    padding: 20px;
     white-space: nowrap;
     font-weight: 700;
   }
@@ -562,7 +562,7 @@ footer {
     display: inline-block;
     font-size: 11pt;
     font-weight: 700;
-    padding: 21px;
+    padding: 20px;
     white-space: nowrap;
   }
   .logo {

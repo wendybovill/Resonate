@@ -144,21 +144,21 @@ h4 {
     color: $darkteal;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.90rem;
+    font-size: 0.90em;
 }
 
 h5 {
     color: $bright;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.90rem;
+    font-size: 0.90em;
 }
 
 h6 {
     color: $darkgrey;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.90rem;
+    font-size: 0.90em;
 }
 
 
@@ -217,13 +217,13 @@ nav {
     bottom: 0px;
     display: inline-block;
     font-size: 15pt;
-    padding: 22px;
+    padding: 21px;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 nav a{
-    padding: 11px 15px;
+    padding: 15px 15px;
     text-decoration:none;
     color: $grey;
 }
@@ -233,20 +233,20 @@ nav::after, nav::before {
     }
 
 nav a:hover{
-    padding: 11px 15px;
+    padding: 15px 15px;
     text-decoration:none;
     color: $teal;
     background-color:$transparent-bk;
 }
 
 nav a:active, .active {
-    padding: 11px 15px;
+    padding: 15px 15px;
     text-decoration:none;
     color: $teal;
 }
 
 nav a:active:hover, .active:hover {
-    padding: 11px 15px;
+    padding: 15px 15px;
     text-decoration:none;
     color: $darkteal;
     background-color:$transparent-bk;
@@ -529,7 +529,7 @@ footer {
         bottom: 0px;
         display: inline-block;
         font-size: 12pt;
-        padding: 21px;
+        padding: 20px;
         white-space: nowrap;
         font-weight: 700;
     }
@@ -615,7 +615,7 @@ footer {
         display: inline-block;
         font-size: 11pt;
         font-weight:700;
-        padding: 21px;
+        padding: 20px;
         white-space: nowrap;
     }
 
