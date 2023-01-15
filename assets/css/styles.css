@@ -11,8 +11,6 @@
   right: 0;
   box-sizing: border-box;
   margin: 0;
-  height: calc(100% - 60px);
-  display: block;
   position: absolute;
 }
 
