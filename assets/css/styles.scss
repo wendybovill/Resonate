@@ -476,13 +476,9 @@ footer {
         background: url(/assets/images/hero-image5.jpg);
         @include hero-medium();
     }
-}
-
-/* Extra Small devices */
-@media (min-width: 150px) and (max-width: 377px){
 
     nav {
-        min-width: 70px;
+        min-width: 60px;
         width: auto;
         right: 0;
         vertical-align: bottom;
@@ -492,7 +488,28 @@ footer {
         position: absolute;
         bottom: 0px;
         display: inline-block;
-        font-size: 15pt;
+        font-size: 13pt;
+        padding: 21px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+/* Extra Small devices */
+@media (min-width: 150px) and (max-width: 377px){
+
+    nav {
+        min-width: 60px;
+        width: auto;
+        right: 0;
+        vertical-align: bottom;
+        text-align: center;
+        align-items: baseline;
+        height: 16px;
+        position: absolute;
+        bottom: 0px;
+        display: inline-block;
+        font-size: 12pt;
         padding: 21px;
         white-space: nowrap;
         text-overflow: ellipsis;
