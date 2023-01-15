@@ -476,10 +476,11 @@ footer {
 @media (min-width: 378px) and (max-width: 767px){
 
     .menu div {
-        float: none;
+        float: none!important;
         clear: both;
         height: 40px;
         vertical-align: bottom;
+        text-align: center;
     }
 
     .container {
@@ -524,9 +525,17 @@ footer {
         bottom: 0px;
         display: inline-block;
         font-size: 12pt;
-        padding: 21px 8px;
+        padding: 21px;
         white-space: nowrap;
-        text-overflow: ellipsis;
+        font-weight: 700;
+    }
+
+    .logo {
+        float: none !important;
+        clear:both;
+        height: 55px;
+        width: auto;
+        padding: 5px;
     }
 
     /* content styles */
@@ -577,6 +586,14 @@ footer {
 /* Extra Small devices */
 @media (min-width: 150px) and (max-width: 377px){
 
+    .menu div {
+        float: none;
+        clear: both;
+        height: 40px;
+        vertical-align: bottom;
+        text-align: center;
+    }
+
     nav {
         min-width: 60px;
         width: auto;
@@ -589,9 +606,17 @@ footer {
         bottom: 0px;
         display: inline-block;
         font-size: 11pt;
-        padding: 21px 8px;
+        font-weight:700;
+        padding: 21px;
         white-space: nowrap;
-        text-overflow: ellipsis;
+    }
+
+    .logo {
+        float: none !important;
+        clear:both;
+        height: 55px;
+        width: auto;
+        padding: 5px;
     }
 
     .container {
