@@ -1,5 +1,61 @@
 /* This is the main section of the website styles */
 
+$grey: #585858;
+$teal: #00505c;
+$darkteal: #003f49;
+$transparent-bk: rgba(255,255,255,35);
+$bright: #ffffff;
+$gold: #b7af8c;
+$lightgrey: rgba(183,175,140,255);
+$lightgold: #b7af8c50;
+$darkgrey: #444444;
+$smokeblue: rgba(20, 67, 108, 0.5);
+$plaingrey: rgba(88, 88, 88, 0.5);
+$lightteal: rgba(0, 80, 92, 0.5);
+$lightblue: rgba(34, 85, 129, 0.49);
+$lightbeige: rgba(129, 122, 34, 0.24);
+$lighterteal:rgba(0, 80, 92, 0.5);
+
+
+$basefont: 14pt;
+$typeface: Verdana, Geneva, Tahoma, sans-serif;
+
+@mixin backblur($bkcolor: rgba(255, 255, 255, 0.15)) {
+    background: transparent;
+    /* Note: currently only Safari supports backdrop-filter */
+    backdrop-filter: blur(30px);
+    --webkit-backdrop-filter: blur(30px);
+    background-color: $bkcolor;
+    color: $bright
+  }
+
+@mixin small-ibox {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding:5px;
+    margin:5px;
+    }
+
+@mixin medium-ibox {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    padding:7px;
+    margin:7px;
+    }
+
+@mixin large-ibox {
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    padding:10px;
+    margin:10px;
+    }
+
+
+
+
 *, ::after, ::before {
     box-sizing: unset!important;
 }
@@ -10,7 +66,6 @@
     width:100%;
     bottom:0;
     right:0;
-    background: #ad6a6a;
     box-sizing:border-box;
     margin:0;
     height: calc(100% - 60px);
@@ -35,7 +90,7 @@
     }
 
 html, body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $typeface;
     margin:0;
     padding:0;
     height:100%;
@@ -49,13 +104,13 @@ h1,h2,h3,h4,h5 {
 }
 
 h1  {
-    color: darkslategray;
+    color: $darkteal;
     padding: 0;
     margin: 0 5px;
 }
 
 h2 {
-    color:dodgerblue;
+    color: $darkgrey;
     margin: 0 5px;
     padding: 0;
     font-style: italic;
@@ -68,11 +123,11 @@ p {
 }
 
 a {
-    color: #00505c;
+    color: $teal;
 }
 
 a:hover {
-    color: #585858;
+    color: $grey;
 }
 
 /* This is the header and navigation section of the website styles */
@@ -123,7 +178,7 @@ nav {
 nav a{
     padding: 12px 15px;
     text-decoration:none;
-    color: #585858;
+    color: $grey;
 }
 
 nav::after, nav::before {
@@ -133,21 +188,21 @@ nav::after, nav::before {
 nav a:hover{
     padding: 12px 15px;
     text-decoration:none;
-    color: #00505c;
-    background-color:#ffffff25;
+    color: $teal;
+    background-color:$transparent-bk;
 }
 
 nav a:active, .active {
     padding: 12px 15px;
     text-decoration:none;
-    color: #00505c;
+    color: $teal;
 }
 
 nav a:active:hover, .active:hover {
     padding: 12px 15px;
     text-decoration:none;
-    color: #003f49;
-    background-color:#ffffff25;
+    color: $darkteal;
+    background-color:$transparent-bk;
 }
 
 /* Hero Image Section */
@@ -192,8 +247,7 @@ nav a:active:hover, .active:hover {
 /* Home Page */
 
 .intro-box {
-    height:80px;
-    width: 80px;
+@include medium-ibox();
 }
 
 .content-box {
@@ -214,29 +268,28 @@ section {
 }
 
 #index_one {
-    background-color: grey;
+    background-color: $bright;
     vertical-align: middle;
     width:100%;
 }
 
 #index_two {
-    background-color: lightgrey;
+    background-color: $lightblue;
     vertical-align: middle;
     width:100%;
 }
 
 #index_three {
-    background-color: greenyellow;
+    background-color: $lightbeige;
+    width:100%;
 
 }
 
 #index_four {
-    background-color: paleturquoise;
+    background-color: $lighterteal;
+    width:100%;
 }
 
-#index_five {
-    background-color: palegoldenrod;
-}
 
 /* _______ This is the footer section ________ */
 
