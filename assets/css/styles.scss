@@ -43,15 +43,10 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
 
 @keyframes flyIn {
     from { transform : translateX(-100%) }
-    17%  { transform : translateX(-90%) }
     20%  { transform : translateX(-80%) }
-    37%  { transform : translateX(-70%) }
     40%  { transform : translateX(-60%) }
-    57%  { transform : translateX(-50%) }
     60%  { transform : translateX(-40%) }
-    77%  { transform : translateX(-30%) }
-    80%  { transform : translateX(-20%) }
-    97%  { transform : translateX(-10%) }
+    90%  { transform : translateX(-10%) }
     to   { transform : translateX(0%) }
 }
 
@@ -103,8 +98,8 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 5s;
-    animation-delay: 1s;
+    animation: heroIncrease 10s;
+    animation-delay: 0;
     animation-fill-mode: forwards;
 }
 
@@ -113,8 +108,8 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 5s;
-    animation-delay: 1s;
+    animation: heroIncrease 10s;
+    animation-delay: 0;
     animation-fill-mode: forwards;
 }
 
@@ -123,8 +118,8 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 5s;
-    animation-delay: 1s;
+    animation: heroIncrease 10;
+    animation-delay: 0;
     animation-fill-mode: forwards;
 }
 
@@ -352,7 +347,7 @@ nav a:active:hover, .active:hover {
 .hero-title div, .hero-title h1{
     height: 47px;
     background-color: $transparent-bk;
-    animation: flyIn 5s;
+    animation: flyIn 3s;
     animation-delay: 0s;
 }
 
