@@ -60,6 +60,10 @@ Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2
 
 2. Design: 
 
+	*Site Specification and Website Flow:* Documentation for Website Planning. 
+	
+	https://github.com/wendybovill/milestone-project-one/blob/8c72aaecf6cd3bee71325d35dcd9570e086a9f3f/documentation/Wendy%20Bovill%20509620%20-%20Project%201%20-%20Anxiety%20Support%20Website%20Documentation.pdf
+
 	*Wireframe:* Adobe XD and Balsamiq. View Adobe XD pdf Design.
 		
 	![Balsamiq Wireframe](https://github.com/wendybovill/milestone-project-one/blob/6c465eed1a2d48ac5ae74aa18e3a99e23818860e/documentation/wireframe-wendybovill-509620.png)
