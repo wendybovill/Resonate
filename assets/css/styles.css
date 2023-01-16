@@ -487,7 +487,7 @@ footer {
     position: absolute;
     bottom: 0px;
     display: inline-block;
-    font-size: 12pt;
+    font-size: 14pt;
     padding: 20px;
     white-space: nowrap;
     font-weight: 700;
@@ -504,37 +504,37 @@ footer {
     color: #003f49;
     padding: 0;
     margin: 0 5px;
-    font-size: 0.85em;
+    font-size: 0.95em;
   }
   h2 {
     color: #ffffff;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.85em;
+    font-size: 0.95em;
   }
   h3 {
     color: #444444;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.85em;
+    font-size: 0.95em;
   }
   h4 {
     color: #003f49;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.8em;
+    font-size: 0.95em;
   }
   h5 {
     color: #ffffff;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   h6 {
     color: #444444;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 /* Extra Small devices */
@@ -560,7 +560,7 @@ footer {
     position: absolute;
     bottom: 0px;
     display: inline-block;
-    font-size: 11pt;
+    font-size: 12pt;
     font-weight: 700;
     padding: 20px;
     white-space: nowrap;
@@ -616,37 +616,37 @@ footer {
     color: #003f49;
     padding: 0;
     margin: 0 5px;
-    font-size: 0.85em;
+    font-size: 0.95em;
   }
   h2 {
     color: #ffffff;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.85em;
+    font-size: 0.95em;
   }
   h3 {
     color: #444444;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.85em;
+    font-size: 0.95em;
   }
   h4 {
     color: #003f49;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.8em;
+    font-size: 0.95em;
   }
   h5 {
     color: #ffffff;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   h6 {
     color: #444444;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 
