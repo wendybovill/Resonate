@@ -28,6 +28,7 @@ $blue: #14436c;
 $basefontsize: 12pt;
 $typeface: Verdana, Geneva, Tahoma, sans-serif;
 $specialfont: Gill Sans;
+$baseIfasize: 4rem;
 
 
 /* animations */
@@ -54,6 +55,16 @@ $specialfont: Gill Sans;
         font-family: $typeface;
         color: $grey;
     
+}
+
+@mixin ifa-icon {
+    font-size: $baseIfasize;
+    color: $bright;
+}
+
+@mixin ifa-icon-hover {
+    font-size: $baseIfasize;
+    color: $darkgrey;
 }
 
 @mixin heroImage { 
@@ -412,7 +423,11 @@ nav a:active:hover, .active:hover {
     }
 
 .intro-box i {
-    font-size: 200%
+    @include ifa-icon();
+    }
+
+.intro-box i:hover {
+    @include ifa-icon-hover();
     }
 
 .box1 {
