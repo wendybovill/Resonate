@@ -37,7 +37,7 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
       transform: scale(0);
     }
     to {
-      transform: scale(1);
+      transform: scale(1.5);
     }
 }
 
@@ -103,7 +103,7 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 30s;
+    animation: heroIncrease 60s;
     animation-delay: 5s;
 }
 
@@ -112,7 +112,7 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 30s;
+    animation: heroIncrease 60s;
 }
 
 @mixin hero-small {
@@ -120,7 +120,7 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 30s;
+    animation: heroIncrease 60s;
 }
 
 
@@ -345,8 +345,8 @@ nav a:active:hover, .active:hover {
 .hero-title div, .hero-title h1{
     height: 47px;
     background-color: $transparent-bk;
-    animation: flyIn 30s;
-    animation-delay: 10s;
+    animation: flyIn 50s;
+    animation-delay: 15s;
 }
 
 .hero-title h1 {
