@@ -272,6 +272,23 @@ nav a:active:hover, .active:hover {
   color: #ffffff;
   font-weight: 900;
   font-size: 14pt;
+  display: inline-block;
+}
+
+.box1 {
+  background-color: #b7af8c;
+}
+
+.box2 {
+  background-color: rgba(20, 67, 108, 0.5);
+}
+
+.box3 {
+  background-color: #585858;
+}
+
+.box4 {
+  background-color: rgba(0, 80, 92, 0.5);
 }
 
 .content-box {

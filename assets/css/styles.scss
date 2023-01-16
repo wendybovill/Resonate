@@ -340,6 +340,23 @@ nav a:active:hover, .active:hover {
 color:$bright;
 font-weight:900;
 font-size:14pt;
+display: inline-block;
+}
+
+.box1 {
+    background-color: $gold;
+}
+
+.box2 {
+    background-color: $smokeblue;
+}
+
+.box3 {
+    background-color: $grey;
+}
+
+.box4 {
+    background-color: $lighterteal;
 }
 
 .content-box {
