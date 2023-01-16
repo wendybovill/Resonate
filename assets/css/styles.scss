@@ -31,28 +31,36 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
   }
 
 @mixin small-ibox {
-    height: 50px;
-    width: 50px;
-    display: inline-block;
-    padding:5px;
-    margin:5px;
-    }
-
-@mixin medium-ibox {
     height: 80px;
     width: 80px;
-    display: inline-block;
-    padding:7px;
-    margin:7px;
-    }
-
-@mixin large-ibox {
-    height: 120px;
-    width: 120px;
     display: inline-block;
     padding:10px;
     margin:10px;
     }
+
+@mixin medium-ibox {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding:10px;
+    margin:10px;
+    }
+
+@mixin large-ibox {
+    height: 140px;
+    width: 140px;
+    display: inline-block;
+    padding:20px;
+    margin:20px;
+    }
+
+@mixin larger-ibox {
+    height: 180px;
+    width: 180px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
 
 @mixin hero-large {
     height:350px;
@@ -336,7 +344,7 @@ nav a:active:hover, .active:hover {
 /* Home Page */
 
 .intro-box {
-@include large-ibox();
+@include larger-ibox();
 color:$bright;
 font-weight:900;
 font-size:14pt;
