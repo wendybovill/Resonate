@@ -44,9 +44,14 @@ Balsamiq for Wireframes
 1. Content:
 
 *Data from government website:*
+
 https://www.gov.uk/government/publications/covid-19-mental-health-and-wellbeing-surveillance-report/3-triangulation-comparison-across-surveys
 
-Tips on managing Anxiety: https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety
+
+*Tips on managing Anxiety:* 
+
+https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety
+
 
 *Document for signposting:*
 
@@ -55,11 +60,13 @@ Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2
 
 2. Design: 
 
-*Wireframe:* Adobe XD and Balsamiq.
+	*Wireframe:* Adobe XD and Balsamiq. View Adobe XD pdf Design.
+		
+	
  
-*Images:* Pexels: free images.
+	*Images:* Pexels: free images.
 
-*Colours:* pale yellow/gold and light blue/teal. (Yellow: happiness, prosperity, hope. Blue: Calmness, logical, tranquility).
+	*Colours:* pale yellow/gold and light blue/teal. (Yellow: happiness, prosperity, hope. Blue: Calmness, logical, tranquility).
 
 
 3. Documentation including readme file, spec sheet, timeline for project stages. Estimated time 1 week.
