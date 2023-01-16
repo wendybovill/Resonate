@@ -1,17 +1,28 @@
-/* 
-* Author: wendybovill 
-* Author Github: https: //github.com/wendybovill
-* Author Email: wendybovill@gmail.com
-*/
 /* The first part of this file is SCSS */
 /* variables */
 /* animations */
+@-webkit-keyframes heroIncrease {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
 @keyframes heroIncrease {
   from {
     transform: scale(1);
   }
   to {
     transform: scale(1.1);
+  }
+}
+@-webkit-keyframes flyIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
   }
 }
 @keyframes flyIn {
@@ -83,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: #003f49;
+  color: #025a67;
   margin: 0 5px;
   padding: 0;
   padding: 50px 10px 15px 50px;
@@ -187,7 +198,7 @@ nav {
   vertical-align: bottom;
   text-align: center;
   align-items: baseline;
-  height: 16px;
+  height: 21px;
   position: absolute;
   bottom: 0px;
   display: inline-block;
@@ -250,8 +261,10 @@ nav a:active:hover, .active:hover {
 .hero-title div, .hero-title h1 {
   height: 47px;
   background-color: rgba(255, 255, 255, 0.35);
-  animation: flyIn 3s;
-  animation-delay: 0s;
+  -webkit-animation: flyIn 3s;
+          animation: flyIn 3s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .hero-title h1 {
@@ -270,9 +283,12 @@ nav a:active:hover, .active:hover {
   background-position: bottom center;
   background-size: cover;
   /* animate the hero background image */
-  animation: heroIncrease 10s;
-  animation-delay: 0;
-  animation-fill-mode: forwards;
+  -webkit-animation: heroIncrease 10s;
+          animation: heroIncrease 10s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .hero_image2 {
@@ -282,9 +298,12 @@ nav a:active:hover, .active:hover {
   background-position: bottom center;
   background-size: cover;
   /* animate the hero background image */
-  animation: heroIncrease 10s;
-  animation-delay: 0;
-  animation-fill-mode: forwards;
+  -webkit-animation: heroIncrease 10s;
+          animation: heroIncrease 10s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .hero_image3 {
@@ -294,9 +313,12 @@ nav a:active:hover, .active:hover {
   background-position: bottom center;
   background-size: cover;
   /* animate the hero background image */
-  animation: heroIncrease 10s;
-  animation-delay: 0;
-  animation-fill-mode: forwards;
+  -webkit-animation: heroIncrease 10s;
+          animation: heroIncrease 10s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .hero_image4 {
@@ -306,9 +328,12 @@ nav a:active:hover, .active:hover {
   background-position: bottom center;
   background-size: cover;
   /* animate the hero background image */
-  animation: heroIncrease 10s;
-  animation-delay: 0;
-  animation-fill-mode: forwards;
+  -webkit-animation: heroIncrease 10s;
+          animation: heroIncrease 10s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .hero_image5 {
@@ -318,9 +343,12 @@ nav a:active:hover, .active:hover {
   background-position: bottom center;
   background-size: cover;
   /* animate the hero background image */
-  animation: heroIncrease 10s;
-  animation-delay: 0;
-  animation-fill-mode: forwards;
+  -webkit-animation: heroIncrease 10s;
+          animation: heroIncrease 10s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 /* _____________________ Main Content Section ___________________  */
@@ -617,8 +645,10 @@ footer {
   .hero-title div, .hero-title h1 {
     height: 40px;
     background-color: rgba(255, 255, 255, 0.35);
-    animation: flyIn 3s;
-    animation-delay: 0s;
+    -webkit-animation: flyIn 3s;
+            animation: flyIn 3s;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
   }
   .hero-title h1 {
     color: #14436c;
@@ -650,7 +680,7 @@ footer {
     color: #585858;
   }
   nav::after,
-  nav::before {
+nav::before {
     box-sizing: unset !important;
   }
   nav a:hover {
@@ -660,13 +690,13 @@ footer {
     background-color: rgba(255, 255, 255, 0.35);
   }
   nav a:active,
-  .active {
+.active {
     padding: 15px 10px;
     text-decoration: none;
     color: #025a67;
   }
   nav a:active:hover,
-  .active:hover {
+.active:hover {
     padding: 15px 10px;
     text-decoration: none;
     color: #003f49;
@@ -754,7 +784,7 @@ footer {
     color: #585858;
   }
   nav::after,
-  nav::before {
+nav::before {
     box-sizing: unset !important;
   }
   nav a:hover {
@@ -764,13 +794,13 @@ footer {
     background-color: rgba(255, 255, 255, 0.35);
   }
   nav a:active,
-  .active {
+.active {
     padding: 15px 10px;
     text-decoration: none;
     color: #025a67;
   }
   nav a:active:hover,
-  .active:hover {
+.active:hover {
     padding: 15px 10px;
     text-decoration: none;
     color: #003f49;
@@ -873,6 +903,4 @@ footer {
     padding: 0;
     font-size: 0.85em;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
