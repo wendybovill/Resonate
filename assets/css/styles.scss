@@ -171,7 +171,7 @@ h1,h2,h3,h4,h5,h6 {
     color: $teal;
     padding: 0;
     margin: 0 5px;
-    padding: 25px 10px 15px 25px;
+    padding: 25px 10px 15px 50px;
     font-family: Gill Sans;
     font-weight: 600;
 }
@@ -180,21 +180,21 @@ h1 {
     color: $darkteal;
     margin: 0 5px;
     padding: 0;
-    padding: 25px 10px 15px 25px;
+    padding: 50px 10px 15px 50px;
 }
 
 h2 {
     color: $bright;
     margin: 0 5px;
     padding: 0;
-    padding: 25px 10px 15px 25px;
+    padding: 50px 10px 15px 50px;
 }
 
 h3 {
     color: $darkgrey;
     margin: 0 5px;
     padding: 0;
-    padding: 25px 10px 15px 25px;
+    padding: 50px 10px 15px 50px;
 }
 
 h4 {
@@ -202,7 +202,7 @@ h4 {
     margin: 0 5px;
     padding: 0;
     font-size: 0.90em;
-    padding: 25px 10px 15px 25px;
+    padding: 50px 10px 15px 50px;
 }
 
 h5 {
@@ -225,7 +225,7 @@ p {
     text-align: justify;
     font-size: 12;
     font-weight: 400;
-    padding: 5px 25px;
+    padding: 5px 50px;
 }
 
 p.bright {
@@ -234,7 +234,7 @@ p.bright {
 }
 
 p.entry-paragraph {
-    padding: 25px 25px 15px 25px;
+    padding: 50px 25px 15px 50px;
 }
 
 a {
