@@ -60,13 +60,13 @@ $baseIfasize: 8rem;
 @mixin ifa-icon {
     font-size: $baseIfasize;
     color: $bright;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 @mixin ifa-icon-hover {
     font-size: $baseIfasize;
     color: $darkgrey;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 @mixin heroImage { 
