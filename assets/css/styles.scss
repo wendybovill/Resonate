@@ -263,6 +263,7 @@ header {
     border: 1px solid #707070;
     vertical-align: bottom;
     position: relative;
+    z-index: 9999;
 }
 
 
@@ -338,6 +339,7 @@ nav a:active:hover, .active:hover {
     height: 200px;
     display:block;
     position: relative;
+    z-index: 8000;
 }
 
 #hero-text-position {
@@ -350,8 +352,8 @@ nav a:active:hover, .active:hover {
 .hero-title div, .hero-title h1{
     height: 47px;
     background-color: $transparent-bk;
-    animation: flyIn 50s;
-    animation-delay: 15s;
+    animation: flyIn 5s;
+    animation-delay: 0s;
 }
 
 .hero-title h1 {
