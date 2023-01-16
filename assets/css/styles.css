@@ -579,6 +579,26 @@ footer {
     background-position: bottom center;
     background-size: cover;
   }
+  #hero-text-position {
+    vertical-align: bottom;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    max-width: 75%;
+  }
+  .hero-title div, .hero-title h1 {
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.35);
+    animation: flyIn 3s;
+    animation-delay: 0s;
+  }
+  .hero-title h1 {
+    color: #14436c;
+    font-size: 0.9;
+    font-family: Gill Sans;
+    font-style: italic;
+    padding: 15px 15px 15px 50px;
+    margin: 20px;
+  }
   nav {
     min-width: 60px;
     width: auto;
