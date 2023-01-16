@@ -14,6 +14,10 @@ RUN curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh |
     && echo ". ~/.nvm/nvm.sh"  >> /home/gitpod/.bashrc.d/50-node
 ENV PATH=$PATH:/home/gitpod/.nvm/versions/node/v${NODE_VERSION}/bin
 
+### Sass ###
+USER gitpod
+RUN npm install -g sass
+
 ### Python ###
 USER gitpod
 RUN sudo install-packages python3-pip
