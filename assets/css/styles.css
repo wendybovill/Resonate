@@ -69,14 +69,12 @@
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-html body, body body {
   font-size: 16pt;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #585858;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
