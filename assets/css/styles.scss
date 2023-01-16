@@ -564,6 +564,23 @@ footer {
 /* Medium devices */
 @media (min-width: 768px) and (max-width: 991px) { 
 
+nav {
+    min-width: 70px;
+    width: 100%;
+    right: 0;
+    vertical-align: bottom;
+    text-align: right;
+    align-items: baseline;
+    height: 21px;
+    position: absolute;
+    bottom: 0px;
+    display: inline-block;
+    font-size: 15pt;
+    padding: 21px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 .entry-title h1 {
     font-size: 0.90em;
 }
