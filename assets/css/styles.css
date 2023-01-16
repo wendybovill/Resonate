@@ -18,18 +18,6 @@
   from {
     transform: translateX(-100%);
   }
-  20% {
-    transform: translateX(-80%);
-  }
-  40% {
-    transform: translateX(-60%);
-  }
-  60% {
-    transform: translateX(-40%);
-  }
-  90% {
-    transform: translateX(-10%);
-  }
   to {
     transform: translateX(0%);
   }
