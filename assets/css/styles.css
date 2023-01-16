@@ -177,16 +177,15 @@ nav a:active:hover, .active:hover {
   display: block;
   position: relative;
   text-align: center;
+  vertical-align: middle;
+  padding-top: 60%;
 }
 
 .hero-title div, .hero-title h1 {
-  width: 50%;
   height: 47px;
   background-color: rgba(255, 255, 255, 0.35);
   color: navy;
   font-size: 1.1;
-  vertical-align: middle;
-  margin: 60%;
 }
 
 .hero_image1 {
