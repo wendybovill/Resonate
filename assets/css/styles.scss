@@ -182,6 +182,7 @@ h1,h2,h3,h4,h5,h6 {
     padding: 50px 10px 15px 50px;
     font-family: $specialfont;
     font-weight: 600;
+    font-size: 0.9rem;
 }
 
 h1 {
@@ -292,7 +293,7 @@ nav {
     width: 100%;
     right: 0;
     vertical-align: bottom;
-    text-align: center;
+    text-align: right;
     align-items: baseline;
     height: 21px;
     position: absolute;
@@ -364,7 +365,7 @@ nav a:active:hover, .active:hover {
 
 .hero-title h1 {
     color: $blue;
-    font-size: 1.05;
+    font-size: 0.90rem;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px  15px 50px;
