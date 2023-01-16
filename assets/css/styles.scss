@@ -25,8 +25,7 @@ $lightbeige: rgba(129, 122, 34, 0.24);
 $lighterteal:rgba(0, 80, 92, 0.5);
 $blue: #14436c;
 
-
-$basefont: 14pt;
+$basefontsize: 14pt;
 $typeface: Verdana, Geneva, Tahoma, sans-serif;
 
 
@@ -48,6 +47,13 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* **** */
+
+@mixin basefont {
+    body{
+        font-size: $basefontsize;
+    };
+    
+}
 
 @mixin heroImage { 
     /* animate the hero background image */
@@ -155,7 +161,7 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 html, body {
-    font-family: $typeface;
+    @include basefont();
     margin:0;
     padding:0;
     height:100%;
