@@ -179,8 +179,8 @@ nav {
   right: 0;
   vertical-align: bottom;
   text-align: center;
-  align-items: baseline;
-  height: 16px;
+  align-items: middle;
+  height: 18px;
   position: absolute;
   bottom: 0px;
   display: inline-block;
