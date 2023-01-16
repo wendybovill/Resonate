@@ -186,6 +186,7 @@ nav {
   display: inline-block;
   font-size: 15pt;
   padding: 21px;
+  margin-bottom: 10px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
