@@ -160,8 +160,8 @@ header {
   padding: 15px;
 }
 
-img.logo {
-  height: 75px;
+.logo img {
+  height: 100px;
   width: auto;
 }
 
