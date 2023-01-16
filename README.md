@@ -120,4 +120,4 @@ CSS/Html fix floating footer: Bootstrap5: used col-12 in footer class
 
 CSS/Html not showing stylesheet or images: removed begining / from file path for stylesheet fix, and added ../images/imagehere.jpg instead of /assets/images/imagehere.jpg
 
-Fixed Fontawesome not showing icons. Used library 4.7.0. It didn't like the newest ones.
+Fixed Fontawesome not showing icons. Used js kit script instead of css link to cdn.
