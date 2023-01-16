@@ -157,15 +157,15 @@ header {
 
 .logo {
   float: left;
-  height: 65px;
+  height: 55px;
   width: auto;
-  padding: 5px;
+  padding: 15px;
 }
 
 /* Menu and Navigation Section */
 .menu div {
   float: right;
-  height: 20px;
+  height: 40px;
   vertical-align: bottom;
 }
 
@@ -179,20 +179,19 @@ nav {
   right: 0;
   vertical-align: bottom;
   text-align: center;
-  align-items: middle;
-  height: 18px;
+  align-items: baseline;
+  height: 16px;
   position: absolute;
   bottom: 0px;
   display: inline-block;
   font-size: 15pt;
-  padding: 15px;
-  margin-bottom: 10px;
+  padding: 21px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
 nav a {
-  padding: 12px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   color: #585858;
 }
@@ -202,20 +201,20 @@ nav::after, nav::before {
 }
 
 nav a:hover {
-  padding: 12px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   color: #00505c;
   background-color: rgba(255, 255, 255, 0.35);
 }
 
 nav a:active, .active {
-  padding: 12px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   color: #00505c;
 }
 
 nav a:active:hover, .active:hover {
-  padding: 12px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   color: #003f49;
   background-color: rgba(255, 255, 255, 0.35);
