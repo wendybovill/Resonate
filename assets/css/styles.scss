@@ -29,12 +29,6 @@ $blue: #14436c;
 $basefont: 14pt;
 $typeface: Verdana, Geneva, Tahoma, sans-serif;
 
-// importing core styling file
-@import "./fontawesome/scss/fontawesome.scss";
-
-// our project needs Solid + Brands
-@import "./fontawesome/scss/solid.scss";
-@import "./fontawesome/scss/brands.scss";
 
 /* animations */
 
@@ -363,31 +357,31 @@ nav a:active:hover, .active:hover {
 
 
 .hero_image1 {
-    background: url(/assets/images/hero-image1.jpg);
+    background: url(assets/images/hero-image1.jpg);
     @include hero-large();
     @include heroImage();
 }
 
 .hero_image2 {
-        background: url(/assets/images/hero-image2.jpg);
+        background: url(assets/images/hero-image2.jpg);
         @include hero-large();
         @include heroImage();
 }
 
 .hero_image3 {
-        background: url(/assets/images/hero-image3.jpg);
+        background: url(assets/images/hero-image3.jpg);
         @include hero-large();
         @include heroImage();
 }
 
 .hero_image4 {
-        background: url(/assets/images/hero-image4.jpg);
+        background: url(assets/images/hero-image4.jpg);
         @include hero-large();
         @include heroImage();
 }
 
 .hero_image5 {
-        background: url(/assets/images/hero-image5.jpg);
+        background: url(assets/images/hero-image5.jpg);
         @include hero-large();
         @include heroImage();
 }
@@ -493,27 +487,27 @@ footer {
         max-width: 1920px;
     }
     .hero_image1 {
-        background: url(/assets/images/hero-image1.jpg);
+        background: url(assets/images/hero-image1.jpg);
         @include hero-large();
     }
     
     .hero_image2 {
-        background: url(/assets/images/hero-image2.jpg);
+        background: url(assets/images/hero-image2.jpg);
         @include hero-large();
     }
     
     .hero_image3 {
-         background: url(/assets/images/hero-image3.jpg);
+         background: url(assets/images/hero-image3.jpg);
         @include hero-large();
     }
     
     .hero_image4 {
-        background: url(/assets/images/hero-image4.jpg);
+        background: url(assets/images/hero-image4.jpg);
         @include hero-large();
     }
     
     .hero_image5 {
-        background: url(/assets/images/hero-image5.jpg);
+        background: url(assets/images/hero-image5.jpg);
         @include hero-large();
     }
  }
@@ -527,27 +521,27 @@ footer {
     }
      
     .hero_image1 {
-        background: url(/assets/images/hero-image1.jpg);
+        background: url(assets/images/hero-image1.jpg);
         @include hero-large();
 }
 
     .hero_image2 {
-        background: url(/assets/images/hero-image2.jpg);
+        background: url(assets/images/hero-image2.jpg);
         @include hero-large();
     }
 
     .hero_image3 {
-        background: url(/assets/images/hero-image3.jpg);
+        background: url(assets/images/hero-image3.jpg);
         @include hero-large();
     }
 
     .hero_image4 {
-        background: url(/assets/images/hero-image4.jpg);
+        background: url(assets/images/hero-image4.jpg);
         @include hero-large();
     }
 
     .hero_image5 {
-        background: url(/assets/images/hero-image5.jpg);
+        background: url(assets/images/hero-image5.jpg);
         @include hero-large();
     }
 
@@ -565,27 +559,27 @@ footer {
     }
 
     .hero_image1 {
-        background: url(/assets/images/hero-image1.jpg);
+        background: url(assets/images/hero-image1.jpg);
         @include hero-medium();
     }
     
     .hero_image2 {
-        background: url(/assets/images/hero-image2.jpg);
+        background: url(assets/images/hero-image2.jpg);
         @include hero-medium();
     }
     
     .hero_image3 {
-        background: url(/assets/images/hero-image3.jpg);
+        background: url(assets/images/hero-image3.jpg);
         @include hero-medium();
     }
     
     .hero_image4 {
-        background: url(/assets/images/hero-image4.jpg);
+        background: url(assets/images/hero-image4.jpg);
         @include hero-medium();
     }
     
     .hero_image5 {
-        background: url(/assets/images/hero-image5.jpg);
+        background: url(assets/images/hero-image5.jpg);
         @include hero-medium();
     }
  }
@@ -611,27 +605,27 @@ footer {
     }
 
     .hero_image1 {
-        background: url(/assets/images/hero-image1.jpg);
+        background: url(assets/images/hero-image1.jpg);
         @include hero-medium();
     }
     
     .hero_image2 {
-        background: url(/assets/images/hero-image2.jpg);
+        background: url(assets/images/hero-image2.jpg);
         @include hero-medium();
     }
     
     .hero_image3 {
-        background: url(/assets/images/hero-image3.jpg);
+        background: url(assets/images/hero-image3.jpg);
         @include hero-medium();
     }
     
     .hero_image4 {
-        background: url(/assets/images/hero-image4.jpg);
+        background: url(assets/images/hero-image4.jpg);
         @include hero-medium();
     }
     
     .hero_image5 {
-        background: url(/assets/images/hero-image5.jpg);
+        background: url(assets/images/hero-image5.jpg);
         @include hero-medium();
     }
 
@@ -817,27 +811,27 @@ footer {
     }
 
     .hero_image1 {
-        background: url(/assets/images/hero-image1.jpg);
+        background: url(assets/images/hero-image1.jpg);
         @include hero-small();
     }
     
     .hero_image2 {
-        background: url(/assets/images/hero-image2.jpg);
+        background: url(assets/images/hero-image2.jpg);
         @include hero-small();
     }
     
     .hero_image3 {
-        background: url(/assets/images/hero-image3.jpg);
+        background: url(assets/images/hero-image3.jpg);
         @include hero-small();
     }
     
     .hero_image4 {
-        background: url(/assets/images/hero-image4.jpg);
+        background: url(assets/images/hero-image4.jpg);
         @include hero-small();
     }
     
     .hero_image5 {
-        background: url(/assets/images/hero-image5.jpg);
+        background: url(assets/images/hero-image5.jpg);
         @include hero-small();
     }
 
