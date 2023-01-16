@@ -178,7 +178,7 @@ nav a:active:hover, .active:hover {
   position: relative;
 }
 
-.hero-title {
+.hero-title div, .hero-title h1 {
   width: 410px;
   height: 47px;
   background-color: rgba(255, 255, 255, 0);
