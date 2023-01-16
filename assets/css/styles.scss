@@ -258,13 +258,11 @@ header {
 
 
 .logo {
-    float:left;
-    height: 55px;
-    width: auto;
+    float: left;
     padding: 15px;
 }
 
-.logo img {
+img.logo {
     height: 55px;
     width: auto;
 }
