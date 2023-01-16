@@ -22,7 +22,7 @@
     transform: translateX(0%);
   }
 }
-/* mixins */
+/* **** */
 /* ______ This is the main section of the website styles ______ */
 *, ::after, ::before {
   box-sizing: unset !important;
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #00505c;
   padding: 0;
   margin: 0 5px;
-  padding: 25px 10px 15px 50px;
+  padding: 50px 10px 15px 50px;
   font-family: Gill Sans;
   font-weight: 600;
 }
@@ -134,7 +134,7 @@ p.bright {
 }
 
 p.entry-paragraph {
-  padding: 50px 25px 15px 50px;
+  padding: 55px 25px 50px 50px;
 }
 
 a {
@@ -244,10 +244,11 @@ nav a:active:hover, .active:hover {
 
 .hero-title h1 {
   color: #14436c;
-  font-size: 1.2;
+  font-size: 1.1;
   font-family: Gill Sans;
   font-style: italic;
   padding: 15px 15px 15px 50px;
+  margin: 10px;
 }
 
 .hero_image1 {
