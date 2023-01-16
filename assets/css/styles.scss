@@ -9,7 +9,7 @@
 /* variables */
 
 $grey: #585858;
-$teal: #00505c;
+$teal: #025a67;
 $darkteal: #003f49;
 $transparent-bk: rgba(255,255,255,0.35);
 $bright: #ffffff;
@@ -41,9 +41,9 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @keyframes flyIn {
-    from { transform : translateX(-100%) }
+    from { transform : translateX(-100%) };
 
-    to   { transform : translateX(0%) }
+    to   { transform : translateX(0%) };
 }
 
 /* **** */
@@ -51,6 +51,8 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
 @mixin basefont {
     body{
         font-size: $basefontsize;
+        font-family: $typeface;
+        color: $grey;
     };
     
 }

@@ -64,6 +64,8 @@ html, body {
 }
 html body, body body {
   font-size: 16pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #585858;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .entry-title h1 {
-  color: #00505c;
+  color: #025a67;
   padding: 0;
   margin: 0 5px;
   padding: 50px 10px 15px 50px;
@@ -140,7 +142,7 @@ p.entry-paragraph {
 }
 
 a {
-  color: #00505c;
+  color: #025a67;
 }
 
 a:hover {
@@ -208,14 +210,14 @@ nav::after, nav::before {
 nav a:hover {
   padding: 15px 15px;
   text-decoration: none;
-  color: #00505c;
+  color: #025a67;
   background-color: rgba(255, 255, 255, 0.35);
 }
 
 nav a:active, .active {
   padding: 15px 15px;
   text-decoration: none;
-  color: #00505c;
+  color: #025a67;
 }
 
 nav a:active:hover, .active:hover {
@@ -654,14 +656,14 @@ footer {
   nav a:hover {
     padding: 15px 10px;
     text-decoration: none;
-    color: #00505c;
+    color: #025a67;
     background-color: rgba(255, 255, 255, 0.35);
   }
   nav a:active,
   .active {
     padding: 15px 10px;
     text-decoration: none;
-    color: #00505c;
+    color: #025a67;
   }
   nav a:active:hover,
   .active:hover {
@@ -758,14 +760,14 @@ footer {
   nav a:hover {
     padding: 15px 10px;
     text-decoration: none;
-    color: #00505c;
+    color: #025a67;
     background-color: rgba(255, 255, 255, 0.35);
   }
   nav a:active,
   .active {
     padding: 15px 10px;
     text-decoration: none;
-    color: #00505c;
+    color: #025a67;
   }
   nav a:active:hover,
   .active:hover {
