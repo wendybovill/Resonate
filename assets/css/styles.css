@@ -234,6 +234,10 @@ nav a:active:hover, .active:hover {
   margin-bottom: 25px;
 }
 
+#hero {
+  margin-bottom: 25px;
+}
+
 #hero-text-position {
   vertical-align: bottom;
   padding-bottom: 20px;
