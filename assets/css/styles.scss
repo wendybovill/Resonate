@@ -50,11 +50,9 @@ $specialfont: Gill Sans;
 /* **** */
 
 @mixin basefont {
-    body{
         font-size: $basefontsize;
         font-family: $typeface;
         color: $grey;
-    };
     
 }
 
