@@ -10,7 +10,7 @@
 
 To demonstrate to the user that anxiety in the population has increased since the pandemic.
 
-**This site will have:
+*This site will have:
 
 1. Introduction
 
@@ -41,7 +41,7 @@ Balsamiq for Wireframes
 
 ## Development: Html, css, bootstrap. Gitpod. VS code. Git repository.
 
-1 Content:
+1. Content:
 
 Data from government website:
 https://www.gov.uk/government/publications/covid-19-mental-health-and-wellbeing-surveillance-report/3-triangulation-comparison-across-surveys
