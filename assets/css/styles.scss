@@ -122,12 +122,20 @@ h1,h2,h3,h4,h5,h6 {
     font-stretch: expanded 1.1;
 }
 
-h1, .entry-title  {
+.entry-title  {
     color: $teal;
     padding: 0;
     margin: 0 5px;
     padding: 25px 10px 15px 25px;
     font-family: Gill Sans;
+    font-weight: 600;
+}
+
+h1 {
+    color: $darkteal;
+    margin: 0 5px;
+    padding: 0;
+    padding: 25px 10px 15px 10px;
 }
 
 h2 {
