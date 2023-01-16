@@ -118,6 +118,13 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     background-size: cover;
 }
 
+@mixin intro-icon-large {
+    font-size: 40pt;
+    color:$bright;
+    padding: 5px;
+    font-weight: 700;
+}
+
 
 /* ______ This is the main section of the website styles ______ */
 
@@ -400,18 +407,22 @@ display: inline-block;
 
 .box1 {
     background-color: $gold;
+    @include intro-icon-large();
 }
 
 .box2 {
     background-color: $smokeblue;
+    @include intro-icon-large();
 }
 
 .box3 {
     background-color: $lightgrey;
+    @include intro-icon-large();
 }
 
 .box4 {
     background-color: $lighterteal;
+    @include intro-icon-large();
 }
 
 .content-box {
