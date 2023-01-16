@@ -10,7 +10,7 @@
 
 To demonstrate to the user that anxiety in the population has increased since the pandemic.
 
-*This site will have:
+***This site will have:***
 
 1. Introduction
 
@@ -43,19 +43,27 @@ Balsamiq for Wireframes
 
 1. Content:
 
-Data from government website:
+*Data from government website:*
 https://www.gov.uk/government/publications/covid-19-mental-health-and-wellbeing-surveillance-report/3-triangulation-comparison-across-surveys
 
 Tips on managing Anxiety: https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety
 
-Document for signposting.
+*Document for signposting:*
 
 Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2b0 Or watching the ocean https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety-or  fireplace video https://www.youtube.com/watch?v=kQocpm-Jh-o
 
-2. Design: Wireframe - Adobe. Pexels: free images.
-		Colours: pale yellow and light blue. Yellow: happiness, prosperity, hope. Blue: Calmness, logical, tranquility.
+
+2. Design: 
+
+*Wireframe:* Adobe XD and Balsamiq.
+ 
+*Images:* Pexels: free images.
+
+*Colours:* pale yellow/gold and light blue/teal. (Yellow: happiness, prosperity, hope. Blue: Calmness, logical, tranquility).
+
 
 3. Documentation including readme file, spec sheet, timeline for project stages. Estimated time 1 week.
+
 
 ## Future Development:
 
@@ -65,7 +73,7 @@ Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2
 
 3. Further deployment to hosted subdomain name
 
-**Feedback Form Plan:
+**Feedback Form Plan:**
 
 Name, Age, State/County, Country, Ethnicity, Have anxiety? Checkbox y/n, Getting support? Checkbox y/n, Anxiety Meter (radio buttons): Before pandemic 1 to 10, During pandemic 1 to 10, After pandemic 1 to 10, Now: 1 to 10.
 
