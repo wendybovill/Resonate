@@ -399,7 +399,7 @@ nav a:active:hover, .active:hover {
 
 .intro-box {
 @include larger-ibox();
-@include intro-icon-large()
+@include intro-icon-large();
 }
 
 .box1 {
