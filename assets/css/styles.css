@@ -362,13 +362,15 @@ nav a:active:hover, .active:hover {
 }
 
 .intro-box i {
-  font-size: 4rem;
+  font-size: 8rem;
   color: #ffffff;
+  padding-bottom: 5px;
 }
 
 .intro-box i:hover {
-  font-size: 4rem;
+  font-size: 8rem;
   color: #444444;
+  padding-bottom: 5px;
 }
 
 .box1 {

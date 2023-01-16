@@ -28,7 +28,7 @@ $blue: #14436c;
 $basefontsize: 12pt;
 $typeface: Verdana, Geneva, Tahoma, sans-serif;
 $specialfont: Gill Sans;
-$baseIfasize: 4rem;
+$baseIfasize: 8rem;
 
 
 /* animations */
@@ -60,11 +60,13 @@ $baseIfasize: 4rem;
 @mixin ifa-icon {
     font-size: $baseIfasize;
     color: $bright;
+    padding-bottom: 5px;
 }
 
 @mixin ifa-icon-hover {
     font-size: $baseIfasize;
     color: $darkgrey;
+    padding-bottom: 5px;
 }
 
 @mixin heroImage { 
