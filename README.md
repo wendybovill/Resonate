@@ -62,7 +62,7 @@ Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2
 
 	*Wireframe:* Adobe XD and Balsamiq. View Adobe XD pdf Design.
 		
-	
+	![Balsamiq Wireframe](https://github.com/wendybovill/milestone-project-one/blob/6c465eed1a2d48ac5ae74aa18e3a99e23818860e/documentation/wireframe-wendybovill-509620.png)
  
 	*Images:* Pexels: free images.
 
