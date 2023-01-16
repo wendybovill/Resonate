@@ -50,6 +50,7 @@
   height: calc(100% - 60px);
   display: block;
   position: absolute;
+  padding: 0;
 }
 
 .container {
@@ -534,7 +535,7 @@ footer {
     width: 100%;
     right: 0;
     vertical-align: bottom;
-    text-align: right;
+    text-align: center;
     align-items: baseline;
     height: 21px;
     position: absolute;
