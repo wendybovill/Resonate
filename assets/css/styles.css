@@ -69,7 +69,7 @@
 }
 
 html, body {
-  font-size: 14pt;
+  font-size: 12pt;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #585858;
   margin: 0;
@@ -267,7 +267,7 @@ nav a:active:hover, .active:hover {
 
 .hero-title h1 {
   color: #14436c;
-  font-size: 1.1;
+  font-size: 1.05;
   font-family: Gill Sans;
   font-style: italic;
   padding: 15px 15px 15px 50px;
