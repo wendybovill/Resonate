@@ -336,7 +336,7 @@ nav a:active:hover, .active:hover {
 /* Home Page */
 
 .intro-box {
-@include medium-ibox();
+@include large-ibox();
 color:$bright;
 font-weight:900;
 font-size:14pt;
