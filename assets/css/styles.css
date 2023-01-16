@@ -157,12 +157,10 @@ header {
 
 .logo {
   float: left;
-  height: 55px;
-  width: auto;
   padding: 15px;
 }
 
-.logo img {
+img.logo {
   height: 55px;
   width: auto;
 }
