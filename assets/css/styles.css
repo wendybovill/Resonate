@@ -231,6 +231,7 @@ nav a:active:hover, .active:hover {
   display: block;
   position: relative;
   z-index: 8000;
+  margin-bottom: 25px;
 }
 
 #hero-text-position {
@@ -537,7 +538,7 @@ footer {
   }
   .hero-title h1 {
     color: #14436c;
-    font-size: 0.8em;
+    font-size: 0.95em;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 50px;
@@ -609,7 +610,7 @@ footer {
   }
   .hero-title h1 {
     color: #14436c;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 50px;
@@ -812,42 +813,50 @@ footer {
     padding-top: 50px;
     max-width: 95%;
   }
+  .hero-title h1 {
+    color: #14436c;
+    font-size: 0.85em;
+    font-family: Gill Sans;
+    font-style: italic;
+    padding: 15px 15px 15px 50px;
+    margin: 20px;
+  }
   /* content styles */
   h1 {
     color: #003f49;
     padding: 0;
     margin: 0 5px;
-    font-size: 0.95em;
+    font-size: 0.85em;
   }
   h2 {
     color: #ffffff;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.95em;
+    font-size: 0.85em;
   }
   h3 {
     color: #444444;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.95em;
+    font-size: 0.85em;
   }
   h4 {
     color: #003f49;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.95em;
+    font-size: 0.85em;
   }
   h5 {
     color: #ffffff;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
   h6 {
     color: #444444;
     margin: 0 5px;
     padding: 0;
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
 }
 
