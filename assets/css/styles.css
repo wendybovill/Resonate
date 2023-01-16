@@ -252,7 +252,7 @@ nav a:active:hover, .active:hover {
 }
 
 .hero_image1 {
-  background: url(/assets/images/hero-image1.jpg);
+  background: url(assets/images/hero-image1.jpg);
   height: 350px;
   width: auto;
   background-position: bottom center;
@@ -264,7 +264,7 @@ nav a:active:hover, .active:hover {
 }
 
 .hero_image2 {
-  background: url(/assets/images/hero-image2.jpg);
+  background: url(assets/images/hero-image2.jpg);
   height: 350px;
   width: auto;
   background-position: bottom center;
@@ -276,7 +276,7 @@ nav a:active:hover, .active:hover {
 }
 
 .hero_image3 {
-  background: url(/assets/images/hero-image3.jpg);
+  background: url(assets/images/hero-image3.jpg);
   height: 350px;
   width: auto;
   background-position: bottom center;
@@ -288,7 +288,7 @@ nav a:active:hover, .active:hover {
 }
 
 .hero_image4 {
-  background: url(/assets/images/hero-image4.jpg);
+  background: url(assets/images/hero-image4.jpg);
   height: 350px;
   width: auto;
   background-position: bottom center;
@@ -300,7 +300,7 @@ nav a:active:hover, .active:hover {
 }
 
 .hero_image5 {
-  background: url(/assets/images/hero-image5.jpg);
+  background: url(assets/images/hero-image5.jpg);
   height: 350px;
   width: auto;
   background-position: bottom center;
@@ -407,35 +407,35 @@ footer {
     max-width: 1920px;
   }
   .hero_image1 {
-    background: url(/assets/images/hero-image1.jpg);
+    background: url(assets/images/hero-image1.jpg);
     height: 350px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image2 {
-    background: url(/assets/images/hero-image2.jpg);
+    background: url(assets/images/hero-image2.jpg);
     height: 350px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image3 {
-    background: url(/assets/images/hero-image3.jpg);
+    background: url(assets/images/hero-image3.jpg);
     height: 350px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image4 {
-    background: url(/assets/images/hero-image4.jpg);
+    background: url(assets/images/hero-image4.jpg);
     height: 350px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image5 {
-    background: url(/assets/images/hero-image5.jpg);
+    background: url(assets/images/hero-image5.jpg);
     height: 350px;
     width: auto;
     background-position: bottom center;
@@ -449,35 +449,35 @@ footer {
     max-width: 1200px;
   }
   .hero_image1 {
-    background: url(/assets/images/hero-image1.jpg);
+    background: url(assets/images/hero-image1.jpg);
     height: 350px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image2 {
-    background: url(/assets/images/hero-image2.jpg);
+    background: url(assets/images/hero-image2.jpg);
     height: 350px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image3 {
-    background: url(/assets/images/hero-image3.jpg);
+    background: url(assets/images/hero-image3.jpg);
     height: 350px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image4 {
-    background: url(/assets/images/hero-image4.jpg);
+    background: url(assets/images/hero-image4.jpg);
     height: 350px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image5 {
-    background: url(/assets/images/hero-image5.jpg);
+    background: url(assets/images/hero-image5.jpg);
     height: 350px;
     width: auto;
     background-position: bottom center;
@@ -494,35 +494,35 @@ footer {
     max-width: 991px;
   }
   .hero_image1 {
-    background: url(/assets/images/hero-image1.jpg);
+    background: url(assets/images/hero-image1.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image2 {
-    background: url(/assets/images/hero-image2.jpg);
+    background: url(assets/images/hero-image2.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image3 {
-    background: url(/assets/images/hero-image3.jpg);
+    background: url(assets/images/hero-image3.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image4 {
-    background: url(/assets/images/hero-image4.jpg);
+    background: url(assets/images/hero-image4.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image5 {
-    background: url(/assets/images/hero-image5.jpg);
+    background: url(assets/images/hero-image5.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
@@ -546,35 +546,35 @@ footer {
     max-width: 767px;
   }
   .hero_image1 {
-    background: url(/assets/images/hero-image1.jpg);
+    background: url(assets/images/hero-image1.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image2 {
-    background: url(/assets/images/hero-image2.jpg);
+    background: url(assets/images/hero-image2.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image3 {
-    background: url(/assets/images/hero-image3.jpg);
+    background: url(assets/images/hero-image3.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image4 {
-    background: url(/assets/images/hero-image4.jpg);
+    background: url(assets/images/hero-image4.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image5 {
-    background: url(/assets/images/hero-image5.jpg);
+    background: url(assets/images/hero-image5.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
@@ -737,35 +737,35 @@ footer {
     max-width: 377px;
   }
   .hero_image1 {
-    background: url(/assets/images/hero-image1.jpg);
+    background: url(assets/images/hero-image1.jpg);
     height: 150px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image2 {
-    background: url(/assets/images/hero-image2.jpg);
+    background: url(assets/images/hero-image2.jpg);
     height: 150px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image3 {
-    background: url(/assets/images/hero-image3.jpg);
+    background: url(assets/images/hero-image3.jpg);
     height: 150px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image4 {
-    background: url(/assets/images/hero-image4.jpg);
+    background: url(assets/images/hero-image4.jpg);
     height: 150px;
     width: auto;
     background-position: bottom center;
     background-size: cover;
   }
   .hero_image5 {
-    background: url(/assets/images/hero-image5.jpg);
+    background: url(assets/images/hero-image5.jpg);
     height: 150px;
     width: auto;
     background-position: bottom center;
