@@ -135,21 +135,21 @@ h1 {
     color: $darkteal;
     margin: 0 5px;
     padding: 0;
-    padding: 25px 10px 15px 10px;
+    padding: 25px 10px 15px 25px;
 }
 
 h2 {
     color: $bright;
     margin: 0 5px;
     padding: 0;
-    padding: 25px 10px 15px 10px;
+    padding: 25px 10px 15px 25px;
 }
 
 h3 {
     color: $darkgrey;
     margin: 0 5px;
     padding: 0;
-    padding: 25px 10px 15px 10px;
+    padding: 25px 10px 15px 25px;
 }
 
 h4 {
@@ -157,7 +157,7 @@ h4 {
     margin: 0 5px;
     padding: 0;
     font-size: 0.90em;
-    padding: 25px 10px 15px 10px;
+    padding: 25px 10px 15px 25px;
 }
 
 h5 {
@@ -180,6 +180,12 @@ p {
     text-align: justify;
     font-size: 12;
     font-weight: 400;
+    padding: 5px 25px;
+}
+
+p.bright {
+    color:$bright;
+    padding: 5px 25px;
 }
 
 a {
