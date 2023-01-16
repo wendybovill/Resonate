@@ -252,7 +252,7 @@ nav a:active:hover, .active:hover {
 }
 
 .hero_image1 {
-  background: url(./images/hero-image1.jpg);
+  background: url(../images/hero-image1.jpg);
   height: 350px;
   width: auto;
   background-position: bottom center;
