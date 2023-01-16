@@ -34,10 +34,10 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
 
 @keyframes heroIncrease {
     from {
-      transform: scale(0);
+      transform: scale(1);
     }
     to {
-      transform: scale(1.5);
+      transform: scale(1.1);
     }
 }
 
@@ -104,7 +104,8 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     background-position: bottom center;
     background-size: cover;
     animation: heroIncrease 60s;
-    animation-delay: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 @mixin hero-medium {
@@ -113,6 +114,8 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     background-position: bottom center;
     background-size: cover;
     animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 @mixin hero-small {
@@ -121,6 +124,8 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     background-position: bottom center;
     background-size: cover;
     animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 

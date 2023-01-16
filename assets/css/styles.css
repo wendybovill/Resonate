@@ -8,10 +8,10 @@
 /* animations */
 @keyframes heroIncrease {
   from {
-    transform: scale(0);
+    transform: scale(1);
   }
   to {
-    transform: scale(1);
+    transform: scale(1.1);
   }
 }
 @keyframes flyIn {
@@ -263,8 +263,8 @@ nav a:active:hover, .active:hover {
 .hero-title div, .hero-title h1 {
   height: 47px;
   background-color: rgba(255, 255, 255, 0.35);
-  animation: flyIn 0.25s;
-  animation-delay: 0.25s;
+  animation: flyIn 50s;
+  animation-delay: 15s;
 }
 
 .hero-title h1 {
@@ -281,7 +281,9 @@ nav a:active:hover, .active:hover {
   width: auto;
   background-position: bottom center;
   background-size: cover;
-  animation: heroIncrease 0.25s;
+  animation: heroIncrease 60s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .hero_image2 {
@@ -290,7 +292,9 @@ nav a:active:hover, .active:hover {
   width: auto;
   background-position: bottom center;
   background-size: cover;
-  animation: heroIncrease 0.25s;
+  animation: heroIncrease 60s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .hero_image3 {
@@ -299,7 +303,9 @@ nav a:active:hover, .active:hover {
   width: auto;
   background-position: bottom center;
   background-size: cover;
-  animation: heroIncrease 0.25s;
+  animation: heroIncrease 60s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .hero_image4 {
@@ -308,7 +314,9 @@ nav a:active:hover, .active:hover {
   width: auto;
   background-position: bottom center;
   background-size: cover;
-  animation: heroIncrease 0.25s;
+  animation: heroIncrease 60s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .hero_image5 {
@@ -317,7 +325,9 @@ nav a:active:hover, .active:hover {
   width: auto;
   background-position: bottom center;
   background-size: cover;
-  animation: heroIncrease 0.25s;
+  animation: heroIncrease 60s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 /* _____________________ Main Content Section ___________________  */
@@ -421,7 +431,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image2 {
     background: url(/assets/images/hero-image2.jpg);
@@ -429,7 +441,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image3 {
     background: url(/assets/images/hero-image3.jpg);
@@ -437,7 +451,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image4 {
     background: url(/assets/images/hero-image4.jpg);
@@ -445,7 +461,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image5 {
     background: url(/assets/images/hero-image5.jpg);
@@ -453,7 +471,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
 }
 /* Large devices */
@@ -468,7 +488,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image2 {
     background: url(/assets/images/hero-image2.jpg);
@@ -476,7 +498,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image3 {
     background: url(/assets/images/hero-image3.jpg);
@@ -484,7 +508,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image4 {
     background: url(/assets/images/hero-image4.jpg);
@@ -492,7 +518,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image5 {
     background: url(/assets/images/hero-image5.jpg);
@@ -500,7 +528,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   p {
     font-size: 1rem;
@@ -518,7 +548,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image2 {
     background: url(/assets/images/hero-image2.jpg);
@@ -526,7 +558,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image3 {
     background: url(/assets/images/hero-image3.jpg);
@@ -534,7 +568,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image4 {
     background: url(/assets/images/hero-image4.jpg);
@@ -542,7 +578,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image5 {
     background: url(/assets/images/hero-image5.jpg);
@@ -550,7 +588,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
 }
 /* Small devices */
@@ -575,7 +615,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image2 {
     background: url(/assets/images/hero-image2.jpg);
@@ -583,7 +625,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image3 {
     background: url(/assets/images/hero-image3.jpg);
@@ -591,7 +635,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image4 {
     background: url(/assets/images/hero-image4.jpg);
@@ -599,7 +645,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image5 {
     background: url(/assets/images/hero-image5.jpg);
@@ -607,7 +655,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   nav {
     min-width: 60px;
@@ -771,7 +821,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image2 {
     background: url(/assets/images/hero-image2.jpg);
@@ -779,7 +831,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image3 {
     background: url(/assets/images/hero-image3.jpg);
@@ -787,7 +841,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image4 {
     background: url(/assets/images/hero-image4.jpg);
@@ -795,7 +851,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   .hero_image5 {
     background: url(/assets/images/hero-image5.jpg);
@@ -803,7 +861,9 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 0.25s;
+    animation: heroIncrease 60s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
   }
   /* content styles */
   h1 {
