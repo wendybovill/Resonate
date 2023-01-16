@@ -581,6 +581,13 @@ footer {
         background: url(../images/hero-image5.jpg);
         @include hero-medium();
     }
+
+    #hero-text-position {
+        vertical-align: bottom;
+        padding-bottom: 20px;
+        padding-top: 90px;
+        max-width: 85%;
+    }
  }
 
 /* Small devices */
@@ -629,10 +636,10 @@ footer {
     }
 
     #hero-text-position {
-        vertical-align:bottom;
+        vertical-align: bottom;
         padding-bottom: 20px;
-        padding-top:100px;
-        max-width:75%;
+        padding-top: 80px;
+        max-width: 85%;
     }
     
     .hero-title div, .hero-title h1{
@@ -856,6 +863,13 @@ footer {
     .hero_image5 {
         background: url(../images/hero-image5.jpg);
         @include hero-small();
+    }
+
+    #hero-text-position {
+        vertical-align: bottom;
+        padding-bottom: 20px;
+        padding-top: 50px;
+        max-width: 95%;
     }
 
     /* content styles */

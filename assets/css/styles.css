@@ -527,6 +527,12 @@ footer {
     background-position: bottom center;
     background-size: cover;
   }
+  #hero-text-position {
+    vertical-align: bottom;
+    padding-bottom: 20px;
+    padding-top: 90px;
+    max-width: 85%;
+  }
 }
 /* Small devices */
 @media (min-width: 378px) and (max-width: 767px) {
@@ -582,8 +588,8 @@ footer {
   #hero-text-position {
     vertical-align: bottom;
     padding-bottom: 20px;
-    padding-top: 100px;
-    max-width: 75%;
+    padding-top: 80px;
+    max-width: 85%;
   }
   .hero-title div, .hero-title h1 {
     height: 40px;
@@ -789,6 +795,12 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
+  }
+  #hero-text-position {
+    vertical-align: bottom;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    max-width: 95%;
   }
   /* content styles */
   h1 {
