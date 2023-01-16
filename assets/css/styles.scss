@@ -407,8 +407,12 @@ nav a:active:hover, .active:hover {
 /* Home Page */
 
 .intro-box {
-@include larger-ibox();
-}
+    @include larger-ibox();
+    }
+
+.intro-box i {
+    font-size: 200%
+    }
 
 .box1 {
     background-color: $gold;

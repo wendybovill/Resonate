@@ -360,6 +360,10 @@ nav a:active:hover, .active:hover {
   margin: 20px;
 }
 
+.intro-box i {
+  font-size: 200%;
+}
+
 .box1 {
   background-color: #b7af8c;
   color: #ffffff;
