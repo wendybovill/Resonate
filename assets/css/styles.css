@@ -174,7 +174,6 @@ nav a:active:hover, .active:hover {
 /* Hero Image Section */
 .hero {
   height: 200px;
-  background-color: yellow;
   display: block;
   position: relative;
 }
