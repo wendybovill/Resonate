@@ -269,6 +269,9 @@ nav a:active:hover, .active:hover {
   display: inline-block;
   padding: 7px;
   margin: 7px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 14pt;
 }
 
 .content-box {
