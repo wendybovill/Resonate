@@ -533,6 +533,14 @@ footer {
     padding-top: 90px;
     max-width: 85%;
   }
+  .hero-title h1 {
+    color: #14436c;
+    font-size: 0.8em;
+    font-family: Gill Sans;
+    font-style: italic;
+    padding: 15px 15px 15px 50px;
+    margin: 20px;
+  }
 }
 /* Small devices */
 @media (min-width: 378px) and (max-width: 767px) {
@@ -599,7 +607,7 @@ footer {
   }
   .hero-title h1 {
     color: #14436c;
-    font-size: 0.9;
+    font-size: 0.8em;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 50px;
