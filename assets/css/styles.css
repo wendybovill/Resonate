@@ -361,18 +361,22 @@ nav a:active:hover, .active:hover {
 
 .box1 {
   background-color: #b7af8c;
+  color: #ffffff;
 }
 
 .box2 {
   background-color: rgba(20, 67, 108, 0.5);
+  color: #ffffff;
 }
 
 .box3 {
   background-color: #767676;
+  color: #ffffff;
 }
 
 .box4 {
   background-color: rgba(0, 80, 92, 0.5);
+  color: #ffffff;
 }
 
 .content-box {
@@ -400,6 +404,7 @@ section {
 
 #index_two {
   background-color: rgba(34, 85, 129, 0.49);
+  color: #ffffff;
   vertical-align: middle;
   width: 100%;
 }
@@ -411,6 +416,7 @@ section {
 
 #index_four {
   background-color: rgba(0, 80, 92, 0.5);
+  color: #ffffff;
   width: 100%;
 }
 
