@@ -399,30 +399,23 @@ nav a:active:hover, .active:hover {
 
 .intro-box {
 @include larger-ibox();
-color:$bright;
-font-weight:900;
-font-size:14pt;
-display: inline-block;
+@include intro-icon-large()
 }
 
 .box1 {
     background-color: $gold;
-    @include intro-icon-large();
 }
 
 .box2 {
     background-color: $smokeblue;
-    @include intro-icon-large();
 }
 
 .box3 {
     background-color: $lightgrey;
-    @include intro-icon-large();
 }
 
 .box4 {
     background-color: $lighterteal;
-    @include intro-icon-large();
 }
 
 .content-box {

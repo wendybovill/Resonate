@@ -319,42 +319,26 @@ nav a:active:hover, .active:hover {
   display: inline-block;
   padding: 20px;
   margin: 20px;
+  font-size: 40pt;
   color: #ffffff;
-  font-weight: 900;
-  font-size: 14pt;
-  display: inline-block;
+  padding: 5px;
+  font-weight: 700;
 }
 
 .box1 {
   background-color: #b7af8c;
-  font-size: 40pt;
-  color: #ffffff;
-  padding: 5px;
-  font-weight: 700;
 }
 
 .box2 {
   background-color: rgba(20, 67, 108, 0.5);
-  font-size: 40pt;
-  color: #ffffff;
-  padding: 5px;
-  font-weight: 700;
 }
 
 .box3 {
   background-color: #767676;
-  font-size: 40pt;
-  color: #ffffff;
-  padding: 5px;
-  font-weight: 700;
 }
 
 .box4 {
   background-color: rgba(0, 80, 92, 0.5);
-  font-size: 40pt;
-  color: #ffffff;
-  padding: 5px;
-  font-weight: 700;
 }
 
 .content-box {
