@@ -99,3 +99,7 @@ CSS Animations: Stackflow https://stackoverflow.com/questions/42632767/css-anima
 SCSS https://sass-lang.com/guide
 
 CSS/Html fix floating footer: Bootstrap5: used col-12 in footer class
+
+CSS/Html not showing stylesheet or images: removed begining / from file path for stylesheet fix, and added ../images/imagehere.jpg instead of /assets/images/imagehere.jpg
+
+Currently having difficulty getting font awesome to work.
