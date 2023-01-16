@@ -1,108 +1,82 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone 1 Project: Presentation of Static Data
 
-Welcome wendybovill,
+## Target Audience:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+- Members of the public that battle with anxiety and are looking for resources to assist them with "Mindfulness" calming techniques.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- Businesses where their employees battle with anxiety and having a bespoke app created will assist their employees to manage their anxiety and overall increase productivity and wellbeing in their business
 
-## Gitpod Reminders
+## Purpose: 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+To demonstrate to the user that anxiety in the population has increased since the pandemic.
 
-`python3 -m http.server`
+**This site will have:
 
-A blue button should appear to click: _Make Public_,
+1. Introduction
 
-Another blue button should appear to click: _Open Browser_.
+2. Bar-chart showing statistics, with a hover animation effect for each section that changes the opacity of the after pandemic statistic to show from 0 opacity to 50% opacity.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+3. Tips on how to manage anxiety
 
-A blue button should appear to click: _Make Public_,
+4. Sign-posting to help sites and phone lines to help manage anxiety
 
-Another blue button should appear to click: _Open Browser_.
+5. Enquiry Form for users to find out more about the Resonate Mindfulness Apps (both free and bespoke versions).
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Technology Requirements:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Html
+Css
+Scss & @mixins
+Bootstrap 5
+Gitpod
+VS Code
+NPM and Node to convert SCSS to CSS
+Git Repository
 
-------
+XD Design Prototype and Creation
+Balsamiq for Wireframes
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Development: Html, css, bootstrap. Gitpod. VS code. Git repository.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+1 Content:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Data from government website:
+https://www.gov.uk/government/publications/covid-19-mental-health-and-wellbeing-surveillance-report/3-triangulation-comparison-across-surveys
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Tips on managing Anxiety: https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Document for signposting.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2b0 Or watching the ocean https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety-or  fireplace video https://www.youtube.com/watch?v=kQocpm-Jh-o
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+2. Design: Wireframe - Adobe. Pexels: free images.
+		Colours: pale yellow and light blue. Yellow: happiness, prosperity, hope. Blue: Calmness, logical, tranquility.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+3. Documentation including readme file, spec sheet, timeline for project stages. Estimated time 1 week.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Future Development:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+1. Implement Voice Assistance / Voice Over for Assisted Technology
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+2. Feedback poll as an Enquiry Form with a radio button as a poll which allows the user to select if they have been battling with anxiety. And if yes, if it was worse before, during or after the lockdowns.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+3. Further deployment to hosted subdomain name
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Feedback Form Plan:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Name, Age, State/County, Country, Ethnicity, Have anxiety? Checkbox y/n, Getting support? Checkbox y/n, Anxiety Meter (radio buttons): Before pandemic 1 to 10, During pandemic 1 to 10, After pandemic 1 to 10, Now: 1 to 10.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Acknowledgements
 
-------
+CSS Animations: Stackflow https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container
 
-## FAQ about the uptime script
+# Debugging Results
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+SCSS https://sass-lang.com/guide
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+CSS/Html fix floating footer: Bootstrap5: used col-12 in footer class
