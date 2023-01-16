@@ -486,10 +486,38 @@ footer {
     position: absolute;
     bottom: 0px;
     display: inline-block;
-    font-size: 14pt;
+    font-size: 11pt;
     padding: 20px;
     white-space: nowrap;
     font-weight: 700;
+  }
+  nav a {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #585858;
+  }
+  nav::after,
+  nav::before {
+    box-sizing: unset !important;
+  }
+  nav a:hover {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #00505c;
+    background-color: rgba(255, 255, 255, 0.35);
+  }
+  nav a:active,
+  .active {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #00505c;
+  }
+  nav a:active:hover,
+  .active:hover {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #003f49;
+    background-color: rgba(255, 255, 255, 0.35);
   }
   .logo {
     float: none !important;
@@ -559,10 +587,38 @@ footer {
     position: absolute;
     bottom: 0px;
     display: inline-block;
-    font-size: 14pt;
+    font-size: 11pt;
     font-weight: 700;
     padding: 20px;
     white-space: nowrap;
+  }
+  nav a {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #585858;
+  }
+  nav::after,
+  nav::before {
+    box-sizing: unset !important;
+  }
+  nav a:hover {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #00505c;
+    background-color: rgba(255, 255, 255, 0.35);
+  }
+  nav a:active,
+  .active {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #00505c;
+  }
+  nav a:active:hover,
+  .active:hover {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #003f49;
+    background-color: rgba(255, 255, 255, 0.35);
   }
   .logo {
     float: none !important;
