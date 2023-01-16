@@ -52,6 +52,13 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
 
 /* mixins */
 
+@mixin heroImage { 
+    /* animate the hero background image */
+    animation: heroIncrease 10s;
+    animation-delay: 0;
+    animation-fill-mode: forwards;
+}
+
 @mixin backblur($bkcolor: rgba(255, 255, 255, 0.15)) {
     background: transparent;
     /* Note: currently only Safari supports backdrop-filter */
@@ -98,9 +105,6 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
 }
 
 @mixin hero-medium {
@@ -108,9 +112,6 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
 }
 
 @mixin hero-small {
@@ -118,9 +119,6 @@ $typeface: Verdana, Geneva, Tahoma, sans-serif;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
 }
 
 
@@ -363,26 +361,31 @@ nav a:active:hover, .active:hover {
 .hero_image1 {
     background: url(/assets/images/hero-image1.jpg);
     @include hero-large();
+    @include heroImage();
 }
 
 .hero_image2 {
         background: url(/assets/images/hero-image2.jpg);
         @include hero-large();
+        @include heroImage();
 }
 
 .hero_image3 {
         background: url(/assets/images/hero-image3.jpg);
         @include hero-large();
+        @include heroImage();
 }
 
 .hero_image4 {
         background: url(/assets/images/hero-image4.jpg);
         @include hero-large();
+        @include heroImage();
 }
 
 .hero_image5 {
         background: url(/assets/images/hero-image5.jpg);
         @include hero-large();
+        @include heroImage();
 }
 
 /* _____________________ Main Content Section ___________________  */

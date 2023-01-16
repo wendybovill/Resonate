@@ -268,6 +268,7 @@ nav a:active:hover, .active:hover {
   width: auto;
   background-position: bottom center;
   background-size: cover;
+  /* animate the hero background image */
   animation: heroIncrease 10s;
   animation-delay: 0;
   animation-fill-mode: forwards;
@@ -279,6 +280,7 @@ nav a:active:hover, .active:hover {
   width: auto;
   background-position: bottom center;
   background-size: cover;
+  /* animate the hero background image */
   animation: heroIncrease 10s;
   animation-delay: 0;
   animation-fill-mode: forwards;
@@ -290,6 +292,7 @@ nav a:active:hover, .active:hover {
   width: auto;
   background-position: bottom center;
   background-size: cover;
+  /* animate the hero background image */
   animation: heroIncrease 10s;
   animation-delay: 0;
   animation-fill-mode: forwards;
@@ -301,6 +304,7 @@ nav a:active:hover, .active:hover {
   width: auto;
   background-position: bottom center;
   background-size: cover;
+  /* animate the hero background image */
   animation: heroIncrease 10s;
   animation-delay: 0;
   animation-fill-mode: forwards;
@@ -312,6 +316,7 @@ nav a:active:hover, .active:hover {
   width: auto;
   background-position: bottom center;
   background-size: cover;
+  /* animate the hero background image */
   animation: heroIncrease 10s;
   animation-delay: 0;
   animation-fill-mode: forwards;
@@ -418,9 +423,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image2 {
     background: url(/assets/images/hero-image2.jpg);
@@ -428,9 +430,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image3 {
     background: url(/assets/images/hero-image3.jpg);
@@ -438,9 +437,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image4 {
     background: url(/assets/images/hero-image4.jpg);
@@ -448,9 +444,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image5 {
     background: url(/assets/images/hero-image5.jpg);
@@ -458,9 +451,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
 }
 /* Large devices */
@@ -475,9 +465,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image2 {
     background: url(/assets/images/hero-image2.jpg);
@@ -485,9 +472,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image3 {
     background: url(/assets/images/hero-image3.jpg);
@@ -495,9 +479,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image4 {
     background: url(/assets/images/hero-image4.jpg);
@@ -505,9 +486,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image5 {
     background: url(/assets/images/hero-image5.jpg);
@@ -515,9 +493,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   p {
     font-size: 1rem;
@@ -535,9 +510,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image2 {
     background: url(/assets/images/hero-image2.jpg);
@@ -545,9 +517,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image3 {
     background: url(/assets/images/hero-image3.jpg);
@@ -555,9 +524,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image4 {
     background: url(/assets/images/hero-image4.jpg);
@@ -565,9 +531,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image5 {
     background: url(/assets/images/hero-image5.jpg);
@@ -575,9 +538,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
 }
 /* Small devices */
@@ -602,9 +562,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image2 {
     background: url(/assets/images/hero-image2.jpg);
@@ -612,9 +569,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image3 {
     background: url(/assets/images/hero-image3.jpg);
@@ -622,9 +576,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image4 {
     background: url(/assets/images/hero-image4.jpg);
@@ -632,9 +583,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image5 {
     background: url(/assets/images/hero-image5.jpg);
@@ -642,9 +590,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   nav {
     min-width: 60px;
@@ -808,9 +753,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image2 {
     background: url(/assets/images/hero-image2.jpg);
@@ -818,9 +760,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image3 {
     background: url(/assets/images/hero-image3.jpg);
@@ -828,9 +767,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image4 {
     background: url(/assets/images/hero-image4.jpg);
@@ -838,9 +774,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   .hero_image5 {
     background: url(/assets/images/hero-image5.jpg);
@@ -848,9 +781,6 @@ footer {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    animation: heroIncrease 10;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
   }
   /* content styles */
   h1 {
