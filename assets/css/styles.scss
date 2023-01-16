@@ -258,14 +258,17 @@ nav a:active:hover, .active:hover {
     height: 200px;
     display:block;
     position: relative;
+    text-align: center;
 }
 
 .hero-title div, .hero-title h1{
-    width: 410px;
+    width: 50%;
     height: 47px;
-    background-color: rgba(255,255,255,0);
+    background-color: $transparent-bk;
     color: navy;
-    font-size: 1.2em;
+    font-size: 1.1;
+    vertical-align: middle;
+    margin:60%;
 }
 
 .hero_image1 {
