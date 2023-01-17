@@ -901,7 +901,7 @@ nav::before {
   }
   p.contentbox {
     font-size: 0.9rem;
-    word-spacing: 0.9rem;
+    word-spacing: 0rem;
     line-height: 1.5;
   }
   h2.contentbox, h3.contentbox, h4.contentbox {
