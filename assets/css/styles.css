@@ -506,10 +506,28 @@ section {
 }
 
 #section_four {
-  background-color: rgba(0, 80, 92, 0.5);
   color: #ffffff;
+  vertical-align: middle;
   width: 100%;
   padding-left: 0 !important;
+  min-height: 200px;
+  width: 100%;
+  background-color: rgba(0, 80, 92, 0.5);
+  z-index: 3010;
+  border: none;
+}
+
+#section_four_image {
+  background: url(../images/content-box-image3.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 0 !important;
+  min-height: 200px;
+  z-index: 3000;
+  opacity: 50%;
+  overflow: hidden;
+  height: 50vw;
+  border: none;
 }
 
 ul.bright.contentbox {

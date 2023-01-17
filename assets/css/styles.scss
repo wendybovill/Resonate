@@ -586,11 +586,18 @@ section {
     }
 
 #section_four {
-    background-color: $lighterteal;
     color: $bright;
+    vertical-align: middle;
     width:100%;
     padding-left:0!important;
-    }
+    min-height: 200px;
+    @include tealoverlay();
+}
+
+#section_four_image {
+    background: url(../images/content-box-image3.jpg);
+    @include sectionimagebox();
+}
 
 ul.bright.contentbox {
     list-style-type: none;
