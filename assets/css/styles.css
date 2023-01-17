@@ -459,9 +459,36 @@ section {
 }
 
 #section_three {
-  background-color: rgba(129, 122, 34, 0.24);
+  vertical-align: middle;
   width: 100%;
   padding-left: 0 !important;
+  min-height: 200px;
+  width: 100%;
+  background-color: rgba(129, 122, 34, 0.24);
+  z-index: 3010;
+}
+
+#section_three_image {
+  background: url(../images/anxiety-image1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-left: 0 !important;
+  min-height: 200px;
+  z-index: 3000;
+  opacity: 50%;
+}
+
+.section_three_overlay {
+  width: 100%;
+  background-color: rgba(129, 122, 34, 0.24);
+  z-index: 3010;
+}
+
+#section_three_text {
+  z-index: 3050;
+  display: inline;
+  padding: 25px 25px 50px 25px;
 }
 
 #section_four {

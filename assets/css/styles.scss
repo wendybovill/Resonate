@@ -540,10 +540,27 @@ section {
     }
 
 #section_three {
-    background-color: $lightbeige;
+    vertical-align: middle;
     width:100%;
     padding-left:0!important;
+    min-height: 200px;
+    @include beigeoverlay();
 }
+
+#section_three_image {
+    background: url(../images/anxiety-image1.jpg);
+    @include sectionimagebox();
+}
+
+.section_three_overlay {
+    @include beigeoverlay();
+    }
+
+#section_three_text {
+    z-index: 3050;
+    display:inline;
+    padding: 25px 25px 50px 25px;
+    }
 
 #section_four {
     background-color: $lighterteal;
