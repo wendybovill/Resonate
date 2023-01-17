@@ -502,6 +502,7 @@ section {
     vertical-align: middle;
     width:100%;
     padding-left:0!important;
+
 }
 
 #section_two {
@@ -511,6 +512,7 @@ section {
     padding-left:0!important;
     min-height: 200px;
     @include lightblueoverlay;
+    padding: 25px 25px 25px 0;
 }
 
 #section_two_image {
