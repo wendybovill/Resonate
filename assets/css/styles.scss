@@ -1174,97 +1174,105 @@ nav {
         font-size: 1rem;
         padding: 2rem 5px 0 5px;
         text-align: center;
-        }
+    }
 
 // resize the iconboxes on first page welcome section
-.intro-box {
-    @include large-ibox();
-    font-size: 1rem!important;
-    margin-left: 15px!important;
+
+    #iconboxes {
+    text-align: center;
+    vertical-align: baseline;
+    padding-bottom: 50px;
+    padding-left: 20px!important;
+    }
+        
+    .intro-box {
+        @include large-ibox();
+        font-size: 1rem!important;
+        margin-left: 15px!important;
     }
 
-.intro-box i {
-    font-size: 5rem!important;
+    .intro-box i {
+        font-size: 5rem!important;
     }
 
-.intro-box i:hover {
-    font-size: 5rem!important;
+    .intro-box i:hover {
+        font-size: 5rem!important;
     }
 
-// change padding for section one so more centered
+    // change padding for section one so more centered
 
-#section_one {
-    padding:unset!important;
+    #section_one {
+        padding:unset!important;
     }
 
-// hide the sections two through to four and replace with single block
+    // hide the sections two through to four and replace with single block
 
-#section_two {
-    display:none;
-        }
-
-#section_three {
-    display:none;
-        }
-
-#section_four {
-    display:none;
-        }
-
-
-#section_two_resp {
-    color: $bright;
-    vertical-align: middle;
-    width:100%;
-    padding-left:0!important;
-    min-height: 200px;
-    @include lightblueoverlay;
-}
-
-#section_two_image_resp {
-    background: url(../images/content-box-image1.jpg);
-    @include sectionimagebox();
-}
-
-.section_two_overlay_resp {
-    @include lightblueoverlay();
+    #section_two {
+        display:none;
     }
 
-#section_two_text_resp {
-    z-index: 3050;
-    display:inline;
-    padding: 2% 2.5%;
-    align-content: middle;
-    text-align:center;
+    #section_three {
+        display:none;
     }
 
-#section_three_resp {
-    vertical-align: middle;
-    width:100%;
-    padding-left:0!important;
-    min-height: 200px;
-    @include beigeoverlay();
-}
-
-#section_three_image_resp {
-    background: url(../images/content-box-image2.jpg);
-    @include sectionimagebox();
-}
-
-.section_three_overlay_resp {
-    @include beigeoverlay();
+    #section_four {
+        display:none;
     }
 
-#section_three_text_resp {
-    z-index: 3050;
-    display:inline;
+
+    #section_two_resp {
+        color: $bright;
+        vertical-align: middle;
+        width:100%;
+        padding-left:0!important;
+        min-height: 200px;
+        @include lightblueoverlay;
     }
 
-#section_four_resp {
-    background-color: $lighterteal;
-    color: $bright;
-    width:100%;
-    padding-left:0!important;
+    #section_two_image_resp {
+        background: url(../images/content-box-image1.jpg);
+        @include sectionimagebox();
+    }
+
+    .section_two_overlay_resp {
+        @include lightblueoverlay();
+    }
+
+    #section_two_text_resp {
+        z-index: 3050;
+        display:inline;
+        padding: 2% 2.5%;
+        align-content: middle;
+        text-align:center;
+    }
+
+    #section_three_resp {
+        vertical-align: middle;
+        width:100%;
+        padding-left:0!important;
+        min-height: 200px;
+        @include beigeoverlay();
+    }
+
+    #section_three_image_resp {
+        background: url(../images/content-box-image2.jpg);
+        @include sectionimagebox();
+    }
+
+    .section_three_overlay_resp {
+        @include beigeoverlay();
+    }
+
+    #section_three_text_resp {
+        z-index: 3050;
+        display:inline;
+    }
+
+    #section_four_resp {
+        background-color: $lighterteal;
+        color: $bright;
+        width:100%;
+        padding-left:0!important;
     }
 
 }
