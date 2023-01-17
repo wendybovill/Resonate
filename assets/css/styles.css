@@ -424,6 +424,12 @@ section {
   padding-left: 0 !important;
 }
 
+#iconboxes {
+  text-align: center;
+  vertical-align: baseline;
+  padding-bottom: 50px;
+}
+
 #section_two {
   color: #ffffff;
   vertical-align: middle;
