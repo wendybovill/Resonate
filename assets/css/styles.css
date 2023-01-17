@@ -448,10 +448,12 @@ section {
   width: 100%;
   background-color: rgba(34, 85, 129, 0.49);
   z-index: 3010;
+  display: inline;
 }
 
 #section_two_text {
   z-index: 3050;
+  display: inline;
 }
 
 #section_three {

@@ -529,10 +529,12 @@ section {
 
 .section_two_overlay {
     @include lightblueoverlay;
+    display:inline;
     }
 
 #section_two_text {
     z-index: 3050;
+    display:inline;
     }
 
 #section_three {
