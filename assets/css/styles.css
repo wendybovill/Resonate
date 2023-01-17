@@ -1315,13 +1315,9 @@ nav::before {
     width: 100%;
     padding-left: 0 !important;
     min-height: 200px;
-    width: 100%;
-    background-color: rgba(34, 85, 129, 0.49);
-    z-index: 3010;
-    border: none;
   }
   .section_two_image_resp {
-    background: url(../images/content-box-image1.jpg);
+    background: url(../images/anxiety-image-blue.jpg);
     background-size: cover;
     background-position: center;
     padding-left: 0 !important;
@@ -1340,6 +1336,15 @@ nav::before {
     padding: 2% 2.5%;
     align-content: middle;
     text-align: center;
+  }
+  .section_two_overlay_resp {
+    background: transparent;
+    /* Note: currently only Safari supports backdrop-filter */
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    --webkit-backdrop-filter: blur(30px);
+    background-color: rgba(34, 85, 129, 0.49);
+    /* (plus shape's fill blended on top as a separate layer with 100% opacity) */
   }
   #section_three_resp {
     vertical-align: middle;

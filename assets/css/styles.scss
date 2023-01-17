@@ -1418,11 +1418,10 @@ nav {
         width:100%;
         padding-left:0!important;
         min-height: 200px;
-        @include lightblueoverlay;
     }
 
 .section_two_image_resp {
-        background: url(../images/content-box-image1.jpg);
+        background: url(../images/anxiety-image-blue.jpg);
         @include sectionimagebox(); }
 
     /* .section_two_overlay_resp {
@@ -1435,6 +1434,16 @@ nav {
         align-content: middle;
         text-align:center;
     }
+    
+    .section_two_overlay_resp {
+background: transparent;
+/* Note: currently only Safari supports backdrop-filter */
+backdrop-filter: blur(30px);
+--webkit-backdrop-filter: blur(30px);
+background-color: $lightblue;
+/* (plus shape's fill blended on top as a separate layer with 100% opacity) */
+
+        }
 
     #section_three_resp {
         vertical-align: middle;
