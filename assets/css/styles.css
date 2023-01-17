@@ -505,9 +505,6 @@ section {
 #section_three_text {
   z-index: 3050;
   display: inline;
-  padding: 2% 2.5%;
-  align-content: middle;
-  text-align: center;
 }
 
 #section_four {
@@ -515,6 +512,10 @@ section {
   color: #ffffff;
   width: 100%;
   padding-left: 0 !important;
+}
+
+p.contentbox {
+  padding: 2%;
 }
 
 /* _______ This is the footer section ________ */
