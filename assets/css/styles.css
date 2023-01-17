@@ -521,6 +521,8 @@ p.contentbox {
   padding: 0 2vw;
   padding-top: 3rem;
   text-align: center;
+  line-height: 3em;
+  word-spacing: 0.25rem;
 }
 
 /* _______ This is the footer section ________ */
