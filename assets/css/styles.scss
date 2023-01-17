@@ -632,14 +632,14 @@ nav {
     position: absolute;
     bottom: 0px;
     display: inline-block;
-    font-size: 15pt;
+    font-size: 14pt;
     padding: 21px;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 .entry-title h1 {
-    font-size: 0.90em;
+    font-size: 1rem;
 }
 
     .container {
@@ -680,7 +680,7 @@ nav {
     }
     .hero-title h1 {
         color: $blue;
-        font-size: 1.8rem;
+        font-size: 1rem;
         font-family: Gill Sans;
         font-style: italic;
         padding: 25px 15px 15px 50px;
@@ -776,7 +776,7 @@ nav {
         font-size: 11pt;
         padding: 20px;
         white-space: nowrap;
-        font-weight: 600;
+        font-weight: 400;
     }
 
     nav a {
@@ -897,7 +897,7 @@ nav {
         bottom: 0px;
         display: inline-block;
         font-size: 11pt;
-        font-weight:600;
+        font-weight:400;
         padding: 20px;
         white-space: nowrap;
     }
