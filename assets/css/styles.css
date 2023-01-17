@@ -1319,6 +1319,8 @@ nav::before {
     background-color: rgba(34, 85, 129, 0.49);
     z-index: 3010;
     border: none;
+  }
+  .section_two_image_resp {
     background: url(../images/content-box-image1.jpg);
     background-size: cover;
     background-position: center;
@@ -1330,9 +1332,6 @@ nav::before {
     height: 50vw;
     border: none;
   }
-  /* .section_two_image_resp {
-      background: url(../images/content-box-image1.jpg);
-      @include sectionimagebox(); } */
   /* .section_two_overlay_resp {
       @include lightblueoverlay(); } */
   #section_two_text_resp {
