@@ -734,12 +734,14 @@ footer {
     font-size: 1.2rem;
     padding: 25px;
   }
+  .entry-title p {
+    padding: 25px;
+  }
   #menu div {
     float: none;
     height: 40px;
     vertical-align: bottom;
     text-align: center;
-    padding-top: 5px;
   }
   #menu_section {
     text-align: center;
@@ -819,12 +821,12 @@ footer {
     vertical-align: bottom;
     text-align: center;
     align-items: baseline;
-    height: 16px;
+    height: 14px;
     position: absolute;
     bottom: 0px;
     display: inline-block;
     font-size: 10pt;
-    padding: 20px;
+    padding: 16px;
     white-space: nowrap;
     font-weight: 400;
   }
@@ -866,42 +868,30 @@ nav::before {
   /* content styles */
   h1 {
     color: #003f49;
-    padding: 0;
-    margin: 0 5px;
-    font-size: 0.95em;
+    font-size: 1em;
   }
   h2 {
     color: #ffffff;
-    margin: 0 5px;
-    padding: 0;
-    font-size: 0.95em;
+    font-size: 1em;
   }
   h3 {
     color: #444444;
-    margin: 0 5px;
-    padding: 0;
-    font-size: 0.95em;
+    font-size: 1em;
   }
   h4 {
     color: #003f49;
-    margin: 0 5px;
-    padding: 0;
-    font-size: 0.95em;
+    font-size: 1em;
   }
   h5 {
     color: #ffffff;
-    margin: 0 5px;
-    padding: 0;
-    font-size: 0.9em;
+    font-size: 1em;
   }
   h6 {
     color: #444444;
-    margin: 0 5px;
-    padding: 0;
-    font-size: 0.9em;
+    font-size: 1em;
   }
   p.contentbox {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     word-spacing: 1rem;
   }
   h2.contentbox {
