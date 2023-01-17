@@ -141,6 +141,29 @@ $baseIfasize: 8rem;
     overflow-x: hidden;
 }
 
+@mixin blueoverlay {
+    height: 100%;
+    width: 100%;
+    background-color: $smokeblue;
+}
+
+@mixin tealoverlay {
+    height: 100%;
+    width: 100%;
+    background-color: $lightteal;
+}
+
+@mixin lightblueoverlay {
+    height: 100%;
+    width: 100%;
+    background-color: $lightblue;
+}
+
+@mixin beigeoverlay {
+    height: 100%;
+    width: 100%;
+    background-color: $lightbeige;
+}
 
 /* ______ This is the main section of the website styles ______ */
 
@@ -474,29 +497,42 @@ section {
     width:100%;
 }
 
-#index_one {
+#section_one {
     background-color: $bright;
     vertical-align: middle;
     width:100%;
     padding-left:0!important;
 }
 
-#index_two {
+#section_two {
     background-color: $lightblue;
     color: $bright;
     vertical-align: middle;
     width:100%;
     padding-left:0!important;
+    min-height: 200px;
 
 }
 
-#index_three {
+#section_two_image {
+    background: url(../images/anxiety-image1.jpg) cover center;
+    vertical-align: middle;
+    width:100%;
+    padding-left:0!important;
+    min-height: 200px;
+}
+
+#section_two_overlay {
+    @include @include lightblueoverlay;
+    }
+
+#section_three {
     background-color: $lightbeige;
     width:100%;
     padding-left:0!important;
 }
 
-#index_four {
+#section_four {
     background-color: $lighterteal;
     color: $bright;
     width:100%;
