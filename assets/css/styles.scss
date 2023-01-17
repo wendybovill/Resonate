@@ -724,7 +724,7 @@ nav {
 }
 
 .entry-title h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
     .container {
@@ -777,7 +777,8 @@ nav {
 @media (min-width: 378px) and (max-width: 767px){
 
     .entry-title h1 {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        padding: 25px;
     }
 
     #menu div {
@@ -785,6 +786,7 @@ nav {
         height: 40px;
         vertical-align: bottom;
         text-align: center;
+        padding-top:5px;
     }
 
     #menu_section {
@@ -823,8 +825,8 @@ nav {
 
     #hero-text-position {
         vertical-align: bottom;
-        padding-bottom: 20px;
-        padding-top: 80px;
+        padding-bottom: 10px;
+        padding-top: 120px;
         max-width: 85%;
     }
     
@@ -858,7 +860,7 @@ nav {
         position: absolute;
         bottom: 0px;
         display: inline-block;
-        font-size: 11pt;
+        font-size: 10pt;
         padding: 20px;
         white-space: nowrap;
         font-weight: 400;
@@ -900,7 +902,7 @@ nav {
     .logo {
         float: none !important;
         clear:both;
-        height: 80px;
+        height: 75px;
         width: auto;
         padding: 5px;
     }
@@ -948,6 +950,14 @@ nav {
         padding: 0;
         font-size: 0.90em;
     }
+    p.contentbox {
+        font-size: 0.95rem;
+        word-spacing: 1rem;
+        }
+    
+    h2.contentbox {
+        font-size: 1rem;
+        }
 }
 
 /* Extra Small devices */

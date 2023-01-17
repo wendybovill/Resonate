@@ -667,7 +667,7 @@ footer {
     text-overflow: ellipsis;
   }
   .entry-title h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .container {
     width: 100%;
@@ -731,13 +731,15 @@ footer {
 /* Small devices */
 @media (min-width: 378px) and (max-width: 767px) {
   .entry-title h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding: 25px;
   }
   #menu div {
     float: none;
     height: 40px;
     vertical-align: bottom;
     text-align: center;
+    padding-top: 5px;
   }
   #menu_section {
     text-align: center;
@@ -788,8 +790,8 @@ footer {
   }
   #hero-text-position {
     vertical-align: bottom;
-    padding-bottom: 20px;
-    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-top: 120px;
     max-width: 85%;
   }
   .hero-title div, .hero-title h1 {
@@ -821,7 +823,7 @@ footer {
     position: absolute;
     bottom: 0px;
     display: inline-block;
-    font-size: 11pt;
+    font-size: 10pt;
     padding: 20px;
     white-space: nowrap;
     font-weight: 400;
@@ -857,7 +859,7 @@ nav::before {
   .logo {
     float: none !important;
     clear: both;
-    height: 80px;
+    height: 75px;
     width: auto;
     padding: 5px;
   }
@@ -897,6 +899,13 @@ nav::before {
     margin: 0 5px;
     padding: 0;
     font-size: 0.9em;
+  }
+  p.contentbox {
+    font-size: 0.95rem;
+    word-spacing: 1rem;
+  }
+  h2.contentbox {
+    font-size: 1rem;
   }
 }
 /* Extra Small devices */
