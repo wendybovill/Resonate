@@ -1357,15 +1357,15 @@ nav::before {
     border: none;
   }
   #section_three_image_resp {
-    background: url(../images/content-box-image2.jpg);
+    background: url(../images/get-support-image-beige.jpg);
     background-size: cover;
     background-position: center;
     padding-left: 0 !important;
     min-height: 200px;
     z-index: 3000;
-    opacity: 50%;
+    opacity: 100%;
     overflow: hidden;
-    height: 50vw;
+    height: 100vw;
     border: none;
   }
   .section_three_overlay_resp {

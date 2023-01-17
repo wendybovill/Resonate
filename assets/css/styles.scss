@@ -1467,9 +1467,9 @@ background-color: $lightblue;
     }
 
     #section_three_image_resp {
-        background: url(../images/content-box-image2.jpg);
-        @include sectionimagebox();
-    }
+        background: url(../images/get-support-image-beige.jpg);
+        @include sectionimageboxdarkfull(); 
+        }
 
     .section_three_overlay_resp {
         @include beigeoverlay();
