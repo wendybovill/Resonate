@@ -1111,6 +1111,9 @@ nav::before {
   .intro-box i:hover {
     font-size: 5rem !important;
   }
+  #section_one {
+    padding: unset !important;
+  }
   #section_two {
     display: none;
   }
