@@ -1036,8 +1036,8 @@ nav::before {
   }
   #hero-text-position {
     vertical-align: bottom;
-    padding-bottom: 20px;
-    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 70px;
     max-width: 95%;
   }
   .hero-title h1 {
@@ -1049,7 +1049,7 @@ nav::before {
     margin: 10px;
   }
   .hero-title div, .hero-title h1 {
-    height: 30px;
+    height: 15px;
   }
   /* content styles */
   h1 {
