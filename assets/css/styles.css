@@ -1,29 +1,17 @@
 /* The first part of this file is SCSS */
 /* variables */
 /* animations */
-@-webkit-keyframes heroIncrease {
+@-webkit-keyframes heroShrink {
   from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.1);
-  }
-  from {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
   to {
     transform: scale(1);
   }
 }
-@keyframes heroIncrease {
+@keyframes heroShrink {
   from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.1);
-  }
-  from {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
   to {
     transform: scale(1);
@@ -298,8 +286,8 @@ nav a:active:hover, .active:hover {
   background-size: cover;
   overflow-x: hidden;
   /* animate the hero background image */
-  -webkit-animation: heroIncrease 10s;
-          animation: heroIncrease 10s;
+  -webkit-animation: heroShrink 10s;
+          animation: heroShrink 10s;
   -webkit-animation-delay: 0;
           animation-delay: 0;
   -webkit-animation-fill-mode: forwards;
@@ -314,8 +302,8 @@ nav a:active:hover, .active:hover {
   background-size: cover;
   overflow-x: hidden;
   /* animate the hero background image */
-  -webkit-animation: heroIncrease 10s;
-          animation: heroIncrease 10s;
+  -webkit-animation: heroShrink 10s;
+          animation: heroShrink 10s;
   -webkit-animation-delay: 0;
           animation-delay: 0;
   -webkit-animation-fill-mode: forwards;
@@ -330,8 +318,8 @@ nav a:active:hover, .active:hover {
   background-size: cover;
   overflow-x: hidden;
   /* animate the hero background image */
-  -webkit-animation: heroIncrease 10s;
-          animation: heroIncrease 10s;
+  -webkit-animation: heroShrink 10s;
+          animation: heroShrink 10s;
   -webkit-animation-delay: 0;
           animation-delay: 0;
   -webkit-animation-fill-mode: forwards;
@@ -346,8 +334,8 @@ nav a:active:hover, .active:hover {
   background-size: cover;
   overflow-x: hidden;
   /* animate the hero background image */
-  -webkit-animation: heroIncrease 10s;
-          animation: heroIncrease 10s;
+  -webkit-animation: heroShrink 10s;
+          animation: heroShrink 10s;
   -webkit-animation-delay: 0;
           animation-delay: 0;
   -webkit-animation-fill-mode: forwards;
@@ -362,8 +350,8 @@ nav a:active:hover, .active:hover {
   background-size: cover;
   overflow-x: hidden;
   /* animate the hero background image */
-  -webkit-animation: heroIncrease 10s;
-          animation: heroIncrease 10s;
+  -webkit-animation: heroShrink 10s;
+          animation: heroShrink 10s;
   -webkit-animation-delay: 0;
           animation-delay: 0;
   -webkit-animation-fill-mode: forwards;
