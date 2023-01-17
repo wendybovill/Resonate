@@ -1179,6 +1179,14 @@ nav {
 // resize the iconboxes on first page welcome section
 .intro-box {
     @include large-ibox();
+    font-size: 1rem!important;
+    }
+
+.intro-box i {
+    font-size: 5rem!important;
+    }
+
+.intro-box i:hover {
     font-size: 5rem!important;
     }
 

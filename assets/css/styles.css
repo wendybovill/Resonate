@@ -1102,6 +1102,12 @@ nav::before {
     display: inline-block;
     padding: 20px;
     margin: 20px;
+    font-size: 1rem !important;
+  }
+  .intro-box i {
+    font-size: 5rem !important;
+  }
+  .intro-box i:hover {
     font-size: 5rem !important;
   }
   #section_two {
