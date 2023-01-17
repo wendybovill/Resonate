@@ -1335,14 +1335,14 @@ nav {
         text-align: center;
     }
 
-    ul.bright.contentbox {
+    ul.contentbox li {
         list-style-type: none;
         list-style-position: outside;
-        padding-top: 0.5rem;
+        padding-top: 0.5rem!important;
         margin-left: 0px;
-        line-height: 1.25em;
-        word-spacing: 0.25rem;
-    font-size: 0.75rem;
+        line-height: 1.25em!important;
+        word-spacing: 0.25rem!important;
+        font-size: 0.75rem!important;
     }
 
 // resize the iconboxes on first page welcome section
