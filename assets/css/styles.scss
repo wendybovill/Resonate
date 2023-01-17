@@ -988,7 +988,7 @@ nav {
     }
 
     nav {
-        clear: both;
+        clear:both;
         float:none;
         min-width: 60px;
         width: auto;
@@ -996,20 +996,22 @@ nav {
         vertical-align: bottom;
         text-align: center;
         align-items: baseline;
-        height: 16px;
+        height: 14px;
         position: absolute;
         bottom: 0px;
         display: inline-block;
-        font-size: 11pt;
-        font-weight:400;
-        padding: 20px;
+        font-size: 10pt;
+        padding: 16px;
         white-space: nowrap;
+        font-weight: 400;
+        z-index: 99999;
     }
 
     nav a {
-        padding: 15px 10px;
+        padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $grey;
+        z-index: 99999;
     }
 
     nav::after,
@@ -1018,33 +1020,39 @@ nav {
     }
 
     nav a:hover {
-        padding: 15px 10px;
+        padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $teal;
         background-color: $transparent-bk;
+        z-index: 99998;
     }
 
     nav a:active,
     .active {
-        padding: 15px 10px;
+        padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $teal;
+        z-index: 99999;
     }
 
     nav a:active:hover,
     .active:hover {
-        padding: 15px 10px;
+        padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $darkteal;
         background-color: $transparent-bk;
+        z-index: 99998;
+    }
+
+    #logo_section {
+        padding-top:none!important;
     }
 
     .logo {
         float: none !important;
         clear:both;
-        height: 90px;
+        height: 75px;
         width: auto;
-        padding: 5px;
     }
 
     .container {
