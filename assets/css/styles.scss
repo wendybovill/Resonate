@@ -974,6 +974,7 @@ nav {
 
     .entry-title h1 {
         font-size: 1rem;
+        padding-left: 15px!important
     }
 
     #menu div {
@@ -1100,51 +1101,55 @@ nav {
         font-size: 1rem;
         font-family: Gill Sans;
         font-style: italic;
-        padding: 15px 15px 15px 50px;
-        margin: 20px;
+        padding: 15px 15px 15px 20px;
+        margin: 10px;
     }
 
     /* content styles */
 
     h1 {
         color: $darkteal;
-        padding: 0;
-        margin: 0 5px;
-        font-size: 0.85em;
+        font-size: 1em;
     }
 
     h2 {
         color: $bright;
-        margin: 0 5px;
-        padding: 0;
-        font-size: 0.85em;
+        font-size: 1em;
     }
 
     h3 {
         color: $darkgrey;
-        margin: 0 5px;
-        padding: 0;
-        font-size: 0.85em;
+        font-size: 1em;
     }
 
     h4 {
         color: $darkteal;
-        margin: 0 5px;
-        padding: 0;
-        font-size: 0.85em;
+        font-size: 1em;
     }
 
     h5 {
         color: $bright;
-        margin: 0 5px;
-        padding: 0;
-        font-size: 0.85em;
+        font-size: 1em;
     }
 
     h6 {
         color: $darkgrey;
-        margin: 0 5px;
-        padding: 0;
-        font-size: 0.85em;
+        font-size: 1em;
     }
+        
+    p.contentbox {
+        font-size: 0.75rem;
+        word-spacing: 0rem;
+        line-height: 1.5;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+    
+    h2.contentbox,h3.contentbox,h4.contentbox {
+        font-size: 1rem;
+        padding: 2rem 5px 0 5px;
+        text-align: center;
+        }
+            
 }
