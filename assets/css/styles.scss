@@ -600,6 +600,12 @@ footer {
 /* Medium devices */
 @media (min-width: 768px) and (max-width: 991px) { 
 
+.menu div {
+    text-align: center;
+    float: none!important;
+    clear:both;
+    }
+
 nav {
     min-width: 70px;
     width: 100%;
