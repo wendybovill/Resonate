@@ -1253,6 +1253,8 @@ nav::before {
     line-height: 1.25em !important;
     word-spacing: 0.25rem !important;
     font-size: 0.75rem !important;
+    -webkit-padding-start: 5px;
+            padding-inline-start: 5px;
   }
   #iconboxes {
     text-align: center;
