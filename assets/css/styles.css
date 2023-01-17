@@ -922,6 +922,9 @@ nav::before {
   p.entry-paragraph {
     padding: 15px 20px;
     font-size: 0.9rem;
+    margin-left: 35px;
+    margin-right: 15px;
+    text-align: justify;
   }
   #menu div {
     float: none !important;
