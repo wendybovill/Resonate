@@ -173,6 +173,7 @@ $baseIfasize: 8rem;
     z-index: 3000;
     opacity: 50%;
     overflow:hidden;
+    height: 50vw;
 }
 
 /* ______ This is the main section of the website styles ______ */
@@ -526,9 +527,8 @@ section {
     vertical-align: middle;
     width:100%;
     padding-left:0!important;
-    min-height: 150px;
+    min-height: 200px;
     @include lightblueoverlay;
-    height:350px;
 }
 
 #section_two_image {
@@ -550,10 +550,8 @@ section {
     vertical-align: middle;
     width:100%;
     padding-left:0!important;
-    min-height: 150px;
+    min-height: 200px;
     @include beigeoverlay();
-    @include lightblueoverlay;
-    height:350px;
 }
 
 #section_three_image {

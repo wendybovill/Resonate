@@ -435,11 +435,10 @@ section {
   vertical-align: middle;
   width: 100%;
   padding-left: 0 !important;
-  min-height: 150px;
+  min-height: 200px;
   width: 100%;
   background-color: rgba(34, 85, 129, 0.49);
   z-index: 3010;
-  height: 350px;
 }
 
 #section_two_image {
@@ -451,6 +450,7 @@ section {
   z-index: 3000;
   opacity: 50%;
   overflow: hidden;
+  height: 50vw;
 }
 
 .section_two_overlay {
@@ -469,14 +469,10 @@ section {
   vertical-align: middle;
   width: 100%;
   padding-left: 0 !important;
-  min-height: 150px;
+  min-height: 200px;
   width: 100%;
   background-color: rgba(129, 122, 34, 0.24);
   z-index: 3010;
-  width: 100%;
-  background-color: rgba(34, 85, 129, 0.49);
-  z-index: 3010;
-  height: 350px;
 }
 
 #section_three_image {
@@ -488,6 +484,7 @@ section {
   z-index: 3000;
   opacity: 50%;
   overflow: hidden;
+  height: 50vw;
 }
 
 .section_three_overlay {
