@@ -450,6 +450,7 @@ section {
   min-height: 200px;
   z-index: 3000;
   opacity: 50%;
+  overflow: hidden;
 }
 
 .section_two_overlay {
@@ -483,6 +484,7 @@ section {
   min-height: 200px;
   z-index: 3000;
   opacity: 50%;
+  overflow: hidden;
 }
 
 .section_three_overlay {
