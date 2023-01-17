@@ -644,9 +644,9 @@ footer {
   }
 }
 /* Medium devices */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 800px) and (max-width: 991px) {
   .menu div {
-    text-align: center;
+    text-align: right;
     float: none !important;
     clear: both;
   }
@@ -729,7 +729,7 @@ footer {
   }
 }
 /* Small devices */
-@media (min-width: 378px) and (max-width: 767px) {
+@media (min-width: 378px) and (max-width: 799px) {
   .entry-title h1 {
     font-size: 1.2rem;
     padding: 25px;
@@ -859,11 +859,10 @@ nav::before {
     background-color: rgba(255, 255, 255, 0.35);
   }
   .logo {
-    float: none !important;
-    clear: both;
-    height: 75px;
+    float: left;
+    height: 70px;
     width: auto;
-    padding: 5px;
+    padding-bottom: 5px;
   }
   /* content styles */
   h1 {
