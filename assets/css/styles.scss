@@ -142,28 +142,24 @@ $baseIfasize: 8rem;
 }
 
 @mixin blueoverlay {
-    height: 100%;
     width: 100%;
     background-color: $smokeblue;
     z-index: 3010;
 }
 
 @mixin tealoverlay {
-    height: 100%;
     width: 100%;
     background-color: $lightteal;
     z-index: 3010;
 }
 
 @mixin lightblueoverlay {
-    height: 100%;
     width: 100%;
     background-color: $lightblue;
     z-index: 3010;
 }
 
 @mixin beigeoverlay {
-    height: 100%;
     width: 100%;
     background-color: $lightbeige;
     z-index: 3010;
