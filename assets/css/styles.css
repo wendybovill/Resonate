@@ -456,7 +456,7 @@ section {
 #section_two_text {
   z-index: 3050;
   display: inline;
-  padding: 25px;
+  padding: 25px 25px 50px 25px;
 }
 
 #section_three {
