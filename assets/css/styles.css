@@ -1309,7 +1309,7 @@ nav::before {
   #section_four {
     display: none;
   }
-  #section_two_resp {
+  .section_two_resp {
     color: #ffffff;
     vertical-align: middle;
     width: 100%;
