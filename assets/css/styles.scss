@@ -784,9 +784,17 @@ nav {
     }
 
     h2.contentbox, h3.contentbox, h4.contentbox {
-    padding: 5rem 5px 0 5px!important;
-    text-align: center;
+        padding: 5rem 5px 0 5px!important;
+        text-align: center;
     }
+    p.contentbox {
+        padding: 0 2vw;
+        padding-top: 0rem!important;
+        text-align: center;
+        line-height: 3em;
+        word-spacing: 0.25rem;
+    }
+
  }
 
 /* Small devices */
