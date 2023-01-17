@@ -638,6 +638,20 @@ p.contentbox {
     word-spacing: 0.25rem;
     }
 
+    // hiding the small device responsive sections
+
+
+    #section_two_resp {
+        display:none;
+    }
+
+    #section_three_resp {
+        display:none;
+    }
+
+    #section_four_resp {
+        display:none;
+    }
 
 /* _______ This is the footer section ________ */
 
@@ -1425,6 +1439,7 @@ nav {
     }
 
     .section_two_resp {
+        display: block;
         color: $bright;
         vertical-align: middle;
         width:100%;
@@ -1459,6 +1474,7 @@ background-color: $lightblue;
         }
 
     .section_three_resp {
+        display: block;
         vertical-align: middle;
         width:100%;
         padding-left:0!important;
@@ -1476,6 +1492,7 @@ background-color: $lightblue;
     }
 
     #section_four_resp {
+        display: block;
         background-color: $lighterteal;
         color: $bright;
         width:100%;
