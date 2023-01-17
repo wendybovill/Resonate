@@ -1048,6 +1048,9 @@ nav::before {
     padding: 15px 15px 15px 20px;
     margin: 10px;
   }
+  .hero-title div, .hero-title h1 {
+    height: 30px;
+  }
   /* content styles */
   h1 {
     color: #003f49;
