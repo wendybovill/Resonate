@@ -178,6 +178,7 @@ header {
 .logo img {
   height: 100px;
   width: auto;
+  z-index: 999999;
 }
 
 /* Menu and Navigation Section */
