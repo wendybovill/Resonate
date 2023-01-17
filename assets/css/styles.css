@@ -627,9 +627,8 @@ footer {
   .entry-title h1 {
     font-size: 1rem;
   }
-  .menu div {
-    float: none !important;
-    clear: both;
+  #menu div {
+    float: none;
     height: 40px;
     vertical-align: bottom;
     text-align: center;
@@ -699,6 +698,8 @@ footer {
     margin: 20px;
   }
   nav {
+    clear: both;
+    float: none;
     min-width: 60px;
     width: auto;
     right: 0;
@@ -712,7 +713,7 @@ footer {
     font-size: 11pt;
     padding: 20px;
     white-space: nowrap;
-    font-weight: 700;
+    font-weight: 600;
   }
   nav a {
     padding: 15px 10px;
@@ -792,9 +793,8 @@ nav::before {
   .entry-title h1 {
     font-size: 0.9em;
   }
-  .menu div {
+  #menu div {
     float: none;
-    clear: both;
     height: 40px;
     vertical-align: bottom;
     text-align: center;
@@ -803,6 +803,8 @@ nav::before {
     text-align: center;
   }
   nav {
+    clear: both;
+    float: none;
     min-width: 60px;
     width: auto;
     right: 0;
@@ -814,7 +816,7 @@ nav::before {
     bottom: 0px;
     display: inline-block;
     font-size: 11pt;
-    font-weight: 700;
+    font-weight: 600;
     padding: 20px;
     white-space: nowrap;
   }
