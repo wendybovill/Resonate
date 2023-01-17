@@ -791,6 +791,7 @@ nav {
         height: 40px;
         vertical-align: bottom;
         text-align: center;
+        z-index:99999;
     }
 
     #menu_section {
@@ -868,12 +869,14 @@ nav {
         padding: 16px;
         white-space: nowrap;
         font-weight: 400;
+        z-index: 99999;
     }
 
     nav a {
         padding: 15px 10px;
         text-decoration: none;
         color: $grey;
+        z-index: 99999;
     }
 
     nav::after,
@@ -886,6 +889,7 @@ nav {
         text-decoration: none;
         color: $teal;
         background-color: $transparent-bk;
+        z-index: 99998;
     }
 
     nav a:active,
@@ -893,6 +897,7 @@ nav {
         padding: 15px 10px;
         text-decoration: none;
         color: $teal;
+        z-index: 99999;
     }
 
     nav a:active:hover,
@@ -901,6 +906,7 @@ nav {
         text-decoration: none;
         color: $darkteal;
         background-color: $transparent-bk;
+        z-index: 99998;
     }
 
     .logo {
@@ -908,6 +914,7 @@ nav {
         height: 70px;
         width: auto;
         padding-bottom: 5px;
+        z-index: 999999;
     }
 
     /* content styles */
