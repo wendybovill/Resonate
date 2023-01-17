@@ -425,7 +425,6 @@ section {
 }
 
 #section_two {
-  background-color: rgba(34, 85, 129, 0.49);
   color: #ffffff;
   vertical-align: middle;
   width: 100%;
@@ -444,11 +443,15 @@ section {
   z-index: 3000;
 }
 
-#section_two_overlay {
+.section_two_overlay {
   height: 100%;
   width: 100%;
   background-color: rgba(34, 85, 129, 0.49);
-  z-index: 9999;
+  z-index: 3010;
+}
+
+#section_two_text {
+  z-index: 3050;
 }
 
 #section_three {

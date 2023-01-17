@@ -145,28 +145,28 @@ $baseIfasize: 8rem;
     height: 100%;
     width: 100%;
     background-color: $smokeblue;
-    z-index: 9999;
+    z-index: 3010;
 }
 
 @mixin tealoverlay {
     height: 100%;
     width: 100%;
     background-color: $lightteal;
-    z-index: 9999;
+    z-index: 3010;
 }
 
 @mixin lightblueoverlay {
     height: 100%;
     width: 100%;
     background-color: $lightblue;
-    z-index: 9999;
+    z-index: 3010;
 }
 
 @mixin beigeoverlay {
     height: 100%;
     width: 100%;
     background-color: $lightbeige;
-    z-index: 9999;
+    z-index: 3010;
 }
 
 /* ______ This is the main section of the website styles ______ */
@@ -509,13 +509,11 @@ section {
 }
 
 #section_two {
-    background-color: $lightblue;
     color: $bright;
     vertical-align: middle;
     width:100%;
     padding-left:0!important;
     min-height: 200px;
-
 }
 
 #section_two_image {
@@ -529,8 +527,12 @@ section {
     z-index: 3000;
 }
 
-#section_two_overlay {
+.section_two_overlay {
     @include lightblueoverlay;
+    }
+
+#section_two_text {
+    z-index: 3050;
     }
 
 #section_three {
