@@ -435,10 +435,11 @@ section {
   vertical-align: middle;
   width: 100%;
   padding-left: 0 !important;
-  min-height: 200px;
+  min-height: 150px;
   width: 100%;
   background-color: rgba(34, 85, 129, 0.49);
   z-index: 3010;
+  height: 350px;
 }
 
 #section_two_image {
@@ -446,7 +447,7 @@ section {
   background-size: cover;
   background-position: center;
   padding-left: 0 !important;
-  min-height: 200px;
+  min-height: 150px;
   z-index: 3000;
   opacity: 50%;
   overflow: hidden;
@@ -468,10 +469,14 @@ section {
   vertical-align: middle;
   width: 100%;
   padding-left: 0 !important;
-  min-height: 200px;
+  min-height: 150px;
   width: 100%;
   background-color: rgba(129, 122, 34, 0.24);
   z-index: 3010;
+  width: 100%;
+  background-color: rgba(34, 85, 129, 0.49);
+  z-index: 3010;
+  height: 350px;
 }
 
 #section_three_image {
@@ -479,7 +484,7 @@ section {
   background-size: cover;
   background-position: center;
   padding-left: 0 !important;
-  min-height: 200px;
+  min-height: 150px;
   z-index: 3000;
   opacity: 50%;
   overflow: hidden;

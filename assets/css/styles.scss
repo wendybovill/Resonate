@@ -169,7 +169,7 @@ $baseIfasize: 8rem;
     background-size: cover;
     background-position: center;
     padding-left:0!important;
-    min-height: 200px;
+    min-height: 150px;
     z-index: 3000;
     opacity: 50%;
     overflow:hidden;
@@ -526,8 +526,9 @@ section {
     vertical-align: middle;
     width:100%;
     padding-left:0!important;
-    min-height: 200px;
+    min-height: 150px;
     @include lightblueoverlay;
+    height:350px;
 }
 
 #section_two_image {
@@ -549,8 +550,10 @@ section {
     vertical-align: middle;
     width:100%;
     padding-left:0!important;
-    min-height: 200px;
+    min-height: 150px;
     @include beigeoverlay();
+    @include lightblueoverlay;
+    height:350px;
 }
 
 #section_three_image {
