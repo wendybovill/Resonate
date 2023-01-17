@@ -711,7 +711,7 @@ nav {
     width: 100%;
     right: 0;
     vertical-align: bottom;
-    text-align: center;
+    text-align: right;
     align-items: baseline;
     height: 21px;
     position: absolute;
@@ -952,13 +952,17 @@ nav {
         color: $darkgrey;
         font-size: 1em;
     }
+        
     p.contentbox {
-        font-size: 0.90rem;
-        word-spacing: 1rem;
-        }
+        font-size: 0.9rem;
+        word-spacing: 0.9rem;
+        line-height: 1.5;
+    }
     
     h2.contentbox {
         font-size: 1rem;
+        padding: 2rem 5px 0 5px;
+        text-align: center;
         }
 }
 
