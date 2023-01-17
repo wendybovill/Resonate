@@ -980,10 +980,10 @@ nav::before {
   #logo_section {
     padding-top: none !important;
   }
-  .logo {
+  .logo img {
     float: none !important;
     clear: both;
-    height: 75px;
+    height: 65px;
     width: auto;
   }
   .container {
