@@ -1012,7 +1012,7 @@ nav {
         padding: 2rem 5px 0 5px;
         text-align: center;
         }
-            
+
     .contentbox ul li {
         list-style-type: none;
         list-style-position: outside;
@@ -1148,16 +1148,15 @@ nav {
         min-height: unset!important;
         }
 
-    .contentbox ul li {
+    ul.bright.contentbox li {
         list-style-type: none;
         list-style-position: outside;
-        padding-top: 0.5rem!important;
-        margin-left: 0px;
-        line-height: 1.25em!important;
-        word-spacing: 0.25rem!important;
-        font-size: 0.75rem!important;
-        padding-inline-start: 5px!important;
-    }
+        padding-top: 0.25rem;
+        margin-left: -10px;
+        line-height: 1rem;
+        word-spacing: 0.25rem;
+        font-size: 0.80rem;
+    }   
 
 }
 
