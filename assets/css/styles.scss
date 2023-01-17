@@ -480,6 +480,7 @@ section {
     background-color: $bright;
     vertical-align: middle;
     width:100%;
+    padding-left:0!important;
 }
 
 #index_two {
@@ -487,19 +488,22 @@ section {
     color: $bright;
     vertical-align: middle;
     width:100%;
+    padding-left:0!important;
+
 }
 
 #index_three {
     background-color: $lightbeige;
     width:100%;
-
+    padding-left:0!important;
 }
 
 #index_four {
     background-color: $lighterteal;
     color: $bright;
     width:100%;
-}
+    padding-left:0!important;
+    }
 
 
 /* _______ This is the footer section ________ */

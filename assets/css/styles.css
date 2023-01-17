@@ -426,6 +426,7 @@ section {
   background-color: #ffffff;
   vertical-align: middle;
   width: 100%;
+  padding-left: 0 !important;
 }
 
 #index_two {
@@ -433,17 +434,20 @@ section {
   color: #ffffff;
   vertical-align: middle;
   width: 100%;
+  padding-left: 0 !important;
 }
 
 #index_three {
   background-color: rgba(129, 122, 34, 0.24);
   width: 100%;
+  padding-left: 0 !important;
 }
 
 #index_four {
   background-color: rgba(0, 80, 92, 0.5);
   color: #ffffff;
   width: 100%;
+  padding-left: 0 !important;
 }
 
 /* _______ This is the footer section ________ */
