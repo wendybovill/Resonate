@@ -514,6 +514,7 @@ section {
     width:100%;
     padding-left:0!important;
     min-height: 200px;
+    @include lightblueoverlay;
 }
 
 #section_two_image {
@@ -530,7 +531,6 @@ section {
 
 .section_two_overlay {
     @include lightblueoverlay;
-    display:inline;
     }
 
 #section_two_text {
