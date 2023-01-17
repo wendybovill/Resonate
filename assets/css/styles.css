@@ -433,7 +433,6 @@ section {
   width: 100%;
   background-color: rgba(34, 85, 129, 0.49);
   z-index: 3010;
-  padding: 25px 25px 25px 0;
 }
 
 #section_two_image {
@@ -457,6 +456,7 @@ section {
 #section_two_text {
   z-index: 3050;
   display: inline;
+  padding: 25px;
 }
 
 #section_three {
