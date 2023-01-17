@@ -4,7 +4,7 @@
 // Author Email: wendybovill@gmail.com
 //
 
-    
+
 /* The first part of this file is SCSS */
 
 /* variables */
@@ -25,6 +25,7 @@ $lightblue: rgba(34, 85, 129, 0.49);
 $lightbeige: rgba(129, 122, 34, 0.24);
 $lighterteal:rgba(0, 80, 92, 0.5);
 $blue: #14436c;
+$footercolor: rgb(121, 119, 92);
 
 $basefontsize: 12pt;
 $typeface: Verdana, Geneva, Tahoma, sans-serif;
@@ -662,7 +663,7 @@ footer {
     padding: 40px 0 0 0;
     border-top: 1px solid black;
     box-shadow: rgba(0,0,0,20) 2px 0px 3px;
-    background-color: #a1915c;
+    background-color: $footercolor;
     color: #ffffff;
     font-weight: 700;
     font-size: 0.80em;
