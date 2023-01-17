@@ -923,8 +923,82 @@ nav::before {
     text-align: center;
   }
 }
+/* Smaller devices */
+@media (min-width: 350px) and (max-width: 450px) {
+  #menu div {
+    clear: both !important;
+    height: 40px;
+    vertical-align: bottom;
+    text-align: center !important;
+  }
+  #menu_section {
+    text-align: center !important;
+    width: 100%;
+  }
+  nav {
+    clear: both;
+    min-width: 60px;
+    width: auto;
+    right: 0;
+    vertical-align: bottom;
+    text-align: center !important;
+    align-items: baseline;
+    height: 14px;
+    position: absolute;
+    bottom: 0px;
+    display: inline-block;
+    font-size: 10pt;
+    padding: 16px;
+    white-space: nowrap;
+    font-weight: 400;
+    z-index: 99999;
+  }
+  nav a {
+    padding: 0 5px 14px 5px;
+    text-decoration: none;
+    color: #585858;
+    z-index: 99999;
+  }
+  nav::after,
+nav::before {
+    box-sizing: unset !important;
+  }
+  nav a:hover {
+    padding: 0 5px 14px 5px;
+    text-decoration: none;
+    color: #025a67;
+    background-color: rgba(255, 255, 255, 0.35);
+    z-index: 99998;
+  }
+  nav a:active,
+.active {
+    padding: 0 5px 14px 5px;
+    text-decoration: none;
+    color: #025a67;
+    z-index: 99999;
+  }
+  nav a:active:hover,
+.active:hover {
+    padding: 0 5px 14px 5px;
+    text-decoration: none;
+    color: #003f49;
+    background-color: rgba(255, 255, 255, 0.35);
+    z-index: 99998;
+  }
+  #logo_section {
+    padding-top: none !important;
+    width: 100%;
+    text-align: center;
+  }
+  .logo img {
+    float: none !important;
+    clear: both;
+    height: 75px;
+    width: auto;
+  }
+}
 /* Extra Small devices */
-@media (min-width: 150px) and (max-width: 377px) {
+@media (min-width: 150px) and (max-width: 349px) {
   h1.entry-title {
     font-size: 1rem;
     margin: unset !important;
