@@ -954,6 +954,17 @@ nav::before {
     padding: 2rem 5px 0 5px;
     text-align: center;
   }
+  .contentbox ul li {
+    list-style-type: none;
+    list-style-position: outside;
+    padding-top: 0.5rem !important;
+    margin-left: 0px;
+    line-height: 1.25em !important;
+    word-spacing: 0.25rem !important;
+    font-size: 0.75rem !important;
+    -webkit-padding-start: 5px !important;
+            padding-inline-start: 5px !important;
+  }
 }
 /* Smaller devices */
 @media (min-width: 350px) and (max-width: 450px) {
