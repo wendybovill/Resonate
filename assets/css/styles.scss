@@ -1112,6 +1112,10 @@ nav {
         text-align: center;
     }
 
+    #section_one,#section_two,#section_three,#section_4 {
+        min-height: unset!important;
+        }
+
 }
 
 /* Extra Small devices */
