@@ -918,13 +918,14 @@ nav::before {
     font-size: 1rem;
   }
   #menu div {
-    float: none;
+    float: none !important;
     height: 40px;
     vertical-align: bottom;
     text-align: center;
   }
   #menu_section {
     text-align: center;
+    width: 100%;
   }
   nav {
     clear: both;
