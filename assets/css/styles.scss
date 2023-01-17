@@ -165,6 +165,16 @@ $baseIfasize: 8rem;
     z-index: 3010;
 }
 
+@mixin sectionimagebox {
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    padding-left:0!important;
+    min-height: 200px;
+    z-index: 3000;
+    opacity: 50%;
+}
+
 /* ______ This is the main section of the website styles ______ */
 
 *, ::after, ::before {
@@ -516,13 +526,6 @@ section {
 
 #section_two_image {
     background: url(../images/anxiety-image1.jpg);
-    background-size: cover;
-    background-position: center;
-    width:100%;
-    padding-left:0!important;
-    min-height: 200px;
-    z-index: 3000;
-    opacity: 50%;
 }
 
 .section_two_overlay {
