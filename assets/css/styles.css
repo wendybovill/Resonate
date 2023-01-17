@@ -1096,7 +1096,94 @@ nav::before {
     padding: 2rem 5px 0 5px;
     text-align: center;
   }
+  .intro-box {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+  }
   #section_two {
     display: none;
+  }
+  #section_three {
+    display: none;
+  }
+  #section_four {
+    display: none;
+  }
+  #section_two_resp {
+    color: #ffffff;
+    vertical-align: middle;
+    width: 100%;
+    padding-left: 0 !important;
+    min-height: 200px;
+    width: 100%;
+    background-color: rgba(34, 85, 129, 0.49);
+    z-index: 3010;
+    border: none;
+  }
+  #section_two_image_resp {
+    background: url(../images/content-box-image1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0 !important;
+    min-height: 150px;
+    z-index: 3000;
+    opacity: 50%;
+    overflow: hidden;
+    height: 50vw;
+    border: none;
+  }
+  .section_two_overlay_resp {
+    width: 100%;
+    background-color: rgba(34, 85, 129, 0.49);
+    z-index: 3010;
+    border: none;
+  }
+  #section_two_text_resp {
+    z-index: 3050;
+    display: inline;
+    padding: 2% 2.5%;
+    align-content: middle;
+    text-align: center;
+  }
+  #section_three_resp {
+    vertical-align: middle;
+    width: 100%;
+    padding-left: 0 !important;
+    min-height: 200px;
+    width: 100%;
+    background-color: rgba(129, 122, 34, 0.24);
+    z-index: 3010;
+    border: none;
+  }
+  #section_three_image_resp {
+    background: url(../images/content-box-image2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0 !important;
+    min-height: 150px;
+    z-index: 3000;
+    opacity: 50%;
+    overflow: hidden;
+    height: 50vw;
+    border: none;
+  }
+  .section_three_overlay_resp {
+    width: 100%;
+    background-color: rgba(129, 122, 34, 0.24);
+    z-index: 3010;
+    border: none;
+  }
+  #section_three_text_resp {
+    z-index: 3050;
+    display: inline;
+  }
+  #section_four_resp {
+    background-color: rgba(0, 80, 92, 0.5);
+    color: #ffffff;
+    width: 100%;
+    padding-left: 0 !important;
   }
 }/*# sourceMappingURL=styles.css.map */
