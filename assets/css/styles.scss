@@ -1013,7 +1013,7 @@ nav {
         text-align: center;
         }
 
-    .contentbox ul li {
+    ul.contentbox {
         list-style-type: none;
         list-style-position: outside;
         padding-top: 0.5rem!important;
@@ -1021,7 +1021,7 @@ nav {
         line-height: 1.25em!important;
         word-spacing: 0.25rem!important;
         font-size: 0.75rem!important;
-        padding-inline-start: 5px!important;
+        padding-inline-start: 0px!important;
     }
 }
 
