@@ -625,7 +625,7 @@ footer {
 /* Small devices */
 @media (min-width: 378px) and (max-width: 767px) {
   .entry-title h1 {
-    font-size: 0.9em;
+    font-size: 1rem;
   }
   .menu div {
     float: none !important;
