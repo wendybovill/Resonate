@@ -1335,7 +1335,7 @@ nav {
         text-align: center;
     }
 
-    ul.contentbox li {
+    .contentbox ul li {
         list-style-type: none;
         list-style-position: outside;
         padding-top: 0.5rem!important;
@@ -1343,7 +1343,7 @@ nav {
         line-height: 1.25em!important;
         word-spacing: 0.25rem!important;
         font-size: 0.75rem!important;
-        padding-inline-start: 5px;
+        padding-inline-start: 5px!important;
     }
 
 // resize the iconboxes on first page welcome section
