@@ -122,6 +122,7 @@ $baseIfasize: 8rem;
     width:auto;
     background-position: bottom center;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 @mixin hero-medium {
@@ -129,6 +130,7 @@ $baseIfasize: 8rem;
     width:auto;
     background-position: bottom center;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 @mixin hero-small {
@@ -136,6 +138,7 @@ $baseIfasize: 8rem;
     width:auto;
     background-position: bottom center;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 
