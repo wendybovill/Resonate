@@ -145,24 +145,28 @@ $baseIfasize: 8rem;
     width: 100%;
     background-color: $smokeblue;
     z-index: 3010;
+    border:none;
 }
 
 @mixin tealoverlay {
     width: 100%;
     background-color: $lightteal;
     z-index: 3010;
+    border:none;
 }
 
 @mixin lightblueoverlay {
     width: 100%;
     background-color: $lightblue;
     z-index: 3010;
+    border:none;
 }
 
 @mixin beigeoverlay {
     width: 100%;
     background-color: $lightbeige;
     z-index: 3010;
+    border:none;
 }
 
 @mixin sectionimagebox {
@@ -174,6 +178,7 @@ $baseIfasize: 8rem;
     opacity: 50%;
     overflow:hidden;
     height: 50vw;
+    border: none;
 }
 
 /* ______ This is the main section of the website styles ______ */
@@ -506,6 +511,7 @@ section {
     padding: 0;
     margin: 0;
     width:100%;
+    border:none;
 }
 
 #section_one {
