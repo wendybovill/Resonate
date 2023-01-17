@@ -1470,10 +1470,6 @@ background-color: $lightblue;
         @include sectionimageboxdarkfull(); 
         }
 
-    .section_three_overlay_resp {
-        @include beigeoverlay();
-    }
-
     #section_three_text_resp {
         z-index: 3050;
         display:inline;

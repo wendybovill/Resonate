@@ -1364,12 +1364,6 @@ nav::before {
     height: 100vw;
     border: none;
   }
-  .section_three_overlay_resp {
-    width: 100%;
-    background-color: rgba(129, 122, 34, 0.24);
-    z-index: 3010;
-    border: none;
-  }
   #section_three_text_resp {
     z-index: 3050;
     display: inline;
