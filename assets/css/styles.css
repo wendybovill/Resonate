@@ -727,6 +727,10 @@ footer {
     padding: 25px 15px 15px 50px;
     margin: 20px;
   }
+  h2.contentbox, h3.contentbox, h4.contentbox {
+    padding: 5rem 5px 0 5px !important;
+    text-align: center;
+  }
 }
 /* Small devices */
 @media (min-width: 378px) and (max-width: 799px) {
