@@ -1419,16 +1419,16 @@ nav {
         padding-left:0!important;
         min-height: 200px;
         @include lightblueoverlay;
-    }
-
-    #section_two_image_resp {
         background: url(../images/content-box-image1.jpg);
         @include sectionimagebox();
     }
 
-    .section_two_overlay_resp {
-        @include lightblueoverlay();
-    }
+    /* .section_two_image_resp {
+        background: url(../images/content-box-image1.jpg);
+        @include sectionimagebox(); } */
+
+    /* .section_two_overlay_resp {
+        @include lightblueoverlay(); } */
 
     #section_two_text_resp {
         z-index: 3050;
