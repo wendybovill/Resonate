@@ -1096,4 +1096,7 @@ nav::before {
     padding: 2rem 5px 0 5px;
     text-align: center;
   }
+  #section_two {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
