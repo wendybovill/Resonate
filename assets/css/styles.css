@@ -513,8 +513,7 @@ section {
 }
 
 h2.contentbox, h3.contentbox, h4.contentbox {
-  padding: unset !important;
-  padding-top: 10rem;
+  padding: 10rem 5px 0 5px;
   text-align: center;
 }
 
