@@ -1103,6 +1103,7 @@ nav::before {
     padding: 20px;
     margin: 20px;
     font-size: 1rem !important;
+    padding-left: 15px !important;
   }
   .intro-box i {
     font-size: 5rem !important;
