@@ -177,7 +177,7 @@ $baseIfasize: 8rem;
     z-index: 3000;
     opacity: 50%;
     overflow:hidden;
-    height: 50vw;
+    height: 50vw; //This is set to half the viewers width to keep it a perfect square! Do not change!
     border: none;
 }
 
@@ -522,7 +522,7 @@ section {
 
 }
 
-#iconboxes {
+#iconboxes { //These are the boxes on the first page in the welcome section
     text-align:center;
     vertical-align:baseline;
     padding-bottom:50px;
@@ -549,7 +549,7 @@ section {
 #section_two_text {
     z-index: 3050;
     display:inline;
-    padding: 25px 25px 50px 25px;
+    padding: 1.5%;
     }
 
 #section_three {
@@ -572,7 +572,7 @@ section {
 #section_three_text {
     z-index: 3050;
     display:inline;
-    padding: 25px 25px 50px 25px;
+    padding: 1.5%;
     }
 
 #section_four {

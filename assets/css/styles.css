@@ -466,7 +466,7 @@ section {
 #section_two_text {
   z-index: 3050;
   display: inline;
-  padding: 25px 25px 50px 25px;
+  padding: 1.5%;
 }
 
 #section_three {
@@ -503,7 +503,7 @@ section {
 #section_three_text {
   z-index: 3050;
   display: inline;
-  padding: 25px 25px 50px 25px;
+  padding: 1.5%;
 }
 
 #section_four {
