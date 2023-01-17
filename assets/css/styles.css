@@ -1384,10 +1384,21 @@ nav::before {
   }
   #section_four_resp {
     display: block;
-    background-color: rgba(0, 80, 92, 0.5);
     color: #ffffff;
     width: 100%;
     padding-left: 0 !important;
+  }
+  .section_four_image_resp {
+    background: url(../images/mindfulness-image-teal.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0 !important;
+    min-height: 200px;
+    z-index: 3000;
+    opacity: 100%;
+    overflow: hidden;
+    height: 100vw;
+    border: none;
   }
   #main {
     height: calc(100% - 35px);

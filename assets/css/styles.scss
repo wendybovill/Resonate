@@ -1493,11 +1493,14 @@ background-color: $lightblue;
 
     #section_four_resp {
         display: block;
-        background-color: $lighterteal;
         color: $bright;
         width:100%;
         padding-left:0!important;
     }
+    .section_four_image_resp {
+        background: url(../images/mindfulness-image-teal.jpg);
+        @include sectionimageboxdarkfull(); 
+        }
 
     //main section and footer adjust
 
