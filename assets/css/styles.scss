@@ -873,7 +873,7 @@ nav {
     }
 
     nav a {
-        padding: 15px 10px;
+        padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $grey;
         z-index: 99999;
@@ -885,7 +885,7 @@ nav {
     }
 
     nav a:hover {
-        padding: 15px 10px;
+        padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $teal;
         background-color: $transparent-bk;
@@ -894,7 +894,7 @@ nav {
 
     nav a:active,
     .active {
-        padding: 15px 10px;
+        ppadding: 0 5px 14px 5px;
         text-decoration: none;
         color: $teal;
         z-index: 99999;
@@ -902,7 +902,7 @@ nav {
 
     nav a:active:hover,
     .active:hover {
-        padding: 15px 10px;
+        padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $darkteal;
         background-color: $transparent-bk;

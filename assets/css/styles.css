@@ -833,7 +833,7 @@ footer {
     z-index: 99999;
   }
   nav a {
-    padding: 15px 10px;
+    padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #585858;
     z-index: 99999;
@@ -843,7 +843,7 @@ nav::before {
     box-sizing: unset !important;
   }
   nav a:hover {
-    padding: 15px 10px;
+    padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #025a67;
     background-color: rgba(255, 255, 255, 0.35);
@@ -851,14 +851,14 @@ nav::before {
   }
   nav a:active,
 .active {
-    padding: 15px 10px;
+    ppadding: 0 5px 14px 5px;
     text-decoration: none;
     color: #025a67;
     z-index: 99999;
   }
   nav a:active:hover,
 .active:hover {
-    padding: 15px 10px;
+    padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #003f49;
     background-color: rgba(255, 255, 255, 0.35);
