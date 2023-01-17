@@ -1097,11 +1097,12 @@ nav::before {
     text-align: center;
   }
   .intro-box {
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     display: inline-block;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 8rem 0.5rem;
   }
   #section_two {
     display: none;

@@ -1178,7 +1178,8 @@ nav {
 
 // resize the iconboxes on first page welcome section
 .intro-box {
-    @include medium-ibox();
+    @include large-ibox();
+    font-size: $baseIfasize(0.5rem);
     }
 
 // hide the sections two through to four and replace with single block
