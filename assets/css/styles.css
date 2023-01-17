@@ -271,7 +271,7 @@ nav a:active:hover, .active:hover {
 
 .hero-title h1 {
   color: #14436c;
-  font-size: 0.9rem;
+  font-size: 1.8rem;
   font-family: Gill Sans;
   font-style: italic;
   padding: 15px 15px 15px 50px;
@@ -430,6 +430,23 @@ section {
   vertical-align: middle;
   width: 100%;
   padding-left: 0 !important;
+  min-height: 200px;
+}
+
+#section_two_image {
+  background: url(../images/anxiety-image1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-left: 0 !important;
+  min-height: 200px;
+  height: 250px;
+}
+
+#section_two_overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(34, 85, 129, 0.49);
 }
 
 #section_three {
@@ -641,7 +658,7 @@ footer {
   }
   .hero-title h1 {
     color: #14436c;
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-family: Gill Sans;
     font-style: italic;
     padding: 25px 15px 15px 50px;
@@ -722,7 +739,7 @@ footer {
   }
   .hero-title h1 {
     color: #14436c;
-    font-size: 0.9em;
+    font-size: 1.2rem;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 50px;
@@ -822,7 +839,7 @@ nav::before {
 /* Extra Small devices */
 @media (min-width: 150px) and (max-width: 377px) {
   .entry-title h1 {
-    font-size: 0.9em;
+    font-size: 1rem;
   }
   #menu div {
     float: none;
@@ -938,7 +955,7 @@ nav::before {
   }
   .hero-title h1 {
     color: #14436c;
-    font-size: 0.85em;
+    font-size: 1rem;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 50px;

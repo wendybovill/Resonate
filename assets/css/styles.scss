@@ -406,7 +406,7 @@ nav a:active:hover, .active:hover {
 
 .hero-title h1 {
     color: $blue;
-    font-size: 0.90rem;
+    font-size: 1.8rem;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px  15px 50px;
@@ -515,15 +515,17 @@ section {
 }
 
 #section_two_image {
-    background: url(../images/anxiety-image1.jpg) cover center;
-    vertical-align: middle;
+    background: url(../images/anxiety-image1.jpg);
+    background-size: cover;
+    background-position: center;
     width:100%;
     padding-left:0!important;
     min-height: 200px;
+    height:250px;
 }
 
 #section_two_overlay {
-    @include @include lightblueoverlay;
+    @include lightblueoverlay;
     }
 
 #section_three {
