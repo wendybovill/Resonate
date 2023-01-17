@@ -437,6 +437,13 @@ section {
 
 #section_two_image {
   background: url(../images/anxiety-image1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-left: 0 !important;
+  min-height: 200px;
+  z-index: 3000;
+  opacity: 50%;
 }
 
 .section_two_overlay {

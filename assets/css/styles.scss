@@ -526,10 +526,11 @@ section {
 
 #section_two_image {
     background: url(../images/anxiety-image1.jpg);
+    @include sectionimagebox();
 }
 
 .section_two_overlay {
-    @include lightblueoverlay;
+    @include lightblueoverlay();
     }
 
 #section_two_text {
