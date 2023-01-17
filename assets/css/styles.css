@@ -916,7 +916,8 @@ nav::before {
 @media (min-width: 150px) and (max-width: 377px) {
   .entry-title h1 {
     font-size: 1rem;
-    padding-left: 15px !important;
+    margin: unset !important;
+    padding: 1px 10px 15px 50px !important;
   }
   #menu div {
     float: none !important;
