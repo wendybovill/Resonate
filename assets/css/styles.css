@@ -521,6 +521,7 @@ h2.contentbox, h3.contentbox, h4.contentbox {
 p.contentbox {
   padding: 0 2vw;
   padding-top: 3rem;
+  text-align: center;
 }
 
 /* _______ This is the footer section ________ */
