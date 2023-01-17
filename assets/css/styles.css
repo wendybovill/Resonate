@@ -615,10 +615,10 @@ footer {
   }
   .hero-title h1 {
     color: #14436c;
-    font-size: 0.95em;
+    font-size: 1.8rem;
     font-family: Gill Sans;
     font-style: italic;
-    padding: 15px 15px 15px 50px;
+    padding: 25px 15px 15px 50px;
     margin: 20px;
   }
 }
