@@ -530,9 +530,17 @@ section {
   border: none;
 }
 
+#section_three_text {
+  z-index: 3050;
+  display: inline;
+}
+
 ul.bright.contentbox {
   list-style-type: none;
   list-style-position: outside;
+  padding-top: 3rem;
+  line-height: 3em;
+  word-spacing: 0.25rem;
 }
 
 h2.contentbox, h3.contentbox, h4.contentbox {
