@@ -583,9 +583,16 @@ section {
     padding-left:0!important;
     }
 
-p.contentbox {
-    padding: 2%;
+h2.contentbox,h3.contentbox,h4.contentbox {
+    padding-top:10rem;
+    text-align: center;
     }
+
+p.contentbox {
+    padding: 0 2vw; //2% of the viewers width;
+    padding-top: 3rem;
+    }
+
 
 /* _______ This is the footer section ________ */
 
