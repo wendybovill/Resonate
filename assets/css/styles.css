@@ -851,7 +851,7 @@ nav::before {
   }
   nav a:active,
 .active {
-    ppadding: 0 5px 14px 5px;
+    padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #025a67;
     z-index: 99999;
