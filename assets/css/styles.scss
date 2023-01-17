@@ -181,6 +181,18 @@ $baseIfasize: 8rem;
     border: none;
 }
 
+@mixin sectionimageboxdarkfull {
+    background-size: cover;
+    background-position: center;
+    padding-left:0!important;
+    min-height: 200px;
+    z-index: 3000;
+    opacity: 100%; //removed opacity
+    overflow:hidden;
+    height: 100vw; //This is set to full viewers width! Do not change!
+    border: none;
+}
+
 @mixin sectionimageboxfull {
     background-size: cover;
     background-position: center;
@@ -1420,9 +1432,10 @@ nav {
         min-height: 200px;
     }
 
-.section_two_image_resp {
+    .section_two_image_resp {
         background: url(../images/anxiety-image-blue.jpg);
-        @include sectionimagebox(); }
+        @include sectionimageboxdarkfull(); 
+        }
 
     /* .section_two_overlay_resp {
         @include lightblueoverlay(); } */
