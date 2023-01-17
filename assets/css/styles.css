@@ -1321,7 +1321,7 @@ nav::before {
   #section_four {
     display: none;
   }
-  .section_two_resp {
+  #section_two_resp {
     display: block;
     color: #ffffff;
     vertical-align: middle;
@@ -1359,7 +1359,7 @@ nav::before {
     background-color: rgba(34, 85, 129, 0.49);
     /* (plus shape's fill blended on top as a separate layer with 100% opacity) */
   }
-  .section_three_resp {
+  #section_three_resp {
     display: block;
     vertical-align: middle;
     width: 100%;
