@@ -592,6 +592,11 @@ section {
     padding-left:0!important;
     }
 
+p.#section_four li {
+    list-style: none;
+    list-style-position: outside;
+    }
+
 h2.contentbox,h3.contentbox,h4.contentbox {
     padding: 10rem 5px 0 5px;
     text-align: center;
