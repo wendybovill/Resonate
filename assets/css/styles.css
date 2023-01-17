@@ -1351,10 +1351,6 @@ nav::before {
     width: 100%;
     padding-left: 0 !important;
     min-height: 200px;
-    width: 100%;
-    background-color: rgba(129, 122, 34, 0.24);
-    z-index: 3010;
-    border: none;
   }
   #section_three_image_resp {
     background: url(../images/get-support-image-beige.jpg);
