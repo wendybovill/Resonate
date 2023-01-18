@@ -265,10 +265,13 @@ nav a:active:hover, .active:hover {
           animation: flyIn 3s;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  --webkit-backdrop-filter: blur(30px);
 }
 
 .hero-title h1 {
-  color: #14436c;
+  color: #00284b;
   font-size: 1.8rem;
   font-family: Gill Sans;
   font-style: italic;
