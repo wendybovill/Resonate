@@ -141,16 +141,44 @@
         </div>     
     </section>
 
-    <section id="section_four_resp" class="section_four_image_resp col-12 container row" >
-        <div id="section_four_text_resp" style="display:inline; width:100%; min-height:200px; padding-top:20px; z-index: 50;">
-            <h2 class="contentbox">Manage Anxiety?</h2>
-            <ul class="bright contentbox">
-                <li>Self Care</li>
-                <li>Captivating Calming Videos</li>
-                <li>Soothing Sounds</li>
-                <li>Mindfulness Apps</li>
-                <li>Thought Retraining (CBT)</li>
-                <li>Visualisation</li> 
+    <section id="section_form" class="section_four_image_resp col-12 container row" >
+        <div id="section_form_text" style="display:inline; width:100%; min-height:200px; padding-top:20px; z-index: 50;">
+            <form class="contact-form bright" method="POST" action="https://formdump.codeinstitute.net/">
+                <h2 class="bright">Please complete the form below: <i class="fa-solid fa-envelope"></i></h2>
+                <fieldset>
+                <legend>Please tell us your age and ethnicity for research purposes:</legend>
+                <label for="age">What is your age?</label>
+                <input class="text-input" id="age" type="text" name="age" aria-label="Age">
+                <label for="ethnicity">What is your ethnicity?</label>
+                <input class="text-input" id="ethnicity" type="text" name="ethnicity" aria-label="Ethnicity">
+                </fieldset>
+        
+                <fieldset>
+                <legend>Would you like more info on our Mindfulness App Resonate?</legend>
+                <label for="yes">Yes:</label>
+                <input id="yes" type="radio" name="more_info" value="yes" aria-label="Yes" required>
+                <label for="no">No:</label>
+                <input id="no" type="radio" name="more_info" value="no" aria-label="No" required>
+                <label for="light_version">Light Version:</label>
+                <input id="light_version" type="checkbox" name="which_version" value="light_version" aria-label="Light Version" required>
+                <label for="enterprise_version">Enterprise Version:</label>
+                <input id="enterprise_version" type="checkbox" name="which_version" value="enterprise_version" aria-label="Enterprise Version" required>
+                </fieldset>
+        
+                <fieldset>
+                <legend>Information about you so we can respond:</legend>
+                <label for="firstname">First Name:</label>
+                <input class="text-input" id="firstname" type="text" name="first_name" aria-label="First Name" required>
+                <label for="lastname">Last Name:</label>
+                <input class="text-input" id="lastname" type="text" name="last_name" aria-label="Last Name" required>
+                <label for="email">Email Address:</label>
+                <input class="text-input" id="email" type="email" name="email_address" aria-label="Email Address" required>
+                <label for="message">Your Message:</label>
+                <input class="text-input" id="message" type="textarea" name="message" aria-label="Message" placeholder="Eg. What improvements would you like to see on our site?" required>
+                </fieldset>
+        
+                <input class="submit_button" type="submit" value="Submit" aria-label="Submit Form">
+            </form>
         </div>     
     </section>
 
