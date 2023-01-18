@@ -548,6 +548,31 @@ section {
   display: inline;
 }
 
+#section_form {
+  display: block;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 0 !important;
+}
+
+.section_form_image {
+  background: url(../images/grey-support-image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 0 !important;
+  min-height: 200px;
+  z-index: 3000;
+  opacity: 100%;
+  overflow: hidden;
+  height: 100vw;
+  border: none;
+}
+
+#section_form_text {
+  z-index: 3050;
+  display: inline;
+}
+
 ul.bright.contentbox {
   list-style-type: none;
   list-style-position: outside;

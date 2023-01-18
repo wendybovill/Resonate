@@ -627,6 +627,26 @@ section {
     display:inline;
 }
 
+
+// Contact us page section
+
+    #section_form {
+        display: block;
+        color: $bright;
+        width:100%;
+        padding-left:0!important;
+    }
+
+    .section_form_image {
+        background: url(../images/grey-support-image.jpg);
+        @include sectionimageboxdarkfull(); 
+    }
+
+    #section_form_text {
+        z-index: 3050;
+        display:inline;
+    }
+
 //The content boxes are the large boxes with info on the first page
 ul.bright.contentbox {
     list-style-type: none;
