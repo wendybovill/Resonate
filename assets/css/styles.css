@@ -222,7 +222,7 @@ nav a:hover {
   padding: 15px 15px;
   text-decoration: none;
   color: #025a67;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 nav a:active, .active {
@@ -235,7 +235,7 @@ nav a:active:hover, .active:hover {
   padding: 15px 15px;
   text-decoration: none;
   color: #003f49;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* Hero Image Section repeated on each page, the images change per page */
@@ -260,7 +260,7 @@ nav a:active:hover, .active:hover {
 
 .hero-title div, .hero-title h1 {
   height: 47px;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.5);
   -webkit-animation: flyIn 3s;
           animation: flyIn 3s;
   -webkit-animation-delay: 1s;
@@ -866,7 +866,7 @@ footer a:hover {
   }
   .hero-title div, .hero-title h1 {
     height: 40px;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     -webkit-animation: flyIn 3s;
             animation: flyIn 3s;
     -webkit-animation-delay: 1s;
@@ -912,7 +912,7 @@ footer a:hover {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #025a67;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 99998;
   }
   nav a:active, .active {
@@ -925,7 +925,7 @@ footer a:hover {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #003f49;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 99998;
   }
   #logo_section {
@@ -1029,7 +1029,7 @@ footer a:hover {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #025a67;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 99998;
   }
   nav a:active, .active {
@@ -1043,7 +1043,7 @@ footer a:hover {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #003f49;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 99998;
   }
   #logo_section {
@@ -1157,7 +1157,7 @@ nav::before {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #025a67;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 99998;
   }
   nav a:active,
@@ -1172,7 +1172,7 @@ nav::before {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #003f49;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 99998;
   }
   #logo_section {
