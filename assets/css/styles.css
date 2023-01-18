@@ -238,7 +238,7 @@ nav a:active:hover, .active:hover {
   background-color: rgba(255, 255, 255, 0.35);
 }
 
-/* Hero Image Section */
+/* Hero Image Section repeated on each page, the images change per page */
 .hero {
   height: 200px;
   display: block;

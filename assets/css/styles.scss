@@ -331,6 +331,7 @@ a:hover {
 }
 
 /* This is the header and navigation section of the website styles */
+// header and nav section is repeated on each page, but the active link changes on the html pages classes
 
 header {
     height: 150px;
@@ -413,7 +414,7 @@ nav a:active:hover, .active:hover {
     background-color:$transparent-bk;
 }
 
-/* Hero Image Section */
+/* Hero Image Section repeated on each page, the images change per page */
 
 .hero {
     height: 200px;
@@ -534,6 +535,7 @@ section {
     border:none;
 }
 
+//sections one to four are on the first page
 #section_one {
     background-color: $bright;
     vertical-align: middle;
@@ -615,6 +617,7 @@ section {
     display:inline;
 }
 
+//The content boxes are the large boxes with info on the first page
 ul.bright.contentbox {
     list-style-type: none;
     list-style-position: outside;
