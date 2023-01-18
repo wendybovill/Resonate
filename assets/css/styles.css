@@ -281,6 +281,7 @@ nav a:active:hover, .active:hover {
   font-style: italic;
   padding: 15px 15px 15px 50px;
   margin: 20px;
+  box-shadow: 1px -2px 2px -1px rgb(255, 255, 255);
 }
 
 .hero_image1 {
@@ -800,12 +801,13 @@ footer a:hover {
     max-width: 85%;
   }
   .hero-title h1 {
-    color: #14436c;
+    color: #00284b;
     font-size: 1.8rem;
     font-family: Gill Sans;
     font-style: italic;
     padding: 25px 15px 15px 50px;
     margin: 20px;
+    box-shadow: 1px -2px 2px -1px rgb(255, 255, 255);
   }
   h2.contentbox, h3.contentbox, h4.contentbox {
     padding: 5rem 5px 0 5px !important;
@@ -897,12 +899,13 @@ footer a:hover {
             animation-delay: 1s;
   }
   .hero-title h1 {
-    color: #14436c;
+    color: #00284b;
     font-size: 1.2rem;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 50px;
     margin: 20px;
+    box-shadow: 1px -2px 2px -1px rgb(255, 255, 255);
   }
   nav {
     clear: both;
@@ -1088,12 +1091,13 @@ footer a:hover {
     max-width: 95%;
   }
   .hero-title h1 {
-    color: #14436c;
+    color: #00284b;
     font-size: 0.9rem;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 20px;
     margin: 10px;
+    box-shadow: 1px -2px 2px -1px rgb(255, 255, 255);
   }
   .hero-title div, .hero-title h1 {
     height: 15px;
@@ -1261,12 +1265,13 @@ nav::before {
     max-width: 95%;
   }
   .hero-title h1 {
-    color: #14436c;
+    color: #00284b;
     font-size: 0.8rem;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 20px;
     margin: 10px;
+    box-shadow: 1px -2px 2px -1px rgb(255, 255, 255);
   }
   .hero-title div, .hero-title h1 {
     height: 15px;
