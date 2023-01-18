@@ -647,18 +647,30 @@ section {
         display:inline;
     }
 
-    .contact-form {
+    form.contact-form {
         padding: 15px 15px;
         margin: 5px 15px;
-        background: rgba(255, 255, 255, 0.35);
+        background: rgba(255, 255, 255, 0.75);
         border: 1px solid #707070;
         min-height: 400px;
         max-height: fit-content;
         color: $darkgrey;
         font-size: 1rem;
         line-height: 1.025;
-
     }
+    
+    form.contact-form input.textarea, input.text {
+        color: $darkgrey;
+        font-size: 1rem;
+        line-height: 1.025;
+    }
+
+    form.contact-form label, legend {
+        color: $darkgrey;
+        font-size: 1rem;
+        line-height: 1.025;   
+    }
+            
 
 //The content boxes are the large boxes with info on the first page
 ul.bright.contentbox {
