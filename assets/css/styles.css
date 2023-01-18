@@ -240,11 +240,15 @@ nav a:active:hover, .active:hover {
 
 /* Hero Image Section repeated on each page, the images change per page */
 .hero {
-  height: 200px;
+  height: 300px;
+  width: 100vw;
   display: block;
   position: relative;
   z-index: 8000;
   margin-bottom: 25px;
+  overflow: hidden;
+  overflow: clip; /* required */
+  overflow-clip-margin: 0px;
 }
 
 #hero {
@@ -755,7 +759,7 @@ footer a:hover {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image2 {
     background: url(../images/hero-image2.jpg);
@@ -763,7 +767,7 @@ footer a:hover {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image3 {
     background: url(../images/hero-image3.jpg);
@@ -771,7 +775,7 @@ footer a:hover {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image4 {
     background: url(../images/hero-image4.jpg);
@@ -779,7 +783,7 @@ footer a:hover {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image5 {
     background: url(../images/hero-image5.jpg);
@@ -787,7 +791,7 @@ footer a:hover {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   #hero-text-position {
     vertical-align: bottom;
@@ -844,7 +848,7 @@ footer a:hover {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image2 {
     background: url(../images/hero-image2.jpg);
@@ -852,7 +856,7 @@ footer a:hover {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image3 {
     background: url(../images/hero-image3.jpg);
@@ -860,7 +864,7 @@ footer a:hover {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image4 {
     background: url(../images/hero-image4.jpg);
@@ -868,7 +872,7 @@ footer a:hover {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image5 {
     background: url(../images/hero-image5.jpg);
@@ -876,7 +880,7 @@ footer a:hover {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   #hero-text-position {
     vertical-align: bottom;
@@ -1216,7 +1220,7 @@ nav::before {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image2 {
     background: url(../images/hero-image2.jpg);
@@ -1224,7 +1228,7 @@ nav::before {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image3 {
     background: url(../images/hero-image3.jpg);
@@ -1232,7 +1236,7 @@ nav::before {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image4 {
     background: url(../images/hero-image4.jpg);
@@ -1240,7 +1244,7 @@ nav::before {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .hero_image5 {
     background: url(../images/hero-image5.jpg);
@@ -1248,7 +1252,7 @@ nav::before {
     width: auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   #hero-text-position {
     vertical-align: bottom;

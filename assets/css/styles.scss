@@ -134,7 +134,7 @@ $baseIfasize: 8rem;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 @mixin hero-small {
@@ -142,7 +142,7 @@ $baseIfasize: 8rem;
     width:auto;
     background-position: bottom center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 @mixin blueoverlay {
@@ -419,11 +419,15 @@ nav a:active:hover, .active:hover {
 /* Hero Image Section repeated on each page, the images change per page */
 
 .hero {
-    height: 200px;
+    height: 300px;
+    width: 100vw;
     display:block;
     position: relative;
     z-index: 8000;
     margin-bottom: 25px;
+    overflow: hidden;
+    overflow: clip; /* required */
+    overflow-clip-margin: 0px;
 }
 
 #hero {
