@@ -552,7 +552,11 @@ section {
   display: block;
   color: #ffffff;
   width: 100%;
-  padding: 25px 0 !important;
+  padding: 25px 7.5% !important;
+}
+
+h2.section_form {
+  padding: 0 !important;
 }
 
 .section_form_image {
@@ -572,7 +576,6 @@ section {
 #section_form_text {
   z-index: 3050;
   display: inline;
-  padding: 25px 7.5% !important;
 }
 
 .contact-form {
