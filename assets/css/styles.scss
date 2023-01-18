@@ -127,6 +127,7 @@ $baseIfasize: 8rem;
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
+    object-fit: fill; // taken from mdn web https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
 }
 
 @mixin hero-medium {
