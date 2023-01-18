@@ -685,7 +685,27 @@ section {
         color: $darkteal;
         width: 80%!important;
     }
-            
+    
+    .submit-button {
+        border: 1px solid $teal;
+        background-color: $darkteal;
+        color: $bright;
+        border-radius: 3px;
+    }
+
+    .submit-button:hover {
+        border: 1px solid $darkteal;
+        background-color: $teal;
+        color: $bright;
+        border-radius: 3px;
+    }
+
+    .submit-button:active {
+        border: 1px solid $teal;
+        background-color: $white;
+        color: $darkteal;
+        border-radius: 3px;
+    }
 
 //The content boxes are the large boxes with info on the first page
 ul.bright.contentbox {

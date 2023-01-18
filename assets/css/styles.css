@@ -614,6 +614,18 @@ section {
   width: 80% !important;
 }
 
+.submit-button {
+  border: 1px solid #025a67;
+  background-color: #003f49;
+  color: #ffffff;
+}
+
+.submit-button:hover {
+  border: 1px solid #003f49;
+  background-color: #025a67;
+  color: #ffffff;
+}
+
 ul.bright.contentbox {
   list-style-type: none;
   list-style-position: outside;
