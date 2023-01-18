@@ -604,6 +604,8 @@ section {
   border: 1px solid #919191;
   border-top: 1px solid #919191 !important;
   padding: 10px;
+  background-color: #ffffff;
+  color: #003f49;
 }
 
 ul.bright.contentbox {
