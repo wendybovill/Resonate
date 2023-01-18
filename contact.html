@@ -147,23 +147,25 @@
                 <h2 class="bright">Please complete the form below:</h2>
                 <fieldset>
                 <legend>Please tell us your age and ethnicity for research purposes:</legend>
-                <div id="form_research" class="col">
+                <div id="form_research" class="container col-6" style="display:inline-block;">
                 <label for="age">What is your age?</label>
-                <input class="text-input" id="age" type="text" name="age" aria-label="Age"><br><br>
+                <input class="text-input" id="age" type="text" name="age" aria-label="Age">
+                </div>
+                <div id="form_research" class="container col-6" style="display:inline-block;">
                 <label for="ethnicity">What is your ethnicity?</label>
                 <input class="text-input" id="ethnicity" type="text" name="ethnicity" aria-label="Ethnicity">
                 </div>
                 </fieldset>
         
                 <fieldset>
-                <div class="col-6">
+                <div class="container col-6" style="display:inline-block;">
                 <legend>Would you like more info on our Mindfulness App Resonate?</legend><br>
                 <label for="yes">Yes:</label>
                 <input id="yes" type="radio" name="more_info" value="yes" aria-label="Yes" required>
                 <label for="no">No:</label>
                 <input id="no" type="radio" name="more_info" value="no" aria-label="No" required>
                 </div>
-                <div class="col-6">
+                <div class="container col-6" style="display:inline-block;">
                 <label for="light_version">Light Version:</label>
                 <input id="light_version" type="checkbox" name="which_version" value="light_version" aria-label="Light Version" required>
                 <label for="enterprise_version">Enterprise Version:</label>
