@@ -85,7 +85,7 @@ $baseIfasize: 8rem;
     --webkit-backdrop-filter: blur(30px);
     background-color: $bkcolor;
     color: $bright
-  }
+}
 
 @mixin small-ibox {
     height: 80px;
@@ -93,7 +93,7 @@ $baseIfasize: 8rem;
     display: inline-block;
     padding:10px;
     margin:10px;
-    }
+}
 
 @mixin medium-ibox {
     height: 100px;
@@ -101,7 +101,7 @@ $baseIfasize: 8rem;
     display: inline-block;
     padding:10px;
     margin:10px;
-    }
+}
 
 @mixin large-ibox {
     height: 140px;
@@ -109,7 +109,7 @@ $baseIfasize: 8rem;
     display: inline-block;
     padding:20px;
     margin:20px;
-    }
+}
 
 @mixin larger-ibox {
     height: 180px;
@@ -232,7 +232,7 @@ $baseIfasize: 8rem;
     padding-left: unset!important;
     margin-right: unset!important;
     margin-left: unset!important;
-    }
+}
 
 .container-fluid {
     width: 100%!important;
@@ -240,7 +240,7 @@ $baseIfasize: 8rem;
     padding-left: unset!important;
     margin-right: unset!important;
     margin-left: unset!important;
-    }
+ }
 
 html, body {
     @include basefont();
@@ -308,8 +308,6 @@ h6 {
     font-size: 0.90em;
 }
 
-
-
 p {
     font-size: 12;
     font-weight: 400;
@@ -365,7 +363,7 @@ header {
 
 .menu::after, .menu::before {
     box-sizing: unset!important;
-    }
+}
 
 nav {
     min-width: 70px;
@@ -393,7 +391,7 @@ nav a{
 
 nav::after, nav::before {
     box-sizing: unset!important;
-    }
+ }
 
 nav a:hover{
     padding: 15px 15px;
@@ -451,7 +449,6 @@ nav a:active:hover, .active:hover {
     padding: 15px 15px  15px 50px;
     margin:20px;
 }
-
 
 .hero_image1 {
     background: url(../images/hero-image1.jpg);
@@ -549,7 +546,7 @@ section {
     text-align:center;
     vertical-align:baseline;
     padding-bottom:50px;
-    }
+ }
 
 #section_two {
     color: $bright;
@@ -567,7 +564,7 @@ section {
 
 .section_two_overlay {
     @include lightblueoverlay();
-    }
+ }
 
 #section_two_text {
     z-index: 3050;
@@ -575,7 +572,7 @@ section {
     padding: 2% 2.5%;
     align-content: middle;
     text-align:center;
-    }
+}
 
 #section_three {
     vertical-align: middle;
@@ -592,12 +589,12 @@ section {
 
 .section_three_overlay {
     @include beigeoverlay();
-    }
+}
 
 #section_three_text {
     z-index: 3050;
     display:inline;
-    }
+}
 
 #section_four {
     color: $bright;
@@ -625,12 +622,12 @@ ul.bright.contentbox {
     margin-left: 20px;
     line-height: 1.2em;
     word-spacing: 0.25rem;
-    }
+}
 
 h2.contentbox,h3.contentbox,h4.contentbox {
     padding: 10rem 5px 0 5px;
     text-align: center;
-    }
+}
 
 p.contentbox {
     padding: 0 2vw; //2% of the viewers width;
@@ -638,22 +635,22 @@ p.contentbox {
     text-align: center;
     line-height: 3em;
     word-spacing: 0.25rem;
-    }
+}
 
-    // hiding the small device responsive sections
+// hiding the small device responsive sections
 
 
-    #section_two_resp {
-        display:none;
-    }
+#section_two_resp {
+    display:none;
+}
 
-    #section_three_resp {
-        display:none;
-    }
+#section_three_resp {
+    display:none;
+}
 
-    #section_four_resp {
-        display:none;
-    }
+#section_four_resp {
+    display:none;
+}
 
 /* _______ This is the footer section ________ */
 
@@ -665,7 +662,7 @@ footer {
     box-shadow: rgba(0,0,0,20) 2px 0px 3px;
     background-color: $footercolor;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 0.80em;
     width:100%;
     left:0;
@@ -675,14 +672,17 @@ footer {
     text-align: center;
 }
 
+a.footer {
+    color: $bright;
+    text-decoration-line: underline;
+    }
+
+a.footer:hover {
+    color: $darkteal;
+    text-decoration-line: none;
+    }
+
 /* Contact us section */
-
-
-
-
-
-
-
 
 
 /* ____________ This is the responsive media query section ____________ */
@@ -730,7 +730,7 @@ footer {
     .hero_image1 {
         background: url(../images/hero-image1.jpg);
         @include hero-large();
-}
+    }
 
     .hero_image2 {
         background: url(../images/hero-image2.jpg);
@@ -760,32 +760,32 @@ footer {
 /* Medium devices */
 @media (min-width: 800px) and (max-width: 991px) { 
 
-.menu div {
-    text-align: right;
-    float: none!important;
-    clear:both;
+    .menu div {
+        text-align: right;
+        float: none!important;
+        clear:both;
+        }
+
+    nav {
+        min-width: 70px;
+        width: 100%;
+        right: 0;
+        vertical-align: bottom;
+        text-align: right;
+        align-items: baseline;
+        height: 21px;
+        position: absolute;
+        bottom: 0px;
+        display: inline-block;
+        font-size: 14pt;
+        padding: 21px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
-nav {
-    min-width: 70px;
-    width: 100%;
-    right: 0;
-    vertical-align: bottom;
-    text-align: right;
-    align-items: baseline;
-    height: 21px;
-    position: absolute;
-    bottom: 0px;
-    display: inline-block;
-    font-size: 14pt;
-    padding: 21px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.entry-title h1 {
-    font-size: 1.5rem;
-}
+    .entry-title h1 {
+        font-size: 1.5rem;
+    }
 
     .container {
         width:100%;
@@ -952,8 +952,7 @@ nav {
         z-index: 99999;
     }
 
-    nav::after,
-    nav::before {
+    nav::after, nav::before {
         box-sizing: unset !important;
     }
 
@@ -965,16 +964,14 @@ nav {
         z-index: 99998;
     }
 
-    nav a:active,
-    .active {
+    nav a:active, .active {
         padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $teal;
         z-index: 99999;
     }
 
-    nav a:active:hover,
-    .active:hover {
+    nav a:active:hover, .active:hover {
         padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $darkteal;
@@ -1094,8 +1091,7 @@ nav {
         z-index: 99999;
     }
 
-    nav::after,
-    nav::before {
+    nav::after, nav::before {
         box-sizing: unset !important;
     }
 
@@ -1107,8 +1103,7 @@ nav {
         z-index: 99998;
     }
 
-    nav a:active,
-    .active {
+    nav a:active, .active {
         padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $teal;
@@ -1397,12 +1392,11 @@ nav {
 
 // resize the iconboxes on first page welcome section
 
-
     #iconboxes {
-    text-align: center;
-    vertical-align: baseline;
-    padding-bottom: 50px;
-    padding-left: 20px!important;
+        text-align: center;
+        vertical-align: baseline;
+        padding-bottom: 50px;
+        padding-left: 20px!important;
     }
         
     .intro-box {
@@ -1452,7 +1446,7 @@ nav {
     .section_two_image_resp {
         background: url(../images/anxiety-image-blue.jpg);
         @include sectionimageboxdarkfull(); 
-        }
+    }
 
     /* .section_two_overlay_resp {
         @include lightblueoverlay(); } */
@@ -1465,15 +1459,15 @@ nav {
         text-align:center;
     }
     
-    .section_two_overlay_resp {
-background: transparent;
-/* Note: currently only Safari supports backdrop-filter */
-backdrop-filter: blur(30px);
---webkit-backdrop-filter: blur(30px);
-background-color: $lightblue;
-/* (plus shape's fill blended on top as a separate layer with 100% opacity) */
+    .section_two_overlay_resp { //This code was taken from my css panel in Adobe XD from the mockup design
+        background: transparent;
+        /* Note: currently only Safari supports backdrop-filter */
+        backdrop-filter: blur(30px);
+        --webkit-backdrop-filter: blur(30px);
+        background-color: $lightblue;
+        /* (plus shape's fill blended on top as a separate layer with 100% opacity) */
 
-        }
+    }
 
     #section_three_resp {
         display: block;
@@ -1513,9 +1507,8 @@ background-color: $lightblue;
     footer {
         height: 35px;
         font-size: 0.75rem;
-        font-weight:500;
+        font-weight:300;
         padding-bottom: 5px;
     }
         
-
 }

@@ -578,7 +578,7 @@ footer {
   box-shadow: rgb(0, 0, 0) 2px 0px 3px;
   background-color: rgb(121, 119, 92);
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 0.8em;
   width: 100%;
   left: 0;
@@ -586,6 +586,18 @@ footer {
   bottom: 0;
   display: block;
   text-align: center;
+}
+
+a.footer {
+  color: #ffffff;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+a.footer:hover {
+  color: #003f49;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 /* Contact us section */
@@ -893,8 +905,7 @@ footer {
     color: #585858;
     z-index: 99999;
   }
-  nav::after,
-nav::before {
+  nav::after, nav::before {
     box-sizing: unset !important;
   }
   nav a:hover {
@@ -904,15 +915,13 @@ nav::before {
     background-color: rgba(255, 255, 255, 0.35);
     z-index: 99998;
   }
-  nav a:active,
-.active {
+  nav a:active, .active {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #025a67;
     z-index: 99999;
   }
-  nav a:active:hover,
-.active:hover {
+  nav a:active:hover, .active:hover {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #003f49;
@@ -1013,8 +1022,7 @@ nav::before {
     color: #585858;
     z-index: 99999;
   }
-  nav::after,
-nav::before {
+  nav::after, nav::before {
     box-sizing: unset !important;
   }
   nav a:hover {
@@ -1024,8 +1032,7 @@ nav::before {
     background-color: rgba(255, 255, 255, 0.35);
     z-index: 99998;
   }
-  nav a:active,
-.active {
+  nav a:active, .active {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #025a67;
@@ -1404,7 +1411,7 @@ nav::before {
   footer {
     height: 35px;
     font-size: 0.75rem;
-    font-weight: 500;
+    font-weight: 300;
     padding-bottom: 5px;
   }
 }/*# sourceMappingURL=styles.css.map */
