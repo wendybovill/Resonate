@@ -108,11 +108,20 @@ Name, Age, State/County, Country, Ethnicity, Have anxiety? Checkbox y/n, Getting
 
 # Acknowledgements
 
-CSS Animations: Stackflow https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container
+CSS Animations: Stackflow https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container  - I used the code and edited by removing the staged % keyframes and also made it shrink instead of grow. For the flyIn one, I removed the inbetween keyframes and only had 2 to make the animation smoother.
 
-# Debugging Results
+# Debugging & Test Results
+
+*Debugging:* Using devtools in chrome and safari. Corrected misaligned boxes with bootstrap. Resized font for smaller devices. Had to hide the large content boxes on the front page from showing in very small devices, and instead added sections with an image background. This is hidden from the users view on larger devices and they see the larger content boxes on the front page.
+
+The logo was overlapping the navigation on smaller devices. I had to resize it for smaller devices, and change the position of the navigation, as well as make the padding for the hover view smaller so the highlight behind did not overlap the logo.
+
+There were issues when first deployed to github pages, where the stylesheet and images did not show. This was corrected after consultation with my mentor Gaff, and the links were then corrected.
+
+There were multiple issues trying to get the font awesome to show. No matter what css link I used. In the end the only one it accepted is a kit link for js.
 
 
+*Refereces used to assist debugging:*
 
 SCSS https://sass-lang.com/guide
 
@@ -120,4 +129,3 @@ CSS/Html fix floating footer: Bootstrap5: used col-12 in footer class
 
 CSS/Html not showing stylesheet or images: removed begining / from file path for stylesheet fix, and added ../images/imagehere.jpg instead of /assets/images/imagehere.jpg
 
-Fixed Fontawesome not showing icons. Used js kit script instead of css link to cdn.
