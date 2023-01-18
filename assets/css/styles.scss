@@ -846,6 +846,10 @@ footer a:hover {
         font-style: italic;
         padding: 25px 15px 15px 50px;
         margin: 20px;
+        text-shadow:  1px -2px 2px -1px rgb(255,255,255);       
+        //this next code is modified by myself here but originally taken from a box shadow generator at https://www.cssmatic.com/box-shadow
+        -webkit-text-shadow: 1px -2px 2px -1px rgb(255,255,255);
+        -moz-text-shadow: 1px -2px 2px -1px rgb(255,255,255);
     }
 
     h2.contentbox, h3.contentbox, h4.contentbox {
