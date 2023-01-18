@@ -661,7 +661,7 @@ section {
         width: 80%;
     }
     
-    .contact-form input.textarea, input.text {
+    input.contact-form {
         color: $darkgrey;
         font-size: 1rem;
         line-height: 1.025;
@@ -686,21 +686,21 @@ section {
         width: 80%!important;
     }
     
-    .submit_button input{
+    input.submit_button {
         border: 1px solid $teal;
         background-color: $darkteal;
         color: $bright;
         border-radius: 3px;
     }
 
-    .submit_button:hover input {
+    input.submit_button:hover {
         border: 1px solid $darkteal;
         background-color: $teal;
         color: $bright;
         border-radius: 3px;
     }
 
-    .submit_button:active input {
+    input.submit_button:active {
         border: 1px solid $teal;
         background-color: $bright;
         color: $darkteal;
