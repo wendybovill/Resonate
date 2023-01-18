@@ -675,6 +675,10 @@ section {
     .contact-form fieldset {
         border: 1px solid $lightgrey;  
         border-top: 1px solid $lightgrey!important;
+        padding: 5px;
+    }
+    
+    .contact legend {
         padding: 10px;  
         background-color: $bright;
         color: $darkteal;
