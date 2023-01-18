@@ -585,6 +585,7 @@ form.contact-form {
   color: #444444;
   font-size: 1rem;
   line-height: 1.025;
+  width: 80%;
 }
 
 form.contact-form input.textarea, input.text {
