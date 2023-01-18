@@ -287,8 +287,6 @@ nav a:active:hover, .active:hover {
   background-size: cover;
   overflow: hidden;
   background-repeat: no-repeat;
-  -o-object-fit: fill;
-     object-fit: fill;
   /* animate the hero background image */
   -webkit-animation: heroShrink 10s;
           animation: heroShrink 10s;
@@ -306,8 +304,6 @@ nav a:active:hover, .active:hover {
   background-size: cover;
   overflow: hidden;
   background-repeat: no-repeat;
-  -o-object-fit: fill;
-     object-fit: fill;
   /* animate the hero background image */
   -webkit-animation: heroShrink 10s;
           animation: heroShrink 10s;
@@ -325,8 +321,6 @@ nav a:active:hover, .active:hover {
   background-size: cover;
   overflow: hidden;
   background-repeat: no-repeat;
-  -o-object-fit: fill;
-     object-fit: fill;
   /* animate the hero background image */
   -webkit-animation: heroShrink 10s;
           animation: heroShrink 10s;
@@ -344,8 +338,6 @@ nav a:active:hover, .active:hover {
   background-size: cover;
   overflow: hidden;
   background-repeat: no-repeat;
-  -o-object-fit: fill;
-     object-fit: fill;
   /* animate the hero background image */
   -webkit-animation: heroShrink 10s;
           animation: heroShrink 10s;
@@ -363,8 +355,6 @@ nav a:active:hover, .active:hover {
   background-size: cover;
   overflow: hidden;
   background-repeat: no-repeat;
-  -o-object-fit: fill;
-     object-fit: fill;
   /* animate the hero background image */
   -webkit-animation: heroShrink 10s;
           animation: heroShrink 10s;
@@ -636,8 +626,6 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-    -o-object-fit: fill;
-       object-fit: fill;
   }
   .hero_image2 {
     background: url(../images/hero-image2.jpg);
@@ -647,8 +635,6 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-    -o-object-fit: fill;
-       object-fit: fill;
   }
   .hero_image3 {
     background: url(../images/hero-image3.jpg);
@@ -658,8 +644,6 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-    -o-object-fit: fill;
-       object-fit: fill;
   }
   .hero_image4 {
     background: url(../images/hero-image4.jpg);
@@ -669,8 +653,6 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-    -o-object-fit: fill;
-       object-fit: fill;
   }
   .hero_image5 {
     background: url(../images/hero-image5.jpg);
@@ -680,8 +662,6 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-    -o-object-fit: fill;
-       object-fit: fill;
   }
 }
 /* Large devices */
@@ -698,8 +678,6 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-    -o-object-fit: fill;
-       object-fit: fill;
   }
   .hero_image2 {
     background: url(../images/hero-image2.jpg);
@@ -709,8 +687,6 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-    -o-object-fit: fill;
-       object-fit: fill;
   }
   .hero_image3 {
     background: url(../images/hero-image3.jpg);
@@ -720,8 +696,6 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-    -o-object-fit: fill;
-       object-fit: fill;
   }
   .hero_image4 {
     background: url(../images/hero-image4.jpg);
@@ -731,8 +705,6 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-    -o-object-fit: fill;
-       object-fit: fill;
   }
   .hero_image5 {
     background: url(../images/hero-image5.jpg);
@@ -742,8 +714,6 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-    -o-object-fit: fill;
-       object-fit: fill;
   }
   p {
     font-size: 1rem;
