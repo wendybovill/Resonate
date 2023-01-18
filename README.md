@@ -120,6 +120,13 @@ There were issues when first deployed to github pages, where the stylesheet and 
 
 There were multiple issues trying to get the font awesome to show. No matter what css link I used. In the end the only one it accepted is a kit link for js.
 
+W3 html validator found 2 attributes that needed to be separated by a space, and complained about the aria-labels I'd used as a violation so I changed them to titles to describe what the following section was about.
+
+Jigsaw validator found some errors in the css and anmiations that were corrected.
+
+Document of validation and errors can be viewed by clicking on the link below:
+
+
 
 *Refereces used to assist debugging:*
 
@@ -128,4 +135,9 @@ SCSS https://sass-lang.com/guide
 CSS/Html fix floating footer: Bootstrap5: used col-12 in footer class
 
 CSS/Html not showing stylesheet or images: removed begining / from file path for stylesheet fix, and added ../images/imagehere.jpg instead of /assets/images/imagehere.jpg
+
+W3 schools html validator
+
+W3 schools jigsaw css validator
+
 
