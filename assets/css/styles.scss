@@ -686,21 +686,21 @@ section {
         width: 80%!important;
     }
     
-    .submit-button {
+    .submit_button input{
         border: 1px solid $teal;
         background-color: $darkteal;
         color: $bright;
         border-radius: 3px;
     }
 
-    .submit-button:hover {
+    .submit_button:hover input {
         border: 1px solid $darkteal;
         background-color: $teal;
         color: $bright;
         border-radius: 3px;
     }
 
-    .submit-button:active {
+    .submit_button:active input {
         border: 1px solid $teal;
         background-color: $bright;
         color: $darkteal;
