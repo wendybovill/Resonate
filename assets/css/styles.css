@@ -278,9 +278,9 @@ nav a:active:hover, .active:hover {
 
 .hero_image1 {
   background: url(../images/hero-image1.jpg);
-  height: 350px;
+  height: 484px;
   width: auto;
-  background-position: bottom center;
+  background-position: top center;
   background-size: cover;
   overflow-x: hidden;
   /* animate the hero background image */
@@ -294,9 +294,9 @@ nav a:active:hover, .active:hover {
 
 .hero_image2 {
   background: url(../images/hero-image2.jpg);
-  height: 350px;
+  height: 484px;
   width: auto;
-  background-position: bottom center;
+  background-position: top center;
   background-size: cover;
   overflow-x: hidden;
   /* animate the hero background image */
@@ -310,9 +310,9 @@ nav a:active:hover, .active:hover {
 
 .hero_image3 {
   background: url(../images/hero-image3.jpg);
-  height: 350px;
+  height: 484px;
   width: auto;
-  background-position: bottom center;
+  background-position: top center;
   background-size: cover;
   overflow-x: hidden;
   /* animate the hero background image */
@@ -326,9 +326,9 @@ nav a:active:hover, .active:hover {
 
 .hero_image4 {
   background: url(../images/hero-image4.jpg);
-  height: 350px;
+  height: 484px;
   width: auto;
-  background-position: bottom center;
+  background-position: top center;
   background-size: cover;
   overflow-x: hidden;
   /* animate the hero background image */
@@ -342,9 +342,9 @@ nav a:active:hover, .active:hover {
 
 .hero_image5 {
   background: url(../images/hero-image5.jpg);
-  height: 350px;
+  height: 484px;
   width: auto;
-  background-position: bottom center;
+  background-position: top center;
   background-size: cover;
   overflow-x: hidden;
   /* animate the hero background image */
@@ -610,41 +610,41 @@ footer a:hover {
   }
   .hero_image1 {
     background: url(../images/hero-image1.jpg);
-    height: 350px;
+    height: 484px;
     width: auto;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     overflow-x: hidden;
   }
   .hero_image2 {
     background: url(../images/hero-image2.jpg);
-    height: 350px;
+    height: 484px;
     width: auto;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     overflow-x: hidden;
   }
   .hero_image3 {
     background: url(../images/hero-image3.jpg);
-    height: 350px;
+    height: 484px;
     width: auto;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     overflow-x: hidden;
   }
   .hero_image4 {
     background: url(../images/hero-image4.jpg);
-    height: 350px;
+    height: 484px;
     width: auto;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     overflow-x: hidden;
   }
   .hero_image5 {
     background: url(../images/hero-image5.jpg);
-    height: 350px;
+    height: 484px;
     width: auto;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     overflow-x: hidden;
   }
@@ -657,41 +657,41 @@ footer a:hover {
   }
   .hero_image1 {
     background: url(../images/hero-image1.jpg);
-    height: 350px;
+    height: 484px;
     width: auto;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     overflow-x: hidden;
   }
   .hero_image2 {
     background: url(../images/hero-image2.jpg);
-    height: 350px;
+    height: 484px;
     width: auto;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     overflow-x: hidden;
   }
   .hero_image3 {
     background: url(../images/hero-image3.jpg);
-    height: 350px;
+    height: 484px;
     width: auto;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     overflow-x: hidden;
   }
   .hero_image4 {
     background: url(../images/hero-image4.jpg);
-    height: 350px;
+    height: 484px;
     width: auto;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     overflow-x: hidden;
   }
   .hero_image5 {
     background: url(../images/hero-image5.jpg);
-    height: 350px;
+    height: 484px;
     width: auto;
-    background-position: bottom center;
+    background-position: top center;
     background-size: cover;
     overflow-x: hidden;
   }
