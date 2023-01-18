@@ -588,13 +588,13 @@ footer {
   text-align: center;
 }
 
-a#footer {
+footer a {
   color: #ffffff;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
 
-a#footer:hover {
+footer a:hover {
   color: #003f49;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;

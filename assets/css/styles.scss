@@ -672,12 +672,12 @@ footer {
     text-align: center;
 }
 
-a#footer {
+footer  a{
     color: $bright;
     text-decoration-line: underline;
     }
 
-a#footer:hover {
+footer a:hover {
     color: $darkteal;
     text-decoration-line: none;
     }
