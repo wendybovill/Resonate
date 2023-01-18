@@ -281,7 +281,6 @@ nav a:active:hover, .active:hover {
   font-style: italic;
   padding: 15px 15px 15px 50px;
   margin: 20px;
-  box-shadow: 1px -2px 2px -1px rgb(255, 255, 255);
 }
 
 .hero_image1 {
@@ -807,7 +806,6 @@ footer a:hover {
     font-style: italic;
     padding: 25px 15px 15px 50px;
     margin: 20px;
-    box-shadow: 1px -2px 2px -1px rgb(255, 255, 255);
   }
   h2.contentbox, h3.contentbox, h4.contentbox {
     padding: 5rem 5px 0 5px !important;
@@ -905,7 +903,6 @@ footer a:hover {
     font-style: italic;
     padding: 15px 15px 15px 50px;
     margin: 20px;
-    box-shadow: 1px -2px 2px -1px rgb(255, 255, 255);
   }
   nav {
     clear: both;
@@ -1097,7 +1094,6 @@ footer a:hover {
     font-style: italic;
     padding: 15px 15px 15px 20px;
     margin: 10px;
-    box-shadow: 1px -2px 2px -1px rgb(255, 255, 255);
   }
   .hero-title div, .hero-title h1 {
     height: 15px;
@@ -1271,7 +1267,6 @@ nav::before {
     font-style: italic;
     padding: 15px 15px 15px 20px;
     margin: 10px;
-    box-shadow: 1px -2px 2px -1px rgb(255, 255, 255);
   }
   .hero-title div, .hero-title h1 {
     height: 15px;
