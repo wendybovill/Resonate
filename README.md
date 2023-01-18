@@ -95,6 +95,10 @@ Iphone Mockup Page 1
 
 4. Development strategy: Develop the first page and styles, that then will be used as a template for the rest of the site pages. Use mixins and variables with SCSS to compile to CSS, to avoid repetative coding.
 
+*Changes from Mockup Design*:
+
+1. Removed 'More' menu item and moved the more content into the about content. The More menu item became the 'Contact' menu item.
+
 
 ## Future Development:
 
