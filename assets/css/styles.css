@@ -610,6 +610,7 @@ section {
   padding: 10px;
   background-color: #ffffff;
   color: #003f49;
+  width: 90% !important;
 }
 
 ul.bright.contentbox {
