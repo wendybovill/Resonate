@@ -552,7 +552,7 @@ section {
   display: block;
   color: #ffffff;
   width: 100%;
-  padding: 25px 15px 25px 0 !important;
+  padding: 25px 7.5% !important;
 }
 
 .section_form_image {
@@ -566,6 +566,7 @@ section {
   overflow: hidden;
   height: 100vw;
   border: none;
+  height: unset !important;
 }
 
 #section_form_text {

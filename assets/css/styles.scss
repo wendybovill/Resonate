@@ -634,12 +634,13 @@ section {
         display: block;
         color: $bright;
         width:100%;
-        padding:25px 15px 25px 0!important;
+        padding: 25px 7.5% !important;
     }
 
     .section_form_image {
         background: url(../images/grey-support-image.jpg);
-        @include sectionimageboxdarkfull(); 
+        @include sectionimageboxdarkfull();
+        height: unset!important;
     }
 
     #section_form_text {
