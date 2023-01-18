@@ -634,7 +634,7 @@ section {
         display: block;
         color: $bright;
         width:100%;
-        padding-left:0!important;
+        padding:25px 15px 25px 0!important;
     }
 
     .section_form_image {
@@ -647,7 +647,7 @@ section {
         display:inline;
     }
 
-    form.contact-form {
+    .contact-form {
         padding: 15px 15px;
         margin: 5px 15px;
         background: rgba(255, 255, 255, 0.75);
@@ -660,16 +660,20 @@ section {
         width: 80%;
     }
     
-    form.contact-form input.textarea, input.text {
+    .contact-form input.textarea, input.text {
         color: $darkgrey;
         font-size: 1rem;
         line-height: 1.025;
     }
 
-    form.contact-form label, legend {
+    .contact-form label, legend {
         color: $darkgrey;
         font-size: 1rem;
         line-height: 1.025;   
+    }
+
+    .contact-form legend {
+        border: 1px solid $lightgrey;    
     }
             
 
