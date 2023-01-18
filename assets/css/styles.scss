@@ -74,7 +74,7 @@ $baseIfasize: 8rem;
 @mixin heroImage { 
     /* animate the hero background image */
     animation: heroShrink 10s;
-    animation-delay: 0;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
@@ -252,7 +252,7 @@ html, body {
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 800;
-    font-stretch: expanded 1.1;
+    font-stretch: expanded 1.025;
 }
 
 .entry-title h1 {
@@ -309,7 +309,7 @@ h6 {
 }
 
 p {
-    font-size: 12;
+    font-size: 12pt;
     font-weight: 400;
     padding: 5px 50px;
 }
@@ -439,7 +439,7 @@ nav a:active:hover, .active:hover {
     height: 47px;
     background-color: $transparent-bk;
     animation: flyIn 3s;
-    animation-delay: 0s;
+    animation-delay: 1s;
 }
 
 .hero-title h1 {
@@ -572,7 +572,7 @@ section {
     z-index: 3050;
     display:inline;
     padding: 2% 2.5%;
-    align-content: middle;
+    align-content: space-around;
     text-align:center;
 }
 
@@ -915,7 +915,7 @@ footer a:hover {
         height: 40px;
         background-color: $transparent-bk;
         animation: flyIn 3s;
-        animation-delay: 0s;
+        animation-delay: 1s;
     }
     
     .hero-title h1 {
@@ -983,7 +983,7 @@ footer a:hover {
     }
 
     #logo_section {
-        padding-top:none!important;
+        padding-top: 0!important;
     }
 
     .logo img{
@@ -1123,7 +1123,7 @@ footer a:hover {
     }
 
     #logo_section {
-        padding-top:none!important;
+        padding-top: 0!important;
         width:100%;
         text-align:center;
     }
@@ -1274,7 +1274,7 @@ footer a:hover {
     }
 
     #logo_section {
-        padding-top:none!important;
+        padding-top: 0!important;
         width:100%;
         text-align:center;
     }
@@ -1458,7 +1458,7 @@ footer a:hover {
         z-index: 3050;
         display:inline;
         padding: 2% 2.5%;
-        align-content: middle;
+        align-content: space-around;
         text-align:center;
     }
     

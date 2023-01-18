@@ -80,7 +80,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
-  font-stretch: expanded 1.1;
+  font-stretch: expanded 1.025;
 }
 
 .entry-title h1 {
@@ -137,7 +137,7 @@ h6 {
 }
 
 p {
-  font-size: 12;
+  font-size: 12pt;
   font-weight: 400;
   padding: 5px 50px;
 }
@@ -263,8 +263,8 @@ nav a:active:hover, .active:hover {
   background-color: rgba(255, 255, 255, 0.35);
   -webkit-animation: flyIn 3s;
           animation: flyIn 3s;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .hero-title h1 {
@@ -286,8 +286,8 @@ nav a:active:hover, .active:hover {
   /* animate the hero background image */
   -webkit-animation: heroShrink 10s;
           animation: heroShrink 10s;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -302,8 +302,8 @@ nav a:active:hover, .active:hover {
   /* animate the hero background image */
   -webkit-animation: heroShrink 10s;
           animation: heroShrink 10s;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -318,8 +318,8 @@ nav a:active:hover, .active:hover {
   /* animate the hero background image */
   -webkit-animation: heroShrink 10s;
           animation: heroShrink 10s;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -334,8 +334,8 @@ nav a:active:hover, .active:hover {
   /* animate the hero background image */
   -webkit-animation: heroShrink 10s;
           animation: heroShrink 10s;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -350,8 +350,8 @@ nav a:active:hover, .active:hover {
   /* animate the hero background image */
   -webkit-animation: heroShrink 10s;
           animation: heroShrink 10s;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -465,7 +465,7 @@ section {
   z-index: 3050;
   display: inline;
   padding: 2% 2.5%;
-  align-content: middle;
+  align-content: space-around;
   text-align: center;
 }
 
@@ -869,8 +869,8 @@ footer a:hover {
     background-color: rgba(255, 255, 255, 0.35);
     -webkit-animation: flyIn 3s;
             animation: flyIn 3s;
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
   }
   .hero-title h1 {
     color: #14436c;
@@ -929,7 +929,7 @@ footer a:hover {
     z-index: 99998;
   }
   #logo_section {
-    padding-top: none !important;
+    padding-top: 0 !important;
   }
   .logo img {
     float: left;
@@ -1047,7 +1047,7 @@ footer a:hover {
     z-index: 99998;
   }
   #logo_section {
-    padding-top: none !important;
+    padding-top: 0 !important;
     width: 100%;
     text-align: center;
   }
@@ -1176,7 +1176,7 @@ nav::before {
     z-index: 99998;
   }
   #logo_section {
-    padding-top: none !important;
+    padding-top: 0 !important;
     width: 100%;
     text-align: center;
   }
@@ -1352,7 +1352,7 @@ nav::before {
     z-index: 3050;
     display: inline;
     padding: 2% 2.5%;
-    align-content: middle;
+    align-content: space-around;
     text-align: center;
   }
   .section_two_overlay_resp {
