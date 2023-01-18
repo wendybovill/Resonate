@@ -121,11 +121,12 @@ $baseIfasize: 8rem;
 }
 
 @mixin hero-large {
-    height:484px;
+    height:400px;
     width:auto;
     background-position: top center;
-    background-size: contain;
-    overflow-x: hidden;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 @mixin hero-medium {
