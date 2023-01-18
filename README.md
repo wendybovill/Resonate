@@ -93,6 +93,8 @@ Iphone Mockup Page 1
 
 3. Documentation including readme file, spec sheet, timeline for project stages. Estimated time 1 week.
 
+4. Development strategy: Develop the first page and styles, that then will be used as a template for the rest of the site pages. Use mixins and variables with SCSS to compile to CSS, to avoid repetative coding.
+
 
 ## Future Development:
 
