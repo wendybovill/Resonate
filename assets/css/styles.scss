@@ -432,7 +432,7 @@ nav a:active:hover, .active:hover {
 #hero-text-position {
     vertical-align:bottom;
     padding-bottom: 20px;
-    padding-top:180px;
+    padding-top:250px;
     max-width:75%;
 }
 
@@ -441,8 +441,8 @@ nav a:active:hover, .active:hover {
     background-color: $transparent-bk;
     animation: flyIn 3s;
     animation-delay: 1s;
-    backdrop-filter: blur(30px);
-    --webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(15px);
+    --webkit-backdrop-filter: blur(15px);
 }
 
 .hero-title h1 {
