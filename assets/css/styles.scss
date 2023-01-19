@@ -411,7 +411,7 @@ nav {
     background-color: $transparent-bk;
 }
 
-#navigation a:active:hover, .active a:hover {
+#navigation a:active:hover, .active:hover {
     padding: 5px 15px;
     text-decoration:none;
     color: $darkteal;
