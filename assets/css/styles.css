@@ -652,11 +652,13 @@ div.reference {
 a.section_more_text {
   text-decoration: underline;
   color: #ffffff;
+  line-height: 1.2rem;
 }
 
 a.section_more_text:hover {
   text-decoration: underline;
   color: rgb(211, 238, 250);
+  line-height: 1.2rem;
 }
 
 h2.section_more_text {

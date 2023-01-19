@@ -719,11 +719,13 @@ div.reference {
 a.section_more_text {
     text-decoration:underline;
     color:$bright;
+    line-height:1.2rem;
 }
 
 a.section_more_text:hover {
     text-decoration:underline;
     color:$lightestblue;
+    line-height: 1.2rem;
 }
 
 h2.section_more_text {
