@@ -719,20 +719,18 @@ div.reference {
 a.section_more_text {
     text-decoration:underline;
     color:$bright;
+    padding:7px 0;
 }
 
 a.section_more_text:hover {
     text-decoration:underline;
     color:$lightestblue;
+    padding:7px 0;
 }
 
 h2.section_more_text {
     padding:0px 5px 0 5px;
     text-align: center;
-}
-
-li.section_more_li {
-    line-height: 1.2;
 }
 
 // Contact us page section
