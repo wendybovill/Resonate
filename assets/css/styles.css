@@ -620,6 +620,40 @@ div.reference {
   padding: 30px 10px 10px 10px;
 }
 
+#section_more {
+  display: block;
+  color: #ffffff;
+  width: 100%;
+}
+
+#more_centered {
+  padding: 25px 12.5% 25px 12.5% !important;
+}
+
+.section_more_image {
+  background: url(../images/more-image-grey.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 0 !important;
+  min-height: 200px;
+  z-index: 3000;
+  opacity: 100%;
+  overflow: hidden;
+  height: 100vw;
+  border: none;
+  height: unset !important;
+}
+
+#section_more_text {
+  z-index: 3050;
+  display: inline;
+}
+
+h2.section_more_text {
+  padding: 0px 5px 0 5px;
+  text-align: center;
+}
+
 #section_form {
   display: block;
   color: #ffffff;

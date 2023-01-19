@@ -693,6 +693,32 @@ div.reference {
     padding: 30px 10px 10px 10px;
 }
 
+#section_more {
+    display: block;
+    color: $bright;
+    width:100%;
+}
+
+#more_centered {
+    padding: 25px 12.5% 25px 12.5%!important;   
+}
+
+.section_more_image {
+    background: url(../images/more-image-grey.jpg);
+    @include sectionimageboxdarkfull();
+    height: unset!important;
+}
+
+#section_more_text {
+    z-index: 3050;
+    display:inline;
+}
+
+h2.section_more_text {
+    padding:0px 5px 0 5px;
+    text-align: center;
+}
+
 // Contact us page section
 
     #section_form {
