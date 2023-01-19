@@ -248,9 +248,7 @@ nav {
 }
 
 #hero {
-  margin-bottom: 25px;
   height: 400px;
-  margin-bottom: 25px;
   overflow: hidden;
   overflow: clip; /* required */
   overflow-clip-margin: 0px;
@@ -832,6 +830,11 @@ footer a:hover {
 }
 /* Medium devices */
 @media (min-width: 800px) and (max-width: 991px) {
+  #hero {
+    margin-bottom: 0 !important;
+    height: 200px !important;
+    overflow: hidden;
+  }
   .menu div {
     text-align: right;
     float: none !important;
