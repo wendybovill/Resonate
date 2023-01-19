@@ -27,6 +27,7 @@ $lighterteal:rgba(0, 80, 92, 0.5);
 $blue: #14436c;
 $darkblue: #00284b;
 $footercolor: rgb(121, 119, 92);
+$lightestblue: rgba(211, 238, 250, 1);
 
 $basefontsize: 12pt;
 $typeface: Verdana, Geneva, Tahoma, sans-serif;
@@ -722,7 +723,7 @@ a.section_more_text {
 
 a.section_more_text:hover {
     text-decoration:underline;
-    color:$transparent-bk;
+    color:$lightestblue;
 }
 
 h2.section_more_text {
