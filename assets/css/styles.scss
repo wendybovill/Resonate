@@ -386,7 +386,7 @@ nav {
     text-overflow: ellipsis;
 }
 
-a.nav {
+nav a{
     padding: 10px 15px;
     text-decoration:none;
     color: $grey;
@@ -396,21 +396,21 @@ nav::after, nav::before {
     box-sizing: unset!important;
  }
 
-a.nav:hover{
+nav a:hover{
     padding: 10px 15px;
     text-decoration:none;
     color: $teal;
     background-color: $lightgold;
 }
 
-a.nav:active, a.active {
+nav a:active, a.active {
     padding: 10px 15px;
     text-decoration:none;
     color: $teal;
     background-color: $transparent-bk;
 }
 
-a.nav:active:hover, a.active:hover {
+nav a:active:hover, a.active:hover {
     padding: 10px 15px;
     text-decoration:none;
     color: $darkteal;

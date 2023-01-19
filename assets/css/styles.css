@@ -208,7 +208,7 @@ nav {
   text-overflow: ellipsis;
 }
 
-a.nav {
+nav a {
   padding: 10px 15px;
   text-decoration: none;
   color: #585858;
@@ -218,21 +218,21 @@ nav::after, nav::before {
   box-sizing: unset !important;
 }
 
-a.nav:hover {
+nav a:hover {
   padding: 10px 15px;
   text-decoration: none;
   color: #025a67;
   background-color: rgba(183, 175, 140, 0.3137254902);
 }
 
-a.nav:active, a.active {
+nav a:active, a.active {
   padding: 10px 15px;
   text-decoration: none;
   color: #025a67;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-a.nav:active:hover, a.active:hover {
+nav a:active:hover, a.active:hover {
   padding: 10px 15px;
   text-decoration: none;
   color: #003f49;
