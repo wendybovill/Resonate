@@ -202,8 +202,8 @@ nav {
   bottom: 0px;
   display: inline-block;
   font-size: 15pt;
-  padding: 18px;
-  margin-bottom: 1px;
+  padding: 18px 0;
+  margin-bottom: 1.5px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -236,7 +236,7 @@ nav a:active:hover, .active:hover {
   padding: 10px 15px;
   text-decoration: none;
   color: #003f49;
-  background-color: #b7af8c;
+  background-color: rgba(0, 80, 92, 0.5);
 }
 
 /* Hero Image Section repeated on each page, the images change per page */
