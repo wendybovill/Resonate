@@ -654,6 +654,32 @@ h2.section_about_text {
     text-align: center;
 }
 
+#section_chart {
+    display: block;
+    color: $bright;
+    width:100%;
+}
+
+#chart_centered {
+    padding: 25px 12.5% 25px 12.5%!important;   
+}
+
+.section_chart_image {
+    background: url(../images/anxiety-chart.png);
+    @include sectionimageboxdarkfull();
+    height: unset!important;
+}
+
+#section_chart_text {
+    z-index: 3050;
+    display:inline;
+}
+
+h2.section_chart_text {
+    padding:0px 5px 0 5px;
+    text-align: center;
+}
+
 .contact-form {
     padding: 15px 15px;
     margin: 5px 15px;
@@ -665,64 +691,6 @@ h2.section_about_text {
     font-size: 1rem;
     line-height: 1.025;
     width: 80%;
-}
-
-input.contact-form {
-    color: $darkgrey;
-    font-size: 1rem;
-    line-height: 1.025;
-}
-
-.contact-form label, legend {
-    color: $darkgrey;
-    font-size: 1rem;
-    line-height: 1.025;   
-}
-
-.contact-form fieldset {
-    border: 1px solid $lightgrey;  
-    border-top: 1px solid $lightgrey!important;
-    padding: 5px;
-}
-
-.contact-form legend {
-    padding: 10px;  
-    background-color: $bright;
-    color: $darkteal;
-    width: 80%!important;
-}
-
-input.submit_button {
-    border: 1px solid $teal;
-    background-color: $darkteal;
-    color: $bright;
-    border-radius: 3px;
-    padding: 5px;
-    -webkit-box-shadow: 0px 4px 3px 2px rgba(0,0,0,0.16);
-    -moz-box-shadow: 0px 4px 3px 2px rgba(0,0,0,0.16);
-    box-shadow: 0px 4px 3px 2px rgba(0,0,0,0.16);
-}
-
-input.submit_button:hover {
-    border: 1px solid $darkteal;
-    background-color: $teal;
-    color: $bright;
-    border-radius: 3px;
-    padding: 5px;
-    -webkit-box-shadow: 0px 4px 3px 2px rgba(255,255,255,0.16);
-    -moz-box-shadow: 0px 4px 3px 2px rgba(255,255,255,0.16);
-    box-shadow: 0px 4px 3px 2px rgba(255,255,255,0.16);
-}
-
-input.submit_button:active {
-    border: 1px solid $teal;
-    background-color: $bright;
-    color: $darkteal;
-    border-radius: 3px;
-    padding: 5px;
-    -webkit-box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.16);
-    -moz-box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.16);
-    box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.16);
 }
 
 // Contact us page section
