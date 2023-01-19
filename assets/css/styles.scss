@@ -390,6 +390,7 @@ nav {
     padding: 10px 15px;
     text-decoration:none;
     color: $grey;
+    display:inline-block;
 }
 
 #navigation::after, nav::before {

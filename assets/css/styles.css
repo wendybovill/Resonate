@@ -212,6 +212,7 @@ nav {
   padding: 10px 15px;
   text-decoration: none;
   color: #585858;
+  display: inline-block;
 }
 
 #navigation::after, nav::before {
