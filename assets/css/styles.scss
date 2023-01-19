@@ -884,6 +884,12 @@ footer a:hover {
 /* Medium devices */
 @media (min-width: 800px) and (max-width: 991px) { 
 
+    #hero {
+        margin-bottom: 0!important;
+        height: unset!important;
+        overflow: hidden;
+    }
+
     .menu div {
         text-align: right;
         float: none!important;
