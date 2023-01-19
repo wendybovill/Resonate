@@ -647,8 +647,8 @@ div.reference {
 ul.bright.section_more_box {
   list-style-type: none;
   list-style-position: outside;
-  padding-top: 3.5rem;
-  line-height: 2em;
+  padding-top: 3rem;
+  line-height: 1.5em;
   display: inline-block;
 }
 
@@ -663,7 +663,7 @@ a.section_more_text {
 }
 
 ul.section_more_text::after, li {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 a.section_more_text:hover {
