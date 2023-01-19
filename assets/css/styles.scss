@@ -404,14 +404,14 @@ nav {
     background-color: $lightgold;
 }
 
-#navigation a:active, a.active {
+#navigation a.active {
     padding: 5px 15px;
     text-decoration:none;
     color: $teal;
     background-color: $transparent-bk;
 }
 
-#navigation a:active:hover, .active:hover {
+#navigation a.active:hover {
     padding: 5px 15px;
     text-decoration:none;
     color: $darkteal;
