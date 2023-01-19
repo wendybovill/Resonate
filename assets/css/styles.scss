@@ -381,13 +381,13 @@ nav {
     display: inline-block;
     font-size: 15pt;
     padding: 18px 0;
-    margin-bottom: 1.5px;
+    margin-bottom: 2px;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 nav a{
-    padding: 15px 15px;
+    padding: 10px 15px;
     text-decoration:none;
     color: $grey;
 }
@@ -400,21 +400,21 @@ nav a:hover{
     padding: 10px 15px;
     text-decoration:none;
     color: $teal;
-    background-color:$transparent-bk;
+    background-color:$lightgold;
 }
 
 nav a:active, .active {
     padding: 10px 15px;
     text-decoration:none;
     color: $teal;
-    background-color:$lightgold;
+    background-color:$transparent-bk;
 }
 
 nav a:active:hover, .active:hover {
     padding: 10px 15px;
     text-decoration:none;
     color: $darkteal;
-    background-color:$lighterteal;
+    background-color:$lightbeige;
 }
 
 /* Hero Image Section repeated on each page, the images change per page */
