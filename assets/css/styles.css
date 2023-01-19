@@ -662,7 +662,7 @@ a.section_more_text {
   color: #ffffff;
 }
 
-a.section_more_text::after {
+li.section_more_text::after {
   padding-bottom: 10px;
 }
 
