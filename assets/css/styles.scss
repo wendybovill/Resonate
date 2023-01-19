@@ -709,9 +709,20 @@ div.reference {
     height: unset!important;
 }
 
-#section_more_text {
+#section_more_text{
     z-index: 3050;
     display:inline;
+
+}
+
+a.section_more_text {
+    text-decoration:underline;
+    color:$bright;
+}
+
+a.section_more_text:hover {
+    text-decoration:underline;
+    color:$lightgrey;
 }
 
 h2.section_more_text {

@@ -649,6 +649,16 @@ div.reference {
   display: inline;
 }
 
+a.section_more_text {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+a.section_more_text:hover {
+  text-decoration: underline;
+  color: #919191;
+}
+
 h2.section_more_text {
   padding: 0px 5px 0 5px;
   text-align: center;
