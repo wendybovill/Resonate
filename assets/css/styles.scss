@@ -386,31 +386,31 @@ nav {
     text-overflow: ellipsis;
 }
 
-nav a{
+#navigation a{
     padding: 10px 15px;
     text-decoration:none;
     color: $grey;
 }
 
-nav::after, nav::before {
+#navigation::after, nav::before {
     box-sizing: unset!important;
  }
 
-nav a:hover{
+ #navigation a:hover{
     padding: 10px 15px;
     text-decoration:none;
     color: $teal;
     background-color: $lightgold;
 }
 
-nav a:active, a.active {
+#navigation a:active, a.active {
     padding: 10px 15px;
     text-decoration:none;
     color: $teal;
     background-color: $transparent-bk;
 }
 
-nav a:active:hover, .active a:hover {
+#navigation a:active:hover, .active a:hover {
     padding: 10px 15px;
     text-decoration:none;
     color: $darkteal;
