@@ -666,8 +666,9 @@ h2.section_about_text {
 
 .section_chart_image {
     background: url(../images/anxiety-chart.png);
-    @include sectionimageboxdarkfull();
-    height: unset!important;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;;
 }
 
 #section_chart_text {

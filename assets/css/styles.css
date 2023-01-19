@@ -593,16 +593,9 @@ h2.section_about_text {
 
 .section_chart_image {
   background: url(../images/anxiety-chart.png);
-  background-size: cover;
-  background-position: center;
-  padding-left: 0 !important;
-  min-height: 200px;
-  z-index: 3000;
-  opacity: 100%;
-  overflow: hidden;
-  height: 100vw;
-  border: none;
-  height: unset !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #section_chart_text {
