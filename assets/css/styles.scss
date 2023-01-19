@@ -387,7 +387,7 @@ nav {
 }
 
 #navigation a{
-    padding: 10px 15px;
+    padding: 5px 15px;
     text-decoration:none;
     color: $grey;
     display:inline-block;
@@ -398,21 +398,21 @@ nav {
  }
 
  #navigation a:hover{
-    padding: 10px 15px;
+    padding: 5px 15px;
     text-decoration:none;
     color: $teal;
     background-color: $lightgold;
 }
 
 #navigation a:active, a.active {
-    padding: 10px 15px;
+    padding: 5px 15px;
     text-decoration:none;
     color: $teal;
     background-color: $transparent-bk;
 }
 
 #navigation a:active:hover, .active a:hover {
-    padding: 10px 15px;
+    padding: 5px 15px;
     text-decoration:none;
     color: $darkteal;
     background-color: $lightbeige;
