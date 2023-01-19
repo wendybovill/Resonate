@@ -229,13 +229,14 @@ nav a:active, .active {
   padding: 10px 15px;
   text-decoration: none;
   color: #025a67;
+  background-color: rgba(183, 175, 140, 0.3137254902);
 }
 
 nav a:active:hover, .active:hover {
   padding: 10px 15px;
   text-decoration: none;
   color: #003f49;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #b7af8c;
 }
 
 /* Hero Image Section repeated on each page, the images change per page */

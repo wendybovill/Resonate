@@ -407,13 +407,14 @@ nav a:active, .active {
     padding: 10px 15px;
     text-decoration:none;
     color: $teal;
+    background-color:$lightgold;
 }
 
 nav a:active:hover, .active:hover {
     padding: 10px 15px;
     text-decoration:none;
     color: $darkteal;
-    background-color:$transparent-bk;
+    background-color:$gold;
 }
 
 /* Hero Image Section repeated on each page, the images change per page */
