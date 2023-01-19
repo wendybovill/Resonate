@@ -729,8 +729,9 @@ section {
 
 //The content boxes are the large boxes with info on the first page
 
-div.hcentered { //to center text in a div
-    text-align: center;
+.hcentered { //to ul or other block in a div col-6
+    padding-left: 33%;
+    padding-right: 33%;
 }
 
 ul.bright.contentbox {

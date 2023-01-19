@@ -649,8 +649,9 @@ input.submit_button:active {
   box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.16);
 }
 
-div.hcentered {
-  text-align: center;
+.hcentered {
+  padding-left: 33%;
+  padding-right: 33%;
 }
 
 ul.bright.contentbox {
