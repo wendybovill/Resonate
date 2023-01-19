@@ -662,6 +662,10 @@ a.section_more_text {
   color: #ffffff;
 }
 
+a.section_more_text:after {
+  padding-bottom: 10px;
+}
+
 a.section_more_text:hover {
   text-decoration: underline;
   color: rgb(211, 238, 250);
