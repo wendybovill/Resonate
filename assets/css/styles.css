@@ -556,7 +556,7 @@ section {
 }
 
 #form_centered {
-  padding: 25px 7.5% !important;
+  padding: 25px 0 25px 12.5% !important;
 }
 
 .section_form_image {
