@@ -649,12 +649,17 @@ input.submit_button:active {
   box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.16);
 }
 
+div.hcentered {
+  text-align: center;
+}
+
 ul.bright.contentbox {
   list-style-type: none;
   list-style-position: outside;
   padding-top: 3rem;
   line-height: 1.5em;
   word-spacing: 0.25rem;
+  display: inline-block;
 }
 
 h2.contentbox, h3.contentbox, h4.contentbox {
