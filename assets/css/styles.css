@@ -208,7 +208,7 @@ nav {
   text-overflow: ellipsis;
 }
 
-nav a {
+a.nav {
   padding: 10px 15px;
   text-decoration: none;
   color: #585858;
@@ -218,25 +218,25 @@ nav::after, nav::before {
   box-sizing: unset !important;
 }
 
-nav a:hover {
+a.nav:hover {
   padding: 10px 15px;
   text-decoration: none;
   color: #025a67;
   background-color: rgba(183, 175, 140, 0.3137254902);
 }
 
-nav a:active, .active {
+a.nav:active, a.active {
   padding: 10px 15px;
   text-decoration: none;
   color: #025a67;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-nav a:active:hover, .active:hover {
+a.nav:active:hover, a.active:hover {
   padding: 10px 15px;
   text-decoration: none;
   color: #003f49;
-  background-color: #919191;
+  background-color: rgba(129, 122, 34, 0.24);
 }
 
 /* Hero Image Section repeated on each page, the images change per page */

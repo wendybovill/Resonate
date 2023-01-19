@@ -386,7 +386,7 @@ nav {
     text-overflow: ellipsis;
 }
 
-nav a{
+a.nav {
     padding: 10px 15px;
     text-decoration:none;
     color: $grey;
@@ -396,25 +396,25 @@ nav::after, nav::before {
     box-sizing: unset!important;
  }
 
-nav a:hover{
+a.nav:hover{
     padding: 10px 15px;
     text-decoration:none;
     color: $teal;
     background-color: $lightgold;
 }
 
-nav a:active, .active {
+a.nav:active, a.active {
     padding: 10px 15px;
     text-decoration:none;
     color: $teal;
     background-color: $transparent-bk;
 }
 
-nav a:active:hover, .active:hover {
+a.nav:active:hover, a.active:hover {
     padding: 10px 15px;
     text-decoration:none;
     color: $darkteal;
-    background-color: $lightgrey;
+    background-color: $lightbeige;
 }
 
 /* Hero Image Section repeated on each page, the images change per page */
