@@ -728,7 +728,7 @@ a.section_more_text {
     color:$bright;
 }
 
-li.section_more_text::after {
+ul.section_more_text::after, li {
     padding-bottom: 10px;
 }
 
