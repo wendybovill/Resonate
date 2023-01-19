@@ -421,18 +421,18 @@ nav a:active:hover, .active:hover {
 
 .hero {
     display:block;
-    position: relative;
-    z-index: 8000;
-    margin-bottom: 25px;
-    overflow: hidden;
-    overflow: clip; /* required */
-    overflow-clip-margin: 0px;
+    position: absolute;
+    z-index: 0;
 }
 
 #hero {
     margin-bottom: 25px;
-    height: 300px;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
     overflow: hidden;
+    overflow: clip; /* required */
+    overflow-clip-margin: 0px;
 }
 
 #hero-text-position {
