@@ -602,11 +602,10 @@ h3.section_chart_text {
 }
 
 caption {
-  padding: 15px 15px;
+  padding: 15px 33%;
   color: #444444;
   font-size: 0.85rem;
   line-height: 1;
-  text-align: center;
 }
 
 #section_form {
