@@ -547,6 +547,106 @@ section {
   display: inline;
 }
 
+#section_about {
+  display: block;
+  color: #ffffff;
+  width: 100%;
+}
+
+#form_centered {
+  padding: 25px 0 25px 12.5% !important;
+}
+
+.section_about_image {
+  background: url(../images/anxiety-image-blue.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 0 !important;
+  min-height: 200px;
+  z-index: 3000;
+  opacity: 100%;
+  overflow: hidden;
+  height: 100vw;
+  border: none;
+  height: unset !important;
+}
+
+#section_about_text {
+  z-index: 3050;
+  display: inline;
+}
+
+h2.section_about_text {
+  padding: 0px;
+}
+
+.contact-form {
+  padding: 15px 15px;
+  margin: 5px 15px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid #707070;
+  min-height: 400px;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  color: #444444;
+  font-size: 1rem;
+  line-height: 1.025;
+  width: 80%;
+}
+
+input.contact-form {
+  color: #444444;
+  font-size: 1rem;
+  line-height: 1.025;
+}
+
+.contact-form label, legend {
+  color: #444444;
+  font-size: 1rem;
+  line-height: 1.025;
+}
+
+.contact-form fieldset {
+  border: 1px solid #919191;
+  border-top: 1px solid #919191 !important;
+  padding: 5px;
+}
+
+.contact-form legend {
+  padding: 10px;
+  background-color: #ffffff;
+  color: #003f49;
+  width: 80% !important;
+}
+
+input.submit_button {
+  border: 1px solid #025a67;
+  background-color: #003f49;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 5px;
+  box-shadow: 0px 4px 3px 2px rgba(0, 0, 0, 0.16);
+}
+
+input.submit_button:hover {
+  border: 1px solid #003f49;
+  background-color: #025a67;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 5px;
+  box-shadow: 0px 4px 3px 2px rgba(255, 255, 255, 0.16);
+}
+
+input.submit_button:active {
+  border: 1px solid #025a67;
+  background-color: #ffffff;
+  color: #003f49;
+  border-radius: 3px;
+  padding: 5px;
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.16);
+}
+
 #section_form {
   display: block;
   color: #ffffff;
