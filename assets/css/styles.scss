@@ -397,20 +397,20 @@ nav::after, nav::before {
  }
 
 nav a:hover{
-    padding: 15px 15px;
+    padding: 10px 15px;
     text-decoration:none;
     color: $teal;
     background-color:$transparent-bk;
 }
 
 nav a:active, .active {
-    padding: 15px 15px;
+    padding: 10px 15px;
     text-decoration:none;
     color: $teal;
 }
 
 nav a:active:hover, .active:hover {
-    padding: 15px 15px;
+    padding: 10px 15px;
     text-decoration:none;
     color: $darkteal;
     background-color:$transparent-bk;
