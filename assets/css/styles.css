@@ -203,7 +203,7 @@ nav {
   display: inline-block;
   font-size: 15pt;
   padding: 19px 0;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
