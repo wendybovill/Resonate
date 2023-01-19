@@ -729,7 +729,7 @@ section {
 
 //The content boxes are the large boxes with info on the first page
 
-.hcentered { //to ul or other block in a div col-6
+.hcentered { //to horizontally center ul or other block in a div col-6, not text-centered
     padding-left: 33%;
     padding-right: 33%;
 }
@@ -756,8 +756,8 @@ p.contentbox {
     word-spacing: 0.25rem;
 }
 
-// hiding the small device responsive sections
 
+// hiding the small device responsive sections
 
 #section_two_resp {
     display:none;
