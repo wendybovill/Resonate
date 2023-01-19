@@ -889,7 +889,7 @@ footer a:hover {
     }
 
     .hero-title div, .hero-title h1{
-        height: 37px;
+        height: 35px;
         background-color: $transparent-bk;
         animation: flyIn 3s;
         animation-delay: 1s;
@@ -960,6 +960,16 @@ footer a:hover {
         padding-top: 90px;
         max-width: 85%;
     }
+
+    .hero-title div, .hero-title h1{
+        height: 25px;
+        background-color: $transparent-bk;
+        animation: flyIn 3s;
+        animation-delay: 1s;
+        backdrop-filter: blur(15px);
+        --webkit-backdrop-filter: blur(15px);
+    }
+
     .hero-title h1 {
         color: $darkblue;
         font-size: 1.8rem;

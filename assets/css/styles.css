@@ -836,7 +836,7 @@ footer a:hover {
     overflow: hidden;
   }
   .hero-title div, .hero-title h1 {
-    height: 37px;
+    height: 35px;
     background-color: rgba(255, 255, 255, 0.5);
     -webkit-animation: flyIn 3s;
             animation: flyIn 3s;
@@ -919,6 +919,17 @@ footer a:hover {
     padding-bottom: 20px;
     padding-top: 90px;
     max-width: 85%;
+  }
+  .hero-title div, .hero-title h1 {
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-animation: flyIn 3s;
+            animation: flyIn 3s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+    --webkit-backdrop-filter: blur(15px);
   }
   .hero-title h1 {
     color: #00284b;
