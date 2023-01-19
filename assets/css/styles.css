@@ -644,6 +644,14 @@ div.reference {
   height: unset !important;
 }
 
+ul.bright.section_more_box {
+  list-style-type: none;
+  list-style-position: outside;
+  padding-top: 3.5rem;
+  line-height: 2em;
+  display: inline-block;
+}
+
 #section_more_text {
   z-index: 3050;
   display: inline;
@@ -652,13 +660,11 @@ div.reference {
 a.section_more_text {
   text-decoration: underline;
   color: #ffffff;
-  padding: 7px 0;
 }
 
 a.section_more_text:hover {
   text-decoration: underline;
   color: rgb(211, 238, 250);
-  padding: 7px 0;
 }
 
 h2.section_more_text {
