@@ -420,8 +420,6 @@ nav a:active:hover, .active:hover {
 /* Hero Image Section repeated on each page, the images change per page */
 
 .hero {
-    height: 300px;
-    width: 100vw;
     display:block;
     position: relative;
     z-index: 8000;
@@ -433,6 +431,8 @@ nav a:active:hover, .active:hover {
 
 #hero {
     margin-bottom: 25px;
+    height: 300px;
+    overflow: hidden;
 }
 
 #hero-text-position {
