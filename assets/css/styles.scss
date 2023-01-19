@@ -888,6 +888,15 @@ footer a:hover {
         overflow: hidden;
     }
 
+    .hero-title div, .hero-title h1{
+        height: 37px;
+        background-color: $transparent-bk;
+        animation: flyIn 3s;
+        animation-delay: 1s;
+        backdrop-filter: blur(15px);
+        --webkit-backdrop-filter: blur(15px);
+    }
+
     .menu div {
         text-align: right;
         float: none!important;
