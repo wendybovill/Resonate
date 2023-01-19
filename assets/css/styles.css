@@ -606,7 +606,8 @@ caption {
   color: #444444;
   font-size: 0.85rem;
   line-height: 1;
-  text-align: text-centered;
+  text-align: center;
+  width: 90%;
 }
 
 #section_form {
