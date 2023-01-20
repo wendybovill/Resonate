@@ -16,6 +16,7 @@ $transparent-bk: rgba(255,255,255,0.50);
 $bright: #ffffff;
 $gold: #b7af8c;
 $lightgrey: #919191;
+$lightergrey: #9191915e;
 $lightgold: #b7af8c50;
 $darkgrey: #444444;
 $smokeblue: rgba(20, 67, 108, 0.5);
@@ -405,7 +406,7 @@ nav {
     padding: 5px 15px;
     text-decoration:none;
     color: $teal;
-    background-color: $lightgrey;
+    background-color: $lightgold;
 }
 
 #navigation a.active {
@@ -419,7 +420,7 @@ nav {
     padding: 5px 15px;
     text-decoration:none;
     color: $darkteal;
-    background-color: $lightgold;
+    background-color: $lightergrey;
 }
 
 /* Hero Image Section repeated on each page, the images change per page */

@@ -225,7 +225,7 @@ nav {
   padding: 5px 15px;
   text-decoration: none;
   color: #025a67;
-  background-color: #919191;
+  background-color: rgba(183, 175, 140, 0.3137254902);
 }
 
 #navigation a.active {
@@ -239,7 +239,7 @@ nav {
   padding: 5px 15px;
   text-decoration: none;
   color: #003f49;
-  background-color: rgba(183, 175, 140, 0.3137254902);
+  background-color: rgba(145, 145, 145, 0.368627451);
 }
 
 /* Hero Image Section repeated on each page, the images change per page */
