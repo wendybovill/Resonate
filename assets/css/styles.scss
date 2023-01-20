@@ -406,14 +406,14 @@ nav {
     padding: 5px 15px;
     text-decoration:none;
     color: $teal;
-    background-color: $lightgold;
+    background-color: $transparent-bk;
 }
 
 #navigation a.active {
     padding: 5px 15px;
     text-decoration:none;
     color: $teal;
-    background-color: $transparent-bk;
+    background-color: $lightgold;
 }
 
 #navigation a.active:hover {
