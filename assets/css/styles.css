@@ -158,7 +158,9 @@ a:hover {
   color: #585858;
 }
 
-/* This is the header and navigation section of the website styles */
+/* This is the header and navigation section of the website styles 
+The header and nav section is repeated on each page, but the active link changes on the html pages classes
+*/
 header {
   height: 150px;
   background: linear-gradient(#c1e2ff 0%, #fff 11.33%, #fff 73.68%, #ffffd5 90.24%, #fdf991 92.16%, #f2d32a 93.99%, #cbbe73 95.65%, #a3dfff 97.96%, #007f9d 98.76%, #005226 100%);
@@ -237,7 +239,7 @@ nav {
   padding: 5px 15px;
   text-decoration: none;
   color: #003f49;
-  background-color: rgba(129, 122, 34, 0.24);
+  background-color: rgba(183, 175, 140, 0.3137254902);
 }
 
 /* Hero Image Section repeated on each page, the images change per page */
