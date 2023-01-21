@@ -1397,6 +1397,9 @@ footer a:hover {
     word-spacing: 0.25rem !important;
     font-size: 0.8rem !important;
   }
+  .hcentered {
+    padding-left: 0 5px;
+  }
 }
 /* Extra Small devices */
 @media (min-width: 150px) and (max-width: 349px) {
