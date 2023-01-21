@@ -192,7 +192,7 @@ header {
   box-sizing: unset !important;
 }
 
-nav {
+#navigation {
   min-width: 70px;
   width: 100%;
   right: 0;
@@ -982,7 +982,7 @@ footer a:hover {
     float: none !important;
     clear: both;
   }
-  nav {
+  #navigation {
     min-width: 70px;
     width: 100%;
     right: 0;
@@ -1146,6 +1146,13 @@ footer a:hover {
     background-size: cover;
     overflow: hidden;
   }
+  #hero {
+    height: 250px;
+    width: auto;
+    background-position: bottom center;
+    background-size: cover;
+    overflow: hidden;
+  }
   #hero-text-position {
     vertical-align: bottom;
     padding-bottom: 10px;
@@ -1169,7 +1176,7 @@ footer a:hover {
     margin: 20px;
     text-shadow: 1px 1px 0px #ffffff, -1px -1px 0px #ffffff;
   }
-  nav {
+  #navigation {
     clear: both;
     float: none;
     min-width: 60px;
@@ -1188,29 +1195,29 @@ footer a:hover {
     font-weight: 400;
     z-index: 99999;
   }
-  nav a {
+  #navigation a {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #585858;
     z-index: 99999;
   }
-  nav::after, nav::before {
+  #navigation::after, nav::before {
     box-sizing: unset !important;
   }
-  nav a:hover {
+  #navigation a:hover {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #025a67;
     background-color: rgba(255, 255, 255, 0.5);
     z-index: 99998;
   }
-  nav a:active, .active {
+  #navigation a:active, .active {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #025a67;
     z-index: 99999;
   }
-  nav a:active:hover, .active:hover {
+  #navigation a:active:hover, .active:hover {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #003f49;
@@ -1288,7 +1295,7 @@ footer a:hover {
     text-align: center !important;
     width: 100%;
   }
-  nav {
+  #navigation {
     clear: both;
     min-width: 60px;
     right: 0;
@@ -1306,29 +1313,29 @@ footer a:hover {
     margin-bottom: 0;
     white-space: nowrap;
   }
-  nav a {
+  #navigation a {
     padding: 5px 10px;
     text-decoration: none;
     color: #585858;
     z-index: 99999;
   }
-  nav::after, nav::before {
+  #navigation::after, nav::before {
     box-sizing: unset !important;
   }
-  nav a:hover {
+  #navigation a:hover {
     padding: 5px 10px;
     text-decoration: none;
     color: #025a67;
     background-color: rgba(255, 255, 255, 0.5);
     z-index: 99998;
   }
-  nav a:active, .active {
+  #navigation a:active, .active {
     padding: 5px 10px;
     text-decoration: none;
     color: #025a67;
     z-index: 99999;
   }
-  nav a:active:hover,
+  #navigation a:active:hover,
 .active:hover {
     padding: 5px 10px;
     text-decoration: none;
