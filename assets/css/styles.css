@@ -1485,6 +1485,13 @@ footer a:hover {
     width: 100%;
     max-width: 349px;
   }
+  #hero {
+    height: 150px;
+    width: auto;
+    background-position: bottom center;
+    background-size: cover;
+    overflow: hidden;
+  }
   .hero_image1 {
     background: url(../images/hero-image1.jpg);
     height: 150px;

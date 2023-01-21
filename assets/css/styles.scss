@@ -1565,9 +1565,13 @@ footer a:hover {
         max-width: 349px;
     }
 
+    #hero {
+        @include hero-small();
+    }
+
     .hero_image1 {
         background: url(../images/hero-image1.jpg);
-        @include hero-small;
+        @include hero-small();
     }
     
     .hero_image2 {
