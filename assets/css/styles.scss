@@ -1336,25 +1336,26 @@ footer a:hover {
     }
 
     nav {
-        clear:both;
+        clear: both;
         min-width: 60px;
         right: 0;
         vertical-align: bottom;
-        text-align: center!important;
+        text-align: center;
         align-items: baseline;
         height: 14px;
         position: absolute;
         bottom: 0px;
         display: inline-block;
-        font-size: 10pt;
-        padding: 16px;
+        font-size: 9pt;
         white-space: nowrap;
         font-weight: 400;
         z-index: 99999;
+        margin-bottom:0;
+        white-space: nowrap;
     }
 
     nav a {
-        padding: 0 5px 14px 5px;
+        padding: 5px 10px;
         text-decoration: none;
         color: $grey;
         z-index: 99999;
@@ -1365,7 +1366,7 @@ footer a:hover {
     }
 
     nav a:hover {
-        padding: 0 5px 14px 5px;
+        padding: 5px 10px;
         text-decoration: none;
         color: $teal;
         background-color: $transparent-bk;
@@ -1373,7 +1374,7 @@ footer a:hover {
     }
 
     nav a:active, .active {
-        padding: 0 5px 14px 5px;
+        padding: 5px 10px;
         text-decoration: none;
         color: $teal;
         z-index: 99999;
@@ -1381,7 +1382,7 @@ footer a:hover {
 
     nav a:active:hover,
     .active:hover {
-        padding: 0 5px 14px 5px;
+        padding: 5px 10px;
         text-decoration: none;
         color: $darkteal;
         background-color: $transparent-bk;
@@ -1389,7 +1390,7 @@ footer a:hover {
     }
 
     #logo_section {
-        padding-top: 0!important;
+        padding: 0px;
         width:100%;
         text-align:center;
     }
@@ -1640,7 +1641,7 @@ footer a:hover {
         
     p.contentbox {
         font-size: 0.75rem;
-        word-spacing: unset!important;
+        word-spacing: 0;
         line-height: 1.5;
         padding-left: 7px;
         padding-right: 7px;
@@ -1693,7 +1694,7 @@ footer a:hover {
     }
 
     
-    // hide the sections two through to four and replace with single block
+    // hide the sections two through to four on first page and replace with single block
 
     #section_two {
         display:none;
@@ -1720,9 +1721,6 @@ footer a:hover {
         background: url(../images/anxiety-image-blue.jpg);
         @include sectionimageboxdarkfull(); 
     }
-
-    /* .section_two_overlay_resp {
-        @include lightblueoverlay(); } */
 
     #section_two_text_resp {
         z-index: 3050;
