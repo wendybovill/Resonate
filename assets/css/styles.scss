@@ -1461,17 +1461,17 @@ footer a:hover {
 
     h1.entry-title {
         font-size: 1rem;
-        margin: unset!important;
-        padding: 1px 10px 15px 50px!important;
+        margin:0;
+        padding: 25px 10px 15px 25px ;
     }
     
     p.entry-paragraph {
-        padding: 5px 20px 0 25px!important;
-        font-size: 0.90rem;
-        margin-left:35px;
-        margin-right:0!important;
-        text-align:justify;
-        }
+        padding: 5px 20px 0 25px;
+        font-size: 0.9rem;
+        margin-left: 0;
+        margin-right: 0 ;
+        text-align: justify;
+    }
 
     #menu div {
         float: none!important;
