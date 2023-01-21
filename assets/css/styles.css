@@ -1399,7 +1399,7 @@ footer a:hover {
     padding: 1px 10px 15px 50px !important;
   }
   p.entry-paragraph {
-    padding: 5px 20px 0 50px !important;
+    padding: 5px 20px 0 25px !important;
     font-size: 0.9rem;
     margin-left: 35px;
     margin-right: 0 !important;
@@ -1415,7 +1415,7 @@ footer a:hover {
     text-align: center;
     width: 100%;
   }
-  nav {
+  #navigation {
     clear: both;
     float: none;
     min-width: 60px;
@@ -1428,39 +1428,39 @@ footer a:hover {
     position: absolute;
     bottom: 0px;
     display: inline-block;
-    font-size: 10pt;
-    padding: 16px;
+    font-size: 8pt;
+    padding: 14px;
     white-space: nowrap;
     font-weight: 400;
     z-index: 99999;
   }
-  nav a {
-    padding: 0 5px 14px 5px;
+  #navigation a {
+    padding: 5px 8px;
     text-decoration: none;
     color: #585858;
     z-index: 99999;
   }
-  nav::after,
-nav::before {
+  #navigation::after,
+#navigation::before {
     box-sizing: unset !important;
   }
-  nav a:hover {
-    padding: 0 5px 14px 5px;
+  #navigation a:hover {
+    padding: 5px 8px;
     text-decoration: none;
     color: #025a67;
     background-color: rgba(255, 255, 255, 0.5);
     z-index: 99998;
   }
-  nav a:active,
+  #navigation a:active,
 .active {
-    padding: 0 5px 14px 5px;
+    padding: 5px 8px;
     text-decoration: none;
     color: #025a67;
     z-index: 99999;
   }
-  nav a:active:hover,
+  #navigation a:active:hover,
 .active:hover {
-    padding: 0 5px 14px 5px;
+    padding: 5px 8px;
     text-decoration: none;
     color: #003f49;
     background-color: rgba(255, 255, 255, 0.5);
@@ -1471,15 +1471,19 @@ nav::before {
     width: 100%;
     text-align: center;
   }
+  .logo {
+    padding: 0;
+    float: none;
+  }
   .logo img {
-    float: none !important;
+    float: none;
     clear: both;
     height: 75px;
     width: auto;
   }
   .container {
     width: 100%;
-    max-width: 377px;
+    max-width: 349px;
   }
   .hero_image1 {
     background: url(../images/hero-image1.jpg);

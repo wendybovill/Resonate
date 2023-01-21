@@ -1466,7 +1466,7 @@ footer a:hover {
     }
     
     p.entry-paragraph {
-        padding: 5px 20px 0 50px!important;
+        padding: 5px 20px 0 25px!important;
         font-size: 0.90rem;
         margin-left:35px;
         margin-right:0!important;
@@ -1485,7 +1485,7 @@ footer a:hover {
         width:100%;
     }
 
-    nav {
+    #navigation {
         clear:both;
         float:none;
         min-width: 60px;
@@ -1498,44 +1498,44 @@ footer a:hover {
         position: absolute;
         bottom: 0px;
         display: inline-block;
-        font-size: 10pt;
-        padding: 16px;
+        font-size: 8pt;
+        padding: 14px;
         white-space: nowrap;
         font-weight: 400;
         z-index: 99999;
     }
 
-    nav a {
-        padding: 0 5px 14px 5px;
+    #navigation a {
+        padding: 5px 8px;
         text-decoration: none;
         color: $grey;
         z-index: 99999;
     }
 
-    nav::after,
-    nav::before {
+    #navigation::after,
+    #navigation::before {
         box-sizing: unset !important;
     }
 
-    nav a:hover {
-        padding: 0 5px 14px 5px;
+    #navigation a:hover {
+        padding: 5px 8px;
         text-decoration: none;
         color: $teal;
         background-color: $transparent-bk;
         z-index: 99998;
     }
 
-    nav a:active,
+    #navigation a:active,
     .active {
-        padding: 0 5px 14px 5px;
+        padding: 5px 8px;
         text-decoration: none;
         color: $teal;
         z-index: 99999;
     }
 
-    nav a:active:hover,
+    #navigation a:active:hover,
     .active:hover {
-        padding: 0 5px 14px 5px;
+        padding: 5px 8px;
         text-decoration: none;
         color: $darkteal;
         background-color: $transparent-bk;
@@ -1548,8 +1548,13 @@ footer a:hover {
         text-align:center;
     }
 
+    .logo {
+        padding:0;
+        float:none;
+    }
+
     .logo img {
-        float: none !important;
+        float: none;
         clear:both;
         height: 75px;
         width: auto;
@@ -1557,7 +1562,7 @@ footer a:hover {
 
     .container {
         width:100%;
-        max-width: 377px;
+        max-width: 349px;
     }
 
     .hero_image1 {
