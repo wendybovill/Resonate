@@ -1600,7 +1600,7 @@ footer a:hover {
     text-align: center;
     vertical-align: baseline;
     padding-bottom: 50px;
-    padding-left: 20px !important;
+    padding-left: 0;
   }
   .intro-box {
     height: 140px;
@@ -1711,7 +1711,7 @@ footer a:hover {
   }
   footer {
     height: 35px;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: 300;
     padding-bottom: 5px;
   }
