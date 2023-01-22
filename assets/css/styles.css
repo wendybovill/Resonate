@@ -1801,7 +1801,6 @@ footer a:hover {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 8px;
-    padding-top: 10px;
   }
   .contact-form {
     padding: 5px;
@@ -1830,11 +1829,10 @@ footer a:hover {
     width: 95%;
   }
   input {
-    margin: 0;
+    margin: 10px 0;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-    margin-bottom: 10px;
   }
   #main {
     height: calc(100% - 35px);
