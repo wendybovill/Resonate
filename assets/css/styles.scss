@@ -4,11 +4,6 @@
 // Author Email: wendybovill@gmail.com
 //
 
-
-/* The first part of this file is SCSS */
-
-/* variables */
-
 $grey: #585858;
 $teal: #025a67;
 $darkteal: #003f49;
@@ -457,7 +452,7 @@ header {
 .hero-title h1 {
     color: $darkblue;
     font-size: 1.8rem;
-    font-family: Gill Sans;
+    font-family: $specialfont;
     font-style: italic;
     padding: 15px 15px  15px 50px;
     margin:20px;
