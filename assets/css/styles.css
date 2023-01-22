@@ -1460,7 +1460,7 @@ footer a:hover {
     z-index: 99999;
   }
   #navigation a {
-    padding: 5px 8px;
+    padding: 7px 8px;
     text-decoration: none;
     color: #585858;
     z-index: 99999;
@@ -1470,7 +1470,7 @@ footer a:hover {
     box-sizing: unset !important;
   }
   #navigation a:hover {
-    padding: 5px 8px;
+    padding: 7px 8px;
     text-decoration: none;
     color: #025a67;
     background-color: rgba(255, 255, 255, 0.5);
@@ -1478,14 +1478,14 @@ footer a:hover {
   }
   #navigation a:active,
 .active {
-    padding: 5px 8px;
+    padding: 7px 8px;
     text-decoration: none;
     color: #025a67;
     z-index: 99999;
   }
   #navigation a:active:hover,
 .active:hover {
-    padding: 5px 8px;
+    padding: 7px 8px;
     text-decoration: none;
     color: #003f49;
     background-color: rgba(255, 255, 255, 0.5);
