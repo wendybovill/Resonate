@@ -1589,11 +1589,6 @@ footer a:hover {
         width: auto;
     }
 
-    .container {
-        width:100%;
-        max-width: 349px;
-    }
-
     #hero {
         @include hero-small();
     }
