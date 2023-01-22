@@ -1820,6 +1820,7 @@ footer a:hover {
     color: #444444;
     font-size: 0.76rem;
     line-height: 1.025;
+    padding: 10px 0;
   }
   textarea {
     margin: 0;
@@ -1829,7 +1830,7 @@ footer a:hover {
     width: 95%;
   }
   input {
-    margin: 10px 0;
+    margin: 0;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
