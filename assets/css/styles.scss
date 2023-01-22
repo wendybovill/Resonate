@@ -918,10 +918,11 @@ footer a:hover {
     text-decoration-line: none;
     }
 
-/* Contact us section */
 
 
-/* ____________ This is the responsive media query section ____________ */
+
+/* ============ This is the responsive media query section ===========
+====================================================================== */
 
 /* Extra large devices */
 @media (min-width: 1200px) and (max-width: 1920px) { 
@@ -1314,6 +1315,13 @@ footer a:hover {
         font-size: 0.75rem !important;
         -webkit-padding-start: 0px !important;
         padding-inline-start: 20px !important;
+    }
+
+    input, textarea {
+        margin: 5px;
+        font-family: inherit;
+        font-size: 0.75rem;
+        line-height: inherit;
     }
 }
 
