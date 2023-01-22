@@ -1639,7 +1639,7 @@ footer a:hover {
     list-style-type: none;
     list-style-position: outside;
     padding-top: 3rem;
-    margin-left: 20px;
+    margin-left: 0;
     line-height: 1.8em;
     word-spacing: 0.25rem;
     font-size: 0.75rem;
