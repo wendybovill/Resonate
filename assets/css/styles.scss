@@ -1868,12 +1868,12 @@ footer a:hover {
         }
 
     //form changes to fit 320 or smaller device width
-    div.form-div.col-6 {
+    div.form-div.col-6, div.form-div.col {
         position: relative;
         width: 100%;
         min-height: 1px;
         padding-right: 15px;
-        padding-left: 10px;
+        padding-left: 8px;
     }
 
     .contact-form {
