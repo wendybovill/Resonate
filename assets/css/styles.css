@@ -1718,7 +1718,7 @@ footer a:hover {
     display: block;
     color: #ffffff;
     width: 100%;
-    padding-left: 0 !important;
+    padding-left: 0;
   }
   .section_four_image_resp {
     background: url(../images/mindfulness-teal.jpg);
@@ -1737,8 +1737,8 @@ footer a:hover {
   }
   footer {
     height: 35px;
-    font-size: 0.65rem;
+    font-size: 0.55rem;
     font-weight: 300;
-    padding-bottom: 5px;
+    padding: 15px 5px;
   }
 }/*# sourceMappingURL=styles.css.map */
