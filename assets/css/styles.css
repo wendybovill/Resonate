@@ -1217,12 +1217,11 @@ footer a:hover {
     background-color: rgba(255, 255, 255, 0.5);
     z-index: 99998;
   }
-  #navigation a:active:hover, a.active:hover {
+  #navigation a.active:hover {
     padding: 0 5px 14px 5px;
     text-decoration: none;
     color: #003f49;
-    background-color: rgba(255, 255, 255, 0.5);
-    z-index: 99998;
+    background-color: rgba(105, 109, 110, 0.2549019608);
   }
   #logo_section {
     padding-top: 0 !important;

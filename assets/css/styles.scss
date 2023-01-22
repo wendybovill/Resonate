@@ -1242,12 +1242,11 @@ footer a:hover {
         z-index: 99998;
     }
 
-    #navigation a:active:hover, a.active:hover {
+    #navigation a.active:hover {
         padding: 0 5px 14px 5px;
-        text-decoration: none;
+        text-decoration:none;
         color: $darkteal;
-        background-color: $transparent-bk;
-        z-index: 99998;
+        background-color: $lightergrey;
     }
 
     #logo_section {
