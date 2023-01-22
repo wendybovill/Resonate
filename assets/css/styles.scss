@@ -1697,6 +1697,19 @@ footer a:hover {
         font-size: 0.75rem;
     }
 
+    ul.bright.section_more_box {
+        list-style-type: square;
+        list-style-position: outside;
+        padding-top: 3rem;
+        line-height: 1.5em;
+        display: inline-block;
+        font-size: 0.75rem;
+    }
+
+    .more_centered {
+        padding: 25px 7.5% 25px 7.5% !important;
+    }
+
 // resize the iconboxes on first page welcome section
 
     #iconboxes {

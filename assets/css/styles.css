@@ -1621,6 +1621,17 @@ footer a:hover {
     word-spacing: 0.25rem;
     font-size: 0.75rem;
   }
+  ul.bright.section_more_box {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-top: 3rem;
+    line-height: 1.5em;
+    display: inline-block;
+    font-size: 0.75rem;
+  }
+  .more_centered {
+    padding: 25px 7.5% 25px 7.5% !important;
+  }
   #iconboxes {
     text-align: center;
     vertical-align: baseline;
