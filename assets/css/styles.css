@@ -1786,7 +1786,7 @@ footer a:hover {
     padding: 15px 0;
     max-width: 320px;
   }
-  #section_chart img {
+  #section_chart_text img {
     z-index: 3050;
     display: block;
     width: 100%;
