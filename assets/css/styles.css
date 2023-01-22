@@ -1795,6 +1795,13 @@ footer a:hover {
     width: 100%;
     max-width: 320px;
   }
+  div.form-div.col-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 10px;
+  }
   .contact-form {
     padding: 5px;
     margin: 0;
