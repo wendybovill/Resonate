@@ -1795,6 +1795,25 @@ footer a:hover {
     width: 100%;
     max-width: 320px;
   }
+  .contact-form {
+    padding: 5px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid #707070;
+    min-height: 400px;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    color: #444444;
+    font-size: 0.65rem;
+    line-height: 1.025;
+    width: 85%;
+  }
+  .contact-form label, legend {
+    color: #444444;
+    font-size: 0.76rem;
+    line-height: 1.025;
+  }
   #main {
     height: calc(100% - 35px);
   }
