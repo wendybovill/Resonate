@@ -1821,6 +1821,13 @@ footer a:hover {
     line-height: inherit;
     width: 95%;
   }
+  input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 10px;
+  }
   #main {
     height: calc(100% - 35px);
   }
