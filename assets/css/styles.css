@@ -1801,6 +1801,7 @@ footer a:hover {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 8px;
+    margin-bottom: 5px;
   }
   .contact-form {
     padding: 5px;
