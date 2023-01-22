@@ -1675,7 +1675,13 @@ footer a:hover {
         color: $darkgrey;
         font-size: 1em;
     }
-        
+
+    p {
+        font-size: 0.75rem;
+        font-weight: 400;
+        padding: 5px 15px;
+        }
+
     p.contentbox {
         font-size: 0.75rem;
         word-spacing: 0;
@@ -1787,7 +1793,6 @@ footer a:hover {
         --webkit-backdrop-filter: blur(30px);
         background-color: $lightblue;
         /* (plus shape's fill blended on top as a separate layer with 100% opacity) */
-
     }
 
     #section_three_resp {
@@ -1801,7 +1806,7 @@ footer a:hover {
     .section_three_image_resp {
         background: url(../images/get-support-image-beige.jpg);
         @include sectionimageboxdarkfull(); 
-        }
+    }
 
     #section_three_text_resp {
         z-index: 3050;
@@ -1817,10 +1822,30 @@ footer a:hover {
     .section_four_image_resp {
         background: url(../images/mindfulness-teal.jpg);
         @include sectionimageboxdarkfull(); 
-        }
+    }
+
+    div.caption {
+        color: #444444;
+        font-size: 0.75rem;
+        line-height: 1.2;
+        text-align: center;
+        width: 90%;
+        font-weight: 600;
+        padding-top: 12px;
+    }
+
+    div.reference {
+        color: #444444;
+        font-size: 0.6rem;
+        line-height: 1;
+        text-align: left;
+        width: 100%;
+        font-weight: 300;
+        padding: 15px 0;
+        max-width: 320px;
+    }
 
     //main section and footer adjust
-
     #main {
         height: calc(100% - 35px);
     }
