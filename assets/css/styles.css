@@ -1319,8 +1319,8 @@ footer a:hover {
     color: #585858;
     z-index: 99999;
   }
-  #navigation::after, nav::before {
-    box-sizing: unset !important;
+  #navigation::after, #navigation::before {
+    box-sizing: none;
   }
   #navigation a:hover {
     padding: 5px 10px;
@@ -1412,6 +1412,9 @@ footer a:hover {
   }
   .hcentered {
     padding: 0 5px;
+  }
+  footer {
+    font-size: 0.65rem;
   }
 }
 /* Extra Small devices */
