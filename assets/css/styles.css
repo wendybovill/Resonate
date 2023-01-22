@@ -1386,16 +1386,16 @@ footer a:hover {
     text-align: center;
   }
   #section_one, #section_two, #section_three, #section_4 {
-    min-height: unset !important;
+    min-height: unset;
   }
   ul.bright.contentbox {
     list-style-type: none;
     list-style-position: outside;
-    padding-top: 0.8rem !important;
+    padding-top: 0.8rem;
     margin-left: 0;
-    line-height: 1rem !important;
-    word-spacing: 0.25rem !important;
-    font-size: 0.8rem !important;
+    line-height: 1rem;
+    word-spacing: 0.25rem;
+    font-size: 0.7rem;
   }
   .hcentered {
     padding: 0 5px;
