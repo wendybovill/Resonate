@@ -97,24 +97,25 @@
                         <br>
                         <fieldset>
                             <legend width="150">Information about you:</legend>
-                            <div class="col-12">
-                                <div class="col-6" style="display:inline;">
+                            <div class="col">
+                                <div class="col-6" style="display:inline-block;">
                                     <label for="firstname">First Name:</label>
-                                    <input class="text-input" id="firstname" type="text" name="first_name" aria-label="First Name" style="width:25%;" required="">
+                                    <input class="text-input" id="firstname" type="text" name="first_name" aria-label="First Name" style="width: 100%;" required="">
                                 </div>
-                                <div class="col-6" style="display:inline;">
+                                <div class="col-6" style="display:inline-block;">
                                     <label for="lastname">Last Name:</label>
-                                    <input class="text-input" id="lastname" type="text" name="last_name" aria-label="Last Name" style="width:25%;" required="">
+                                    <input class="text-input" id="lastname" type="text" name="last_name" aria-label="Last Name" style="width:100%;" required="">
                                 </div>
-                                <div class="col-6" style="display:block;">
+                                <div class="col" style="display:inline-block;">
                                     <label for="email">Email Address:</label>
                                     <input class="text-input" id="email" type="email" name="email_address" aria-label="Email Address" style="width:80%;" required="">
-                                          </div>
+                                </div>
+                                <div class="col" style="display:inline-block;">
+                                    <label for="message">Your Message:</label>
+                                    <br>
+                                    <textarea id="message" rows="5" type="text" name="message" aria-label="Message" placeholder="Eg. What improvements would you like to see on our site?" style="text-align: left; width:80%;">                        </textarea><br>
+                                        </div>
                             </div>
-                            <br>
-                            <label for="message">Your Message:</label>
-                            <br>
-                            <textarea id="message" rows="5" cols="50" type="text" name="message" aria-label="Message" placeholder="Eg. What improvements would you like to see on our site?" style="text-align: left;">                        </textarea><br>
                             </fieldset>
                         <br>
                         <br>
