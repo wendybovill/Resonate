@@ -140,6 +140,7 @@ p {
   font-size: 12pt;
   font-weight: 400;
   padding: 5px 50px;
+  text-align: justify;
 }
 
 p.bright {
@@ -1607,7 +1608,8 @@ footer a:hover {
   p {
     font-size: 0.75rem;
     font-weight: 400;
-    padding: 5px 15px;
+    padding: 5px 20px;
+    text-align: justify;
   }
   ul, menu, dir {
     display: block;
@@ -1638,7 +1640,7 @@ footer a:hover {
   ul.bright.contentbox {
     list-style-type: none;
     list-style-position: outside;
-    padding-top: 3rem;
+    padding-top: 1rem;
     margin-left: 0;
     line-height: 1.8em;
     word-spacing: 0.25rem;
