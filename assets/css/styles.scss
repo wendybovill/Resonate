@@ -1228,7 +1228,12 @@ footer a:hover {
     #navigation::after, nav::before {
         box-sizing: unset !important;
     }
-
+    #navigation a.active {
+        padding: 0 5px 14px 5px;;
+        text-decoration:none;
+        color: $teal;
+        background-color: $lightgold;
+    }
     #navigation a:hover {
         padding: 0 5px 14px 5px;
         text-decoration: none;
@@ -1237,14 +1242,7 @@ footer a:hover {
         z-index: 99998;
     }
 
-    #navigation a:active, .active {
-        padding: 0 5px 14px 5px;
-        text-decoration: none;
-        color: $teal;
-        z-index: 99999;
-    }
-
-    #navigation a:active:hover, .active:hover {
+    #navigation a:active:hover, a.active:hover {
         padding: 0 5px 14px 5px;
         text-decoration: none;
         color: $darkteal;
