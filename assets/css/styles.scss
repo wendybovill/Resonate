@@ -1482,6 +1482,10 @@ footer a:hover {
 
 /* Extra Small devices */
 @media (min-width: 150px) and (max-width: 320px){
+    .container {
+        width: 100%;
+        max-width: 320px;
+    }
 
     h1.entry-title {
         font-size: 1rem;
@@ -1491,7 +1495,7 @@ footer a:hover {
     
     p.entry-paragraph {
         padding: 5px 20px 0 25px;
-        font-size: 0.9rem;
+        font-size: 0.75rem;
         margin-left: 0;
         margin-right: 0 ;
         text-align: justify;
