@@ -391,6 +391,14 @@ header {
   padding-bottom: 10px;
 }
 
+.intro-box-wide {
+  height: 180px;
+  width: 180px;
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+}
+
 .box1 {
   background-color: #b7af8c;
   color: #ffffff;

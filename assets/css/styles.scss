@@ -506,6 +506,14 @@ header {
     @include ifa-icon-hover();
     }
 
+.intro-box-wide {
+    height: 180px;
+    width: 180px;
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+    }
+    
 .box1 {
     background-color: $gold;
     color: $bright;
