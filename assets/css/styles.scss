@@ -775,6 +775,14 @@ h2.section_more_text {
         color:$lightestblue;
     }
 
+// Tools page
+
+    .section_tools_image {
+        background: url(../images/fishing-grey-image.jpg);
+        @include sectionimageboxdarkfull();
+        height: unset!important;
+    }
+
 // Contact us page section
 
     #section_form {

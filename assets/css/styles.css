@@ -724,6 +724,20 @@ a.section_where_text:hover {
   color: rgb(211, 238, 250);
 }
 
+.section_tools_image {
+  background: url(../images/fishing-grey-image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 0 !important;
+  min-height: 200px;
+  z-index: 3000;
+  opacity: 100%;
+  overflow: hidden;
+  height: 100vw;
+  border: none;
+  height: unset !important;
+}
+
 #section_form {
   display: block;
   color: #ffffff;
