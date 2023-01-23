@@ -1765,6 +1765,15 @@ footer a:hover {
         font-size: 0.75rem;
     }
 
+    ul.section_where_text {
+        list-style-type: square;
+        list-style-position: outside;
+        padding-top: 3rem;
+        line-height: 1.5em;
+        display: inline-block;
+        font-size: 0.75rem;
+    }
+
     .more_centered {
         padding: 25px 7.5% 25px 7.5% !important;
     }
