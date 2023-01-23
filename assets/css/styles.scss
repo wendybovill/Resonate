@@ -787,6 +787,16 @@ h2.section_more_text {
         padding: 25px 10%;
         }
 
+    .section_helpful_image {
+        background: url(../images/mindfulness-teal.jpg);
+        @include sectionimageboxdarkfull();
+        height: unset!important;
+    }
+
+    .helpful_centered{
+        padding: 25px 10%;
+        }
+
 // Contact us page section
 
     #section_form {

@@ -742,6 +742,24 @@ a.section_where_text:hover {
   padding: 25px 10%;
 }
 
+.section_helpful_image {
+  background: url(../images/mindfulness-teal.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 0 !important;
+  min-height: 200px;
+  z-index: 3000;
+  opacity: 100%;
+  overflow: hidden;
+  height: 100vw;
+  border: none;
+  height: unset !important;
+}
+
+.helpful_centered {
+  padding: 25px 10%;
+}
+
 #section_form {
   display: block;
   color: #ffffff;
