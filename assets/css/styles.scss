@@ -756,6 +756,25 @@ h2.section_more_text {
         height: unset!important;
     }
 
+    #section_where_text{
+        z-index: 3050;
+        display:inline;
+    }
+    
+    a.section_where_text {
+        text-decoration:underline;
+        color:$bright;
+    }
+    
+    ul.section_where_text::after, li.section_where_text::after {
+        padding-bottom: 15px;
+    }
+    
+    a.section_where_text:hover {
+        text-decoration:underline;
+        color:$lightestblue;
+    }
+
 // Contact us page section
 
     #section_form {
