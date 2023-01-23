@@ -1392,6 +1392,15 @@ footer a:hover {
         padding-inline-start: 20px !important;
     }
 
+    ul.section_helpful_box {
+        list-style-type: square;
+        list-style-position: outside;
+        padding-top: 0.80rem;
+        line-height: 1.2em;
+        display: inline-block;
+        font-size: 0.75rem;
+    } 
+
     input, textarea {
         margin: 5px;
         font-family: inherit;
@@ -1550,7 +1559,7 @@ footer a:hover {
         font-size: 0.70rem;
     } 
 
-    ul.bright.section_helpful_box {
+    ul.section_helpful_box {
         list-style-type: square;
         list-style-position: outside;
         padding-top: 0.80rem;
