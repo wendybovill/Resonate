@@ -24,7 +24,6 @@ $blue: #14436c;
 $darkblue: #00284b;
 $footercolor: rgb(121, 119, 92);
 $lightestblue: rgba(211, 238, 250, 1);
-$icongold: rgb(218, 211, 184);
 
 $basefontsize: 12pt;
 $typeface: Verdana, Geneva, Tahoma, sans-serif;
@@ -66,7 +65,7 @@ $baseIfasize: 8rem;
 
 @mixin ifa-icon-hover {
     font-size: $baseIfasize;
-    color: $icongold;
+    color: $lightestblue;
     padding-bottom: 10px;
 }
 
