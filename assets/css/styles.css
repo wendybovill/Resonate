@@ -725,7 +725,7 @@ a.section_where_text:hover {
 }
 
 .section_tools_image {
-  background: url(../images/fishing-grey-image.jpg);
+  background: url(../images/anxiety-image-blue.jpg);
   background-size: cover;
   background-position: center;
   padding-left: 0 !important;
@@ -743,7 +743,7 @@ a.section_where_text:hover {
 }
 
 .section_helpful_image {
-  background: url(../images/anxiety-image-blue.jpg);
+  background: url(../images/fishing-grey-image.jpg);
   background-size: cover;
   background-position: center;
   padding-left: 0 !important;
