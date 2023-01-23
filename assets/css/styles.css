@@ -768,6 +768,13 @@ a.section_where_text:hover {
   padding: 25px 10%;
 }
 
+ul.bright.section_more_box {
+  list-style-type: square;
+  list-style-position: outside;
+  line-height: 1.5em;
+  display: inline-block;
+}
+
 #section_form {
   display: block;
   color: #ffffff;
@@ -1507,6 +1514,14 @@ footer a:hover {
     margin-left: 0;
     line-height: 1rem;
     word-spacing: 0.25rem;
+    font-size: 0.7rem;
+  }
+  ul.bright.section_helpful_box {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-top: 0.8rem;
+    line-height: 1.2em;
+    display: inline-block;
     font-size: 0.7rem;
   }
   .hcentered {

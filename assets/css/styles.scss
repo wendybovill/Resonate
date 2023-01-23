@@ -804,6 +804,13 @@ h2.section_more_text {
     .helpful_centered{
         padding: 25px 10%;
         }
+    
+    ul.bright.section_more_box {
+        list-style-type: square;
+        list-style-position: outside;
+        line-height: 1.5em;
+        display: inline-block;
+    }
 
 // Contact us page section
 
@@ -1541,7 +1548,16 @@ footer a:hover {
         line-height: 1rem;
         word-spacing: 0.25rem;
         font-size: 0.70rem;
-    }   
+    } 
+
+    ul.bright.section_helpful_box {
+        list-style-type: square;
+        list-style-position: outside;
+        padding-top: 0.80rem;
+        line-height: 1.2em;
+        display: inline-block;
+        font-size: 0.70rem;
+    } 
 
     .hcentered {
         padding: 0 5px;
