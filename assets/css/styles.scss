@@ -741,6 +741,21 @@ h2.section_more_text {
     text-align: center;
 }
 
+// Get Support page
+
+
+    .section_mindfulness_image{
+        background: url(../images/mindfulness-teal.jpg);
+        @include sectionimageboxdarkfull();
+        height: unset!important;
+    }
+
+    .section_getsupport_image{
+        background: url(../images/get-support-image-beige.jpg);
+        @include sectionimageboxdarkfull();
+        height: unset!important;
+    }
+
 // Contact us page section
 
     #section_form {
