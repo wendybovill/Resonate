@@ -738,6 +738,10 @@ a.section_where_text:hover {
   height: unset !important;
 }
 
+.tools_centered {
+  padding: 25px 10%;
+}
+
 #section_form {
   display: block;
   color: #ffffff;
