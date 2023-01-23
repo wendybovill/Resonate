@@ -1788,7 +1788,6 @@ footer a:hover {
   #section_two_resp {
     display: block;
     color: #ffffff;
-    vertical-align: middle;
     width: 100%;
     padding-left: 0 !important;
     min-height: 200px;
@@ -1823,7 +1822,6 @@ footer a:hover {
   }
   #section_three_resp {
     display: block;
-    vertical-align: middle;
     width: 100%;
     padding-left: 0 !important;
     min-height: 200px;
