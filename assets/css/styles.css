@@ -437,7 +437,7 @@ section {
   border: none;
 }
 
-#section_one {
+#section_one, #section_icontools, #section_tools_intro {
   background-color: #ffffff;
   vertical-align: middle;
   width: 100%;
@@ -1711,7 +1711,7 @@ footer a:hover {
     padding: 1rem 2.5px 0 2.5px;
     text-align: center;
   }
-  #section_one, #section_two, #section_three, #section_4 {
+  #section_one, #section_icontools, #section_tools_intro, #section_two, #section_three, #section_4 {
     min-height: unset;
   }
   #section_two_image {
@@ -2104,7 +2104,7 @@ footer a:hover {
   .intro-box i:hover {
     font-size: 5rem !important;
   }
-  #section_one {
+  #section_one, #section_icontools, #section_tools_intro {
     padding: unset !important;
   }
   #section_two {

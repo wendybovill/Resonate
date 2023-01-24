@@ -554,7 +554,7 @@ section {
 }
 
 //sections one to four are on the first page
-#section_one {
+#section_one, #section_icontools, #section_tools_intro {
     background-color: $bright;
     vertical-align: middle;
     width:100%;
@@ -1627,7 +1627,7 @@ footer a:hover {
         text-align: center;
     }
 
-    #section_one,#section_two,#section_three,#section_4 {
+    #section_one, #section_icontools, #section_tools_intro,#section_two,#section_three,#section_4 {
         min-height: unset;
     }
 
@@ -1986,7 +1986,7 @@ footer a:hover {
 
     // change padding for section one so more centered
 
-    #section_one {
+    #section_one, #section_icontools, #section_tools_intro {
         padding:unset!important;
     }
 
