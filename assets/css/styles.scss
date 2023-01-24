@@ -1035,6 +1035,37 @@ footer a:hover {
  /* Large devices */
 @media (min-width:992px) and (max-width: 1200px) {    
 
+    .hero_image1 {
+        background: url(../images/hero-image1.jpg);
+        @include hero-large();
+        @include heroImage();
+    }
+    
+    .hero_image2 {
+            background: url(../images/hero-image2.jpg);
+            @include hero-large();
+            @include heroImage();
+    }
+    
+    .hero_image3 {
+            background: url(../images/hero-image3.jpg);
+            @include hero-large();
+            @include heroImage();
+    }
+    
+    .hero_image4 {
+            background: url(../images/hero-image4.jpg);
+            @include hero-large();
+            @include heroImage();
+    }
+    
+    .hero_image5 {
+            background: url(../images/hero-image5.jpg);
+            @include hero-large();
+            @include heroImage();
+    }
+    
+
     .container {
         width:100%;
         max-width: 1200px;
@@ -1072,6 +1103,37 @@ footer a:hover {
 
 /* Medium devices */
 @media (min-width: 800px) and (max-width: 991px) { 
+
+    .hero_image1 {
+        background: url(../images/hero-image1-250pxh.jpg);
+        @include hero-medium();
+        @include heroImage();
+    }
+    
+    .hero_image2 {
+            background: url(../images/hero-image2-250pxh.jpg);
+            @include hero-medium();
+            @include heroImage();
+    }
+    
+    .hero_image3 {
+            background: url(../images/hero-image3-250pxh.jpg);
+            @include hero-medium();
+            @include heroImage();
+    }
+    
+    .hero_image4 {
+            background: url(../images/hero-image4-250pxh.jpg);
+            @include hero-medium();
+            @include heroImage();
+    }
+    
+    .hero_image5 {
+            background: url(../images/hero-image5-250pxh.jpg);
+            @include hero-medium();
+            @include heroImage();
+    }
+    
 
     #hero {
         margin-bottom: 0!important;
@@ -1118,31 +1180,6 @@ footer a:hover {
     .container {
         width:100%;
         max-width: 991px;
-    }
-
-    .hero_image1 {
-        background: url(../images/hero-image1.jpg);
-        @include hero-medium();
-    }
-    
-    .hero_image2 {
-        background: url(../images/hero-image2.jpg);
-        @include hero-medium();
-    }
-    
-    .hero_image3 {
-        background: url(../images/hero-image3.jpg);
-        @include hero-medium();
-    }
-    
-    .hero_image4 {
-        background: url(../images/hero-image4.jpg);
-        @include hero-medium();
-    }
-    
-    .hero_image5 {
-        background: url(../images/hero-image5.jpg);
-        @include hero-medium();
     }
 
     #hero-text-position {
@@ -1217,27 +1254,27 @@ footer a:hover {
     }
 
     .hero_image1 {
-        background: url(../images/hero-image1.jpg);
+        background: url(../images/hero-image1-250pxh.jpg);
         @include hero-medium();
     }
     
     .hero_image2 {
-        background: url(../images/hero-image2.jpg);
+        background: url(../images/hero-image2-250pxh.jpg);
         @include hero-medium();
     }
     
     .hero_image3 {
-        background: url(../images/hero-image3.jpg);
+        background: url(../images/hero-image3-250pxh.jpg);
         @include hero-medium();
     }
     
     .hero_image4 {
-        background: url(../images/hero-image4.jpg);
+        background: url(../images/hero-image4-250pxh.jpg);
         @include hero-medium();
     }
     
     .hero_image5 {
-        background: url(../images/hero-image5.jpg);
+        background: url(../images/hero-image5-250pxh.jpg);
         @include hero-medium();
     }
 
@@ -1691,27 +1728,27 @@ footer a:hover {
     }
 
     .hero_image1 {
-        background: url(../images/hero-image1.jpg);
+        background: url(../images/hero-image1-150pxh.jpg);
         @include hero-small();
     }
     
     .hero_image2 {
-        background: url(../images/hero-image2.jpg);
+        background: url(../images/hero-image2-150pxh.jpg);
         @include hero-small();
     }
     
     .hero_image3 {
-        background: url(../images/hero-image3.jpg);
+        background: url(../images/hero-image3-150pxh.jpg);
         @include hero-small();
     }
     
     .hero_image4 {
-        background: url(../images/hero-image4.jpg);
+        background: url(../images/hero-image4-150pxh.jpg);
         @include hero-small();
     }
     
     .hero_image5 {
-        background: url(../images/hero-image5.jpg);
+        background: url(../images/hero-image5-150pxh.jpg);
         @include hero-small();
     }
 

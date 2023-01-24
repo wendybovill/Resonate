@@ -1007,6 +1007,86 @@ footer a:hover {
 }
 /* Large devices */
 @media (min-width: 992px) and (max-width: 1200px) {
+  .hero_image1 {
+    background: url(../images/hero-image1.jpg);
+    height: 400px;
+    width: auto;
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* animate the hero background image */
+    -webkit-animation: heroShrink 10s;
+            animation: heroShrink 10s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .hero_image2 {
+    background: url(../images/hero-image2.jpg);
+    height: 400px;
+    width: auto;
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* animate the hero background image */
+    -webkit-animation: heroShrink 10s;
+            animation: heroShrink 10s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .hero_image3 {
+    background: url(../images/hero-image3.jpg);
+    height: 400px;
+    width: auto;
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* animate the hero background image */
+    -webkit-animation: heroShrink 10s;
+            animation: heroShrink 10s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .hero_image4 {
+    background: url(../images/hero-image4.jpg);
+    height: 400px;
+    width: auto;
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* animate the hero background image */
+    -webkit-animation: heroShrink 10s;
+            animation: heroShrink 10s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .hero_image5 {
+    background: url(../images/hero-image5.jpg);
+    height: 400px;
+    width: auto;
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* animate the hero background image */
+    -webkit-animation: heroShrink 10s;
+            animation: heroShrink 10s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
   .container {
     width: 100%;
     max-width: 1200px;
@@ -1062,6 +1142,81 @@ footer a:hover {
 }
 /* Medium devices */
 @media (min-width: 800px) and (max-width: 991px) {
+  .hero_image1 {
+    background: url(../images/hero-image1-250pxh.jpg);
+    height: 250px;
+    width: auto;
+    background-position: bottom center;
+    background-size: cover;
+    overflow: hidden;
+    /* animate the hero background image */
+    -webkit-animation: heroShrink 10s;
+            animation: heroShrink 10s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .hero_image2 {
+    background: url(../images/hero-image2-250pxh.jpg);
+    height: 250px;
+    width: auto;
+    background-position: bottom center;
+    background-size: cover;
+    overflow: hidden;
+    /* animate the hero background image */
+    -webkit-animation: heroShrink 10s;
+            animation: heroShrink 10s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .hero_image3 {
+    background: url(../images/hero-image3-250pxh.jpg);
+    height: 250px;
+    width: auto;
+    background-position: bottom center;
+    background-size: cover;
+    overflow: hidden;
+    /* animate the hero background image */
+    -webkit-animation: heroShrink 10s;
+            animation: heroShrink 10s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .hero_image4 {
+    background: url(../images/hero-image4-250pxh.jpg);
+    height: 250px;
+    width: auto;
+    background-position: bottom center;
+    background-size: cover;
+    overflow: hidden;
+    /* animate the hero background image */
+    -webkit-animation: heroShrink 10s;
+            animation: heroShrink 10s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .hero_image5 {
+    background: url(../images/hero-image5-250pxh.jpg);
+    height: 250px;
+    width: auto;
+    background-position: bottom center;
+    background-size: cover;
+    overflow: hidden;
+    /* animate the hero background image */
+    -webkit-animation: heroShrink 10s;
+            animation: heroShrink 10s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
   #hero {
     margin-bottom: 0 !important;
     height: 250px !important;
@@ -1105,46 +1260,6 @@ footer a:hover {
   .container {
     width: 100%;
     max-width: 991px;
-  }
-  .hero_image1 {
-    background: url(../images/hero-image1.jpg);
-    height: 250px;
-    width: auto;
-    background-position: bottom center;
-    background-size: cover;
-    overflow: hidden;
-  }
-  .hero_image2 {
-    background: url(../images/hero-image2.jpg);
-    height: 250px;
-    width: auto;
-    background-position: bottom center;
-    background-size: cover;
-    overflow: hidden;
-  }
-  .hero_image3 {
-    background: url(../images/hero-image3.jpg);
-    height: 250px;
-    width: auto;
-    background-position: bottom center;
-    background-size: cover;
-    overflow: hidden;
-  }
-  .hero_image4 {
-    background: url(../images/hero-image4.jpg);
-    height: 250px;
-    width: auto;
-    background-position: bottom center;
-    background-size: cover;
-    overflow: hidden;
-  }
-  .hero_image5 {
-    background: url(../images/hero-image5.jpg);
-    height: 250px;
-    width: auto;
-    background-position: bottom center;
-    background-size: cover;
-    overflow: hidden;
   }
   #hero-text-position {
     vertical-align: bottom;
@@ -1208,7 +1323,7 @@ footer a:hover {
     max-width: 767px;
   }
   .hero_image1 {
-    background: url(../images/hero-image1.jpg);
+    background: url(../images/hero-image1-250pxh.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
@@ -1216,7 +1331,7 @@ footer a:hover {
     overflow: hidden;
   }
   .hero_image2 {
-    background: url(../images/hero-image2.jpg);
+    background: url(../images/hero-image2-250pxh.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
@@ -1224,7 +1339,7 @@ footer a:hover {
     overflow: hidden;
   }
   .hero_image3 {
-    background: url(../images/hero-image3.jpg);
+    background: url(../images/hero-image3-250pxh.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
@@ -1232,7 +1347,7 @@ footer a:hover {
     overflow: hidden;
   }
   .hero_image4 {
-    background: url(../images/hero-image4.jpg);
+    background: url(../images/hero-image4-250pxh.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
@@ -1240,7 +1355,7 @@ footer a:hover {
     overflow: hidden;
   }
   .hero_image5 {
-    background: url(../images/hero-image5.jpg);
+    background: url(../images/hero-image5-250pxh.jpg);
     height: 250px;
     width: auto;
     background-position: bottom center;
@@ -1641,7 +1756,7 @@ footer a:hover {
     overflow: hidden;
   }
   .hero_image1 {
-    background: url(../images/hero-image1.jpg);
+    background: url(../images/hero-image1-150pxh.jpg);
     height: 150px;
     width: auto;
     background-position: bottom center;
@@ -1649,7 +1764,7 @@ footer a:hover {
     overflow: hidden;
   }
   .hero_image2 {
-    background: url(../images/hero-image2.jpg);
+    background: url(../images/hero-image2-150pxh.jpg);
     height: 150px;
     width: auto;
     background-position: bottom center;
@@ -1657,7 +1772,7 @@ footer a:hover {
     overflow: hidden;
   }
   .hero_image3 {
-    background: url(../images/hero-image3.jpg);
+    background: url(../images/hero-image3-150pxh.jpg);
     height: 150px;
     width: auto;
     background-position: bottom center;
@@ -1665,7 +1780,7 @@ footer a:hover {
     overflow: hidden;
   }
   .hero_image4 {
-    background: url(../images/hero-image4.jpg);
+    background: url(../images/hero-image4-150pxh.jpg);
     height: 150px;
     width: auto;
     background-position: bottom center;
@@ -1673,7 +1788,7 @@ footer a:hover {
     overflow: hidden;
   }
   .hero_image5 {
-    background: url(../images/hero-image5.jpg);
+    background: url(../images/hero-image5-150pxh.jpg);
     height: 150px;
     width: auto;
     background-position: bottom center;
