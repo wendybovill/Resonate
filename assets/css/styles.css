@@ -1342,7 +1342,7 @@ footer a:hover {
   }
   .entry-title p {
     padding: 25px;
-    font-size: 1;
+    font-size: 1rem;
   }
   #menu div {
     float: none;
