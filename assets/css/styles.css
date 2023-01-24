@@ -1760,7 +1760,7 @@ footer a:hover {
     margin-left: 0;
     line-height: 1rem !important;
     word-spacing: 0.25rem;
-    font-size: 0.7rem !important;
+    font-size: 0.9rem !important;
   }
   ul.section_helpful_box, ul.section_more_box, ul.section_helpful_box li, ul.section_more_box li {
     list-style-type: square;
@@ -1768,7 +1768,7 @@ footer a:hover {
     padding-top: 0.9rem;
     line-height: 1.2em !important;
     display: inline-block;
-    font-size: 0.7rem !important;
+    font-size: 0.9rem !important;
   }
   .section_mindfulness_image {
     background: url(../images/mindfulness-teal-400pxh.jpg);
