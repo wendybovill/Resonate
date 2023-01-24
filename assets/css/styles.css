@@ -1753,7 +1753,7 @@ footer a:hover {
     height: 50vw;
     border: none;
   }
-  ul.bright.contentbox, ul.bright.section_more_box {
+  ul.bright.contentbox, ul.bright.section_more_box, ul.bright.contentbox li, ul.bright.section_more_box li {
     list-style-type: none;
     list-style-position: outside;
     padding-top: 0.9rem;
@@ -1762,7 +1762,7 @@ footer a:hover {
     word-spacing: 0.25rem;
     font-size: 0.7rem !important;
   }
-  ul.section_helpful_box, ul.section_more_box {
+  ul.section_helpful_box, ul.section_more_box, ul.section_helpful_box li, ul.section_more_box li {
     list-style-type: square;
     list-style-position: outside;
     padding-top: 0.9rem;
