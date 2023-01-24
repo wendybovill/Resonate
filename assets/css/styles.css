@@ -653,7 +653,7 @@ div.reference {
   height: unset !important;
 }
 
-ul.bright.section_more_box {
+ul.bright.section_more_box, ul.bright.section_about_text {
   list-style-type: square;
   list-style-position: outside;
   padding-top: 3rem;
@@ -666,21 +666,21 @@ ul.bright.section_more_box {
   display: inline;
 }
 
-a.section_more_text {
+a.section_more_text, a.section_about_text {
   text-decoration: underline;
   color: #ffffff;
 }
 
-ul.section_more_text::after, li.section_more_text::after {
+ul.section_more_text::after, li.section_more_text::after, ui.section_about_text::after, li.section_about_text::after {
   padding-bottom: 15px;
 }
 
-a.section_more_text:hover {
+a.section_more_text:hover, a.section_about_text:hover {
   text-decoration: underline;
   color: rgb(211, 238, 250);
 }
 
-h2.section_more_text {
+h2.section_more_text, h2.section_about_text {
   padding: 0px 5px 0 5px;
   text-align: center;
 }
@@ -1343,6 +1343,7 @@ footer a:hover {
   }
   .entry-title p {
     padding: 25px;
+    font-size: 1;
   }
   #menu div {
     float: none;
@@ -1486,27 +1487,27 @@ footer a:hover {
     z-index: 999999;
   }
   /* content styles */
-  h1 {
+  h1, h1.section_more_text, h1.section_chart_text {
     color: #003f49;
     font-size: 1em !important;
   }
-  h2 {
+  h2, h2.section_more_text, h2.section_chart_text {
     color: #ffffff;
     font-size: 1em !important;
   }
-  h3 {
+  h3, h3.section_more_text, h3.section_chart_text {
     color: #444444;
     font-size: 1em !important;
   }
-  h4 {
+  h4, h4.section_more_text, h4.section_chart_text {
     color: #003f49;
     font-size: 1em !important;
   }
-  h5 {
+  h5, h5.section_more_text, h5.section_chart_text {
     color: #ffffff;
     font-size: 1em !important;
   }
-  h6 {
+  h6, h6.section_more_text, h6.section_chart_text {
     color: #444444;
     font-size: 1em !important;
   }
@@ -1545,7 +1546,7 @@ footer a:hover {
     padding-inline-start: 20px !important;
     color: #ffffff;
   }
-  ul.section_helpful_box, ul.section_more_box {
+  ul.section_helpful_box, ul.section_more_box, ul.section_about_text {
     list-style-type: square;
     list-style-position: outside;
     padding-top: 0.8rem;
@@ -1703,9 +1704,10 @@ footer a:hover {
   h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-stretch: 0;
+    font-size: 1.2rem !important;
   }
   .h1, h1 {
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
   }
   h2.contentbox, h3.contentbox, h4.contentbox {
     font-size: 0.95rem !important;
