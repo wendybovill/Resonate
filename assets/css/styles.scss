@@ -1221,6 +1221,21 @@ footer a:hover {
         word-spacing: 0.25rem;
     }
 
+    #section_two_image {
+        background: url(../images/content-box-image1-450pxh.jpg);
+        @include sectionimagebox();
+    }
+    
+    #section_three_image {
+        background: url(../images/content-box-image2-450pxh.jpg);
+        @include sectionimagebox();
+    }
+    
+    #section_four_image {
+        background: url(../images/content-box-image3-450pxh.jpg);
+        @include sectionimagebox();
+    }
+
  }
 
 /* Small devices */
@@ -1458,6 +1473,22 @@ footer a:hover {
         font-size: 0.75rem;
         line-height: inherit;
     }
+
+    #section_two_image {
+        background: url(../images/content-box-image1-450pxh.jpg);
+        @include sectionimagebox();
+    }
+    
+    #section_three_image {
+        background: url(../images/content-box-image2-450pxh.jpg);
+        @include sectionimagebox();
+    }
+    
+    #section_four_image {
+        background: url(../images/content-box-image3-450pxh.jpg);
+        @include sectionimagebox();
+    }
+
 }
 
 /* Smaller devices */
@@ -1600,6 +1631,21 @@ footer a:hover {
         min-height: unset;
     }
 
+    #section_two_image {
+        background: url(../images/content-box-image1-300pxh.jpg);
+        @include sectionimagebox();
+    }
+    
+    #section_three_image {
+        background: url(../images/content-box-image2-300pxh.jpg);
+        @include sectionimagebox();
+    }
+    
+    #section_four_image {
+        background: url(../images/content-box-image3-300pxh.jpg);
+        @include sectionimagebox();
+    }
+
     ul.bright.contentbox{
         list-style-type: none;
         list-style-position: outside;
@@ -1617,7 +1663,38 @@ footer a:hover {
         line-height: 1.2em;
         display: inline-block;
         font-size: 0.70rem;
-    } 
+    }
+
+    .section_mindfulness_image{
+        background: url(../images/mindfulness-teal-400pxh.jpg);
+        @include sectionimageboxdarkfull();
+        height: unset!important;
+    }
+
+    .section_getsupport_image{
+        background: url(../images/get-support-image-beige-400pxh.jpg);
+        @include sectionimageboxdarkfull();
+        height: unset!important;
+    }
+
+    .section_tools_image {
+        background: url(../images/fishing-grey-image-400pxh.jpg);
+        @include sectionimageboxdarkfull();
+        height: unset!important;
+    }
+
+    .section_helpful_image {
+        background: url(../images/anxiety-image-blue-400pxh.jpg);
+        @include sectionimageboxdarkfull();
+        height: unset!important;
+    }
+
+    .section_more_image {
+        background: url(../images/more-image-grey-400pxh.jpg);
+        @include sectionimageboxdarkfull();
+        height: unset!important;
+    }
+
 
     .hcentered {
         padding: 0 5px;
@@ -1937,7 +2014,7 @@ footer a:hover {
     }
 
     .section_two_image_resp {
-        background: url(../images/anxiety-image-blue.jpg);
+        background: url(../images/anxiety-image-blue-400pxh.jpg);
         @include sectionimageboxdarkfull(); 
     }
 
@@ -1966,7 +2043,7 @@ footer a:hover {
     }
 
     .section_three_image_resp {
-        background: url(../images/get-support-image-beige.jpg);
+        background: url(../images/get-support-image-beige-400pxh.jpg);
         @include sectionimageboxdarkfull(); 
     }
 
@@ -1982,7 +2059,7 @@ footer a:hover {
         padding-left:0;
     }
     .section_four_image_resp {
-        background: url(../images/mindfulness-teal.jpg);
+        background: url(../images/mindfulness-teal-400pxh.jpg);
         @include sectionimageboxdarkfull(); 
     }
 
