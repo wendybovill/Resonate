@@ -86,19 +86,7 @@ Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2
 |----------------|-------------|---------------|
 | ![Desktop Mockup Page 1](https://github.com/wendybovill/milestone-project-one/blob/404aaf37ed6db2fb644e96c986394d316dab8849/documentation/Upload_20230116-1530431024_1.jpg)      | ![Ipad Mockup Page 1](https://github.com/wendybovill/milestone-project-one/blob/404aaf37ed6db2fb644e96c986394d316dab8849/documentation/Upload_20230116-1530431024_6.jpg)   | ![Iphone Mockup Page 1](https://github.com/wendybovill/milestone-project-one/blob/404aaf37ed6db2fb644e96c986394d316dab8849/documentation/Upload_20230116-1530431024_11.jpg)     |
 
-Desktop Mockup Page 1
 
-![Desktop Mockup Page 1](https://github.com/wendybovill/milestone-project-one/blob/404aaf37ed6db2fb644e96c986394d316dab8849/documentation/Upload_20230116-1530431024_1.jpg)
-
-Ipad Mockup Page 1
-
-![Ipad Mockup Page 1](https://github.com/wendybovill/milestone-project-one/blob/404aaf37ed6db2fb644e96c986394d316dab8849/documentation/Upload_20230116-1530431024_6.jpg)
-
-Iphone Mockup Page 1
-
-![Iphone Mockup Page 1](https://github.com/wendybovill/milestone-project-one/blob/404aaf37ed6db2fb644e96c986394d316dab8849/documentation/Upload_20230116-1530431024_11.jpg)	
-
- 
 	*Images:* Pexels: free images.
 
 	*Colours:* pale yellow/gold and light blue/teal. (Yellow: happiness, prosperity, hope. Blue: Calmness, logical, tranquility).
