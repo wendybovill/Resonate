@@ -1668,31 +1668,31 @@ footer a:hover {
     .section_mindfulness_image{
         background: url(../images/mindfulness-teal-400pxh.jpg);
         @include sectionimageboxdarkfull();
-        height: unset!important;
+        height: auto;
     }
 
     .section_getsupport_image{
         background: url(../images/get-support-image-beige-400pxh.jpg);
         @include sectionimageboxdarkfull();
-        height: unset!important;
+        height: auto;
     }
 
     .section_tools_image {
         background: url(../images/fishing-grey-image-400pxh.jpg);
         @include sectionimageboxdarkfull();
-        height: unset!important;
+        height: auto;
     }
 
     .section_helpful_image {
         background: url(../images/anxiety-image-blue-400pxh.jpg);
         @include sectionimageboxdarkfull();
-        height: unset!important;
+        height: auto;
     }
 
     .section_more_image {
         background: url(../images/more-image-grey-400pxh.jpg);
         @include sectionimageboxdarkfull();
-        height: unset!important;
+        height: auto;
     }
 
 

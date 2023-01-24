@@ -1767,6 +1767,71 @@ footer a:hover {
     display: inline-block;
     font-size: 0.7rem;
   }
+  .section_mindfulness_image {
+    background: url(../images/mindfulness-teal-400pxh.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0 !important;
+    min-height: 200px;
+    z-index: 3000;
+    opacity: 100%;
+    overflow: hidden;
+    height: 100vw;
+    border: none;
+    height: auto;
+  }
+  .section_getsupport_image {
+    background: url(../images/get-support-image-beige-400pxh.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0 !important;
+    min-height: 200px;
+    z-index: 3000;
+    opacity: 100%;
+    overflow: hidden;
+    height: 100vw;
+    border: none;
+    height: auto;
+  }
+  .section_tools_image {
+    background: url(../images/fishing-grey-image-400pxh.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0 !important;
+    min-height: 200px;
+    z-index: 3000;
+    opacity: 100%;
+    overflow: hidden;
+    height: 100vw;
+    border: none;
+    height: auto;
+  }
+  .section_helpful_image {
+    background: url(../images/anxiety-image-blue-400pxh.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0 !important;
+    min-height: 200px;
+    z-index: 3000;
+    opacity: 100%;
+    overflow: hidden;
+    height: 100vw;
+    border: none;
+    height: auto;
+  }
+  .section_more_image {
+    background: url(../images/more-image-grey-400pxh.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 0 !important;
+    min-height: 200px;
+    z-index: 3000;
+    opacity: 100%;
+    overflow: hidden;
+    height: 100vw;
+    border: none;
+    height: auto;
+  }
   .hcentered {
     padding: 0 5px;
   }
