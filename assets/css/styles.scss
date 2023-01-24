@@ -1598,7 +1598,7 @@ footer a:hover {
     }
 
     p.contentbox, p.section_more_text {
-        font-size: 0.70rem!important; //need to overide bootstrap default h
+        font-size: 0.8rem!important; //need to overide bootstrap default h
         word-spacing: 0;
         line-height: 1.3!important; //need to overide bootstrap default h
         padding-left: 5px;
@@ -1648,7 +1648,7 @@ footer a:hover {
         @include sectionimagebox();
     }
 
-    ul.bright.contentbox{
+    ul.bright.contentbox, ul.bright.section_more_box{
         list-style-type: none;
         list-style-position: outside;
         padding-top: 0.80rem;
@@ -1658,7 +1658,7 @@ footer a:hover {
         font-size: 0.70rem!important; //need to overide bootstrap default h
     } 
 
-    ul.section_helpful_box {
+    ul.section_helpful_box, ul.section_more_box {
         list-style-type: square;
         list-style-position: outside;
         padding-top: 0.80rem;
