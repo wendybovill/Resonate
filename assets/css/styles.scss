@@ -1656,6 +1656,7 @@ footer a:hover {
         line-height: 1rem!important; //need to overide bootstrap default h
         word-spacing: 0.25rem;
         font-size: 0.9rem!important; //need to overide bootstrap default h
+        padding-left: unset;
     } 
 
     ul.section_helpful_box, ul.section_more_box, ul.section_helpful_box li, ul.section_more_box li {
@@ -1665,6 +1666,7 @@ footer a:hover {
         line-height: 1.2em!important; //need to overide bootstrap default h
         display: inline-block;
         font-size: 0.9rem!important; //need to overide bootstrap default h
+        padding-left: unset;
     }
 
     .section_mindfulness_image{
