@@ -8,7 +8,9 @@
 
 ## Purpose: 
 
-To demonstrate to the user that anxiety in the population has increased since the pandemic. To promote awareness of Anxiety and its effects. To promote our mindfulness app Resonate (lite version and enterprise bespoke version).
+- To demonstrate to the user that anxiety in the population has increased since the pandemic. 
+- To promote awareness of Anxiety and its effects. 
+- To promote our mindfulness app Resonate (lite version and enterprise bespoke version).
 
 ***This site will have:***
 
@@ -53,9 +55,14 @@ Photoshop for image resizing to optimised images for responsive design
 
 *Development Method:*
 
-	After receiving technical specification and design requirements, html template in page 1 was setup and SCSS template was setup. This was tested and edited until it was perfect. The initial testing included running the code through html W3 Validator and Jigsaw CSS Validator. When this was successfully passed, the styles and html index was used as a template for the rest of the site.
+	After receiving technical specification and design requirements, html template in page 1 was setup and SCSS template
+	was setup. This was tested and edited until it was perfect. The initial testing included running the code through html
+	W3 Validator and Jigsaw CSS Validator. When this was successfully passed, the styles and html index was used as a template
+	for the rest of the site.
 	
-	At the end of the Development, before final testing, the stylesheet and html was tweaked to allow responsive replacement images optimised using Photoshop and exported to Web standard optimised format, keeping clear images and low filesizes. This is to speed up page loading for various screensizes while still maintaining high visibility standards.
+	At the end of the Development, before final testing, the stylesheet and html was tweaked to allow responsive replacement
+	images optimised using Photoshop and exported to Web standard optimised format, keeping clear images and low filesizes.
+	This is to speed up page loading for various screensizes while still maintaining high visibility standards.
 	
 	End Testing took place where the final site and css was run through the validators again, as well as debugging techniques used in DevTools
 	
@@ -76,7 +83,9 @@ Photoshop for image resizing to optimised images for responsive design
 
 	*Document for signposting:*
 
-	Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2b0 Or watching the ocean https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety-or  fireplace video https://www.youtube.com/watch?v=kQocpm-Jh-o
+	Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2b0
+	Or watching the ocean https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety-or  fireplace video 
+	https://www.youtube.com/watch?v=kQocpm-Jh-o
 
 
 2. Design: 
@@ -101,36 +110,44 @@ Photoshop for image resizing to optimised images for responsive design
 
 	*Images:* Pexels: free images.
 
-	*Colours:* pale yellow/gold and light blue/teal. (Yellow: happiness, prosperity, hope. Blue: Calmness, logical, tranquility).
+	*Colours:* pale yellow/gold and light blue/teal. 
+	(Colour symbolism: Yellow: happiness, prosperity, hope. Blue: Calmness, logical, tranquility).
 
 
-3. Documentation including readme file, spec sheet, timeline for project stages. Estimated time 1 week.
+3. 	Documentation including readme file, spec sheet, timeline for project stages. Estimated time 1 week.
 
-4. Development strategy: Develop the first page and styles, that then will be used as a template for the rest of the site pages. Use mixins and variables with SCSS to compile to CSS, to avoid repetative coding.
+4. 	Development strategy: Develop the first page and styles, that then will be used as a template for the
+	rest of the site pages. Use mixins and variables with SCSS to compile to CSS, to avoid repetative coding.
 
 
 *Changes from Mockup Design*:
 
-1. Removed 'More' menu item and moved the more content into the about content. The More menu item became the 'Contact' menu item.
+1. 	Removed 'More' menu item and moved the more content into the about content.
+	The More menu item became the 'Contact' menu item.
 
 
 ## Future Development:
 
-1. Implement Voice Assistance / Voice Over for Assisted Technology
+1. 	Implement Voice Assistance / Voice Over for Assisted Technology
 
-2. Feedback poll as an Enquiry Form with a radio button as a poll which allows the user to select if they have been battling with anxiety. And if yes, if it was worse before, during or after the lockdowns.
+2. 	Feedback poll as an Enquiry Form with a radio button as a poll which allows the user to select if they have been battling
+ 	with anxiety. And if yes, if it was worse before, during or after the lockdowns.
 
-3. Further deployment to hosted subdomain name
+3. 	Further deployment to hosted subdomain name
 
 
 **Feedback Form Plan:**
 
-	Name, Age, State/County, Country, Ethnicity, Have anxiety? Checkbox y/n, Getting support? Checkbox y/n, Anxiety Meter (radio buttons): Before pandemic 1 to 10, During pandemic 1 to 10, After pandemic 1 to 10, Now: 1 to 10.
+	Age, Ethnicity, Interested in Resonate App Radio button y/n, Which version? Lite/Enterprise Checkbox y/n, 
+	Name, Email, Message, Send Button.
 	
 
 # Acknowledgements
 
-	CSS Animations: Stackflow https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container  - I used the code and edited by removing the staged % keyframes and also made it shrink instead of grow. For the flyIn one, I removed the inbetween keyframes and only had 2 to make the animation smoother.
+	CSS Animations: 
+	Stackflow https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container  
+	- I used the code and edited by removing the staged % keyframes and also made it shrink instead of grow. 
+	For the flyIn one, I removed the inbetween keyframes and only had 2 to make the animation smoother.
 
 	WAV files converted to MP3 using: https://www.freeconvert.com/wav-to-mp3
 
@@ -153,25 +170,34 @@ https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47
 
 *Debugging:* 
 
-	Using devtools in chrome and safari. Corrected misaligned boxes with bootstrap. Resized font for smaller devices. Had to hide the large content boxes on the front page from showing in very small devices, and instead added sections with an image background. This is hidden from the users view on larger devices and they see the larger content boxes on the front page.
+	Using devtools in chrome and safari. Corrected misaligned boxes with bootstrap. Resized font for smaller devices. Had to hide
+	the large content boxes on the front page from showing in very small devices, and instead added sections with an image
+	background. This is hidden from the users view on larger devices and they see the larger content boxes on the front page.
 
-	The logo was overlapping the navigation on smaller devices. I had to resize it for smaller devices, and change the position of the navigation, as well as make the padding for the hover view smaller so the highlight behind did not overlap the logo.
+	The logo was overlapping the navigation on smaller devices. I had to resize it for smaller devices, and change the position
+	of the navigation, as well as make the padding for the hover view smaller so the highlight behind did not overlap the logo.
 
-	There were issues when first deployed to github pages, where the stylesheet and images did not show. This was corrected after consultation with my mentor Gaff, and the links were then corrected.
+	There were issues when first deployed to github pages, where the stylesheet and images did not show. This was corrected after
+	consultation with my mentor Gaff, and the links were then corrected.
 
-	There were multiple issues trying to get the font awesome to show. No matter what css link I used. In the end the only one it accepted is a kit link for js.
+	There were multiple issues trying to get the font awesome to show. No matter what css link I used. In the end the only one it
+	accepted is a kit link for js.
 
-	Early testing using W3 html validator found 2 attributes that needed to be separated by a space, and complained about the aria-labels I'd used as a violation so I changed them to titles to describe what the following section was about.
+	Early testing using W3 html validator found 2 attributes that needed to be separated by a space, and complained about the
+	aria-labels I'd used as a violation so I changed them to titles to describe what the following section was about.
+	
 	End Testing has been included in the Test Cases document:
 	https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md
 
-	Early testing in Jigsaw validator found some errors in the css and anmiations that were corrected. This was to setup the SCSS and CSS template which was then used throughout.
+	Early testing in Jigsaw validator found some errors in the css and anmiations that were corrected. 
+	This was to setup the SCSS and CSS template which was then used throughout.
+	
 	End Testing has been included in the Test Cases document:
 	https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md
-
+	
 	Document of validation and errors can be viewed by clicking on the link below:
 	https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md
-
+	
 
 
 *Refereces used to assist debugging:*
