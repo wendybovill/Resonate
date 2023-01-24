@@ -431,7 +431,6 @@ header {
     height: 400px;
     overflow: hidden;
     overflow: clip; /* required */
-    overflow-clip-margin: 0px;
 }
 
 #hero-text-position {
@@ -1535,7 +1534,7 @@ footer a:hover {
     }
 
     #navigation::after, #navigation::before {
-        box-sizing: none;
+        box-sizing: content-box;
     }
 
     #navigation a:hover {
