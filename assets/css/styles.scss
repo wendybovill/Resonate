@@ -886,7 +886,7 @@ h2.section_more_text, h2.section_about_text {
         border: 1px solid $teal;
         background-color: $darkteal;
         color: $bright;
-        border-radius: 3px;
+        border-radius: 0;
         padding: 5px;
         -webkit-box-shadow: 0px 4px 3px 2px rgba(0,0,0,0.16);
         -moz-box-shadow: 0px 4px 3px 2px rgba(0,0,0,0.16);
@@ -897,7 +897,7 @@ h2.section_more_text, h2.section_about_text {
         border: 1px solid $darkteal;
         background-color: $teal;
         color: $bright;
-        border-radius: 3px;
+        border-radius: 0;
         padding: 5px;
         -webkit-box-shadow: 0px 4px 3px 2px rgba(255,255,255,0.16);
         -moz-box-shadow: 0px 4px 3px 2px rgba(255,255,255,0.16);
