@@ -117,9 +117,23 @@ Name, Age, State/County, Country, Ethnicity, Have anxiety? Checkbox y/n, Getting
 
 CSS Animations: Stackflow https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container  - I used the code and edited by removing the staged % keyframes and also made it shrink instead of grow. For the flyIn one, I removed the inbetween keyframes and only had 2 to make the animation smoother.
 
-# Debugging & Test Results
+WAV files converted to MP3 using: https://www.freeconvert.com/wav-to-mp3
 
-TEST CASES: https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/Test_Cases.md
+Videos are from Youtube
+
+Sounds are from Free sound files downloaded
+
+# Debugging & Test Results:
+
+**TEST CASES:**
+
+https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md
+
+
+**SCREENSHOTS using DevTools for error fixing and troubleshooting:**
+
+https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47c998bce31c660808d5/devtools_debugging.md
+
 
 *Debugging:* Using devtools in chrome and safari. Corrected misaligned boxes with bootstrap. Resized font for smaller devices. Had to hide the large content boxes on the front page from showing in very small devices, and instead added sections with an image background. This is hidden from the users view on larger devices and they see the larger content boxes on the front page.
 
@@ -129,11 +143,16 @@ There were issues when first deployed to github pages, where the stylesheet and 
 
 There were multiple issues trying to get the font awesome to show. No matter what css link I used. In the end the only one it accepted is a kit link for js.
 
-W3 html validator found 2 attributes that needed to be separated by a space, and complained about the aria-labels I'd used as a violation so I changed them to titles to describe what the following section was about.
+Early testing using W3 html validator found 2 attributes that needed to be separated by a space, and complained about the aria-labels I'd used as a violation so I changed them to titles to describe what the following section was about.
+End Testing has been included in the Test Cases document:
+https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md
 
-Jigsaw validator found some errors in the css and anmiations that were corrected.
+Early testing in Jigsaw validator found some errors in the css and anmiations that were corrected. This was to setup the SCSS and CSS template which was then used throughout.
+End Testing has been included in the Test Cases document:
+https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md
 
 Document of validation and errors can be viewed by clicking on the link below:
+https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md
 
 
 
@@ -148,6 +167,20 @@ CSS/Html not showing stylesheet or images: removed begining / from file path for
 W3 schools html validator
 
 W3 schools jigsaw css validator
+
+DevTools in Browser
+
+Gitpod was used in conjuction with VSCode and SASS compiler
+
+Regular commits were made throughout the process to github
+
+**A NOTE ON COMMITS:**
+
+The site was deployed early to github to use as a testing environment, along with the Live Server in Gitpod.
+As a result there were many commits made. Some were repeatitive commits with nothing but undoing or redoing a previous change,
+and in some places correcting spacing or typos. These commits were not fully commented on, instead using a simple fullstop "." as a comment for that commit. In some instances I used the words same to indicate the commit was doing the same thing I had done before.
+This was due to an error with the previous commit actually being sent correctly to Github, so needed to be redone or resent when there was a connection error.
+
 
 
 
