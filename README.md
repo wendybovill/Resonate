@@ -148,7 +148,8 @@ Photoshop for image resizing to optimised images for responsive design
 # Acknowledgements
 
 	CSS Animations: 
-	Stackflow https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container  
+	Stackflow:
+	https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container  
 	- I used the code and edited by removing the staged % keyframes and also made it shrink instead of grow. 
 	For the flyIn one, I removed the inbetween keyframes and only had 2 to make the animation smoother.
 
