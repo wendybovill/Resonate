@@ -1280,7 +1280,7 @@ footer a:hover {
   }
   .hero-title h1 {
     color: #00284b;
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 25px 50px;
@@ -1511,9 +1511,9 @@ footer a:hover {
     font-size: 1em !important;
   }
   p.contentbox {
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
     word-spacing: 0rem;
-    line-height: 1.5;
+    line-height: 1.5 !important;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -1527,9 +1527,9 @@ footer a:hover {
     list-style-position: outside;
     padding-top: 1rem;
     margin-left: 0px;
-    line-height: 1.2rem;
+    line-height: 1.2rem !important;
     word-spacing: 0.25rem;
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
     -webkit-padding-start: 0px !important;
     padding-inline-start: 20px !important;
   }
@@ -1538,7 +1538,7 @@ footer a:hover {
     list-style-position: outside;
     padding-top: 1rem;
     margin-left: 0px;
-    line-height: 1.2rem;
+    line-height: 1.2rem !important;
     word-spacing: 0.25rem;
     font-size: 0.75rem !important;
     -webkit-padding-start: 0px !important;
@@ -1549,7 +1549,7 @@ footer a:hover {
     list-style-type: square;
     list-style-position: outside;
     padding-top: 0.8rem;
-    line-height: 1.6em;
+    line-height: 1.6em !important;
     display: inline-block;
     font-size: 0.75rem !important;
   }
@@ -1689,7 +1689,7 @@ footer a:hover {
   p.contentbox {
     font-size: 0.7rem !important;
     word-spacing: 0;
-    line-height: 1.3;
+    line-height: 1.3 !important;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 1rem;
@@ -1708,7 +1708,7 @@ footer a:hover {
     font-size: 1.5rem !important;
   }
   h2.contentbox, h3.contentbox, h4.contentbox {
-    font-size: 0.95rem;
+    font-size: 0.95rem !important;
     padding: 1rem 2.5px 0 2.5px;
     text-align: center;
   }
@@ -1756,7 +1756,7 @@ footer a:hover {
     list-style-position: outside;
     padding-top: 0.8rem;
     margin-left: 0;
-    line-height: 1rem;
+    line-height: 1rem !important;
     word-spacing: 0.25rem;
     font-size: 0.7rem !important;
   }
@@ -1764,7 +1764,7 @@ footer a:hover {
     list-style-type: square;
     list-style-position: outside;
     padding-top: 0.8rem;
-    line-height: 1.2em;
+    line-height: 1.2em !important;
     display: inline-block;
     font-size: 0.7rem !important;
   }
