@@ -1338,7 +1338,7 @@ footer a:hover {
 /* Small devices */
 @media (min-width: 451px) and (max-width: 799px) {
   .entry-title h1 {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     padding: 25px;
   }
   .entry-title p {
@@ -1421,7 +1421,7 @@ footer a:hover {
   }
   .hero-title h1 {
     color: #00284b;
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 50px;
@@ -1488,27 +1488,27 @@ footer a:hover {
   /* content styles */
   h1 {
     color: #003f49;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   h2 {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   h3 {
     color: #444444;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   h4 {
     color: #003f49;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   h5 {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   h6 {
     color: #444444;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   p.contentbox {
     font-size: 0.75rem;
@@ -1518,7 +1518,7 @@ footer a:hover {
     padding-right: 5px;
   }
   h2.contentbox, h3.contentbox, h4.contentbox {
-    font-size: 1rem;
+    font-size: 1rem !important;
     padding: 2rem 5px 0 5px;
     text-align: center;
   }
@@ -1540,7 +1540,7 @@ footer a:hover {
     margin-left: 0px;
     line-height: 1.2rem;
     word-spacing: 0.25rem;
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
     -webkit-padding-start: 0px !important;
     padding-inline-start: 20px !important;
     color: #ffffff;
@@ -1551,14 +1551,14 @@ footer a:hover {
     padding-top: 0.8rem;
     line-height: 1.6em;
     display: inline-block;
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
   }
   input, textarea {
     margin: 5px;
     font-family: inherit;
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
     line-height: inherit;
-    text-align: left !important;
+    text-align: left !important !important;
   }
   #section_two_image {
     background: url(../images/content-box-image1-450pxh.jpg);
@@ -1676,7 +1676,7 @@ footer a:hover {
   }
   .hero-title h1 {
     color: #00284b;
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 20px;
@@ -1687,7 +1687,7 @@ footer a:hover {
     height: 15px;
   }
   p.contentbox {
-    font-size: 0.7rem;
+    font-size: 0.7rem !important;
     word-spacing: 0;
     line-height: 1.3;
     padding-left: 5px;
@@ -1705,7 +1705,7 @@ footer a:hover {
     font-stretch: 0;
   }
   .h1, h1 {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
   h2.contentbox, h3.contentbox, h4.contentbox {
     font-size: 0.95rem;
@@ -1758,7 +1758,7 @@ footer a:hover {
     margin-left: 0;
     line-height: 1rem;
     word-spacing: 0.25rem;
-    font-size: 0.7rem;
+    font-size: 0.7rem !important;
   }
   ul.section_helpful_box {
     list-style-type: square;
@@ -1766,7 +1766,7 @@ footer a:hover {
     padding-top: 0.8rem;
     line-height: 1.2em;
     display: inline-block;
-    font-size: 0.7rem;
+    font-size: 0.7rem !important;
   }
   .section_mindfulness_image {
     background: url(../images/mindfulness-teal-400pxh.jpg);
@@ -1847,13 +1847,13 @@ footer a:hover {
     max-width: 320px;
   }
   h1.entry-title {
-    font-size: 1rem;
+    font-size: 1rem !important;
     margin: 0;
     padding: 25px 10px 15px 25px;
   }
   p.entry-paragraph {
     padding: 5px 20px 0 25px;
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
     margin-left: 0;
     margin-right: 0;
     text-align: justify;
@@ -1989,7 +1989,7 @@ footer a:hover {
   }
   .hero-title h1 {
     color: #00284b;
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
     font-family: Gill Sans;
     font-style: italic;
     padding: 15px 15px 15px 20px;
@@ -2002,30 +2002,30 @@ footer a:hover {
   /* content styles */
   h1 {
     color: #003f49;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   h2 {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   h3 {
     color: #444444;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   h4 {
     color: #003f49;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   h5 {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   h6 {
     color: #444444;
-    font-size: 1em;
+    font-size: 1em !important;
   }
   p {
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
     font-weight: 400;
     padding: 5px 20px;
     text-align: justify;
@@ -2052,7 +2052,7 @@ footer a:hover {
     padding-right: 7px;
   }
   h2.contentbox, h3.contentbox, h4.contentbox {
-    font-size: 1rem;
+    font-size: 1rem !important;
     padding: 2rem 5px 0 5px;
     text-align: center;
   }
@@ -2253,7 +2253,6 @@ footer a:hover {
     font-size: inherit;
     line-height: inherit;
     width: 95%;
-    text-align: left !important;
   }
   input {
     margin: 0;

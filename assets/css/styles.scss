@@ -1243,7 +1243,7 @@ footer a:hover {
 
 
     .entry-title h1 {
-        font-size: 1.2rem;
+        font-size: 1.2rem!important; //need to overide bootstrap default h
         padding: 25px;
     }
 
@@ -1313,7 +1313,7 @@ footer a:hover {
     
     .hero-title h1 {
         color: $darkblue;
-        font-size: 1.2rem;
+        font-size: 1.2rem!important; //need to overide bootstrap default h
         font-family: Gill Sans;
         font-style: italic;
         padding: 15px 15px  15px 50px;
@@ -1390,32 +1390,32 @@ footer a:hover {
 
     h1 {
         color: $darkteal;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     h2 {
         color: $bright;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     h3 {
         color: $darkgrey;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     h4 {
         color: $darkteal;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     h5 {
         color: $bright;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     h6 {
         color: $darkgrey;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
         
     p.contentbox {
@@ -1428,7 +1428,7 @@ footer a:hover {
     }
     
     h2.contentbox,h3.contentbox,h4.contentbox {
-        font-size: 1rem;
+        font-size: 1rem!important; //need to overide bootstrap default h
         padding: 2rem 5px 0 5px;
         text-align: center;
     }
@@ -1452,7 +1452,7 @@ footer a:hover {
         margin-left: 0px;
         line-height: 1.2rem;
         word-spacing: 0.25rem;
-        font-size: 0.75rem ;
+        font-size: 0.75rem!important; //need to overide bootstrap default h
         -webkit-padding-start: 0px !important;
         padding-inline-start: 20px !important;
         color:$bright;
@@ -1464,15 +1464,15 @@ footer a:hover {
         padding-top: 0.80rem;
         line-height: 1.6em;
         display: inline-block;
-        font-size: 0.75rem;
+        font-size: 0.75rem!important; //need to overide bootstrap default h
     } 
 
     input, textarea {
         margin: 5px;
         font-family: inherit;
-        font-size: 0.75rem;
+        font-size: 0.75rem!important; //need to overide bootstrap default h
         line-height: inherit;
-        text-align: left!important;;
+        text-align: left!important!important; //need to overide bootstrap default h
     }
 
     #section_two_image {
@@ -1583,7 +1583,7 @@ footer a:hover {
 
     .hero-title h1 {
         color: $darkblue;
-        font-size: 0.9rem;
+        font-size: 0.9rem!important; //need to overide bootstrap default h
         font-family: Gill Sans;
         font-style: italic;
         padding: 15px 15px 15px 20px;
@@ -1597,7 +1597,7 @@ footer a:hover {
     }
 
     p.contentbox {
-        font-size: 0.70rem;
+        font-size: 0.70rem!important; //need to overide bootstrap default h
         word-spacing: 0;
         line-height: 1.3;
         padding-left: 5px;
@@ -1619,7 +1619,7 @@ footer a:hover {
     }
 
     .h1, h1 {
-        font-size: 1.5rem;
+        font-size: 1.5rem!important; //need to overide bootstrap default h
     }
     
     h2.contentbox,h3.contentbox,h4.contentbox {
@@ -1654,7 +1654,7 @@ footer a:hover {
         margin-left: 0;
         line-height: 1rem;
         word-spacing: 0.25rem;
-        font-size: 0.70rem;
+        font-size: 0.70rem!important; //need to overide bootstrap default h
     } 
 
     ul.section_helpful_box {
@@ -1663,7 +1663,7 @@ footer a:hover {
         padding-top: 0.80rem;
         line-height: 1.2em;
         display: inline-block;
-        font-size: 0.70rem;
+        font-size: 0.70rem!important; //need to overide bootstrap default h
     }
 
     .section_mindfulness_image{
@@ -1714,14 +1714,14 @@ footer a:hover {
     }
 
     h1.entry-title {
-        font-size: 1rem;
+        font-size: 1rem!important; //need to overide bootstrap default h
         margin:0;
         padding: 25px 10px 15px 25px ;
     }
     
     p.entry-paragraph {
         padding: 5px 20px 0 25px;
-        font-size: 0.75rem;
+        font-size: 0.75rem!important; //need to overide bootstrap default h
         margin-left: 0;
         margin-right: 0 ;
         text-align: justify;
@@ -1852,7 +1852,7 @@ footer a:hover {
 
     .hero-title h1 {
         color: $darkblue;
-        font-size: 0.80rem;
+        font-size: 0.80rem!important; //need to overide bootstrap default h
         font-family: Gill Sans;
         font-style: italic;
         padding: 15px 15px 15px 20px;
@@ -1869,36 +1869,36 @@ footer a:hover {
 
     h1 {
         color: $darkteal;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     h2 {
         color: $bright;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     h3 {
         color: $darkgrey;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     h4 {
         color: $darkteal;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     h5 {
         color: $bright;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     h6 {
         color: $darkgrey;
-        font-size: 1em;
+        font-size: 1em!important; //need to overide bootstrap default h
     }
 
     p {
-        font-size: 0.75rem;
+        font-size: 0.75rem!important; //need to overide bootstrap default h
         font-weight: 400;
         padding: 5px 20px;
         text-align: justify;
@@ -1925,7 +1925,7 @@ footer a:hover {
     }
     
     h2.contentbox,h3.contentbox,h4.contentbox {
-        font-size: 1rem;
+        font-size: 1rem!important; //need to overide bootstrap default h
         padding: 2rem 5px 0 5px;
         text-align: center;
     }
@@ -2133,7 +2133,6 @@ footer a:hover {
         font-size: inherit;
         line-height: inherit;
         width: 95%;
-        text-align:left!important;
     }
 
     input {
