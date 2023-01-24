@@ -906,15 +906,6 @@ p.contentbox {
   word-spacing: 0.25rem;
 }
 
-.textarea {
-  padding-top: 2px;
-  flex-direction: row;
-  resize: auto;
-  cursor: auto;
-  white-space: break-spaces;
-  word-wrap: break-word;
-}
-
 #section_two_resp {
   display: none;
 }
@@ -1562,7 +1553,7 @@ footer a:hover {
     display: inline-block;
     font-size: 0.75rem;
   }
-  input, .textarea {
+  input, textarea {
     margin: 5px;
     font-family: inherit;
     font-size: 0.75rem;
@@ -2256,7 +2247,7 @@ footer a:hover {
     line-height: 1.025;
     padding: 10px 0;
   }
-  .textarea {
+  textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
