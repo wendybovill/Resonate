@@ -28,7 +28,7 @@ $iconhover: rgb(240, 235, 206);
 
 $basefontsize: 12pt;
 $typeface: Verdana, Geneva, Tahoma, sans-serif;
-$specialfont: Gill Sans;
+$specialfont: "Gill Sans";
 $baseIfasize: 8rem;
 
 
@@ -252,7 +252,7 @@ html, body {
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 800;
-    font-stretch: expanded 1.025;
+    font-stretch: expanded;
 }
 
 .entry-title h1 {
@@ -849,14 +849,14 @@ h2.section_more_text, h2.section_about_text {
         max-height: fit-content;
         color: $darkgrey;
         font-size: 1rem;
-        line-height: 1.025;
+        line-height:1.1em;
         width: 80%;
     }
     
     input.contact-form {
         color: $darkgrey;
         font-size: 1rem;
-        line-height: 1.025;
+        line-height:1.1em;
     }
 
     .text-input {
@@ -866,7 +866,7 @@ h2.section_more_text, h2.section_about_text {
     .contact-form label, legend {
         color: $darkgrey;
         font-size: 1rem;
-        line-height: 1.025;   
+        line-height:1.2em;   
     }
 
     .contact-form fieldset {
@@ -1201,7 +1201,7 @@ footer a:hover {
     .hero-title h1 {
         color: $darkblue;
         font-size: 1.8rem!important; //need to overide bootstrap default h
-        font-family: Gill Sans;
+        font-family: "Gill Sans";
         font-style: italic;
         padding: 15px 15px 25px 50px;
         margin: 20px;     
@@ -1315,7 +1315,7 @@ footer a:hover {
     .hero-title h1 {
         color: $darkblue;
         font-size: 1.2rem!important; //need to overide bootstrap default h
-        font-family: Gill Sans;
+        font-family: "Gill Sans";
         font-style: italic;
         padding: 15px 15px  15px 50px;
         margin:20px;
@@ -1585,7 +1585,7 @@ footer a:hover {
     .hero-title h1 {
         color: $darkblue;
         font-size: 0.9rem!important; //need to overide bootstrap default h
-        font-family: Gill Sans;
+        font-family: "Gill Sans";
         font-style: italic;
         padding: 15px 15px 15px 20px;
         margin: 10px;
@@ -1856,7 +1856,7 @@ footer a:hover {
     .hero-title h1 {
         color: $darkblue;
         font-size: 0.80rem!important; //need to overide bootstrap default h
-        font-family: Gill Sans;
+        font-family: "Gill Sans";
         font-style: italic;
         padding: 15px 15px 15px 20px;
         margin: 10px;
@@ -2119,14 +2119,14 @@ footer a:hover {
         max-height: fit-content;
         color: #444444;
         font-size: 0.65rem;
-        line-height: 1.025;
+        line-height:1em;
         width: 85%;
     }
 
     .contact-form label, legend {
         color: #444444;
         font-size: 0.76rem;
-        line-height: 1.025;
+        line-height:1em;
         padding: 10px 0;
     }
 
