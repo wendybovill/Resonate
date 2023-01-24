@@ -127,6 +127,8 @@ CSS Animations: Stackflow https://stackoverflow.com/questions/42632767/css-anima
 
 # Debugging & Test Results
 
+TEST CASES: https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/Test_Cases.md
+
 *Debugging:* Using devtools in chrome and safari. Corrected misaligned boxes with bootstrap. Resized font for smaller devices. Had to hide the large content boxes on the front page from showing in very small devices, and instead added sections with an image background. This is hidden from the users view on larger devices and they see the larger content boxes on the front page.
 
 The logo was overlapping the navigation on smaller devices. I had to resize it for smaller devices, and change the position of the navigation, as well as make the padding for the hover view smaller so the highlight behind did not overlap the logo.
@@ -154,5 +156,7 @@ CSS/Html not showing stylesheet or images: removed begining / from file path for
 W3 schools html validator
 
 W3 schools jigsaw css validator
+
+
 
 
