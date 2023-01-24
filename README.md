@@ -55,16 +55,18 @@ Photoshop for image resizing to optimised images for responsive design
 
 *Development Method:*
 
-	After receiving technical specification and design requirements, html template in page 1 was setup and SCSS template
-	was setup. This was tested and edited until it was perfect. The initial testing included running the code through html
-	W3 Validator and Jigsaw CSS Validator. When this was successfully passed, the styles and html index was used as a template
-	for the rest of the site.
+	After receiving technical specification and design requirements, html template in page 1 was setup
+	and SCSS template was setup. This was tested and edited until it was perfect. The initial testing
+	included running the code through html W3 Validator and Jigsaw CSS Validator. When this was
+	successfully passed, the styles and html index was used as a template for the rest of the site.
 	
-	At the end of the Development, before final testing, the stylesheet and html was tweaked to allow responsive replacement
-	images optimised using Photoshop and exported to Web standard optimised format, keeping clear images and low filesizes.
-	This is to speed up page loading for various screensizes while still maintaining high visibility standards.
-	
-	End Testing took place where the final site and css was run through the validators again, as well as debugging techniques used in DevTools
+	At the end of the Development, before final testing, the stylesheet and html was tweaked to allow
+	responsive replacement images optimised using Photoshop and exported to Web standard optimised format,
+	keeping clear images and low filesizes. This is to speed up page loading for various screensizes while
+	still maintaining high visibility standards.
+
+	End Testing took place where the final site and css was run through the validators again, as well as
+	debugging techniques used in DevTools
 	
 
 *Site Information*
@@ -130,15 +132,16 @@ Photoshop for image resizing to optimised images for responsive design
 
 1. 	Implement Voice Assistance / Voice Over for Assisted Technology
 
-2. 	Feedback poll as an Enquiry Form with a radio button as a poll which allows the user to select if they have been battling
- 	with anxiety. And if yes, if it was worse before, during or after the lockdowns.
+2. 	Feedback poll as an Enquiry Form with a radio button as a poll which allows the user to select if they
+	have been battling with anxiety. And if yes, if it was worse before, during or after the lockdowns.
 
 3. 	Further deployment to hosted subdomain name
 
 
 **Feedback Form Plan:**
 
-	Age, Ethnicity, Interested in Resonate App Radio button y/n, Which version? Lite/Enterprise Checkbox y/n, 
+	Age, Ethnicity, Interested in Resonate App Radio button y/n
+	Which version? Lite/Enterprise Checkbox y/n, 
 	Name, Email, Message, Send Button.
 	
 
@@ -170,21 +173,24 @@ https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47
 
 *Debugging:* 
 
-	Using devtools in chrome and safari. Corrected misaligned boxes with bootstrap. Resized font for smaller devices. Had to hide
-	the large content boxes on the front page from showing in very small devices, and instead added sections with an image
-	background. This is hidden from the users view on larger devices and they see the larger content boxes on the front page.
+	Using devtools in chrome and safari. Corrected misaligned boxes with bootstrap. Resized font for smaller
+	devices. Had to hide the large content boxes on the front page from showing in very small devices, and
+	instead added sections with an image background. This is hidden from the users view on larger devices and
+	they see the larger content boxes on the front page.
 
-	The logo was overlapping the navigation on smaller devices. I had to resize it for smaller devices, and change the position
-	of the navigation, as well as make the padding for the hover view smaller so the highlight behind did not overlap the logo.
+	The logo was overlapping the navigation on smaller devices. I had to resize it for smaller devices, and
+	change the position of the navigation, as well as make the padding for the hover view smaller so the
+	highlight behind did not overlap the logo.
 
-	There were issues when first deployed to github pages, where the stylesheet and images did not show. This was corrected after
-	consultation with my mentor Gaff, and the links were then corrected.
+	There were issues when first deployed to github pages, where the stylesheet and images did not show.
+	This was corrected after consultation with my mentor Gaff, and the links were then corrected.
 
-	There were multiple issues trying to get the font awesome to show. No matter what css link I used. In the end the only one it
-	accepted is a kit link for js.
+	There were multiple issues trying to get the font awesome to show. No matter what css link I used. In the
+	end the only one it accepted is a kit link for js.
 
-	Early testing using W3 html validator found 2 attributes that needed to be separated by a space, and complained about the
-	aria-labels I'd used as a violation so I changed them to titles to describe what the following section was about.
+	Early testing using W3 html validator found 2 attributes that needed to be separated by a space, and 
+	complained about the aria-labels I'd used as a violation so I changed them to titles to describe what the
+	following section was about.
 	
 	End Testing has been included in the Test Cases document:
 	https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md
@@ -206,7 +212,9 @@ https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47
 
 	CSS/Html fix floating footer: Bootstrap5: used col-12 in footer class
 
-	CSS/Html not showing stylesheet or images: removed begining / from file path for stylesheet fix, and added ../images/imagehere.jpg instead of /assets/images/imagehere.jpg
+	CSS/Html not showing stylesheet or images:
+		- removed begining / from file path for stylesheet fix, and added ../images/imagehere.jpg
+		  instead of /assets/images/imagehere.jpg
 
 	W3 schools html validator
 
@@ -222,9 +230,11 @@ https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47
 **A NOTE ON COMMITS:**
 
 The site was deployed early to github to use as a testing environment, along with the Live Server in Gitpod.
-As a result there were many commits made. Some were repeatitive commits with nothing but undoing or redoing a previous change,
-and in some places correcting spacing or typos. These commits were not fully commented on, instead using a simple fullstop "." as a comment for that commit. In some instances I used the words same to indicate the commit was doing the same thing I had done before.
-This was due to an error with the previous commit actually being sent correctly to Github, so needed to be redone or resent when there was a connection error.
+As a result there were many commits made. Some were repeatitive commits with nothing but undoing or redoing
+a previous change, and in some places correcting spacing or typos. These commits were not fully commented on,
+instead using a simple fullstop "." as a comment for that commit. In some instances I used the words same to
+indicate the commit was doing the same thing I had done before. This was due to an error with the previous
+commit actually being sent correctly to Github, so needed to be redone or resent when there was a connection error.
 
 
 
