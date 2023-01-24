@@ -14,13 +14,13 @@ To demonstrate to the user that anxiety in the population has increased since th
 
 1. Introduction
 
-2. Bar-chart showing statistics, with a hover animation effect for each section that changes the opacity of the after pandemic statistic to show from 0 opacity to 50% opacity.
+2. Bar-chart showing statistics
 
 3. Tips on how to manage anxiety
 
 4. Sign-posting to help sites and phone lines to help manage anxiety
 
-5. Enquiry Form for users to find out more about the Resonate Mindfulness Apps (both free and bespoke versions).
+5. Enquiry Form for users to find out more about the Resonate Mindfulness Apps (both free and bespoke versions)
 
 
 ## User Stories:
