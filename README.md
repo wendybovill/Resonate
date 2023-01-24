@@ -121,7 +121,7 @@ WAV files converted to MP3 using: https://www.freeconvert.com/wav-to-mp3
 
 Videos are from Youtube
 
-Sounds are from Free sound files downloaded
+Markdown table generator used: https://www.tablesgenerator.com/markdown_tables#
 
 # Debugging & Test Results:
 
@@ -173,6 +173,7 @@ DevTools in Browser
 Gitpod was used in conjuction with VSCode and SASS compiler
 
 Regular commits were made throughout the process to github
+
 
 **A NOTE ON COMMITS:**
 
