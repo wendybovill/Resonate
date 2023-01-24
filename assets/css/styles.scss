@@ -944,6 +944,15 @@ p.contentbox {
     word-spacing: 0.25rem;
 }
 
+textarea {
+padding-top: 2px;
+flex-direction: row;
+resize: auto;
+cursor: auto;
+white-space: break-spaces;
+word-wrap: break-word;
+}
+
 
 // hiding the small device responsive sections
 
