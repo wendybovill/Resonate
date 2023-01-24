@@ -1687,8 +1687,8 @@ footer a:hover {
   .hero-title div, .hero-title h1 {
     height: 15px;
   }
-  p.contentbox, p.section_more_text {
-    font-size: 0.8rem !important;
+  p.contentbox, p.section_more_text, p.section_where_text {
+    font-size: 0.9rem !important;
     word-spacing: 0;
     line-height: 1.3 !important;
     padding-left: 5px;
@@ -1756,7 +1756,7 @@ footer a:hover {
   ul.bright.contentbox, ul.bright.section_more_box {
     list-style-type: none;
     list-style-position: outside;
-    padding-top: 0.8rem;
+    padding-top: 0.9rem;
     margin-left: 0;
     line-height: 1rem !important;
     word-spacing: 0.25rem;
@@ -1765,7 +1765,7 @@ footer a:hover {
   ul.section_helpful_box, ul.section_more_box {
     list-style-type: square;
     list-style-position: outside;
-    padding-top: 0.8rem;
+    padding-top: 0.9rem;
     line-height: 1.2em !important;
     display: inline-block;
     font-size: 0.7rem !important;
