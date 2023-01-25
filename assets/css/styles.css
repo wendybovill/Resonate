@@ -1679,12 +1679,12 @@ footer a:hover {
   }
   .hero-title h1 {
     color: #00284b;
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
     font-family: "Gill Sans";
     font-style: italic;
     padding: 15px 5px 15px 7px;
     margin: 10px;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7), -1px -1px 1px rgba(255, 255, 255, 0.7);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4), -1px -1px 1px rgba(255, 255, 255, 0.4);
   }
   .hero-title div, .hero-title h1 {
     height: 15px;
@@ -2055,12 +2055,12 @@ footer a:hover {
   }
   .hero-title h1 {
     color: #00284b;
-    font-size: 0.9rem !important;
+    font-size: 0.8rem !important;
     font-family: "Gill Sans";
     font-style: italic;
     padding: 15px 7px;
     margin: 10px;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7), -1px -1px 1px rgba(255, 255, 255, 0.7);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4), -1px -1px 1px rgba(255, 255, 255, 0.4);
   }
   .hero-title div, .hero-title h1 {
     height: 15px;

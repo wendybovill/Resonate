@@ -1588,13 +1588,13 @@ footer a:hover {
 
     .hero-title h1 {
         color: #00284b;
-        font-size: 1.1rem !important;
+        font-size: 1rem !important;
         font-family: "Gill Sans";
         font-style: italic;
         padding: 15px 5px 15px 7px;
         margin: 10px;
         //this next code is modified by myself here but originally taken from a text shadow generator at https://html-css-js.com/css/generator/text-shadow/
-        text-shadow: 1px 1px 1px rgba(255,255,255,0.7), -1px -1px 1px rgba(255,255,255,0.7);    }
+        text-shadow: 1px 1px 1px rgba(255,255,255,0.4), -1px -1px 1px rgba(255,255,255,0.4);    }
     
     .hero-title div, .hero-title h1{
         height: 15px;
@@ -1918,13 +1918,13 @@ footer a:hover {
 
     .hero-title h1 {
         color: $darkblue;
-        font-size: 0.9rem!important; //need to overide bootstrap default h
+        font-size: 0.8rem!important; //need to overide bootstrap default h
         font-family: "Gill Sans";
         font-style: italic;
         padding: 15px 7px;
         margin: 10px;
         //this next code is modified by myself here but originally taken from a text shadow generator at https://html-css-js.com/css/generator/text-shadow/
-        text-shadow: 1px 1px 1px rgba(255,255,255,0.7), -1px -1px 1px rgba(255,255,255,0.7);    
+        text-shadow: 1px 1px 1px rgba(255,255,255,0.4), -1px -1px 1px rgba(255,255,255,0.4);    
     }
     
     .hero-title div, .hero-title h1{
