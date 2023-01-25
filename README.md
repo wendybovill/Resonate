@@ -291,6 +291,13 @@ indicate the commit was doing the same thing I had done before. This was due to 
 commit actually being sent correctly to Github, so needed to be redone or resent when there was a connection error.
 
 
+## Screenshots of Index page from finished site - Desktop View
 
+| Screenshots of Index Page Finished Site Desktop View  |
+|-----------------------------------------------------------------------|
+| ![Finished Site Desktop View Index Page](https://github.com/wendybovill/milestone-project-one/blob/4f586938f9b5d1ea8ea390a78e96a03a348569ca/documentation/Site1.png)|
+| ![Finished Site Desktop View Index Page](https://github.com/wendybovill/milestone-project-one/blob/4f586938f9b5d1ea8ea390a78e96a03a348569ca/documentation/Site2.png)|
+| ![Finished Site Desktop View Index Page](https://github.com/wendybovill/milestone-project-one/blob/4f586938f9b5d1ea8ea390a78e96a03a348569ca/documentation/Site3.png)|
+| ![Finished Site Desktop View Index Page](https://github.com/wendybovill/milestone-project-one/blob/4f586938f9b5d1ea8ea390a78e96a03a348569ca/documentation/Site4.png)|
 
 
