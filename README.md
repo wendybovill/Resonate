@@ -153,8 +153,7 @@ Photoshop for image resizing to optimised images for responsive design
 
 # Acknowledgements
 
-	CSS Animations: 
-	Stackflow:
+	CSS Animations from Stackflow:
 	https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container  
 	- I used the code and edited by removing the staged % keyframes and also made it shrink instead of grow. 
 	For the flyIn one, I removed the inbetween keyframes and only had 2 to make the animation smoother.
@@ -225,6 +224,8 @@ https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47
 	CSS/Html not showing stylesheet or images:
 		- removed begining / from file path for stylesheet fix, and added ../images/imagehere.jpg
 		  instead of /assets/images/imagehere.jpg
+		  
+	CSS animations changes: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 
 	W3 schools html validator: http://validator.w3.org
 
