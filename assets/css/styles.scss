@@ -1270,7 +1270,7 @@ footer a:hover {
 
     .container {
         width:100%;
-        max-width: 767px;
+        max-width: 799px;
     }
 
     .hero_image1 {
@@ -1499,6 +1499,11 @@ footer a:hover {
 
 /* Smaller devices */
 @media (min-width: 320px) and (max-width: 449px){
+
+    .container {
+    width: 100%;
+    max-width: 449px;
+    }
 
     #menu div {
     clear:both!important;
@@ -1776,7 +1781,7 @@ footer a:hover {
 @media (min-width: 150px) and (max-width: 319px){
     .container {
         width: 100%;
-        max-width: 320px;
+        max-width: 319px;
     }
 
     h1.entry-title {
@@ -1818,15 +1823,15 @@ footer a:hover {
         position: absolute;
         bottom: 0px;
         display: inline-block;
-        font-size: 8pt;
-        padding: 14px;
+        font-size: 6pt;
+        padding: 10px;
         white-space: nowrap;
         font-weight: 400;
         z-index: 99999;
     }
 
     #navigation a {
-        padding: 7px 8px;
+        padding: 7px 5px;
         text-decoration: none;
         color: $grey;
         z-index: 99999;
@@ -1838,7 +1843,7 @@ footer a:hover {
     }
 
     #navigation a:hover {
-        padding: 7px 8px;
+        padding: 7px 5px;
         text-decoration: none;
         color: $teal;
         background-color: $transparent-bk;
@@ -1847,7 +1852,7 @@ footer a:hover {
 
     #navigation a:active,
     .active {
-        padding: 7px 8px;
+        padding: 7px 5px;
         text-decoration: none;
         color: $teal;
         z-index: 99999;
@@ -1855,7 +1860,7 @@ footer a:hover {
 
     #navigation a:active:hover,
     .active:hover {
-        padding: 7px 8px;
+        padding: 7px 5px;
         text-decoration: none;
         color: $darkteal;
         background-color: $transparent-bk;

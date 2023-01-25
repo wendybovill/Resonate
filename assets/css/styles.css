@@ -1359,7 +1359,7 @@ footer a:hover {
   }
   .container {
     width: 100%;
-    max-width: 767px;
+    max-width: 799px;
   }
   .hero_image1 {
     background: url(../images/hero-image1-250pxh.jpg);
@@ -1602,6 +1602,10 @@ footer a:hover {
 }
 /* Smaller devices */
 @media (min-width: 320px) and (max-width: 449px) {
+  .container {
+    width: 100%;
+    max-width: 449px;
+  }
   #menu div {
     clear: both !important;
     height: 40px;
@@ -1910,7 +1914,7 @@ footer a:hover {
 @media (min-width: 150px) and (max-width: 319px) {
   .container {
     width: 100%;
-    max-width: 320px;
+    max-width: 319px;
   }
   h1.entry-title {
     font-size: 1rem !important;
@@ -1947,14 +1951,14 @@ footer a:hover {
     position: absolute;
     bottom: 0px;
     display: inline-block;
-    font-size: 8pt;
-    padding: 14px;
+    font-size: 6pt;
+    padding: 10px;
     white-space: nowrap;
     font-weight: 400;
     z-index: 99999;
   }
   #navigation a {
-    padding: 7px 8px;
+    padding: 7px 5px;
     text-decoration: none;
     color: #585858;
     z-index: 99999;
@@ -1964,7 +1968,7 @@ footer a:hover {
     box-sizing: unset !important;
   }
   #navigation a:hover {
-    padding: 7px 8px;
+    padding: 7px 5px;
     text-decoration: none;
     color: #025a67;
     background-color: rgba(255, 255, 255, 0.5);
@@ -1972,14 +1976,14 @@ footer a:hover {
   }
   #navigation a:active,
 .active {
-    padding: 7px 8px;
+    padding: 7px 5px;
     text-decoration: none;
     color: #025a67;
     z-index: 99999;
   }
   #navigation a:active:hover,
 .active:hover {
-    padding: 7px 8px;
+    padding: 7px 5px;
     text-decoration: none;
     color: #003f49;
     background-color: rgba(255, 255, 255, 0.5);
