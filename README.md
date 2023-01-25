@@ -66,46 +66,47 @@ Windows, Android phone for testing
 
 *Development Method:*
 
-	After receiving technical specification and design requirements, html template in page 1 was setup
-	and SCSS template was setup. This was tested and edited until it was perfect. The initial testing
-	included running the code through html W3 Validator and Jigsaw CSS Validator. When this was
-	successfully passed, the styles and html index was used as a template for the rest of the site.
-	
-	SCSS was used along with variables and mixins, this was then compiled out to CSS by using a SASS
-	Watcher extenstin in VS Code, which automated the compiling of the CSS each time SCSS was saved
-	with a change having been made to the code.
-	
-	Duplicate pages were set up from the html index page, and the hero image was changed in each section
-	in styles, along with the relevant content for each page being changed in the html pages themselves.
-	New images were added from the exported images from Adobe XD mockups. These were then resized later
-	and optimised by Adobe Photoshop, and used as replacement images for device responsive styles. The
-	stylesheet and html was tweaked to allow responsive replacement images optimised using Photoshop
-	and exported to Web standard optimised format, keeping clear images and low filesizes. This is to
-	speed up page loading for various screensizes while still maintaining good image resolution.
-	
-	Further content was added that was not in the mockups, such as the app.html page which is a hidden
-	page, but can be reached by clicking on the download app link or QR code, or scanning the QR code
-	using a mobile phone. This takes the user to a small form to fill in with a GET post that would
-	download an app. (This is yet to be developed at a later stage and not part of the project). The
-	download button points to Code Institutes form dump, as does the Contact Form on the contact.html
-	page. The results of the POST methods and GET methods can be seen in the form dump.
-	
-	After each change the page was viewed using Live Server in Gitpod VS Code, and testing was carried
-	out throughout the development process, using DevTools in the browser. Errors were identified and
-	corrected throughout the proces, screenshots were taken to document these. 
-	
-	At the end of the Development, before final testing the code for CSS and html was again put through
-	the respective validators at W3 Validator and Jigsaw. Errors were identifed and fixed. Notes were
-	created of the errors and added to the debugging md file.
+After receiving technical specification and design requirements, html template in page 1 was setup
+and SCSS template was setup. This was tested and edited until it was perfect. The initial testing
+included running the code through html W3 Validator and Jigsaw CSS Validator. When this was
+successfully passed, the styles and html index was used as a template for the rest of the site.
 
-	End Testing took place where the final site and css was run through the validators again, as well as
-	debugging techniques used in DevTools to ensure all errors were fixed. These were screenshot as
-	part of the debugging process and added to the debugging md file.
-	
-	Throughout the development process, handwritten notes were made, serving as a 'To Do List' of what
-	needs to be done and then ticked off when completed. These are available as photographs in notes.md
-	
-	
+SCSS was used along with variables and mixins, this was then compiled out to CSS by using a SASS
+Watcher extenstin in VS Code, which automated the compiling of the CSS each time SCSS was saved
+with a change having been made to the code.
+
+Duplicate pages were set up from the html index page, and the hero image was changed in each section
+in styles, along with the relevant content for each page being changed in the html pages themselves.
+New images were added from the exported images from Adobe XD mockups. These were then resized later
+and optimised by Adobe Photoshop, and used as replacement images for device responsive styles. The
+stylesheet and html was tweaked to allow responsive replacement images optimised using Photoshop
+and exported to Web standard optimised format, keeping clear images and low filesizes. This is to
+speed up page loading for various screensizes while still maintaining good image resolution.
+
+Further content was added that was not in the mockups, such as the app.html page which is a hidden
+page, but can be reached by clicking on the download app link or QR code, or scanning the QR code
+using a mobile phone. This takes the user to a small form to fill in with a GET post that would
+download an app. (This is yet to be developed at a later stage and not part of the project). The
+download button points to Code Institutes form dump, as does the Contact Form on the contact.html
+page. The results of the POST methods and GET methods can be seen in the form dump.
+
+After each change the page was viewed using Live Server in Gitpod VS Code, and testing was carried
+out throughout the development process, using DevTools in the browser. Errors were identified and
+corrected throughout the proces, screenshots were taken to document these. 
+
+At the end of the Development, before final testing the code for CSS and html was again put through
+the respective validators at W3 Validator and Jigsaw. Errors were identifed and fixed. Notes were
+created of the errors and added to the debugging md file.
+
+End Testing took place where the final site and css was run through the validators again, as well as
+debugging techniques used in DevTools to ensure all errors were fixed. These were screenshot as
+part of the debugging process and added to the debugging md file.
+
+Throughout the development process, handwritten notes were made, serving as a 'To Do List' of what
+needs to be done and then ticked off when completed. These are available as photographs in notes.md
+
+Handwritten notes forming part of development and testing:
+https://github.com/wendybovill/milestone-project-one/blob/f3642747c1d664d42cfb915bf2aceeca4bc39549/documentation/notes.md
 	
 
 *Site Information*
@@ -252,6 +253,8 @@ https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07
 Document of validation and errors can be viewed by clicking on the link below:
 https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md	
 
+Handwritten notes forming part of development and testing:
+https://github.com/wendybovill/milestone-project-one/blob/f3642747c1d664d42cfb915bf2aceeca4bc39549/documentation/notes.md
 
 
 *Refereces used to assist debugging:*
