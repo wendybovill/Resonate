@@ -1493,7 +1493,7 @@ footer a:hover {
 }
 
 /* Smaller devices */
-@media (min-width: 321px) and (max-width: 450px){
+@media (min-width: 320px) and (max-width: 449px){
 
     #menu div {
     clear:both!important;
@@ -1583,7 +1583,7 @@ footer a:hover {
 
     .hero-title h1 {
         color: $darkblue;
-        font-size: 0.9rem!important; //need to overide bootstrap default h
+        font-size: 0.95rem!important; //need to overide bootstrap default h
         font-family: "Gill Sans";
         font-style: italic;
         padding: 15px 15px 15px 20px;
@@ -1597,9 +1597,9 @@ footer a:hover {
     }
 
     p.contentbox, p.section_more_text, p.section_where_text {
-        font-size: 0.9rem!important; //need to overide bootstrap default h
+        font-size: 0.75rem!important; //need to overide bootstrap default h
         word-spacing: 0;
-        line-height: 1.3!important; //need to overide bootstrap default h
+        line-height: 0.9rem!important; //need to overide bootstrap default h
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 1rem;
@@ -1647,25 +1647,25 @@ footer a:hover {
         @include sectionimagebox();
     }
 
-    ul.bright.contentbox, ul.bright.section_more_box, ul.bright.contentbox li, ul.bright.section_more_box li{
+    ul.bright.contentbox, ul.bright.section_more_box, ul.bright.contentbox li, ul.bright.section_more_box li, ul.section_four_text, ul.section_four_text li {
         list-style-type: none;
         list-style-position: outside;
-        padding-top: 0.9rem;
+        padding-top: 0.2rem;
         margin-left: 0;
-        line-height: 1rem!important; //need to overide bootstrap default h
+        line-height: 0.9rem !important;
         word-spacing: 0.25rem;
-        font-size: 0.9rem!important; //need to overide bootstrap default h
-        padding-left: unset!important; //need to overide bootstrap default li
-    } 
+        font-size: 0.75rem !important;
+        padding-left: 5px!important;
+    }
 
     ul.section_helpful_box, ul.section_more_box, ul.section_helpful_box li, ul.section_more_box li {
         list-style-type: square;
         list-style-position: outside;
-        padding-top: 0.9rem;
-        line-height: 1.2em!important; //need to overide bootstrap default h
+        padding-top: 0.2rem;
+        line-height: 0.9em!important; //need to overide bootstrap default h
         display: inline-block;
-        font-size: 0.9rem!important; //need to overide bootstrap default h
-        padding-left: unset!important; //need to overide bootstrap default li
+        font-size: 0.75rem!important; //need to overide bootstrap default h
+        padding-left: 5px!important; //need to overide bootstrap default li
     }
 
     .section_mindfulness_image{
@@ -1709,7 +1709,7 @@ footer a:hover {
 }
 
 /* Extra Small devices */
-@media (min-width: 150px) and (max-width: 320px){
+@media (min-width: 150px) and (max-width: 319px){
     .container {
         width: 100%;
         max-width: 320px;
@@ -1854,7 +1854,7 @@ footer a:hover {
 
     .hero-title h1 {
         color: $darkblue;
-        font-size: 0.80rem!important; //need to overide bootstrap default h
+        font-size: 0.9rem!important; //need to overide bootstrap default h
         font-family: "Gill Sans";
         font-style: italic;
         padding: 15px 15px 15px 20px;

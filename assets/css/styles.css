@@ -1598,7 +1598,7 @@ footer a:hover {
   }
 }
 /* Smaller devices */
-@media (min-width: 321px) and (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 449px) {
   #menu div {
     clear: both !important;
     height: 40px;
@@ -1676,7 +1676,7 @@ footer a:hover {
   }
   .hero-title h1 {
     color: #00284b;
-    font-size: 0.9rem !important;
+    font-size: 0.95rem !important;
     font-family: "Gill Sans";
     font-style: italic;
     padding: 15px 15px 15px 20px;
@@ -1687,9 +1687,9 @@ footer a:hover {
     height: 15px;
   }
   p.contentbox, p.section_more_text, p.section_where_text {
-    font-size: 0.9rem !important;
+    font-size: 0.75rem !important;
     word-spacing: 0;
-    line-height: 1.3 !important;
+    line-height: 0.9rem !important;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 1rem;
@@ -1752,24 +1752,24 @@ footer a:hover {
     height: 50vw;
     border: none;
   }
-  ul.bright.contentbox, ul.bright.section_more_box, ul.bright.contentbox li, ul.bright.section_more_box li {
+  ul.bright.contentbox, ul.bright.section_more_box, ul.bright.contentbox li, ul.bright.section_more_box li, ul.section_four_text, ul.section_four_text li {
     list-style-type: none;
     list-style-position: outside;
-    padding-top: 0.9rem;
+    padding-top: 0.2rem;
     margin-left: 0;
-    line-height: 1rem !important;
+    line-height: 0.9rem !important;
     word-spacing: 0.25rem;
-    font-size: 0.9rem !important;
-    padding-left: unset !important;
+    font-size: 0.75rem !important;
+    padding-left: 5px !important;
   }
   ul.section_helpful_box, ul.section_more_box, ul.section_helpful_box li, ul.section_more_box li {
     list-style-type: square;
     list-style-position: outside;
-    padding-top: 0.9rem;
-    line-height: 1.2em !important;
+    padding-top: 0.2rem;
+    line-height: 0.9em !important;
     display: inline-block;
-    font-size: 0.9rem !important;
-    padding-left: unset !important;
+    font-size: 0.75rem !important;
+    padding-left: 5px !important;
   }
   .section_mindfulness_image {
     background: url(../images/mindfulness-teal-400pxh.jpg);
@@ -1844,7 +1844,7 @@ footer a:hover {
   }
 }
 /* Extra Small devices */
-@media (min-width: 150px) and (max-width: 320px) {
+@media (min-width: 150px) and (max-width: 319px) {
   .container {
     width: 100%;
     max-width: 320px;
@@ -1992,7 +1992,7 @@ footer a:hover {
   }
   .hero-title h1 {
     color: #00284b;
-    font-size: 0.8rem !important;
+    font-size: 0.9rem !important;
     font-family: "Gill Sans";
     font-style: italic;
     padding: 15px 15px 15px 20px;
