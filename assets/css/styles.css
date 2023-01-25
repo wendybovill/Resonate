@@ -79,6 +79,11 @@ html, body {
   height: 100%;
 }
 
+body {
+  scrollbar-color: gold #444444;
+  scrollbar-width: thin;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   font-stretch: expanded;
