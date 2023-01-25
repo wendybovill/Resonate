@@ -293,11 +293,14 @@ commit actually being sent correctly to Github, so needed to be redone or resent
 
 ## Screenshots of Index page from finished site - Desktop View
 
-| Screenshots of Index Page Finished Site Desktop View  |
+| Screenshot showing first part of Index Page Finished Site Desktop View  |
 |-----------------------------------------------------------------------|
 | ![Finished Site Desktop View Index Page](https://github.com/wendybovill/milestone-project-one/blob/4f586938f9b5d1ea8ea390a78e96a03a348569ca/documentation/Site1.png)|
+| Screenshot showing second part of Index Page Finished Site Desktop View  |
 | ![Finished Site Desktop View Index Page](https://github.com/wendybovill/milestone-project-one/blob/4f586938f9b5d1ea8ea390a78e96a03a348569ca/documentation/Site2.png)|
+| Screenshot showing third part of Index Page Finished Site Desktop View  |
 | ![Finished Site Desktop View Index Page](https://github.com/wendybovill/milestone-project-one/blob/4f586938f9b5d1ea8ea390a78e96a03a348569ca/documentation/Site3.png)|
+| Screenshot fourth part of Index Page Finished Site Desktop View  |
 | ![Finished Site Desktop View Index Page](https://github.com/wendybovill/milestone-project-one/blob/4f586938f9b5d1ea8ea390a78e96a03a348569ca/documentation/Site4.png)|
 
 
