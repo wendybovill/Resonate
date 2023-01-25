@@ -32,7 +32,7 @@ $specialfont: "Gill Sans";
 $baseIfasize: 8rem;
 
 
-/* animations */
+/* animations - hero image shrinks inwards */
 
 @keyframes heroShrink {
     from {
@@ -42,6 +42,8 @@ $baseIfasize: 8rem;
       transform: scale(1);
     }
 }
+
+/* hero text title flies in from left */
 
 @keyframes flyIn {
     from { transform : translateX(-100%) };
@@ -207,6 +209,7 @@ $baseIfasize: 8rem;
 }
 
 /* ______ This is the main section of the website styles ______ */
+// Where !important is used, its to override the default bootstrap settings
 
 *, ::after, ::before {
     box-sizing: unset!important;
@@ -682,7 +685,7 @@ h3.section_chart_text {
     text-align: center;
 }
 
-div.caption {
+div.caption { //chart caption
     color: $darkgrey;
     font-size: 1rem;
     line-height: 3;
@@ -691,7 +694,7 @@ div.caption {
     font-weight:600;
 }
 
-div.reference {
+div.reference { //chart reference
     color: $darkgrey;
     font-size: 0.70rem;
     line-height: 1;
@@ -750,7 +753,6 @@ h2.section_more_text, h2.section_about_text {
 }
 
 // Get Support page
-
 
     .section_mindfulness_image{
         background: url(../images/mindfulness-teal.jpg);
@@ -943,7 +945,7 @@ p.contentbox {
 }
 
 
-// hiding the small device responsive sections
+/* hiding the extra small device responsive sections over 320px device width */
 
 #section_two_resp {
     display:none;
@@ -2053,7 +2055,7 @@ footer a:hover {
     }
 
     
-    // hide the sections two through to four on first page and replace with single block
+    /* hide the sections two through to four on first page and replace with single responsive section for devices under 320px wide */
 
     #section_two {
         display:none;
@@ -2066,6 +2068,8 @@ footer a:hover {
     #section_four {
         display:none;
     }
+
+    /* below sections replaced sections two through to four on first page and replace for devices under 320px wide */
 
     #section_two_resp {
         display: block;

@@ -1,4 +1,4 @@
-/* animations */
+/* animations - hero image shrinks inwards */
 @-webkit-keyframes heroShrink {
   from {
     transform: scale(1.2);
@@ -15,6 +15,7 @@
     transform: scale(1);
   }
 }
+/* hero text title flies in from left */
 @-webkit-keyframes flyIn {
   from {
     transform: translateX(-100%);
@@ -904,6 +905,7 @@ p.contentbox {
   word-spacing: 0.25rem;
 }
 
+/* hiding the extra small device responsive sections over 320px device width */
 #section_two_resp {
   display: none;
 }
@@ -2170,6 +2172,7 @@ footer a:hover {
   #section_one, #section_icontools, #section_tools_intro {
     padding: unset !important;
   }
+  /* hide the sections two through to four on first page and replace with single responsive section for devices under 320px wide */
   #section_two {
     display: none;
   }
@@ -2179,6 +2182,7 @@ footer a:hover {
   #section_four {
     display: none;
   }
+  /* below sections replaced sections two through to four on first page and replace for devices under 320px wide */
   #section_two_resp {
     display: block;
     color: #ffffff;
