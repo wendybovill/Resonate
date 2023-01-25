@@ -281,7 +281,7 @@ https://github.com/wendybovill/milestone-project-one/blob/f3642747c1d664d42cfb91
 
 
 
-**A NOTE ON COMMITS:**
+**A NOTE ON COMMITS AND COMMENTS:**
 
 The site was deployed early to github to use as a testing environment, along with the Live Server in Gitpod.
 As a result there were many commits made. Some were repeatitive commits with nothing but undoing or redoing
