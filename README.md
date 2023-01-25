@@ -217,25 +217,25 @@ https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47
 
 *Refereces used to assist debugging:*
 
-	SCSS https://sass-lang.com/guide
+- SCSS https://sass-lang.com/guide
 
-	CSS/Html fix floating footer: Bootstrap5: used col-12 in footer class
+- CSS/Html fix floating footer: Bootstrap5: used col-12 in footer class
 
-	CSS/Html not showing stylesheet or images:
-		- removed begining / from file path for stylesheet fix, and added ../images/imagehere.jpg
-		  instead of /assets/images/imagehere.jpg
-		  
-	CSS animations changes: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+- CSS/Html not showing stylesheet or images:
+	- removed begining / from file path for stylesheet fix, and added ../images/imagehere.jpg
+	  instead of /assets/images/imagehere.jpg
 
-	W3 schools html validator: http://validator.w3.org
+- CSS animations changes: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 
-	W3 schools jigsaw css validator: http://jigsaw.w3.org
+- W3 schools html validator: http://validator.w3.org
 
-	DevTools in Browser
+- W3 schools jigsaw css validator: http://jigsaw.w3.org
 
-	Gitpod was used in conjuction with VSCode and SASS compiler
+- DevTools in Browser
 
-	Regular commits were made throughout the process to github
+- Gitpod was used in conjuction with VSCode and SASS compiler
+
+- Regular commits were made throughout the process to github as deployed at onset using gitpod
 
 
 **A NOTE ON COMMITS:**
