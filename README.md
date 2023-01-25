@@ -18,7 +18,7 @@
 
 2. Bar-chart showing statistics
 
-3. Tips on how to manage anxiety, and tools including the Resonate App being promoted
+3. Tips on how to manage anxiety, and tools including the Resonate App being promoted and with a QR code to download
 
 4. Sign-posting to help sites and phone lines to help manage anxiety
 
@@ -128,6 +128,10 @@ Photoshop for image resizing to optimised images for responsive design
 
 1. 	Removed 'More' menu item and moved the more content into the about content.
 	The More menu item became the 'Contact' menu item.
+	
+2.	Colours changed on hover icons, swapped teal and blue colours.
+
+3.	Added Qr code and hidden app.html page for download of Resonate App.
 
 
 ## Future Development:
@@ -159,7 +163,9 @@ Photoshop for image resizing to optimised images for responsive design
 
 	Videos are from Youtube
 
-	Markdown table generator used: https://www.tablesgenerator.com/markdown_tables#
+	Markdown table generator used: https://www.tablesgenerator.com/markdown_tables
+	
+	QR Code added to go to page to download Resonate app lite version used https://me-qr.com/qr-code-generator/
 	
 
 # Debugging & Test Results:
