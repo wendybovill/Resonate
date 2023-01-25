@@ -1594,7 +1594,7 @@ footer a:hover {
         padding: 15px 5px 15px 7px;
         margin: 10px;
         //this next code is modified by myself here but originally taken from a text shadow generator at https://html-css-js.com/css/generator/text-shadow/
-        text-shadow: 1px 1px 1px #ffffff80, -1px -1px 1px #ffffff80;    }
+        text-shadow: 1px 1px 1px rgba(255,255,255,0.7), -1px -1px 1px rgba(255,255,255,0.7);    }
     
     .hero-title div, .hero-title h1{
         height: 15px;
@@ -1924,7 +1924,8 @@ footer a:hover {
         padding: 15px 7px;
         margin: 10px;
         //this next code is modified by myself here but originally taken from a text shadow generator at https://html-css-js.com/css/generator/text-shadow/
-        text-shadow: 1px 1px 1px #ffffff80, -1px -1px 1px #ffffff80;    }
+        text-shadow: 1px 1px 1px rgba(255,255,255,0.7), -1px -1px 1px rgba(255,255,255,0.7);    
+    }
     
     .hero-title div, .hero-title h1{
         height: 15px;
