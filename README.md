@@ -44,15 +44,22 @@
 Html
 Css
 Scss & @mixins
-Bootstrap 5
+Bootstrap 5 (included in script and style links)
 Gitpod
 VS Code
-NPM and Node to convert SCSS to CSS
+NPM and Node to compile SCSS to CSS
 Git Repository
+CDN link to Gill Sans font (included in style links)
+JS link for FontAwesome (included in scripts)
+Favicons (as pngs and linked in styles in html head section)
 
 XD Design Prototype and Creation
 Balsamiq for Wireframes
 Photoshop for image resizing to optimised images for responsive design
+
+Chrome, Firefox, Safari
+Ipad, Iphone, Macbook for testing
+Windows, Android phone for testing
 
 
 ## Development: Html, SCSS, npm SASS Compiler, CSS, bootstrap. Gitpod. VS code. Git repository. 
