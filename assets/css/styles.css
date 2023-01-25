@@ -809,7 +809,6 @@ h2.section_form_text {
 
 .contact-form {
   padding: 15px 15px;
-  margin: 5px 15px;
   background: rgba(255, 255, 255, 0.75);
   border: 1px solid #707070;
   min-height: 400px;
@@ -1686,12 +1685,24 @@ footer a:hover {
   .hero-title div, .hero-title h1 {
     height: 15px;
   }
-  p.contentbox, p.section_more_text, p.section_where_text {
-    font-size: 0.75rem !important;
+  p.entry-paragraph {
+    padding: 35px 40px;
+    font-size: 0.8rem;
+  }
+  p.contentbox, p.section_more_text {
+    font-size: 0.7rem !important;
     word-spacing: 0;
     line-height: 0.9rem !important;
     padding-left: 5px;
     padding-right: 5px;
+    padding-top: 1rem;
+  }
+  p.section_where_text {
+    font-size: 0.75rem !important;
+    word-spacing: 0;
+    line-height: 1rem !important;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 1rem;
   }
   h1 {
@@ -1755,20 +1766,49 @@ footer a:hover {
   ul.bright.contentbox, ul.bright.section_more_box, ul.bright.contentbox li, ul.bright.section_more_box li, ul.section_four_text, ul.section_four_text li {
     list-style-type: none;
     list-style-position: outside;
-    padding-top: 0.2rem;
+    padding-top: 0.25rem;
     margin-left: 0;
     line-height: 0.9rem !important;
     word-spacing: 0.25rem;
-    font-size: 0.75rem !important;
+    font-size: 0.7rem !important;
     padding-left: 5px !important;
   }
   ul.section_helpful_box, ul.section_more_box, ul.section_helpful_box li, ul.section_more_box li {
-    list-style-type: square;
+    list-style-type: square !important;
     list-style-position: outside;
-    padding-top: 0.2rem;
+    padding-top: 0.25rem;
     line-height: 0.9em !important;
     display: inline-block;
-    font-size: 0.75rem !important;
+    font-size: 0.7rem !important;
+    padding-left: 5px !important;
+  }
+  ul.section_where_box, ul.section_where_box li {
+    list-style-type: square !important;
+    list-style-position: outside !important;
+    padding-top: 0.25rem;
+    line-height: 1em !important;
+    display: inline-block;
+    font-size: 0.7rem !important;
+    padding-left: 5px !important;
+    display: block;
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+            margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+    -webkit-padding-start: 5px !important;
+            padding-inline-start: 5px !important;
+  }
+  ul.section_helpful_box, ul.section_helpful_box li {
+    list-style-type: square !important;
+    list-style-position: outside;
+    padding-top: 0.25rem;
+    line-height: 0.9em !important;
+    display: inline-block;
+    font-size: 0.7rem !important;
     padding-left: 5px !important;
   }
   .section_mindfulness_image {
@@ -1835,6 +1875,25 @@ footer a:hover {
     height: 100vw;
     border: none;
     height: auto;
+  }
+  div.caption {
+    color: #444444;
+    font-size: 0.8rem;
+    line-height: 1.3;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    padding-top: 1rem;
+  }
+  div.reference {
+    color: #444444;
+    font-size: 0.7rem;
+    line-height: 1.3;
+    text-align: left;
+    width: 100%;
+    font-weight: 300;
+    padding: 30px 10px 10px 10px;
+    word-break: break-all;
   }
   .hcentered {
     padding: 0 5px;
