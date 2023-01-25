@@ -1,10 +1,12 @@
 # Milestone 1 Project: Presentation of Static Data
 
+
 ## Target Audience:
 
 - Members of the public that battle with anxiety and are looking for resources to assist them with "Mindfulness" calming techniques.
 
 - Businesses where their employees battle with anxiety and having a bespoke app created will assist their employees to manage their anxiety and overall increase productivity and wellbeing in their business
+
 
 ## Purpose: 
 
@@ -75,34 +77,34 @@ Photoshop for image resizing to optimised images for responsive design
 
 1. Content:
 
-	*Data from government website:*
+*Data from government website:*
 
-	https://www.gov.uk/government/publications/covid-19-mental-health-and-wellbeing-surveillance-report/3-triangulation-comparison-across-surveys
-
-
-	*Tips on managing Anxiety:* 
-
-	https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety
+https://www.gov.uk/government/publications/covid-19-mental-health-and-wellbeing-surveillance-report/3-triangulation-comparison-across-surveys
 
 
-	*Document for signposting:*
+*Tips on managing Anxiety:* 
 
-	Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2b0
-	Or watching the ocean https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety-or  fireplace video 
-	https://www.youtube.com/watch?v=kQocpm-Jh-o
+https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety
+
+
+*Document for signposting:*
+
+Embed Mindfulness video: moving clouds https://www.youtube.com/watch?v=PBB4lnsH2b0
+Or watching the ocean https://www.healthline.com/health/mental-health/how-to-cope-with-anxiety-or  fireplace video 
+https://www.youtube.com/watch?v=kQocpm-Jh-o
 
 
 2. Design: 
 
-	*Site Specification and Website Flow:* Documentation for Website Planning. 
-	
-	https://github.com/wendybovill/milestone-project-one/blob/8c72aaecf6cd3bee71325d35dcd9570e086a9f3f/documentation/Wendy%20Bovill%20509620%20-%20Project%201%20-%20Anxiety%20Support%20Website%20Documentation.pdf
+*Site Specification and Website Flow:* Documentation for Website Planning. 
 
-	*Wireframe:* Adobe XD and Balsamiq. View Adobe XD pdf Design.
-	
-	Wireframe with Balsamiq:
-		
-	![Balsamiq Wireframe](https://github.com/wendybovill/milestone-project-one/blob/6c465eed1a2d48ac5ae74aa18e3a99e23818860e/documentation/wireframe-wendybovill-509620.png)
+https://github.com/wendybovill/milestone-project-one/blob/8c72aaecf6cd3bee71325d35dcd9570e086a9f3f/documentation/Wendy%20Bovill%20509620%20-%20Project%201%20-%20Anxiety%20Support%20Website%20Documentation.pdf
+
+*Wireframe:* Adobe XD and Balsamiq. View Adobe XD pdf Design.
+
+Wireframe with Balsamiq:
+
+![Balsamiq Wireframe](https://github.com/wendybovill/milestone-project-one/blob/6c465eed1a2d48ac5ae74aa18e3a99e23818860e/documentation/wireframe-wendybovill-509620.png)
 	
 	
 	Site Mockup with Adobe XD:
@@ -153,25 +155,27 @@ Photoshop for image resizing to optimised images for responsive design
 
 # Acknowledgements
 
-	CSS Animations from Stackflow:
-	https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container  
-	- I used the code and edited by removing the staged % keyframes and also made it shrink instead of grow. 
-	For the flyIn one, I removed the inbetween keyframes and only had 2 to make the animation smoother.
+- CSS Animations from Stackflow:
+https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom-from-center-dot-to-full-container  
+  - I used the code and edited by removing the staged % keyframes and also made it shrink instead of grow. 
+    For the flyIn one, I removed the inbetween keyframes and only had 2 to make the animation smoother.
 
-	WAV files converted to MP3 using: https://www.freeconvert.com/wav-to-mp3
+- WAV files converted to MP3 using: https://www.freeconvert.com/wav-to-mp3
 
-	Videos are from Youtube
+- Videos are from Youtube
 
-	Markdown table generator used: https://www.tablesgenerator.com/markdown_tables
-	
-	QR Code added to go to page to download Resonate app lite version used https://me-qr.com/qr-code-generator/
-	
+- Markdown table generator used: https://www.tablesgenerator.com/markdown_tables
+
+- QR Code added to go to page to download Resonate app lite version used https://me-qr.com/qr-code-generator/
+
+
 
 # Debugging & Test Results:
 
 **TEST CASES:**
 
 https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
+
 
 
 **SCREENSHOTS using DevTools for error fixing and troubleshooting:**
@@ -182,37 +186,37 @@ https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47
 
 *Debugging:* 
 
-	Using devtools in chrome and safari. Corrected misaligned boxes with bootstrap. Resized font for smaller
-	devices. Had to hide the large content boxes on the front page from showing in very small devices, and
-	instead added sections with an image background. This is hidden from the users view on larger devices and
-	they see the larger content boxes on the front page.
+Using devtools in chrome and safari. Corrected misaligned boxes with bootstrap. Resized font for smaller
+devices. Had to hide the large content boxes on the front page from showing in very small devices, and
+instead added sections with an image background. This is hidden from the users view on larger devices and
+they see the larger content boxes on the front page.
 
-	The logo was overlapping the navigation on smaller devices. I had to resize it for smaller devices, and
-	change the position of the navigation, as well as make the padding for the hover view smaller so the
-	highlight behind did not overlap the logo.
+The logo was overlapping the navigation on smaller devices. I had to resize it for smaller devices, and
+change the position of the navigation, as well as make the padding for the hover view smaller so the
+highlight behind did not overlap the logo.
 
-	There were issues when first deployed to github pages, where the stylesheet and images did not show.
-	This was corrected after consultation with my mentor Gaff, and the links were then corrected.
+There were issues when first deployed to github pages, where the stylesheet and images did not show.
+This was corrected after consultation with my mentor Gaff, and the links were then corrected.
 
-	There were multiple issues trying to get the font awesome to show. No matter what css link I used. In the
-	end the only one it accepted is a kit link for js.
+There were multiple issues trying to get the font awesome to show. No matter what css link I used. In the
+end the only one it accepted is a kit link for js.
 
-	Early testing using W3 html validator found 2 attributes that needed to be separated by a space, and 
-	complained about the aria-labels I'd used as a violation so I changed them to titles to describe what the
-	following section was about.
-	
-	End Testing has been included in the Test Cases document:
-	https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
+Early testing using W3 html validator found 2 attributes that needed to be separated by a space, and 
+complained about the aria-labels I'd used as a violation so I changed them to titles to describe what the
+following section was about.
 
-	Early testing in Jigsaw validator found some errors in the css and anmiations that were corrected. 
-	This was to setup the SCSS and CSS template which was then used throughout.
-	
-	End Testing has been included in the Test Cases document:
-	https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
-	
-	Document of validation and errors can be viewed by clicking on the link below:
-	https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
-	
+End Testing has been included in the Test Cases document:
+https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
+
+Early testing in Jigsaw validator found some errors in the css and anmiations that were corrected. 
+This was to setup the SCSS and CSS template which was then used throughout.
+
+End Testing has been included in the Test Cases document:
+https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
+
+Document of validation and errors can be viewed by clicking on the link below:
+https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md	
+
 
 
 *Refereces used to assist debugging:*
@@ -236,6 +240,7 @@ https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47
 - Gitpod was used in conjuction with VSCode and SASS compiler
 
 - Regular commits were made throughout the process to github as deployed at onset using gitpod
+
 
 
 **A NOTE ON COMMITS:**
