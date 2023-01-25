@@ -34,7 +34,7 @@
 | 3       | Business | **Sound Bytes Record Productions**<br>The music industry has suffered greatly during<br>the Covid19 Lockdowns. Musicians were unable to<br>perform their usual gigs and lost out financially<br>as well as their inspiration and creativity was<br>reduced.                                                                                                                                                                                                                                                                                                | This website is exactly what we have been<br>looking for.<br>I would use it to be inspired and to<br>inspire other fellow musicians and help<br>those who developed anxiety to get back<br>into production as well as create music<br>to help "Soothe our Souls".<br><br>The App is customised for our musicians<br>to get inspirational content for song<br>writing and production, as well as <br>allowing uploads of soothing relaxing<br>musics that is a sample of what the <br>musician can do, and at the same time<br>help inspire each other and relieve<br>anxiety.                                   |
 | 4       | Business | **Direct Demand Logistics**<br>During lockdowns our business became increasingly<br>busy. We had to hire more people, which is great!<br>But our employees suffered family losses due to <br>Covid19, and sadly some of them passed away.<br>This left families without income and struggling<br>anxiety which developed due to a combination of<br>factors: increased demand delivering=more hours<br>away from family, some not seeing family members<br>again due to them passing away while the employee<br>was away on a long-haul distribution job.  | We are grateful for the Resonate website<br>to be able to signpost us to free services<br>as well as give us tools and tips we can<br>use. <br><br>We have been able to provide our employees<br>with a bespoke App Resonate enterprise <br>version. This is geared towards helping<br>manage anxiety, alongside coping with<br>grief and we have also included a section<br>on budgeting and where they can apply for<br>loans or support grants, all within the<br>App.<br><br>We would use the Resonate App bespoke<br>version to assist with maintaining the <br>wellbeing of our staff and their families. |
 
-*Test Cases: ![https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md](https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md)
+*Test Cases: [https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md](https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md)
 
 
 ## Technology Requirements:
@@ -172,12 +172,12 @@ Photoshop for image resizing to optimised images for responsive design
 
 **TEST CASES:**
 
-![https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md](https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md)
+https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md
 
 
 **SCREENSHOTS using DevTools for error fixing and troubleshooting:**
 
-![https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47c998bce31c660808d5/devtools_debugging.md](https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47c998bce31c660808d5/devtools_debugging.md)
+https://github.com/wendybovill/milestone-project-one/blob/5f8720fa9fab58b3fe3f47c998bce31c660808d5/devtools_debugging.md
 
 
 
@@ -203,7 +203,7 @@ Photoshop for image resizing to optimised images for responsive design
 	following section was about.
 	
 	End Testing has been included in the Test Cases document:
-	![https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md](https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md)
+	[https://github.com/wendybovill/milestone-project-one/blob/5a1e38a27c76930b66c9396deefb86231cd7ec39/test_cases.md](https://github.com/wendybovill/milestone-project-one/blob/8ba93d46f3bb4695df7b07fcc292d98d0c2f78b5/test_cases.md)
 
 	Early testing in Jigsaw validator found some errors in the css and anmiations that were corrected. 
 	This was to setup the SCSS and CSS template which was then used throughout.
