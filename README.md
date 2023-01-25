@@ -90,6 +90,11 @@ download an app. (This is yet to be developed at a later stage and not part of t
 download button points to Code Institutes form dump, as does the Contact Form on the contact.html
 page. The results of the POST methods and GET methods can be seen in the form dump.
 
+In the footer of the site is a link that will launch the users email application to send an email
+with predefined subject. In the first page of the website, under the help numbers, each number has
+a link to either call that number or text a number, if the user is using a smart phone or has
+calling and texting applications on their computer.
+
 After each change the page was viewed using Live Server in Gitpod VS Code, and testing was carried
 out throughout the development process, using DevTools in the browser. Errors were identified and
 corrected throughout the proces, screenshots were taken to document these. 
