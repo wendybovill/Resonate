@@ -209,6 +209,8 @@ https://stackoverflow.com/questions/42632767/css-animation-grow-from-center-zoom
 
 - QR Code added to go to page to download Resonate app lite version used https://me-qr.com/qr-code-generator/
 
+- Fullscreen Youtube video fixed searching in google. Found Fix at https://stackoverflow.com/questions/63318113/youtube-iframe-fullscreen-is-unavailable. Now resizes youtube videos to fullscreen in browsers.
+
 
 
 # Debugging & Test Results:
@@ -283,6 +285,8 @@ https://github.com/wendybovill/milestone-project-one/blob/f3642747c1d664d42cfb91
 - Gitpod was used in conjuction with VSCode and SASS compiler
 
 - Regular commits were made throughout the process to github as deployed at onset using gitpod
+
+- Stackflow used youtube video fullscreen fix from: https://stackoverflow.com/questions/63318113/youtube-iframe-fullscreen-is-unavailable
 
 
 
