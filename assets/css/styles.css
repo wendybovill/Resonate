@@ -614,8 +614,8 @@ h3.section_chart_text {
 
 div.caption {
   color: #444444;
-  font-size: 1rem;
-  line-height: 3;
+  font-size: 0.85rem;
+  line-height: 1.2;
   text-align: center;
   width: 90%;
   font-weight: 600;
