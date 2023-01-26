@@ -6,11 +6,28 @@
 | **ID**<br>  4<br>**Title**  Testing in Chrome APP on iPhone and Ipad<br>**Owner ** wendybovill<br>**Precondition**  Internet App must be Chrome<br>**Steps**  <br>launched GitHub Pages site in chrome and tested loading of site PASS<br>set chrome browser to dev tools to test for responsivenessPASS<br>resized chrome browser in different breakpoints to test responsivenessFAIL<br>checked network and console log for errorsPASS<br>checked links and hover sectionPASS<br>checked sounds playedPASS<br>checked videos playedPASS<br>checked videos resizedPASS videos resized to fullscreen mode<br>resized chrome browser in different breakpoints to test responsivenessFAIL<br>set chrome browser to dev tools to test for responsiveness after correcting stylesheet for devcies 320 to 449px wide. Added new styles and changed padding in media query section PASS<br>**Priority**  Medium.<br>**Status**  Completed<br>**Estimate**  1 hour<br>**Type**  Acceptance.<br>**Automation**  Manual<br>              |
 | **ID**<br>  5<br>**Title**  Testing in Safari APP on iPhone and Ipad<br>**Owner**  wendybovill<br>**Precondition**  Internet App must be Safari<br>**Steps**  <br>launched GitHub Pages site in chrome and tested loading of site PASS<br>set chrome browser to dev tools to test for responsivenessPASS<br>resized chrome browser in different breakpoints to test responsivenessPASS<br>checked network and console log for errorsPASS<br>checked links and hover sectionPASS<br>checked sounds playedPASS<br>checked videos playedPASS<br>checked videos resizedPASS videos resized to fullscreen mode<br>**Priority**  Medium.<br>**Status**  Completed<br>**Estimate**  30 minutes<br>**Type**  Acceptance.<br>**Automation**  Manual<br>              |
 | **ID**<br>  6<br>**Title**  Code Validation of html in W3<br>**Owner**  wendybovill<br>**Precondition**  Use validation tool<br>**Steps**  <br>Ran GitHub Pages site through the html W3 Validation toolSite Gave a few errors.Corrected the necessary ones.Ran the Site through the validator again.Site PASSED**Priority**  Priority.<br>**Status**  Completed<br>**Estimate**  30 minutes<br>**Type**  Acceptance.<br>**Automation**  Automated by validation tool<br>                                                                                                                                                                                                                                                                                   |
-| **ID**<br>  7<br>**Title**  Code Validation of CSS in Jigsaw<br>**Owner**  wendybovill<br>**Precondition**  Use validation tool<br>**Steps**  <br>Ran GitHub Pages site through the html W3 Validation toolSite Gave a few errors.Corrected the necessary ones.Gave a few Bootstrap 3rd Party Vendor ones, not corrected. Ran the Site through the validator again.Site PASSED**Priority**  Priority.<br>**Status**  Completed<br>**Estimate**  30 minutes<br>**Type**  Acceptance.<br>**Automation**  Automated by validation tool<br>                                                                                                                                                                                                                     |
+| **ID**<br>  7<br>**Title**  Code Validation of CSS in Jigsaw<br>**Owner**  wendybovill<br>**Precondition**  Use validation tool<br>**Steps**  <br>Ran GitHub Pages site through the html W3 Validation toolSite Gave a few errors.Corrected the necessary ones.Gave a few Bootstrap 3rd Party Vendor ones, not corrected. Ran the Site through the validator again.Site PASSED**Priority**  Priority.<br>**Status**  Completed<br>**Estimate**  10 minutes<br>**Type**  Acceptance.<br>**Automation**  Automated by validation tool<br>                                                                                                                                                                                                                     |
+| **ID**<br>  8<br>**Title**  Code Validation of HTML and CSS<br>**Owner**  wendybovill<br>**Precondition**  Any Browser<br>**Steps**  <br>Final testing in Jigsaw PASS<br>Testing in Validator FAIL gave errors that needed to be corrected<br>Beautify from vs code extension added </br> instead of <br>. Corrected this<br>Replaced android-chrome favicons rel with icon instead of android-chrome<br>Corrected form legend width to use an inline style, added end tag for <em>, replaced duplicate section id's<br> Final Result PASS <br>**Priority**  Medium.<br>**Status**  Completed<br>**Estimate**  35 minutes<br>**Type**  Acceptance.<br>**Automation**  MAutomated by validation tools<br>  |
 
 
 ==================================
 
+
+**W3 html validator test results: Test Date 26 January 2023 - Final Test Results**
+	
+Showing results for https://wendybovill.github.io/milestone-project-one/
+
+Checker Input
+Show sourceoutlineimage report
+Check by
+
+Document checking completed. No errors or warnings to show.
+
+Used the HTML parser. Externally specified character encoding was utf-8.
+Total execution time 107 milliseconds.
+
+
+	
 **W3 html validator results: Test Date 24 January 2023**
 
 Final Test 2:
@@ -57,6 +74,35 @@ Total execution time 80 milliseconds.
 
 ==================================
 
+
+**Jigsaw Validator Report: Test Date 26 January 2023 - Final Test Results**
+		
+W3C CSS Validator results for https://wendybovill.github.io/milestone-project-one (CSS level 3 + SVG)
+
+Congratulations! No Error Found.
+This document validates as CSS level 3 + SVG !
+To show your readers that you've taken the care to create an interoperable Web page, you may display this icon on any page that validates. Here is the XHTML you could use to add this icon to your Web page:
+Valid CSS!
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
+Valid CSS!
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+        
+
+		
+		
 **Jigsaw Validator Report: Test Date 24 January 2023**
 
 Test 2 Results:
