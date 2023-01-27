@@ -305,11 +305,8 @@ commit actually being sent correctly to Github, so needed to be redone or resent
 | Screenshot showing first part of Index Page Finished Site Desktop View  |
 |-----------------------------------------------------------------------|
 | ![Finished Site Page Part 1](https://github.com/wendybovill/milestone-project-one/blob/cf589814f144ad82fd843557ceed19e68b7346e7/documentation/site1.png)|
-| Screenshot showing second part of Index Page Finished Site Desktop View  |
 | ![Finished Site Index Page Part 2](https://github.com/wendybovill/milestone-project-one/blob/cf589814f144ad82fd843557ceed19e68b7346e7/documentation/site2.png)|
-| Screenshot showing third part of Index Page Finished Site Desktop View  |
 | ![Finished Site Index Page Part 3](https://github.com/wendybovill/milestone-project-one/blob/cf589814f144ad82fd843557ceed19e68b7346e7/documentation/site3.png)|
-| Screenshot fourth part of Index Page Finished Site Desktop View  |
 | ![Finished Site Index Page Part 4](https://github.com/wendybovill/milestone-project-one/blob/cf589814f144ad82fd843557ceed19e68b7346e7/documentation/site4.png)|
 
 
