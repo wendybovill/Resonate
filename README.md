@@ -1,5 +1,6 @@
 # Milestone 1 Project: Presentation of Static Data
 
+Deployed Link: https://wendybovill.github.io/Resonate/
 
 ## Target Audience:
 
